@@ -1,0 +1,370 @@
+{
+  "candidate_sha256": "04fad3c3cc06c967478d9b0ec2e67f598e845cbd3e9e12cc11562bd95e096a78",
+  "combined": {
+    "blend": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_FBXRoundTrip.blend",
+    "blend_sha256": "0d2b1a4cbef448775cce8afea68d202f19dbd8f7bdba974beac4076bc7e4385b",
+    "render": {
+      "bytes": 2365183,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_RoundTripWholeSite.png",
+      "sha256": "2e5ceb07953ae6d7f4cfd6bba9fd7af9bdf2000750b14bcba05c2b2744cea751"
+    },
+    "statistics": {
+      "camera_objects": 0,
+      "empty_objects": 2,
+      "evaluated_instance_triangles": 7011006,
+      "light_objects": 0,
+      "materials": [
+        "MAT_Aluminium_Charcoal",
+        "MAT_Composite_LightGrey",
+        "MAT_Composite_WarmOffWhite",
+        "MAT_Entrance_HonedTravertine",
+        "MAT_Entrance_RefinedBronze",
+        "MAT_S05S_S5_AccentAllium",
+        "MAT_S05S_S5_AccentFlower",
+        "MAT_S05S_S5_AccentStem",
+        "MAT_S05S_S5_BarkTrunk",
+        "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+        "MAT_S05S_S5_FoliageDeep",
+        "MAT_S05S_S5_FoliageLawn",
+        "MAT_S05S_S5_FoliageLight",
+        "MAT_S05S_S5_FoliageMid",
+        "MAT_S05S_S5_KerbServiceConcrete",
+        "MAT_S05S_S5_LakePlaceholder",
+        "MAT_S05S_S5_RoadAsphalt",
+        "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+        "MAT_S05S_S5_RoadMarking_White",
+        "MAT_S05S_S5_RoadMarking_Yellow",
+        "MAT_S05S_S5_SeatingTimber",
+        "MAT_S05S_S5_SoilMulch",
+        "MAT_S05S_S5_SolarPanel",
+        "MAT_S05S_S5_TactilePaving"
+      ],
+      "mesh_objects": 548,
+      "modifier_evaluated_triangles": 7011006,
+      "objects": 550,
+      "unique_meshes": 131,
+      "unique_triangles": 592285,
+      "unique_vertices": 758419,
+      "used_materials": [
+        "MAT_Aluminium_Charcoal",
+        "MAT_Composite_LightGrey",
+        "MAT_Composite_WarmOffWhite",
+        "MAT_Entrance_HonedTravertine",
+        "MAT_Entrance_RefinedBronze",
+        "MAT_S05S_S5_AccentAllium",
+        "MAT_S05S_S5_AccentFlower",
+        "MAT_S05S_S5_AccentStem",
+        "MAT_S05S_S5_BarkTrunk",
+        "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+        "MAT_S05S_S5_FoliageDeep",
+        "MAT_S05S_S5_FoliageLawn",
+        "MAT_S05S_S5_FoliageLight",
+        "MAT_S05S_S5_FoliageMid",
+        "MAT_S05S_S5_KerbServiceConcrete",
+        "MAT_S05S_S5_LakePlaceholder",
+        "MAT_S05S_S5_RoadAsphalt",
+        "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+        "MAT_S05S_S5_RoadMarking_White",
+        "MAT_S05S_S5_RoadMarking_Yellow",
+        "MAT_S05S_S5_SeatingTimber",
+        "MAT_S05S_S5_SoilMulch",
+        "MAT_S05S_S5_SolarPanel",
+        "MAT_S05S_S5_TactilePaving"
+      ]
+    }
+  },
+  "schema": "HospitalExterior.Stage05S.RoundS5.RoundTripAudit.v1",
+  "status": "PASS",
+  "zones": {
+    "SITE_CoreRoadParking": {
+      "bounds": [
+        [
+          -87.0,
+          -99.699997,
+          5e-06
+        ],
+        [
+          87.0,
+          72.0,
+          3.405
+        ]
+      ],
+      "bounds_delta_m": 5e-06,
+      "import_result": [
+        "FINISHED"
+      ],
+      "missing_used_materials": [],
+      "statistics": {
+        "camera_objects": 0,
+        "empty_objects": 0,
+        "evaluated_instance_triangles": 12302,
+        "light_objects": 0,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Entrance_RefinedBronze",
+          "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+          "MAT_S05S_S5_KerbServiceConcrete",
+          "MAT_S05S_S5_RoadAsphalt",
+          "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+          "MAT_S05S_S5_RoadMarking_White",
+          "MAT_S05S_S5_RoadMarking_Yellow",
+          "MAT_S05S_S5_SolarPanel",
+          "MAT_S05S_S5_TactilePaving"
+        ],
+        "mesh_objects": 120,
+        "modifier_evaluated_triangles": 12302,
+        "objects": 120,
+        "unique_meshes": 59,
+        "unique_triangles": 3374,
+        "unique_vertices": 3664,
+        "used_materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Entrance_RefinedBronze",
+          "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+          "MAT_S05S_S5_KerbServiceConcrete",
+          "MAT_S05S_S5_RoadAsphalt",
+          "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+          "MAT_S05S_S5_RoadMarking_White",
+          "MAT_S05S_S5_RoadMarking_Yellow",
+          "MAT_S05S_S5_SolarPanel",
+          "MAT_S05S_S5_TactilePaving"
+        ]
+      }
+    },
+    "SITE_LandscapeHardscape": {
+      "bounds": [
+        [
+          -90.0,
+          -100.0,
+          -0.222012
+        ],
+        [
+          90.0,
+          75.0,
+          0.125016
+        ]
+      ],
+      "bounds_delta_m": 1.5999999999988246e-05,
+      "import_result": [
+        "FINISHED"
+      ],
+      "missing_used_materials": [],
+      "statistics": {
+        "camera_objects": 0,
+        "empty_objects": 0,
+        "evaluated_instance_triangles": 1092,
+        "light_objects": 0,
+        "materials": [
+          "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+          "MAT_S05S_S5_FoliageLawn",
+          "MAT_S05S_S5_KerbServiceConcrete",
+          "MAT_S05S_S5_LakePlaceholder",
+          "MAT_S05S_S5_SoilMulch"
+        ],
+        "mesh_objects": 12,
+        "modifier_evaluated_triangles": 1092,
+        "objects": 12,
+        "unique_meshes": 12,
+        "unique_triangles": 1092,
+        "unique_vertices": 1095,
+        "used_materials": [
+          "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+          "MAT_S05S_S5_FoliageLawn",
+          "MAT_S05S_S5_KerbServiceConcrete",
+          "MAT_S05S_S5_LakePlaceholder",
+          "MAT_S05S_S5_SoilMulch"
+        ]
+      }
+    },
+    "SITE_MainGate": {
+      "bounds": [
+        [
+          -15.0,
+          -100.0,
+          1.6e-05
+        ],
+        [
+          15.05,
+          -88.400002,
+          7.000016
+        ]
+      ],
+      "bounds_delta_m": 1.6e-05,
+      "import_result": [
+        "FINISHED"
+      ],
+      "missing_used_materials": [],
+      "statistics": {
+        "camera_objects": 0,
+        "empty_objects": 2,
+        "evaluated_instance_triangles": 4692,
+        "light_objects": 0,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Composite_LightGrey",
+          "MAT_Composite_WarmOffWhite",
+          "MAT_Entrance_HonedTravertine",
+          "MAT_Entrance_RefinedBronze"
+        ],
+        "mesh_objects": 21,
+        "modifier_evaluated_triangles": 4692,
+        "objects": 23,
+        "unique_meshes": 21,
+        "unique_triangles": 4692,
+        "unique_vertices": 3008,
+        "used_materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Composite_LightGrey",
+          "MAT_Composite_WarmOffWhite",
+          "MAT_Entrance_HonedTravertine",
+          "MAT_Entrance_RefinedBronze"
+        ]
+      }
+    },
+    "SITE_PerimeterFence": {
+      "bounds": [
+        [
+          -90.0,
+          -100.0,
+          -1.2e-05
+        ],
+        [
+          90.0,
+          75.0,
+          6.850016
+        ]
+      ],
+      "bounds_delta_m": 1.600000000046009e-05,
+      "import_result": [
+        "FINISHED"
+      ],
+      "missing_used_materials": [],
+      "statistics": {
+        "camera_objects": 0,
+        "empty_objects": 0,
+        "evaluated_instance_triangles": 21660,
+        "light_objects": 0,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Entrance_HonedTravertine",
+          "MAT_Entrance_RefinedBronze"
+        ],
+        "mesh_objects": 9,
+        "modifier_evaluated_triangles": 21660,
+        "objects": 9,
+        "unique_meshes": 9,
+        "unique_triangles": 21660,
+        "unique_vertices": 14440,
+        "used_materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Entrance_HonedTravertine",
+          "MAT_Entrance_RefinedBronze"
+        ]
+      }
+    },
+    "SITE_PropsVegetation": {
+      "bounds": [
+        [
+          -85.922607,
+          -102.767586,
+          0.043469
+        ],
+        [
+          89.864571,
+          68.639519,
+          11.55007
+        ]
+      ],
+      "bounds_delta_m": 0.0,
+      "import_result": [
+        "FINISHED"
+      ],
+      "missing_used_materials": [],
+      "statistics": {
+        "camera_objects": 0,
+        "empty_objects": 0,
+        "evaluated_instance_triangles": 6970628,
+        "light_objects": 0,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Entrance_RefinedBronze",
+          "MAT_S05S_S5_AccentAllium",
+          "MAT_S05S_S5_AccentFlower",
+          "MAT_S05S_S5_AccentStem",
+          "MAT_S05S_S5_BarkTrunk",
+          "MAT_S05S_S5_FoliageDeep",
+          "MAT_S05S_S5_FoliageLight",
+          "MAT_S05S_S5_FoliageMid",
+          "MAT_S05S_S5_SeatingTimber"
+        ],
+        "mesh_objects": 380,
+        "modifier_evaluated_triangles": 6970628,
+        "objects": 380,
+        "unique_meshes": 24,
+        "unique_triangles": 560835,
+        "unique_vertices": 735784,
+        "used_materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Entrance_RefinedBronze",
+          "MAT_S05S_S5_AccentAllium",
+          "MAT_S05S_S5_AccentFlower",
+          "MAT_S05S_S5_AccentStem",
+          "MAT_S05S_S5_BarkTrunk",
+          "MAT_S05S_S5_FoliageDeep",
+          "MAT_S05S_S5_FoliageLight",
+          "MAT_S05S_S5_FoliageMid",
+          "MAT_S05S_S5_SeatingTimber"
+        ]
+      }
+    },
+    "SITE_RearService": {
+      "bounds": [
+        [
+          -84.0,
+          26.292892,
+          0.042988
+        ],
+        [
+          -38.199265,
+          72.0,
+          3.749991
+        ]
+      ],
+      "bounds_delta_m": 1.1999999999998123e-05,
+      "import_result": [
+        "FINISHED"
+      ],
+      "missing_used_materials": [],
+      "statistics": {
+        "camera_objects": 0,
+        "empty_objects": 0,
+        "evaluated_instance_triangles": 632,
+        "light_objects": 0,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+          "MAT_S05S_S5_RoadAsphalt",
+          "MAT_S05S_S5_RoadMarking_White",
+          "MAT_S05S_S5_RoadMarking_Yellow"
+        ],
+        "mesh_objects": 6,
+        "modifier_evaluated_triangles": 632,
+        "objects": 6,
+        "unique_meshes": 6,
+        "unique_triangles": 632,
+        "unique_vertices": 428,
+        "used_materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+          "MAT_S05S_S5_RoadAsphalt",
+          "MAT_S05S_S5_RoadMarking_White",
+          "MAT_S05S_S5_RoadMarking_Yellow"
+        ]
+      }
+    }
+  }
+}

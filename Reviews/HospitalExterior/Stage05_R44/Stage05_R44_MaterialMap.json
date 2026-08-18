@@ -1,0 +1,246 @@
+{
+    "schema": "HospitalExterior.Stage05.R44.MaterialMap.v1",
+    "authority_sha256": "0a530ff9d7d7effa512f1d69178a0be86da722239f0cb992878045358c73ea58",
+    "entries": [
+        {
+            "material": "MAT_Aluminium_Charcoal",
+            "asset": "Assets/Hospital/Materials/MAT_Aluminium_Charcoal.mat",
+            "asset_sha256": "0d017f43f327ec01aa47aae6066785fd1ae3de009d7e0cde3e9e6410045bb885",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Architectural_ShadowGap",
+            "asset": "Assets/Hospital/Materials/MAT_Architectural_ShadowGap.mat",
+            "asset_sha256": "743ea7ccb1b2d380233eb2536f7455ef1a6a0f5085cec51d6dfc877666fff3aa",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Canopy_RecessedSoffit",
+            "asset": "Assets/Hospital/Materials/MAT_Canopy_RecessedSoffit.mat",
+            "asset_sha256": "3df2ec14b88d2c6cfc3f65e2dbd5ba842508e943a804df3825f5efea02b5730f",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Composite_LightGrey",
+            "asset": "Assets/Hospital/Materials/MAT_Composite_LightGrey.mat",
+            "asset_sha256": "42ae3f44a3660433e6457ba256ecfca8fefdc74553838db579ff62a2a52b9874",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Composite_WarmOffWhite",
+            "asset": "Assets/Hospital/Materials/MAT_Composite_WarmOffWhite.mat",
+            "asset_sha256": "e30f84ee74c2a031f1d1bc784102a94e4a93f9ac6276c204d9dcfedf9f327b9a",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_CornerBalcony_BlueGreyRoomGlass",
+            "asset": "Assets/Hospital/Materials/MAT_CornerBalcony_BlueGreyRoomGlass.mat",
+            "asset_sha256": "6e45b6612b50d090fd80ed5a3020d3a1ac00a1bb34c5d17cad07ca2340ecaf1f",
+            "role": "glass",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_CornerBalcony_IntegratedDoorGlass",
+            "asset": "Assets/Hospital/Materials/MAT_CornerBalcony_IntegratedDoorGlass.mat",
+            "asset_sha256": "989ea1e1687b023424c0189b26cbc2f6ddfb04efb9b72f5cf6cf5ca9f951e317",
+            "role": "glass",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_CornerBalcony_UltraClearGuard",
+            "asset": "Assets/Hospital/Materials/MAT_CornerBalcony_UltraClearGuard.mat",
+            "asset_sha256": "8e40b856c677024bdf78e3cd2b594d363f689ee67193559799d485d618a56e5e",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Entrance_DeepGreenFoliage",
+            "asset": "Assets/Hospital/Materials/MAT_Entrance_DeepGreenFoliage.mat",
+            "asset_sha256": "173f532da28311e6095072cd865c432ed959a991a03ede3edd023233c46e8f8c",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Entrance_DoorGlass",
+            "asset": "Assets/Hospital/Materials/MAT_Entrance_DoorGlass.mat",
+            "asset_sha256": "376716c7e25daf7b821fe9ce9f8136d09b8c4760524d150ecaac45372a87a9fe",
+            "role": "glass",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Entrance_HighClarityGlass",
+            "asset": "Assets/Hospital/Materials/MAT_Entrance_HighClarityGlass.mat",
+            "asset_sha256": "f855889a3885d90adec4a0ff3c54f33a9bdae7e1cf1a91b60ac354d62abc29fe",
+            "role": "glass",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Entrance_HonedTravertine",
+            "asset": "Assets/Hospital/Materials/MAT_Entrance_HonedTravertine.mat",
+            "asset_sha256": "be55cb571b4c03603ffa837c92381f801bbd43de009580df8cbebf90f4d62f4d",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Entrance_PolishedArrivalStone",
+            "asset": "Assets/Hospital/Materials/MAT_Entrance_PolishedArrivalStone.mat",
+            "asset_sha256": "dd122a955ceb003afc99ccb85eba47e7b6b6a1df006d970ea2b34e3fb6e7fee8",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Entrance_RefinedBronze",
+            "asset": "Assets/Hospital/Materials/MAT_Entrance_RefinedBronze.mat",
+            "asset_sha256": "2e419c512b90d7c0d30830eeb3018250d34a39ed27ce93585a85a5f512e0dd83",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Glass_BlueGrey",
+            "asset": "Assets/Hospital/Materials/MAT_Glass_BlueGrey.mat",
+            "asset_sha256": "5fc4b74c0bfbbe2605020b59a101432ba70d83e6d16eab01706a9356f8f860e3",
+            "role": "glass",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Interior_WarmDaylightSurface",
+            "asset": "Assets/Hospital/Materials/MAT_Interior_WarmDaylightSurface.mat",
+            "asset_sha256": "8aec5e8c87ebc3d49df10e721b1c9b65f64676f44a5cf114bc672cdbaae23091",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_LED_Warm_3200K",
+            "asset": "Assets/Hospital/Materials/MAT_LED_Warm_3200K.mat",
+            "asset_sha256": "eb0513d5f053319c1aedc487869d8af627e4189c076a37044e237ec563499cfc",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Lobby_HonedTerrazzo",
+            "asset": "Assets/Hospital/Materials/MAT_Lobby_HonedTerrazzo.mat",
+            "asset_sha256": "5f22d5f57749fe409e17f4b217471f3cea2a2666c6e8125c963ecb04d6c7915e",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Lobby_WarmStone",
+            "asset": "Assets/Hospital/Materials/MAT_Lobby_WarmStone.mat",
+            "asset_sha256": "b3c7216f6f9455e4445a5c85de4ebf25bf54f67bd60f5099d055d1454c3d0cb7",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Lobby_WoodCharcoal",
+            "asset": "Assets/Hospital/Materials/MAT_Lobby_WoodCharcoal.mat",
+            "asset_sha256": "bcd3544ee3062f1c1ca3f1612cff61d4f983d2aefda16995ef0797e8cb7515a4",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Neutral_Concrete",
+            "asset": "Assets/Hospital/Materials/MAT_Neutral_Concrete.mat",
+            "asset_sha256": "f305e579493d54b9a0e62cd25b09299a6f51a2c5082eab80a35551fbbccd4c6a",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Portal_DarkBronze",
+            "asset": "Assets/Hospital/Materials/MAT_Portal_DarkBronze.mat",
+            "asset_sha256": "3e555561d979d110a6679cb14bd3816ed67330f3c3805f17222c7694d82d4140",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_S03E_Ceiling_SoftWhite",
+            "asset": "Assets/Hospital/Materials/MAT_S03E_Ceiling_SoftWhite.mat",
+            "asset_sha256": "eb7b51dfa8e804bf4b50658b2d8b26a22006357ec8752363e540241c2922a9f0",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_S03E_Floor_HonedTerrazzo",
+            "asset": "Assets/Hospital/Materials/MAT_S03E_Floor_HonedTerrazzo.mat",
+            "asset_sha256": "6af70473f6f3139ed236f49a677e055f4afb31f8d7deeae6b132e0419d12f51d",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_S03E_FurnitureSilhouette",
+            "asset": "Assets/Hospital/Materials/MAT_S03E_FurnitureSilhouette.mat",
+            "asset_sha256": "c4b20302fec0bb55bc58d0b60d75cb823f55bbb84ad6a12abefc801c9897985f",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_S03E_InteriorWall_WarmWhite",
+            "asset": "Assets/Hospital/Materials/MAT_S03E_InteriorWall_WarmWhite.mat",
+            "asset_sha256": "8ab5ea4b17b11446e1ac5d3048baec3536640273e65583693ea2b70742e06e8b",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_S03E_PrivacyShade",
+            "asset": "Assets/Hospital/Materials/MAT_S03E_PrivacyShade.mat",
+            "asset_sha256": "0c4b9b25c552639dd35710061a700ba5d9a88f95ba7a0d0dcf405dbfe407b80e",
+            "role": "glass",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_S03E_ServiceBackdrop",
+            "asset": "Assets/Hospital/Materials/MAT_S03E_ServiceBackdrop.mat",
+            "asset_sha256": "168cd164411f1e35ae0ee69fb036a1c64b7cecad79ff98df1642444020760354",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_S03E_WarmTimber",
+            "asset": "Assets/Hospital/Materials/MAT_S03E_WarmTimber.mat",
+            "asset_sha256": "c58e1157c20c212ec1daef79e1e7461691c885852c0560219bbe7933813bc824",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        },
+        {
+            "material": "MAT_Signage_WarmWhite_NonEmissive",
+            "asset": "Assets/Hospital/Materials/MAT_Signage_WarmWhite_NonEmissive.mat",
+            "asset_sha256": "ffcd90ed0c9711c37aec3036095d2b897b2d144ff3d0ae1abf42a22b90b10c26",
+            "role": "opaque",
+            "shader": "Universal Render Pipeline/Lit",
+            "instancing": true
+        }
+    ]
+}

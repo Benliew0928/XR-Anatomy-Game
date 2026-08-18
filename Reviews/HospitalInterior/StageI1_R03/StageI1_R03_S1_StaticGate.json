@@ -1,0 +1,149 @@
+{
+    "schema": "HospitalInterior.R03.S1.StaticGate.v1",
+    "status": "PASS",
+    "unityVersion": "6000.3.20f1",
+    "passCount": 28,
+    "totalCount": 28,
+    "checks": [
+        {
+            "name": "unity_version",
+            "pass": true,
+            "detail": "6000.3.20f1"
+        },
+        {
+            "name": "protected_r40_authority",
+            "pass": true,
+            "detail": "f797abb08388dbb4b8af69acc0da8c538185a8efea9fb397a0bf2a56c5420126"
+        },
+        {
+            "name": "frozen_editor_build_settings",
+            "pass": true,
+            "detail": "62889469c318a93430e41e1fc2f6c7df1fade301520199388d3725f58972a5bb"
+        },
+        {
+            "name": "frozen_scene_Exterior_Base",
+            "pass": true,
+            "detail": "b063aa138ac9c30ef79337c6973534d6343038456dfb507b45bcd4fba00935be"
+        },
+        {
+            "name": "frozen_scene_Exterior_Tower",
+            "pass": true,
+            "detail": "660d26b776bb28496087af37abebf034b2ac8e4b5e67a44be40b5989719ebd6c"
+        },
+        {
+            "name": "frozen_scene_Exterior_SidesService",
+            "pass": true,
+            "detail": "edc11308773951d173261ed54bc9f5b151a0dc62b1a9911fa5a48f5c398588a3"
+        },
+        {
+            "name": "frozen_scene_Exterior_Interactions",
+            "pass": true,
+            "detail": "bf226e73789c4066e39fdad45f5c061211d69938bc4acdc9c70f824f36f91d47"
+        },
+        {
+            "name": "frozen_scene_Exterior_InteriorShellPreview",
+            "pass": true,
+            "detail": "90175c4e10a1d5fa9a5e4b017a1567c0beb2e2863075b3822d67b0088dde9c1a"
+        },
+        {
+            "name": "production_scene_guids",
+            "pass": true,
+            "detail": "51f59f18f774cd34f80828a1e34f5379,242709a263888b54f95f325b50ee883a,ae7ee65fa88976d468daba74254ef4b0,b9c79e62f417b714a9028c811250fa81"
+        },
+        {
+            "name": "single_identity_r03_scene_root",
+            "pass": true,
+            "detail": "HospitalInterior_S1_R03_Root"
+        },
+        {
+            "name": "inspectable_datum_contract",
+            "pass": true,
+            "detail": "Assets/HospitalInterior/PreProduction/I1/R03/Settings/HospitalInterior_S1_R03_DatumContract.asset"
+        },
+        {
+            "name": "exact_hospital_only_scene_contract",
+            "pass": true,
+            "detail": "Assets/Hospital/Scenes/Additive/Exterior_Base.unity,Assets/Hospital/Scenes/Additive/Exterior_Tower.unity,Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity,Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity"
+        },
+        {
+            "name": "r03_isolated_from_r01_r02",
+            "pass": true,
+            "detail": "none"
+        },
+        {
+            "name": "seven_unique_locked_datums",
+            "pass": true,
+            "detail": "F00=0.00,F01=5.80,F02=9.70,F03=13.60,F04=17.50,F05=21.40,F06=25.30"
+        },
+        {
+            "name": "f00_uses_production_derived_outline",
+            "pass": true,
+            "detail": "F00 is not a repeated upper-floor rectangle."
+        },
+        {
+            "name": "upper_proxy_footprints",
+            "pass": true,
+            "detail": "Unity X=-34.7..16.7; Z=-15.5..15.5."
+        },
+        {
+            "name": "diagnostics_are_non_colliding",
+            "pass": true,
+            "detail": "No datum/cage collider."
+        },
+        {
+            "name": "single_e01_reference_cage",
+            "pass": true,
+            "detail": "Reference geometry only."
+        },
+        {
+            "name": "unique_review_rig_camera_listener_light",
+            "pass": true,
+            "detail": "cameras=1; listeners=1; lights=1"
+        },
+        {
+            "name": "review_controls_and_scale",
+            "pass": true,
+            "detail": "eye=1.73; walk=2; sprint=4"
+        },
+        {
+            "name": "no_s2_plus_visible_content",
+            "pass": true,
+            "detail": "none"
+        },
+        {
+            "name": "production_roots_shared_origin",
+            "pass": true,
+            "detail": "All production scene roots are identity/unit scale."
+        },
+        {
+            "name": "production_scenes_camera_light_free",
+            "pass": true,
+            "detail": "cameras=0; lights=0"
+        },
+        {
+            "name": "no_shell_preview_or_site_loaded",
+            "pass": true,
+            "detail": "Hospital-only S1 scene set."
+        },
+        {
+            "name": "measured_upper_slabs_match_locked_contract",
+            "pass": true,
+            "detail": "F01 Δ=0.000,F02 Δ=0.000,F03 Δ=0.000,F04 Δ=0.000,F05 Δ=0.000,F06 Δ=0.000"
+        },
+        {
+            "name": "f06_roof_clearance",
+            "pass": true,
+            "detail": "3.370 m"
+        },
+        {
+            "name": "elevator_reference_contained",
+            "pass": true,
+            "detail": "X=0.0..6.0; Z=3.0..5.7"
+        },
+        {
+            "name": "entrance_threshold_step_supported",
+            "pass": true,
+            "detail": "0.040 m"
+        }
+    ]
+}

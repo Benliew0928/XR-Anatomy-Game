@@ -1,0 +1,194 @@
+{
+    "schema": "HospitalInterior.R03.S3B.StaticGate.v4",
+    "status": "PASS",
+    "unityVersion": "6000.3.20f1",
+    "passCount": 37,
+    "totalCount": 37,
+    "checks": [
+        {
+            "name": "approved_s2_baseline_unchanged",
+            "pass": true,
+            "detail": "files=38; mismatches=0"
+        },
+        {
+            "name": "approved_s3a_fbx_bytes_preserved",
+            "pass": true,
+            "detail": "cabin=HospitalInterior_E01_Cabin_R03.fbx; landing=HospitalInterior_E01_LandingPortal_R03.fbx"
+        },
+        {
+            "name": "identity_metric_model_import",
+            "pass": true,
+            "detail": "globalScale=1; fileScale=true; baked axis; no imported cameras/lights/animation/automatic colliders"
+        },
+        {
+            "name": "four_independent_imported_door_meshes",
+            "pass": true,
+            "detail": "cabin=2; landing=2"
+        },
+        {
+            "name": "s3_elevator_contract_exists",
+            "pass": true,
+            "detail": "Assets/HospitalInterior/PreProduction/I1/R03/Settings/HospitalInterior_S3_R03_ElevatorContract.asset"
+        },
+        {
+            "name": "contract_references_approved_s2",
+            "pass": true,
+            "detail": "Assets/HospitalInterior/PreProduction/I1/R03/Settings/HospitalInterior_S2_R03_FloorContract.asset"
+        },
+        {
+            "name": "contract_references_approved_s1_vertical_authority",
+            "pass": true,
+            "detail": "Assets/HospitalInterior/PreProduction/I1/R03/Settings/HospitalInterior_S1_R03_DatumContract.asset"
+        },
+        {
+            "name": "contract_building_core_fit",
+            "pass": true,
+            "detail": "cabinX=0.475..2.825; cabinZ=3.125..5.575; clearanceL/R/F/R=0.175/0.175/0.125/0.125; minimumStorey=3.900; floorDatum=0.000"
+        },
+        {
+            "name": "contract_full_height_shaft_fit",
+            "pass": true,
+            "detail": "shaftInnerX=0.400..2.900; shaftInnerZ=3.000..5.650; runningClearanceL/R/F/R=0.075/0.075/0.125/0.075; vertical=-0.200..28.830; baseClearance=0.090; F06Overrun=1.040"
+        },
+        {
+            "name": "approved_s1_clash_authority_expected_crossings_only",
+            "pass": true,
+            "detail": "expectedSlabCrossings=7; unexpectedGeometry=0; F06CeilingBottom=28.730; topClosureBottom=28.730"
+        },
+        {
+            "name": "normal_door_timing_and_flush_datum",
+            "pass": true,
+            "detail": "open=1.2; dwell=4.0; close=1.2; floor=0.000"
+        },
+        {
+            "name": "s3b_review_scene_exists",
+            "pass": true,
+            "detail": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S3B_R03_Doors_SIM_LOCAL.unity"
+        },
+        {
+            "name": "single_identity_bootstrap_root",
+            "pass": true,
+            "detail": "roots=HospitalInterior_S3B_R03_BootstrapRoot"
+        },
+        {
+            "name": "complete_single_review_bootstrap",
+            "pass": true,
+            "detail": "bootstrap=1; controller=1; shaft=1; aperture=1; observationCabin=1; rig=1; camera=1"
+        },
+        {
+            "name": "identity_persistent_e01_core",
+            "pass": true,
+            "detail": "S3B_R03_E01_PersistentCore"
+        },
+        {
+            "name": "continuous_shaft_walls_landings_and_rails",
+            "pass": true,
+            "detail": "wallsContinuous=True; spandrels=7; rails=2; centerline=(1.650,4.350); shaftInnerX=0.400..2.900; shaftInnerZ=3.000..5.650; runningClearanceL/R/F/R=0.075/0.075/0.125/0.075; vertical=-0.200..28.830; baseClearance=0.090; F06Overrun=1.040"
+        },
+        {
+            "name": "f00_to_f06_cabin_sweep_clear",
+            "pass": true,
+            "detail": "wall=0.075; guideRail=0.040; base=0.090; F06Top=0.940"
+        },
+        {
+            "name": "full_height_transparent_glass_hoistway",
+            "pass": true,
+            "detail": "glassPanels=11/11; frameMembers=42/42; transparentMaterials=True; nonCollidingFrames=True; glassShadowsOff=True; name=MAT_S3B_R03_ShaftGlass; shader=Universal Render Pipeline/Lit; alpha=0.160; queue=3000; transparentKeyword=True"
+        },
+        {
+            "name": "transparent_protected_cabin_observation_zones",
+            "pass": true,
+            "detail": "glassWalls=3/3; protectionPanels=3/3; frames=10/10; transparent=True; protected=True; nonCollidingFrames=True; safetyBoundary=True; glassShadowsOff=True; sightline=True; glassTop=2.390; protectionTop=0.900; clearViewHeight=1.490; alpha=0.100; queue=3000"
+        },
+        {
+            "name": "cabin_fully_nested_inside_glass_hoistway",
+            "pass": true,
+            "detail": "cabinBoundsX=0.475..2.825; cabinBoundsZ=3.116..5.575; innerShaftX=0.400..2.900; innerShaftZ=3.000..5.650; clearanceL/R/F/R=0.075/0.075/0.116/0.075"
+        },
+        {
+            "name": "shaft_contained_by_approved_core_and_portal_pocket",
+            "pass": true,
+            "detail": "outerX=0.300..3.000; outerZ=2.900..5.700; vertical=-0.200..28.830; front 0.100 m shares the approved landing-portal pocket"
+        },
+        {
+            "name": "s3_owned_floor_aperture_meshes",
+            "pass": true,
+            "detail": "F00[vertices=68; triangles=34; holeX=0.300..3.000; holeZ=3.000..5.700; intrusions=False]; Upper[vertices=48; triangles=24; holeX=0.300..3.000; holeZ=3.000..5.700; intrusions=False]; Underside[vertices=48; triangles=24; holeX=0.300..3.000; holeZ=3.000..5.700; intrusions=False]; facing=True"
+        },
+        {
+            "name": "persistent_upper_undersides_use_shaft_cut_mesh",
+            "pass": true,
+            "detail": "undersides=6; mesh=HospitalInterior_S3B_R03_Upper_ShaftCutUnderside; aperture=X 0.300..3.000, Z 3.000..5.700"
+        },
+        {
+            "name": "f00_runtime_instance_uses_shaft_aperture",
+            "pass": true,
+            "detail": "floor=F00; mesh=HospitalInterior_S3B_R03_F00_ShaftCutSlab; vertices=68; triangles=34; floor=F00; found=True; renderMesh=HospitalInterior_S3B_R03_F00_ShaftCutSlab; collisionMesh=HospitalInterior_S3B_R03_F00_ShaftCutSlab; vertices=68; triangles=34; holeX=0.300..3.000; holeZ=3.000..5.700; intrusions=False"
+        },
+        {
+            "name": "approved_model_roots_identity_scale",
+            "pass": true,
+            "detail": "cabinScale=(1.00, 1.00, 1.00); portals=7"
+        },
+        {
+            "name": "exact_cabin_integration_offset",
+            "pass": true,
+            "detail": "(0.000, -0.110, 0.000)"
+        },
+        {
+            "name": "seven_portals_on_approved_datums",
+            "pass": true,
+            "detail": "-0.110,5.690,9.590,13.490,17.390,21.290,25.190"
+        },
+        {
+            "name": "four_current_moving_leaf_colliders",
+            "pass": true,
+            "detail": "S3A_R03_E01_CabinDoor_L,S3A_R03_E01_CabinDoor_R,S3A_R03_E01_LandingDoor_L,S3A_R03_E01_LandingDoor_R"
+        },
+        {
+            "name": "door_leaf_collider_metric_sizes",
+            "pass": true,
+            "detail": "expected=0.595 x 2.200 x 0.075 m"
+        },
+        {
+            "name": "noncurrent_landing_doors_closed_collidable",
+            "pass": true,
+            "detail": "leaves=12"
+        },
+        {
+            "name": "floor_threshold_and_door_bottom_exact_datum",
+            "pass": true,
+            "detail": "floorTop=0.000; thresholdTop=0.000"
+        },
+        {
+            "name": "actual_cabin_mesh_clear_of_building_core",
+            "pass": true,
+            "detail": "boundsMin=(0.475, -0.110, 3.116); boundsMax=(2.825, 2.490, 5.575); minimumClearance=0.116; outliers="
+        },
+        {
+            "name": "landing_portals_clear_building_and_storeys",
+            "pass": true,
+            "detail": "minimumOverheadToNextDatum=1.340; F00Outliers="
+        },
+        {
+            "name": "threshold_obstruction_sensor",
+            "pass": true,
+            "detail": "1.160 x 2.180 x 0.350 m trigger"
+        },
+        {
+            "name": "all_physical_door_and_call_controls",
+            "pass": true,
+            "detail": "floor=7; open=1; close=1; calls=7"
+        },
+        {
+            "name": "approved_design_uses_urp_materials",
+            "pass": true,
+            "detail": "shadedRenderers=237; dynamicTextRenderers=7; nonUrp="
+        },
+        {
+            "name": "s3c_travel_absent_and_closed_interlock_safe",
+            "pass": true,
+            "detail": "state=ReadyClosed; movementInterlockSafe=True"
+        }
+    ]
+}

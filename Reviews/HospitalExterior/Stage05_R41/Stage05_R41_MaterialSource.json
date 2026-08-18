@@ -1,0 +1,798 @@
+{
+  "authority_sha256": "0a530ff9d7d7effa512f1d69178a0be86da722239f0cb992878045358c73ea58",
+  "materials": [
+    {
+      "base_color_linear": [
+        0.035,
+        0.045,
+        0.055,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.72,
+      "name": "MAT_Aluminium_Charcoal",
+      "permitted_zones": [
+        "ACT_InteractiveDoors",
+        "EXT_Balconies",
+        "EXT_FrontTower",
+        "EXT_GroundEntrance",
+        "EXT_LeftFacadePodium",
+        "EXT_RearService",
+        "EXT_RightFacadeWing",
+        "EXT_RoofService"
+      ],
+      "role": "opaque",
+      "roughness": 0.27,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.008,
+        0.011,
+        0.014,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Architectural_ShadowGap",
+      "permitted_zones": [
+        "EXT_FrontTower",
+        "EXT_GlobalStructure",
+        "EXT_GroundEntrance",
+        "EXT_LeftFacadePodium",
+        "EXT_RearService",
+        "EXT_RightFacadeWing",
+        "EXT_RoofService"
+      ],
+      "role": "opaque",
+      "roughness": 0.58,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.055,
+        0.065,
+        0.074,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Canopy_RecessedSoffit",
+      "permitted_zones": [
+        "EXT_GroundEntrance",
+        "EXT_RearService"
+      ],
+      "role": "opaque",
+      "roughness": 0.47,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.56,
+        0.61,
+        0.64,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Composite_LightGrey",
+      "permitted_zones": [
+        "EXT_Balconies",
+        "EXT_GlobalStructure",
+        "EXT_GroundEntrance",
+        "EXT_LeftFacadePodium",
+        "EXT_RearService",
+        "EXT_RightFacadeWing",
+        "EXT_RoofService"
+      ],
+      "role": "opaque",
+      "roughness": 0.36,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.82,
+        0.84,
+        0.83,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Composite_WarmOffWhite",
+      "permitted_zones": [
+        "EXT_Balconies",
+        "EXT_FrontTower",
+        "EXT_GlobalStructure",
+        "EXT_GroundEntrance",
+        "EXT_LeftFacadePodium",
+        "EXT_RearService",
+        "EXT_RightFacadeWing",
+        "EXT_RoofService"
+      ],
+      "role": "opaque",
+      "roughness": 0.3,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.065,
+        0.15,
+        0.2,
+        0.3784
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_CornerBalcony_BlueGreyRoomGlass",
+      "permitted_zones": [
+        "EXT_Balconies"
+      ],
+      "role": "glass",
+      "roughness": 0.095,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.48
+    },
+    {
+      "base_color_linear": [
+        0.09,
+        0.19,
+        0.23,
+        0.3196
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_CornerBalcony_IntegratedDoorGlass",
+      "permitted_zones": [
+        "EXT_Balconies"
+      ],
+      "role": "glass",
+      "roughness": 0.075,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.62
+    },
+    {
+      "base_color_linear": [
+        0.28,
+        0.5,
+        0.56,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_CornerBalcony_UltraClearGuard",
+      "permitted_zones": [
+        "EXT_Balconies"
+      ],
+      "role": "opaque",
+      "roughness": 0.04,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.9
+    },
+    {
+      "base_color_linear": [
+        0.035,
+        0.105,
+        0.055,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Entrance_DeepGreenFoliage",
+      "permitted_zones": [
+        "EXT_GroundEntrance"
+      ],
+      "role": "opaque",
+      "roughness": 0.62,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.16,
+        0.28,
+        0.31,
+        0.2776
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Entrance_DoorGlass",
+      "permitted_zones": [
+        "ACT_InteractiveDoors",
+        "EXT_GroundEntrance"
+      ],
+      "role": "glass",
+      "roughness": 0.06,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.72
+    },
+    {
+      "base_color_linear": [
+        0.18,
+        0.31,
+        0.34,
+        0.2608
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Entrance_HighClarityGlass",
+      "permitted_zones": [
+        "EXT_GroundEntrance"
+      ],
+      "role": "glass",
+      "roughness": 0.055,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.76
+    },
+    {
+      "base_color_linear": [
+        0.54,
+        0.43,
+        0.3,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Entrance_HonedTravertine",
+      "permitted_zones": [
+        "EXT_GroundEntrance"
+      ],
+      "role": "opaque",
+      "roughness": 0.48,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.28,
+        0.29,
+        0.29,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Entrance_PolishedArrivalStone",
+      "permitted_zones": [
+        "EXT_Balconies",
+        "EXT_GroundEntrance"
+      ],
+      "role": "opaque",
+      "roughness": 0.24,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.24,
+        0.11,
+        0.045,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.78,
+      "name": "MAT_Entrance_RefinedBronze",
+      "permitted_zones": [
+        "ACT_InteractiveDoors",
+        "EXT_GroundEntrance"
+      ],
+      "role": "opaque",
+      "roughness": 0.25,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.055,
+        0.14,
+        0.19,
+        0.3868
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Glass_BlueGrey",
+      "permitted_zones": [
+        "EXT_FrontTower",
+        "EXT_GroundEntrance",
+        "EXT_LeftFacadePodium",
+        "EXT_RearService",
+        "EXT_RightFacadeWing"
+      ],
+      "role": "glass",
+      "roughness": 0.1,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.46
+    },
+    {
+      "base_color_linear": [
+        0.57,
+        0.45,
+        0.33,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Interior_WarmDaylightSurface",
+      "permitted_zones": [
+        "EXT_Balconies",
+        "EXT_GroundEntrance",
+        "EXT_RightFacadeWing"
+      ],
+      "role": "opaque",
+      "roughness": 0.36,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.9,
+        0.67,
+        0.38,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_LED_Warm_3200K",
+      "permitted_zones": [
+        "EXT_GlobalStructure"
+      ],
+      "role": "fixture",
+      "roughness": 0.31,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.5,
+        0.47,
+        0.42,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Lobby_HonedTerrazzo",
+      "permitted_zones": [
+        "EXT_GroundEntrance"
+      ],
+      "role": "opaque",
+      "roughness": 0.24,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.55,
+        0.47,
+        0.37,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Lobby_WarmStone",
+      "permitted_zones": [
+        "EXT_GroundEntrance",
+        "EXT_RightFacadeWing"
+      ],
+      "role": "opaque",
+      "roughness": 0.42,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.085,
+        0.06,
+        0.042,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Lobby_WoodCharcoal",
+      "permitted_zones": [
+        "EXT_GroundEntrance"
+      ],
+      "role": "opaque",
+      "roughness": 0.4,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.31,
+        0.34,
+        0.35,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Neutral_Concrete",
+      "permitted_zones": [
+        "EXT_GlobalStructure",
+        "EXT_GroundEntrance",
+        "EXT_RoofService"
+      ],
+      "role": "opaque",
+      "roughness": 0.69,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.13,
+        0.058,
+        0.027,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.82,
+      "name": "MAT_Portal_DarkBronze",
+      "permitted_zones": [
+        "EXT_GroundEntrance"
+      ],
+      "role": "opaque",
+      "roughness": 0.23,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.62,
+        0.59,
+        0.53,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_S03E_Ceiling_SoftWhite",
+      "permitted_zones": [
+        "EXT_InteriorShell"
+      ],
+      "role": "opaque",
+      "roughness": 0.58,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.23,
+        0.24,
+        0.24,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_S03E_Floor_HonedTerrazzo",
+      "permitted_zones": [
+        "EXT_InteriorShell"
+      ],
+      "role": "opaque",
+      "roughness": 0.36,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.055,
+        0.065,
+        0.072,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_S03E_FurnitureSilhouette",
+      "permitted_zones": [
+        "EXT_InteriorShell"
+      ],
+      "role": "opaque",
+      "roughness": 0.5,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.5,
+        0.46,
+        0.39,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_S03E_InteriorWall_WarmWhite",
+      "permitted_zones": [
+        "EXT_InteriorShell"
+      ],
+      "role": "opaque",
+      "roughness": 0.52,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.34,
+        0.38,
+        0.39,
+        0.5
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_S03E_PrivacyShade",
+      "permitted_zones": [
+        "EXT_InteriorShell"
+      ],
+      "role": "glass",
+      "roughness": 0.66,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.18,
+        0.21,
+        0.22,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_S03E_ServiceBackdrop",
+      "permitted_zones": [
+        "EXT_InteriorShell"
+      ],
+      "role": "opaque",
+      "roughness": 0.57,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.22,
+        0.095,
+        0.038,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_S03E_WarmTimber",
+      "permitted_zones": [
+        "EXT_InteriorShell"
+      ],
+      "role": "opaque",
+      "roughness": 0.38,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    },
+    {
+      "base_color_linear": [
+        0.88,
+        0.78,
+        0.58,
+        1.0
+      ],
+      "emission_color_linear": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0,
+      "metallic": 0.0,
+      "name": "MAT_Signage_WarmWhite_NonEmissive",
+      "permitted_zones": [
+        "EXT_Balconies",
+        "EXT_GroundEntrance",
+        "EXT_RoofService"
+      ],
+      "role": "fixture",
+      "roughness": 0.34,
+      "shader": "Universal Render Pipeline/Lit",
+      "texture_ownership": "No baked texture supplied; shared scalar/tint baseline",
+      "transmission": 0.0
+    }
+  ],
+  "render_pipeline": "Universal Render Pipeline",
+  "schema": "HospitalExterior.Stage5MaterialSource.v1"
+}

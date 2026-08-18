@@ -1,0 +1,24 @@
+{
+    "schema": "HospitalInterior.R03.S1.EvidenceRecord.v1",
+    "status": "CAPTURED_USER_APPROVED",
+    "unityVersion": "6000.3.20f1",
+    "files": [
+        "01_S1_ExteriorInteriorOverlay.png",
+        "02_S1_EntranceThreshold_PlayerEye.png",
+        "03_S1_AllFloor_LongitudinalSection.png",
+        "04_S1_ElevatorCoreAlignment.png"
+    ],
+    "sha256": [
+        "94bd894c30bf3e8d4e03d2b22bc8ae98a90c5880b86ac3e385fbf94414c1233a",
+        "084d5852eab75a4a67438c7790da9e51aa5b64eee8b7bbd48969b999a0eb2be6",
+        "7fc4c5d3d471caeb0838f20dcbcdf1ff496ea3f62fcd87a4498073a3bb0a348e",
+        "0d0c19673aa996c0cad8fbc0ff0264eaa07842f97c8427392116bdaaf273beb7"
+    ],
+    "bytes": [
+        134274,
+        523404,
+        59758,
+        340734
+    ],
+    "note": "01/03/04 use transient unsaved exterior ghosting to expose diagnostics. The user approved this complete evidence set on 2026-08-15 00:56:30 +08:00."
+}

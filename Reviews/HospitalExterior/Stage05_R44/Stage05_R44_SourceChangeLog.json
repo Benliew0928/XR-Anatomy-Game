@@ -1,0 +1,14 @@
+{
+    "schema": "HospitalExterior.Stage05.R44.SourceChangeLog.v1",
+    "authority": "ArtSource/Environment/Blender/HospitalExterior/HospitalExterior_Stage04_R40_MASTER_ReviewCorrected.blend",
+    "authority_sha256": "0a530ff9d7d7effa512f1d69178a0be86da722239f0cb992878045358c73ea58",
+    "note": "The user-approved twelve-triangle GlobalStructure edit predates the Stage 5 freeze. R41 re-froze it; R41-R44 modify only Unity assets and records.",
+    "source_geometry_changes_during_stage05": 0,
+    "source_fbx_changes_during_stage05": 0,
+    "rounds": [
+        "R41: PC-VR URP/OpenXR foundation, three-zone proof and shared materials",
+        "R42: complete ten-zone prefabs, five additive scenes and visual QA",
+        "R43: twelve door prefabs, simple collision, scale harness and attributable profile proxy",
+        "R44: clean import/load QA, final visual comparison, record freeze and disposable-scene archive"
+    ]
+}

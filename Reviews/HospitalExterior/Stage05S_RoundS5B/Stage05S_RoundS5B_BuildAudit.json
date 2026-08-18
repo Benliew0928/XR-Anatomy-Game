@@ -1,0 +1,80 @@
+{
+  "candidate_sha256": "68df8c9fd460dcadc1f42b12d1009338493eb398bfc8d012246f882d611e8f7d",
+  "coverage": {
+    "clearance_m": 0.15,
+    "clearance_pixels": 2,
+    "coverage_ratio": 0.45532727241516113,
+    "obstacle_mesh_count": 143
+  },
+  "export_fbx_count": 7,
+  "independent_validation": {
+    "checks_failed": 0,
+    "checks_passed": 64,
+    "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_Validation.json",
+    "status": "PASS"
+  },
+  "maps": {
+    "ambient_occlusion": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "export": "Textures/Grass005/T_S05S_Grass005_AO_2K.png",
+      "sha256": "efa6181b02fe9e1f1af52ee604e8ef890de6261ec6b4225d214c96acfef1a719",
+      "source": "ArtSource/Environment/Textures/HospitalSite/Grass005/T_S05S_Grass005_AO_2K.png"
+    },
+    "base_color": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "export": "Textures/Grass005/T_S05S_Grass005_BaseColor_2K.png",
+      "sha256": "c27fd2fb5bc29403545d08167fcb76271087c1fb1ffcbb63b9b3a4c47258f4f9",
+      "source": "ArtSource/Environment/Textures/HospitalSite/Grass005/T_S05S_Grass005_BaseColor_2K.png"
+    },
+    "coverage_mask": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "export": "Textures/Grass005/T_S05S_GrassCoverageMask_2K.png",
+      "sha256": "a29be4234cde0094c67a2c1ac437f1722f35d4959bda4c369b80d21af2b39564",
+      "source": "ArtSource/Environment/Textures/HospitalSite/Grass005/T_S05S_GrassCoverageMask_2K.png"
+    },
+    "normal_gl": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "export": "Textures/Grass005/T_S05S_Grass005_NormalGL_2K.png",
+      "sha256": "64364bc8b3cec8c35a7f1c835e4158cbc32c2cf5dad59c06efa702012ac4911d",
+      "source": "ArtSource/Environment/Textures/HospitalSite/Grass005/T_S05S_Grass005_NormalGL_2K.png"
+    },
+    "roughness": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "export": "Textures/Grass005/T_S05S_Grass005_Roughness_2K.png",
+      "sha256": "2e05a1d2895ee51a013ed4e5915a1767ff08c6bb342463d723ae4483eb46d462",
+      "source": "ArtSource/Environment/Textures/HospitalSite/Grass005/T_S05S_Grass005_Roughness_2K.png"
+    }
+  },
+  "next_required_action": "Request user S5B visual approval; do not begin S6 Unity integration before approval.",
+  "removed_tuft_lod_objects": 72,
+  "review_image_count": 14,
+  "runtime_patch_triangles": {
+    "LOD0": 768,
+    "LOD1": 320
+  },
+  "schema": "HospitalExterior.Stage05S.RoundS5B.BuildAudit.v1",
+  "static_vegetation": {
+    "active_triangle_totals": {
+      "LOD0": 5367488,
+      "LOD1": 1180274,
+      "LOD2": 348274
+    },
+    "lod_groups": 99
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,482 @@
+{
+    "schema": "HospitalExterior.Stage05S.S6.Manifest.v1",
+    "status": "PASS",
+    "authority_sha256": "68df8c9fd460dcadc1f42b12d1009338493eb398bfc8d012246f882d611e8f7d",
+    "files": [
+        {
+            "path": "Archive/HospitalExterior/Docs/HospitalExterior_Stage05S_RoundS6_Checkpoint.md",
+            "sha256": "5565abad730bd0181e36987fd9e06bd479e8d3e5f835807c07df5db78118d4e8",
+            "bytes": 6982
+        },
+        {
+            "path": "HOSPITAL_EXTERIOR_PROGRESS.md",
+            "sha256": "ce80599ea95eed2b2be8beb986e94f6377c45274e9632f98e959666edfb777dd",
+            "bytes": 68625
+        },
+        {
+            "path": "HOSPITAL_SITE_EXPANSION_DESIGN_PLAN.md",
+            "sha256": "bbcdca6068d7344c00d5c8361e429fad5fc9347e7b38bf69dbfd1d7662c5921f",
+            "bytes": 65348
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Approval.json",
+            "sha256": "00fad611353d1ae870ca7e192464e4207b33947826c3b509c12d544bbdbb637d",
+            "bytes": 233
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_CollisionInventory.json",
+            "sha256": "a775b6a46897599b869a6acc5b4616c0b8cc09126b111de2b425a0a91db18336",
+            "bytes": 555
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_GateRoots.json",
+            "sha256": "cb6cd3b4de1ad738556673a129299a245392296724e4a5c648ffb1d5236de8c4",
+            "bytes": 427
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_GrassOccupancyAudit.json",
+            "sha256": "3819f2e85069a60c68734a59d712c8fb25ad81c48baf78430fef726bd9ae9bcc",
+            "bytes": 878
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_ImportSettings.json",
+            "sha256": "ed00b01b4c9f8e96c2ecdcaccb4fdccd107e111c16c04a5e4a6ad5b13aab55db",
+            "bytes": 2095
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_InputHashes.json",
+            "sha256": "3957b60cd4023a6b7f56fc4ce1063b722889896a8a3ed7ebb595e21583e027f2",
+            "bytes": 2361
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_LODInventory.json",
+            "sha256": "77d39ed667f2829a8ab5bb1b6f4dbfcc11c2792062cfdf28e056c43ef6461585",
+            "bytes": 22488
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_MaterialMap.json",
+            "sha256": "9107922f8af87a8c04155d5c8697edbd428c0643539a57d01788e10bd063fb0e",
+            "bytes": 6842
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_PerformanceProxy.json",
+            "sha256": "996893f3973725f9394b7bce88c49513aec97a9bd2f195b37be84d772a88f274",
+            "bytes": 2070
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_R05BRegression.err.log",
+            "sha256": "25e0be011030de02a7b8985392b9d25ef1cfea60cbea04dd2d39e4525b8f2161",
+            "bytes": 176
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_R05BRegression.log",
+            "sha256": "a236e7873e207e441a76272f4ad75a2cd9b86884f0d4eacac88fae47509f01bd",
+            "bytes": 2913
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_R05Regression.err.log",
+            "sha256": "71f8cf03c465fed827cd00d3ec94c419fd09c13a56bb29b00908ca1d58648ef8",
+            "bytes": 596
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_R05Regression.log",
+            "sha256": "f950498926b5192f5da671dd21644c519f81ed7c180c92a8feb15268b5082e11",
+            "bytes": 1875
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_ReviewChecklist.md",
+            "sha256": "5f3c646225df7385215157789084eab1e0407a1b3a9134bebb82dfa908ed91cc",
+            "bytes": 1857
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_SceneLoadMatrix.json",
+            "sha256": "d0ff97ae42e11fe82f08b42b93d93a9a178e3232bc009e5b2ef15086a32a1028",
+            "bytes": 762
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_SourceChangeLog.json",
+            "sha256": "489825e955ef8665102c3db05e5aa57cc41ed68fbd1a945abc9db0fbd1ae338f",
+            "bytes": 437
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_TechnicalGate.json",
+            "sha256": "9156e2c392b6b8df13dfe2f2c1143fa1aea11f6fb1c2dc9358df9d1680d69cbc",
+            "bytes": 2613
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Traversal.json",
+            "sha256": "6e52027c891145547023c63d604975a192af0c1a937f0b2e924e430021a234c1",
+            "bytes": 521
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_CirculationTopdown.png",
+            "sha256": "6f56b487967a475e0ad2f072476cb03e69010fd4f1a8318e05fa0ef2b6621f4a",
+            "bytes": 740710
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_CrossingsTopdown.png",
+            "sha256": "6a8356054c0bb6021768a2a74b19693d1345d81869a69afa02aba63f3bddbb74",
+            "bytes": 791091
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_ForcedLOD0.png",
+            "sha256": "70c1ebdf0c42c0e10c5efeeff9ec67be03ea9fae3835aae9f5c7789a54bcffe9",
+            "bytes": 1397132
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_ForcedLOD1.png",
+            "sha256": "688dfe24e7c7c110632c179d690df7fbdf64302bda325645cf71a1e217bb1ccc",
+            "bytes": 1391217
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_ForcedLOD2.png",
+            "sha256": "3b540ab2f55c2ca11ace89d32cd71e2b8cfbd52f119efaf06cdc3ec470440d57",
+            "bytes": 1339957
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_GateArrival.png",
+            "sha256": "575320ca1401550a07500ffe1075b2832fb33f3617b2c55b06f90c920c62623b",
+            "bytes": 265966
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_GrassAerial.png",
+            "sha256": "bc3ac05fcab28d7dcce7cdf56a260604f32f24cb0e5bbcb8a6da1b825f8bc327",
+            "bytes": 778435
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_GrassClose.png",
+            "sha256": "12969cad30e148d4ad7feeb9b27047088b6b79c6e37fb40733e2a5ae30582ef6",
+            "bytes": 2042328
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_GrassMedium.png",
+            "sha256": "b4a9e71cb50727782cbb85611cf052bb16283cc8b2530e9081e4a30130f2baff",
+            "bytes": 1456487
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_LakeBenchEdge.png",
+            "sha256": "f4ab4e4d80c1781f8d8f7b08bd344c42ffa779475b75062fdd4c883df4a2cb7a",
+            "bytes": 1412740
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_Parking.png",
+            "sha256": "e064e5f59300a9e400aae6c8a31ab0e306147319ed766d16ce94106d5b0e97fe",
+            "bytes": 1045753
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_PlayerEyeArrival.png",
+            "sha256": "11ebc0dd99d230575dee88d04dfd2dfe0c8f8600c704ba4b05f7956081db1a44",
+            "bytes": 210028
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_RearService.png",
+            "sha256": "5ab28f2216a7252a09a2b868e6c542e54dcce60f3c0b99a76d5d61fdc48c14ff",
+            "bytes": 826290
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_RoadPathClose.png",
+            "sha256": "fe1ecef584111d0baa1ff7a562c3e3a6131841eb5d456d2288d4ebf18bccfa44",
+            "bytes": 1469099
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_Unity_WholeSiteAerial.png",
+            "sha256": "11e7779af3a0ee3c5d343ff7ef9cb433747791abb53a9e6a66cd81fbd11e7b4c",
+            "bytes": 660107
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_UnityGate.json",
+            "sha256": "9156e2c392b6b8df13dfe2f2c1143fa1aea11f6fb1c2dc9358df9d1680d69cbc",
+            "bytes": 2613
+        },
+        {
+            "path": "Reviews/HospitalExterior/Stage05S_RoundS6/Stage05S_RoundS6_UserApproval.json",
+            "sha256": "3d3092ead0ec5c77778c7bdb45ea8f3f18377c5cb8942bf082495b6200cdfef0",
+            "bytes": 435
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Editor/HospitalStage05SImportPolicy.cs",
+            "sha256": "6b935967a91a507370acf711089ab408e49a76a462b882b86a98398acc62891d",
+            "bytes": 3595
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Editor/HospitalStage05SRoundS6Builder.cs",
+            "sha256": "a6211a85dcfb3517ed083c6fd9ebbdabd8351faa1adbbc2f5b1e8332cb2188f8",
+            "bytes": 58854
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Editor/HospitalStage05SRoundS6Validator.cs",
+            "sha256": "512ba03a249e27ef44125a4fc1305b6b5b8a22cd216730760d69df7e081a30a3",
+            "bytes": 26787
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Generated/GrassRuntimeSpec.json",
+            "sha256": "42705cd564b2415a167a5619ba8df302a4767f341d390a91e6e2ebd60549efbd",
+            "bytes": 3636
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Generated/T_S06_SharedDetail.asset",
+            "sha256": "7efac752e17ee44b3167d85e6184c109c1fbbd7447fe973b885f4ca0a848ed84",
+            "bytes": 44723
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Generated/T_S06_SharedNormal.asset",
+            "sha256": "3f2016a0f7b1346a9f97fc4774ad63b54876967d776df6a8c19d285d621016f7",
+            "bytes": 44723
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_AccentAllium.mat",
+            "sha256": "0f8710e1f78c263df3d692f8f24c7b75d9afa7a206f4784f184104906fe72189",
+            "bytes": 1298
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_AccentFlower.mat",
+            "sha256": "2c98c2fea760a2b8c5533601a1fd4d9b9c8f257800937b7c1bcf03a4df43d406",
+            "bytes": 1293
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_AccentStem.mat",
+            "sha256": "70c65f4696690fa57c664c13ea9a6fda6e724896ff42e2196e228ef15a9480ad",
+            "bytes": 1294
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_BarkTrunk.mat",
+            "sha256": "2b8404f42ec9268dc310da05e8719773b112d1fdb934f2ee3288b35278f230f4",
+            "bytes": 1299
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_ExteriorPaver_WarmGrey.mat",
+            "sha256": "6c5a414f75ef9a07eb35db6345d2613dd8593194c5dd73e01b4ee696ed40b454",
+            "bytes": 1306
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_FoliageDeep.mat",
+            "sha256": "61937bee7cc152fe83c7f82eddd7d0291bfa3acf695ba7e6eeafe15d34faff9e",
+            "bytes": 1302
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_FoliageLight.mat",
+            "sha256": "fbe56b4f8da4f1138d931960692252c87e7c6fd11c9f066e36523efff2c48fd3",
+            "bytes": 1300
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_FoliageMid.mat",
+            "sha256": "11dc5f6538821cd833ce13f93da14f48aa9d5fa0d917d7c3858809378b266ca5",
+            "bytes": 1300
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_KerbServiceConcrete.mat",
+            "sha256": "8e96519924b6b0f243972006c1b9541b03de28a90ef2443a99656769aa7b5edd",
+            "bytes": 1303
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_LakePlaceholder.mat",
+            "sha256": "aef7b8a7d2997f2e0453bbf49acfbd8dc065fc106e2e42371c8d51fce559b594",
+            "bytes": 1302
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadAsphalt.mat",
+            "sha256": "db43d33d6855c0832fb6065f1c6dfad7429f2d4f0cf042dd1942788f125903c6",
+            "bytes": 1298
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadMarking_AccessibleBlue.mat",
+            "sha256": "4ab015eda4e7fdb5a26f7863ca1e28b22eb4d7a778a16760c7055ca27602b0cc",
+            "bytes": 1308
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadMarking_White.mat",
+            "sha256": "3638b94520502bea26e56f3d48534f698ec40c096ccce3fbb500c0a5a0d025b9",
+            "bytes": 1299
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadMarking_Yellow.mat",
+            "sha256": "3c0f0f7f888691226997be8b8b938261aa1f982c2e6ba9f7f7f147f1db1677d3",
+            "bytes": 1299
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_SeatingTimber.mat",
+            "sha256": "d3da6f5126ef5f4c0377893e222508bad47d0b82214b9711c900d9c32069a9e0",
+            "bytes": 1300
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_SoilMulch.mat",
+            "sha256": "91f32143a17e9ef007cce167f24c87e7b6ebfb0c5683047243be68932aa1df58",
+            "bytes": 1297
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_SolarPanel.mat",
+            "sha256": "de0b02276c5a640d059fe35f685119c63f93e149845dcfc4db6e79f4451779f0",
+            "bytes": 1302
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_TactilePaving.mat",
+            "sha256": "45d3f6a8f40f0bbd49a9ed8504ffb725ab63a7021a64b50fc36ad116e4506b8e",
+            "bytes": 1297
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5B_GrassBlade.mat",
+            "sha256": "bbfabd6dda7aaf1452b0109fa391f4299b994447b70346d7ba8591440e7f59e5",
+            "bytes": 1180
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5B_GrassLawn.mat",
+            "sha256": "c61502889f3a1c84a8d3ff3cfe2897174d473d95eb1b7fedceff1c3b8e4781a8",
+            "bytes": 1614
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_CoreRoadParking.prefab",
+            "sha256": "056a231d5d60a518507309e384fa427b9a0d989bc0d88c9acb9fbc68b8067258",
+            "bytes": 319672
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_GrassRuntime.prefab",
+            "sha256": "21ba7552c5f991159d0bc777b1b9b7df9564599538e2c4b5bc4eab59d06bd25f",
+            "bytes": 1567
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_LandscapeHardscape.prefab",
+            "sha256": "97cb2089d5f9de3ae09eaf7da45da095b13a448bff943802bf2b217652c08996",
+            "bytes": 34661
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_MainGate.prefab",
+            "sha256": "682454301ccf5a37cd0a601f14c3f4cabdae3f2e70c7b42b83d7a02d8cfe0116",
+            "bytes": 62186
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_PerimeterFence.prefab",
+            "sha256": "b503f2f348378391080a246b3207a0103e4360215357ae2cbe821fc19c860337",
+            "bytes": 22961
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_PropsVegetation.prefab",
+            "sha256": "2010c882402328e57f1dc0b07c7f87879abc2c491d3e4e3368661ae5775fc1c7",
+            "bytes": 1100302
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_RearService.prefab",
+            "sha256": "f875e70a2e7e7ac9c004916bab5a411a7589d714b4e4bc3cf1c4592b9954b5ab",
+            "bytes": 18283
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Runtime/HospitalSiteGrassRenderer.cs",
+            "sha256": "87c0aa73ac1dfed507ee0f454a0d7589fc7142d2addfd631eb96c52ef45928c6",
+            "bytes": 8464
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Runtime/HospitalSiteGrassRuntimeConfig.cs",
+            "sha256": "fd62c7a13b3ca24e862971818cf2bb28290679fbd9b37d25d842df9e43234c15",
+            "bytes": 3338
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SiteCore.unity",
+            "sha256": "33c3411ce8b3f00652c6750a1852ab317020dc07462c8b65eff2c27968dffe3e",
+            "bytes": 8384
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SiteLandscape.unity",
+            "sha256": "a64254fada600a96ea42be1e408c83deef45dfba0b0b9aceff34c4f8d20af7b9",
+            "bytes": 10805
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SitePerimeter.unity",
+            "sha256": "f8d55491f13e2dc6ef66c755443bcf525d2bb933a051bcc020a2559584ccc6ab",
+            "bytes": 8379
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Scenes/Test/HospitalSite_S6_TraversalHarness.unity",
+            "sha256": "c8fa1ad25bd701b6f27cc230f318d706ed17166ff54c2d2b7031b9104aceaeda",
+            "bytes": 26649
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Settings/HospitalSiteGrassRuntimeConfig.asset",
+            "sha256": "16de1b2e53e7b9a25cf0f76ea1e3c8c6972dc8da27333e614630b9762b14bdf9",
+            "bytes": 17236
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Settings/Stage05S_RoundS6_UnityGate.json",
+            "sha256": "9156e2c392b6b8df13dfe2f2c1143fa1aea11f6fb1c2dc9358df9d1680d69cbc",
+            "bytes": 2613
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Shaders/HospitalSiteGrassBlade.shader",
+            "sha256": "934ce8935e6ec9e9879044314f047f3847ed84632fc46bb67e1ad30eef053a17",
+            "bytes": 5360
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Shaders/HospitalSiteGrassLawn.shader",
+            "sha256": "6a0f34362a3b45257954c613955988098eb72862540d03f851f72c4c3d48ba59",
+            "bytes": 4684
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Shaders/HospitalSiteWorldMappedOpaque.shader",
+            "sha256": "5d73fadf4a64cf0a6666fbab93881d4c75e239413cf8d5dd6a7c0caf9f929f0b",
+            "bytes": 5733
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_CoreRoadParking_R05B.fbx",
+            "sha256": "ed8403c9c43f0b7d1c58ecf492805afe1ac4a7f7b183408aafd2305fe1b3ddd3",
+            "bytes": 294844
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_GrassRuntimeAssets_R05B.fbx",
+            "sha256": "5820f307f4b503ee3cf1bbe0dfd16cd6a7b14423896dc40c60a6cb30c98927cd",
+            "bytes": 103676
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_LandscapeHardscape_R05B.fbx",
+            "sha256": "ce8a584e5734c78e21a797e8e9579d2e71a10b410194ff9cfb7a16e243aa1e0b",
+            "bytes": 82844
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_MainGate_R05B.fbx",
+            "sha256": "3a12ccb30a4b88b536b132473a461e0757ac70be3b409f3f3a04f563f67ff436",
+            "bytes": 165980
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_PerimeterFence_R05B.fbx",
+            "sha256": "d6955e8985d41f763bba8a7917968fc652af728e98d97106ea117054a19a0b2b",
+            "bytes": 346316
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_PropsVegetation_R05B.fbx",
+            "sha256": "586e32f82770d3d77c75253848065b88e000a695e50f11fe7abbf91ed91b1f0e",
+            "bytes": 31723852
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_RearService_R05B.fbx",
+            "sha256": "cef0237c93db623acaec1c3a53e3cedeee84923d910149b4fde109444626214d",
+            "bytes": 42396
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/SourceFBX/Materials/No Name.mat",
+            "sha256": "fcb0a910adbbc990cde4ef6cfb7badbe3fcd28a1118553d5e3f6b429931f6e7c",
+            "bytes": 3322
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_Grass005_AO_2K.png",
+            "sha256": "efa6181b02fe9e1f1af52ee604e8ef890de6261ec6b4225d214c96acfef1a719",
+            "bytes": 4055129
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_Grass005_BaseColor_2K.png",
+            "sha256": "c27fd2fb5bc29403545d08167fcb76271087c1fb1ffcbb63b9b3a4c47258f4f9",
+            "bytes": 8619086
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_Grass005_NormalGL_2K.png",
+            "sha256": "64364bc8b3cec8c35a7f1c835e4158cbc32c2cf5dad59c06efa702012ac4911d",
+            "bytes": 24178362
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_Grass005_Roughness_2K.png",
+            "sha256": "2e05a1d2895ee51a013ed4e5915a1767ff08c6bb342463d723ae4483eb46d462",
+            "bytes": 3325584
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_GrassCoverageMask_2K.png",
+            "sha256": "a29be4234cde0094c67a2c1ac437f1722f35d4959bda4c369b80d21af2b39564",
+            "bytes": 23004
+        }
+    ]
+}

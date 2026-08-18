@@ -1,0 +1,2 @@
+C:\CutMyBodyPlease\Tools\Stage05S\validate_stage05s_round_s5b.py:231: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True

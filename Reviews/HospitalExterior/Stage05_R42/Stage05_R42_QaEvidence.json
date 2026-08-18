@@ -1,0 +1,45 @@
+{
+    "schema": "HospitalExterior.Stage05.R42.QaEvidence.v1",
+    "images": [
+        {
+            "file": "Stage05_R42_Unity_Front.png",
+            "sha256": "c4e88b3dedc186bbba22497ad507521b3dd6d88ffaee2ccabe1cc7601bb1d193",
+            "bytes": 103693
+        },
+        {
+            "file": "Stage05_R42_Unity_Left.png",
+            "sha256": "2cf329e0f7c51018a9a89f086ff5473c2dc295615ba01ddfbf6d47bf8e629931",
+            "bytes": 79059
+        },
+        {
+            "file": "Stage05_R42_Unity_Right.png",
+            "sha256": "530987eea0c8d477d1edd780965f9a42977384d962c4418b73a09bc53f13edc1",
+            "bytes": 70642
+        },
+        {
+            "file": "Stage05_R42_Unity_Rear.png",
+            "sha256": "3670dfd0974faffb69b84cd31dc2c80c806af0d663e1d7dac0d32f3e4da19d86",
+            "bytes": 84229
+        },
+        {
+            "file": "Stage05_R42_Unity_Roof.png",
+            "sha256": "b2af06992ba8020c953d819008a956829b7ff922431665b999166bfd4b67d362",
+            "bytes": 62750
+        },
+        {
+            "file": "Stage05_R42_Unity_Entrance.png",
+            "sha256": "9f5c58ca9f151f3e72fc71e20990db691c5349174588bfdf78c5144d034f1c14",
+            "bytes": 257726
+        },
+        {
+            "file": "Stage05_R42_Unity_Aerial.png",
+            "sha256": "677b3c5bba8f65709070032945309bc198c0abb961e2031513a7768e536d4743",
+            "bytes": 226456
+        },
+        {
+            "file": "Stage05_R42_Unity_PlayerEye.png",
+            "sha256": "8ed0a6d1c8b456fb79529b9626f692c97e819132732a8c388ea6990b1369d535",
+            "bytes": 387417
+        }
+    ]
+}

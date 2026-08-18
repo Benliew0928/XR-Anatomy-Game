@@ -1,0 +1,55 @@
+{
+    "schema": "HospitalExterior.Stage05.R42.SceneLoadMatrix.v1",
+    "scenes": [
+        {
+            "scene": "Exterior_Base",
+            "asset": "Assets/Hospital/Scenes/Additive/Exterior_Base.unity",
+            "zones": [
+                "EXT_GlobalStructure",
+                "EXT_GroundEntrance"
+            ],
+            "default_exterior_load": true,
+            "optional": false
+        },
+        {
+            "scene": "Exterior_Tower",
+            "asset": "Assets/Hospital/Scenes/Additive/Exterior_Tower.unity",
+            "zones": [
+                "EXT_FrontTower",
+                "EXT_Balconies"
+            ],
+            "default_exterior_load": true,
+            "optional": false
+        },
+        {
+            "scene": "Exterior_SidesService",
+            "asset": "Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity",
+            "zones": [
+                "EXT_LeftFacadePodium",
+                "EXT_RightFacadeWing",
+                "EXT_RearService",
+                "EXT_RoofService"
+            ],
+            "default_exterior_load": true,
+            "optional": false
+        },
+        {
+            "scene": "Exterior_InteriorShellPreview",
+            "asset": "Assets/Hospital/Scenes/Additive/Exterior_InteriorShellPreview.unity",
+            "zones": [
+                "EXT_InteriorShell"
+            ],
+            "default_exterior_load": false,
+            "optional": true
+        },
+        {
+            "scene": "Exterior_Interactions",
+            "asset": "Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity",
+            "zones": [
+                "ACT_InteractiveDoors"
+            ],
+            "default_exterior_load": false,
+            "optional": true
+        }
+    ]
+}

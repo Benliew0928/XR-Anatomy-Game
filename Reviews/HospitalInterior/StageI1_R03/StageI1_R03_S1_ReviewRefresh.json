@@ -1,0 +1,12 @@
+{
+  "schema": "HospitalInterior.R03.S1.ReviewRefresh.v1",
+  "status": "PASS_PENDING_USER_VISUAL_REVIEW",
+  "unityVersion": "6000.3.20f1",
+  "completedSteps": [
+    "enhanced_static_report_passed",
+    "complete_four_view_evidence_regenerated",
+    "post_capture_static_regression_passed",
+    "corrected_evidence_visually_inspected"
+  ],
+  "note": "Evidence 01/03/04 uses transient unsaved exterior ghosting to expose the S1 datum and elevator diagnostics. Production assets and the review player are unchanged."
+}

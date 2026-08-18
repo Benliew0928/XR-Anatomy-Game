@@ -1,0 +1,62 @@
+{
+    "schema": "HospitalExterior.Stage05.R43.TraversalScaleReport.v1",
+    "scene": "Assets/Hospital/Scenes/IntegrationSandbox/Hospital_R43_TraversalHarness.unity",
+    "temporary_harness": true,
+    "target": "Quest 2 / Quest 3 PC VR via Link or Air Link",
+    "xr_origin_component": true,
+    "eye_height_m": 1.7000000476837159,
+    "disabled_test_camera": true,
+    "routes": [
+        {
+            "name": "EntranceApproach",
+            "position": [
+                0.0,
+                1.7000000476837159,
+                -24.0
+            ],
+            "walkable_or_clearance_supported": true,
+            "blocked_by_boundary": false
+        },
+        {
+            "name": "CanopyClearance_4_20m",
+            "position": [
+                0.0,
+                4.199999809265137,
+                -17.0
+            ],
+            "walkable_or_clearance_supported": true,
+            "blocked_by_boundary": false
+        },
+        {
+            "name": "BalconyLevel1Access",
+            "position": [
+                -30.0,
+                6.5,
+                -11.0
+            ],
+            "walkable_or_clearance_supported": true,
+            "blocked_by_boundary": false
+        },
+        {
+            "name": "ExteriorLeftRoute",
+            "position": [
+                -20.0,
+                1.7000000476837159,
+                -26.0
+            ],
+            "walkable_or_clearance_supported": true,
+            "blocked_by_boundary": false
+        },
+        {
+            "name": "LoadingServiceLimit",
+            "position": [
+                26.0,
+                1.7000000476837159,
+                18.0
+            ],
+            "walkable_or_clearance_supported": true,
+            "blocked_by_boundary": false
+        }
+    ],
+    "note": "Scale/traversal harness only; no final locomotion or gameplay controller is included."
+}

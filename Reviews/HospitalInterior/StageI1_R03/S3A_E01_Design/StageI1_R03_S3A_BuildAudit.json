@@ -1,0 +1,81 @@
+{
+  "schema": "HospitalInterior.R03.S3A.BuildAudit.v1",
+  "status": "BUILT_AWAITING_USER_APPROVAL",
+  "blenderVersion": "5.1.2",
+  "revision": "R03",
+  "stage": "S3A",
+  "elevatorId": "E01",
+  "legacyGeometryReused": false,
+  "runtimeIntegrationAuthorized": false,
+  "dimensionsM": {
+    "outerWidth": 2.35,
+    "outerDepth": 2.45,
+    "outerHeight": 2.6,
+    "innerWidth": 2.1,
+    "innerDepth": 2.2,
+    "doorClearWidth": 1.2,
+    "doorClearHeight": 2.2,
+    "stretcherProxyWidth": 0.8,
+    "stretcherProxyLength": 2.1
+  },
+  "counts": {
+    "objects": 94,
+    "sourceMeshObjects": 70,
+    "sourceTriangles": 67112,
+    "materials": 14,
+    "camerasSaved": 0
+  },
+  "outputs": [
+    {
+      "kind": "blend",
+      "path": "ArtSource/Environment/Blender/HospitalInterior/HospitalInterior_E01_Cabin_R03.blend",
+      "sha256": "d8b8a4e9024cbfb96d91c316407fedb182fd49828fe34baa3194fed56f75a874"
+    },
+    {
+      "kind": "cabin_fbx",
+      "path": "Exports/HospitalInterior/StageI1_R03_S3A/HospitalInterior_E01_Cabin_R03.fbx",
+      "sha256": "5830cdd18d1a281f3b75b0b33ffafa4a277771d64e6110f673e0f08cd78673bc"
+    },
+    {
+      "kind": "landing_fbx",
+      "path": "Exports/HospitalInterior/StageI1_R03_S3A/HospitalInterior_E01_LandingPortal_R03.fbx",
+      "sha256": "b0c52ec1263d7cda874cd9e677713c55bc7ba88fda869701a3469d8d1ea174a6"
+    },
+    {
+      "kind": "review_render",
+      "path": "Reviews/HospitalInterior/StageI1_R03/S3A_E01_Design/01_S3A_E01_Landing_DoorsClosed.png",
+      "sha256": "c652f38d88e76741192da7e23282d0b1d6315b5391c85721f5ab6cefd01779a7",
+      "bytes": 1718291
+    },
+    {
+      "kind": "review_render",
+      "path": "Reviews/HospitalInterior/StageI1_R03/S3A_E01_Design/02_S3A_E01_Landing_DoorsOpen.png",
+      "sha256": "1ddb423dca1b2420811529e82262756472120947c7fcc1925963e896495a9274",
+      "bytes": 1711555
+    },
+    {
+      "kind": "review_render",
+      "path": "Reviews/HospitalInterior/StageI1_R03/S3A_E01_Design/03_S3A_E01_CabinInterior.png",
+      "sha256": "3a3075879cf1b54bb4aeaf1904c0b2c128e8538869f76314553c9c0e760f5af2",
+      "bytes": 1887416
+    },
+    {
+      "kind": "review_render",
+      "path": "Reviews/HospitalInterior/StageI1_R03/S3A_E01_Design/04_S3A_E01_ControlPanelClose.png",
+      "sha256": "170c41b9daf25037d4f9f9689f6789e7207cb565ae0802ad789ee8516f99213d",
+      "bytes": 1829824
+    },
+    {
+      "kind": "review_render",
+      "path": "Reviews/HospitalInterior/StageI1_R03/S3A_E01_Design/05_S3A_E01_StretcherClearance.png",
+      "sha256": "76681d605beb9b7e4074975d39391b5449ec0c3325c7fd46276b87a7f7ee16e6",
+      "bytes": 1704653
+    },
+    {
+      "kind": "review_render",
+      "path": "Reviews/HospitalInterior/StageI1_R03/S3A_E01_Design/06_S3A_E01_MaterialsAndCeilingLight.png",
+      "sha256": "40557343a365f85315f0a56f1a7159ed0f302f3a0e1205da7f3e57954a39a61c",
+      "bytes": 1818485
+    }
+  ]
+}

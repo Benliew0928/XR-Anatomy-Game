@@ -1,0 +1,12 @@
+{
+  "affected_objects": [],
+  "fbx": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05_R41_Input\\Hospital_EXT_GlobalStructure.fbx",
+  "schema": "HospitalExterior.Stage05.FbxDegenerateDiagnostic.v1",
+  "threshold_counts": {
+    "area_le_1e-06": 0,
+    "area_le_1e-08": 0,
+    "area_le_1e-10": 0,
+    "area_le_1e-12": 0
+  },
+  "triangles": 26864
+}

@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d768b5352faef248ba5aaa3024d97aa, type: 3}
+  m_Name: HospitalInterior_S1_R03_DatumContract
+  m_EditorClassIdentifier: Assembly-CSharp::CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S1DatumContract
+  productionScenePaths:
+  - Assets/Hospital/Scenes/Additive/Exterior_Base.unity
+  - Assets/Hospital/Scenes/Additive/Exterior_Tower.unity
+  - Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity
+  - Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity
+  floorDatums:
+  - floorId: F00
+    elevationM: 0
+    minX: -35.05
+    maxX: 36
+    minZ: -22.1
+    maxZ: 16.35
+    footprintSource: R40 GroundEntrance low horizontal surfaces + InteriorShell L00
+      rear slab
+  - floorId: F01
+    elevationM: 5.8
+    minX: -34.7
+    maxX: 16.7
+    minZ: -15.5
+    maxZ: 15.5
+    footprintSource: R40 Exterior_InteriorShellPreview upper slab measurement
+  - floorId: F02
+    elevationM: 9.7
+    minX: -34.7
+    maxX: 16.7
+    minZ: -15.5
+    maxZ: 15.5
+    footprintSource: R40 Exterior_InteriorShellPreview upper slab measurement
+  - floorId: F03
+    elevationM: 13.6
+    minX: -34.7
+    maxX: 16.7
+    minZ: -15.5
+    maxZ: 15.5
+    footprintSource: R40 Exterior_InteriorShellPreview upper slab measurement
+  - floorId: F04
+    elevationM: 17.5
+    minX: -34.7
+    maxX: 16.7
+    minZ: -15.5
+    maxZ: 15.5
+    footprintSource: R40 Exterior_InteriorShellPreview upper slab measurement
+  - floorId: F05
+    elevationM: 21.4
+    minX: -34.7
+    maxX: 16.7
+    minZ: -15.5
+    maxZ: 15.5
+    footprintSource: R40 Exterior_InteriorShellPreview upper slab measurement
+  - floorId: F06
+    elevationM: 25.3
+    minX: -34.7
+    maxX: 16.7
+    minZ: -15.5
+    maxZ: 15.5
+    footprintSource: R40 Exterior_InteriorShellPreview upper slab measurement
+  elevatorReference:
+    minX: 0
+    maxX: 6
+    minZ: 3
+    maxZ: 5.7
+    minY: 0
+    maxY: 28.83
+  hospitalOnlySpawn: {x: 4, y: 0.03, z: -30}
+  eyeHeightM: 1.7
+  walkSpeedMps: 2
+  sprintSpeedMps: 4

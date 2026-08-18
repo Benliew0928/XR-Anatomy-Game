@@ -1,0 +1,95 @@
+{
+    "schema": "HospitalExterior.Stage05S.S6.UnityGate.v1",
+    "status": "PASS",
+    "authority_sha256": "68df8c9fd460dcadc1f42b12d1009338493eb398bfc8d012246f882d611e8f7d",
+    "approval": "S6 APPROVED / STAGE 5S COMPLETE",
+    "unity_editor": "6000.3.20f1",
+    "measurement_scope": "S6 integration and editor proxy only; Quest Link/Air Link performance gate deferred to Stage 6",
+    "next_required_action": "Begin Stage 6A Quest Link/Air Link headset traversal harness and real stereo baseline.",
+    "pass": true,
+    "protected_road_path_and_landscape_changes": 0,
+    "checks_passed": 16,
+    "checks_total": 16,
+    "checks": [
+        {
+            "name": "protected_preflight",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "copied_source_hashes",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "import_policy",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "controlled_materials",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "raw_payload_preserved",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "vegetation_lod_contract",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "collision_contract",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "grass_runtime_contract",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "gate_root_contract",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "three_additive_site_scenes",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "eight_scene_build_settings",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "scene_load_matrix",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "visual_qa_evidence",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "performance_proxy_structure",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "original_regressions",
+            "detail": "PASS",
+            "passed": true
+        },
+        {
+            "name": "required_integration_records",
+            "detail": "PASS",
+            "passed": true
+        }
+    ]
+}

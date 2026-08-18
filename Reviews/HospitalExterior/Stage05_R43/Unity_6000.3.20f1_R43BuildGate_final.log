@@ -1,0 +1,562 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-benli" at "2026-08-09T16:27:09.7009045Z"
+Built from '6000.3/staging' branch; Version is '6000.3.20f1 (c9ba695d4f07) revision 13220457'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 32472 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-08-09T16:27:09Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.20f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+C:\CutMyBodyPlease\Unity\AnatomyXR
+-executeMethod
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R43Builder.BuildAndValidateR43
+-logFile
+C:\CutMyBodyPlease\Reviews\HospitalExterior\Stage05_R43\Unity_6000.3.20f1_R43BuildGate_final.log
+Successfully changed project path to: C:\CutMyBodyPlease\Unity\AnatomyXR
+C:/CutMyBodyPlease/Unity/AnatomyXR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [67424]  Target information:
+
+Player connection [67424]  * "[IP] 192.168.56.1 [Port] 55504 [Flags] 2 [Guid] 2470098139 [EditorId] 2470098139 [Version] 1048832 [Id] WindowsEditor(7,Ben0928) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [67424]  * "[IP] 172.19.25.183 [Port] 55504 [Flags] 2 [Guid] 2470098139 [EditorId] 2470098139 [Version] 1048832 [Id] WindowsEditor(7,Ben0928) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [67424] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [67424] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-70820" after 0.2 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-benli"
+[Licensing::IpcConnector] LicenseClient-benli channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-benli-6000.3.20 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 70952)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-benli-6000.3.20" at "2026-08-09T16:27:11.5297178Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 70952, path: "C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              e335fd1e06794f0fa6d1f1a339e15bbd
+  Correlation Id:          add58528e02f6ed17f9528be0f9a8d72
+  External correlation Id: 6775791446298555743
+  Machine Id:              K/xaE00r9U15jR2vrRRSBHB/pCQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-benli-6000.3.20" (connect: 0.25s, validation: 0.19s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-benli-6000.3.20-notifications" at "2026-08-09T16:27:11.7267265Z"
+[Licensing::Module] Connected to LicensingClient (PId: 70952, launch time: 0.00, total connection time: 0.44s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968468702908-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 2.06s
+[Licensing::Module] Licensing is initialized (took 1.47s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 9 unused hashed content files
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.20f1 (c9ba695d4f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/CutMyBodyPlease/Unity/AnatomyXR/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5920 MB
+    Driver:   32.0.15.9595
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001447 seconds.
+- Loaded All Assemblies, in  0.313 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.283 seconds
+Domain Reload Profiling: 595ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (93ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (117ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (284ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (255ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 55 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.inputsystem@1.20.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.xr.interaction.toolkit@3.5.1 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.xr.interaction.toolkit@63ca3b7ce776)
+    com.unity.xr.management@4.7.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.xr.management@2ad85c7dd480)
+    com.unity.xr.openxr@1.17.1 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.xr.openxr@58837b2992e0)
+    com.unity.xr.core-utils@2.6.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.xr.core-utils@a8b900321199)
+    com.unity.xr.legacyinputhelpers@2.1.13 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.xr.legacyinputhelpers@9535ff2c27ac)
+    com.unity.mathematics@1.3.3 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.mathematics@19a9377c4ffa)
+    com.unity.searcher@4.9.4 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.searcher@d45a78918735)
+    com.unity.burst@1.8.29 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.burst@6bb9aca3ef38)
+    com.unity.collections@2.6.6 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.collections@9796e5ee0d9e)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.3.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.render-pipelines.universal@37e06a5b08b3)
+    com.unity.modules.accessibility@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ugui@2.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.ugui@e20f1880fa04)
+    com.unity.render-pipelines.core@17.3.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.render-pipelines.core@731b06833851)
+    com.unity.shadergraph@17.3.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.shadergraph@fe0f710ccc2d)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+    com.unity.test-framework@1.6.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.test-framework@bd7f943e9647)
+    com.unity.ext.nunit@2.0.5 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+[Subsystems] Looking for new subsystems at path C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.xr.openxr@58837b2992e0
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/CutMyBodyPlease/Unity/AnatomyXR/Assets
+[Subsystems] Discovering subsystems at path C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.xr.openxr@58837b2992e0
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json.
+[Package Manager] Done registering packages in 0.02 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.20f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/CutMyBodyPlease/Unity/AnatomyXR
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s693ms
+[692/889    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[885/889    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[886/889    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 137 defines and 326 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[887/889    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[888/889    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.67 seconds), 5 items updated, 889 evaluated
+AssetDatabase: script compilation time: 1.082926s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.612 seconds
+Refreshing native plugins compatible for Editor in 2.32 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.128 seconds
+Domain Reload Profiling: 2738ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (135ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (221ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (85ms)
+				TypeCache.ScanAssembly (76ms)
+			BuildScriptInfoCaches (41ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2128ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1945ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (1602ms)
+			ProcessInitializeOnLoadMethodAttributes (208ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(2269e0d3307f61742a4f8c45d914c72a) (NativeFormatImporter) -> (artifact id: '884c1a24e0b42c0538e3cbb5161e9a65') in 0.0090589 seconds
+Refreshing native plugins compatible for Editor in 3.08 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=ff7b72aa69aed3e45b3455f1121dda43): Total: 4.387 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=2453 ms
+		Asset DB Callback time: managed=181 ms, native=22 ms
+		Scripting: domain reloads=1, domain reload time=613 ms, compile time=1085 ms, other=28 ms
+		Project Asset Count: scripts=1141, non-scripts=1780
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 18.879ms
+	ApplyChangesToAssetFolders: 0.555ms
+	Scan: 113.829ms
+	OnSourceAssetsModified: 0.697ms
+	CategorizeAssetsWithTransientArtifact: 18.078ms
+	ProcessAssetsWithTransientArtifactChanges: 42.217ms
+	CategorizeAssets: 34.771ms
+	ImportOutOfDateAssets: 2149.851ms (1052.086ms without children)
+		ImportManagerImport: 10.530ms (1.173ms without children)
+			ImportInProcess: 9.339ms
+			UpdateCategorizedAssets: 0.018ms
+		CompileScripts: 1084.764ms
+		ReloadNativeAssets: 0.035ms
+		UnloadImportedAssets: 1.299ms
+		ReloadImportedAssets: 0.149ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.453ms
+		InitializingProgressBar: 0.007ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.528ms
+	PostProcessAllAssets: 182.166ms
+	Hotreload: 4.127ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.003ms
+	UnloadStreamsBegin: 0.998ms
+	PersistCurrentRevisions: 0.095ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 2.018ms
+	Untracked: 1820.455ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 2.470ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Anatomy XR Hospital
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4758 unused Assets / (11.0 MB). Loaded Objects now: 5541.
+Memory consumption went from 187.6 MB to 176.5 MB.
+Total: 13.197200 ms (FindLiveObjects: 0.323900 ms CreateObjectMapping: 0.189500 ms MarkObjects: 6.510000 ms  DeleteObjects: 6.172600 ms)
+
+Asset Pipeline Refresh (id=6606874eb57d2a0459845068ca8a0a65): Total: 0.037 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/7c0c1d33dc7b218489a96119bf2f4a49'
+	Deserialize:            0.328 ms
+	Integration:            19.479 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.018 ms
+	Total Operation Time:   19.828 ms
+Asset Pipeline Refresh (id=4a9f676a4115ac04ea6ab0b247314040): Total: 0.008 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/05bb73bab45d225458b16791fa342e09'
+	Deserialize:            0.183 ms
+	Integration:            9.492 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   9.692 ms
+Asset Pipeline Refresh (id=76877fab84cffeb4cb8da479dd26d056): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/e48a5f5436f7a864da018c1f687ce9a5'
+	Deserialize:            0.164 ms
+	Integration:            2.759 ms
+	Integration of assets:  0.010 ms
+	Thread Wait Time:       0.024 ms
+	Total Operation Time:   2.957 ms
+Asset Pipeline Refresh (id=ead7d81774e2a88479d53d039390f07f): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/d4fc5f23ec6804e43bc5d2ab54a0a79e'
+	Deserialize:            0.181 ms
+	Integration:            7.120 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   7.314 ms
+Asset Pipeline Refresh (id=a155bfc8880535d4da4f0fc049d1dc03): Total: 0.005 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/cc184878c62c6144a956e015f3894bd8'
+	Deserialize:            0.198 ms
+	Integration:            5.394 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   5.604 ms
+Asset Pipeline Refresh (id=fb541765c49a96340b77b88720918aa6): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/b7397efd5f5c46541800f0b5a0851a45'
+	Deserialize:            0.215 ms
+	Integration:            5.914 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.020 ms
+	Total Operation Time:   6.150 ms
+Asset Pipeline Refresh (id=b1e007c61cbcc744f95b51ba1e477925): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/febef6e26a091df4f9c8508d29060c6e'
+	Deserialize:            0.178 ms
+	Integration:            14.873 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   15.060 ms
+Asset Pipeline Refresh (id=02075affde99b5145bb702b67bb37196): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/9e25e171e8faac9498e424280324c412'
+	Deserialize:            0.129 ms
+	Integration:            6.217 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   6.359 ms
+Asset Pipeline Refresh (id=d4e7c3908f64cd3479af22953b60b1b5): Total: 0.005 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/5f432b9b30c6f2e43861ebdcf382687c'
+	Deserialize:            0.159 ms
+	Integration:            2.153 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   2.321 ms
+Asset Pipeline Refresh (id=bffd7e2eec532984e8813a86b9a5c3be): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/9619f423c88962247995f9d5efcd2086'
+	Deserialize:            0.170 ms
+	Integration:            4.302 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   4.483 ms
+Asset Pipeline Refresh (id=fbd527034eba7de4b970bc71c8b858fa): Total: 0.005 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=7990026879e39c04abde3174de0ce3f2): Total: 0.005 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=c6a08691f745b744cb282ad76b5e83db): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=312fb44a81333c84cb86274ea99f2311): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=3860c708fd439c640be0a3c06e8c5559): Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=c06442e99f44be642b77354032c2c0d9): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=090a2a732b6e2d4489d8da2a554a196b): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=fdbebde65ce6aba419fc56abf8f760ff): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=84827a4c3acbb204c92712ff6cc421e6): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_FireExit_B_Leaf_ROOT.prefab using Guid(4da461f1f9a0377408c98d841b8ab627) (PrefabImporter) -> (artifact id: '251c6cbed4b20e6866e46b12f8669014') in 0.0032039 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=63dcac2df8334614ab194d450b0be77d): Total: 0.032 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_LoadingDoor_Leaf_ROOT.prefab using Guid(bd4e6d4939955da4e8814f401c066dff) (PrefabImporter) -> (artifact id: '2bd2f6af79314b8f416e5f1a699d5364') in 0.0022693 seconds
+Refreshing native plugins compatible for Editor in 2.18 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=00e5eedc038820b458676e224c1115b1): Total: 0.026 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT.prefab using Guid(3a9a2c3399c63e741b7303eb8b1be8db) (PrefabImporter) -> (artifact id: 'ec1006245d666bcf189b8ffa2545434a') in 0.0021523 seconds
+Refreshing native plugins compatible for Editor in 2.10 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=1fbb499b4dd746342a7258ac5aa2bdb5): Total: 0.024 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_ROOF_AccessDoor_Leaf_ROOT.prefab using Guid(3d6fdd5313075b649a396f36e58794bc) (PrefabImporter) -> (artifact id: '571df0c95416f09d0ccde3b0ddae81c1') in 0.0026535 seconds
+Refreshing native plugins compatible for Editor in 2.54 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b980ecd5cc1dc004a87256b0fbaee99d): Total: 0.026 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2601 unused Assets / (0.7 MB). Loaded Objects now: 5541.
+Memory consumption went from 229.6 MB to 228.9 MB.
+Total: 6.465700 ms (FindLiveObjects: 0.234100 ms CreateObjectMapping: 0.113800 ms MarkObjects: 4.361400 ms  DeleteObjects: 1.755700 ms)
+
+Start importing Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity using Guid(b9c79e62f417b714a9028c811250fa81) (DefaultImporter) -> (artifact id: 'd871dcf69d8ee443a07b58c421673e31') in 0.0013079 seconds
+Refreshing native plugins compatible for Editor in 2.34 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=6eb7fad6cdb5a6e46a254fd906457aaa): Total: 0.026 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=3fffe3340a547c442874f2625f2cad67): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Hospital/Scenes/Additive/Exterior_Base.unity'
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Hospital/Scenes/Additive/Exterior_Base.unity'
+	Deserialize:            0.372 ms
+	Integration:            158.685 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.058 ms
+	Total Operation Time:   159.117 ms
+Unloading 479 unused Assets / (2.3 MB). Loaded Objects now: 5969.
+Memory consumption went from 182.9 MB to 180.6 MB.
+Total: 4.753300 ms (FindLiveObjects: 0.244900 ms CreateObjectMapping: 0.117000 ms MarkObjects: 3.921800 ms  DeleteObjects: 0.469200 ms)
+
+Start importing Assets/Hospital/Scenes/Additive/Exterior_Base.unity using Guid(51f59f18f774cd34f80828a1e34f5379) (DefaultImporter) -> (artifact id: '0010b50efed8fb2b328946ea34f234ca') in 0.0012038 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=af6295a4d9aa1604a8f0403f52e43f55): Total: 0.028 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 385 unused Assets / (1.3 MB). Loaded Objects now: 5550.
+Memory consumption went from 187.1 MB to 185.8 MB.
+Total: 5.324400 ms (FindLiveObjects: 0.189300 ms CreateObjectMapping: 0.096900 ms MarkObjects: 4.633700 ms  DeleteObjects: 0.403400 ms)
+
+Start importing Assets/Hospital/Scenes/IntegrationSandbox/Hospital_R43_TraversalHarness.unity using Guid(c324e4df28881a74fb14d8111b858417) (DefaultImporter) -> (artifact id: '995758de904c9cd7568b491a34b8a165') in 0.0010066 seconds
+Refreshing native plugins compatible for Editor in 2.33 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a3ce6ca06c1110649be3430b78a11e89): Total: 0.028 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Hospital/Scenes/IntegrationSandbox/Hospital_R43_TraversalHarness.unity'
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Hospital/Scenes/IntegrationSandbox/Hospital_R43_TraversalHarness.unity'
+	Deserialize:            1.041 ms
+	Integration:            103.334 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   104.384 ms
+Unloading 162 unused Assets / (38.6 KB). Loaded Objects now: 8169.
+Memory consumption went from 243.5 MB to 243.4 MB.
+Total: 4.757900 ms (FindLiveObjects: 0.323100 ms CreateObjectMapping: 0.155800 ms MarkObjects: 4.041300 ms  DeleteObjects: 0.237300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1422 unused Assets / (310.3 KB). Loaded Objects now: 5550.
+Memory consumption went from 242.7 MB to 242.4 MB.
+Total: 5.572400 ms (FindLiveObjects: 0.191200 ms CreateObjectMapping: 0.086300 ms MarkObjects: 4.054800 ms  DeleteObjects: 1.239500 ms)
+
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 791 unused Assets / (390.7 KB). Loaded Objects now: 5579.
+Memory consumption went from 239.6 MB to 239.3 MB.
+Total: 5.392300 ms (FindLiveObjects: 0.192600 ms CreateObjectMapping: 0.079600 ms MarkObjects: 4.406900 ms  DeleteObjects: 0.712500 ms)
+
+Unloading 49 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1041 unused Assets / (480.7 KB). Loaded Objects now: 5579.
+Memory consumption went from 240.7 MB to 240.2 MB.
+Total: 5.929200 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.108500 ms MarkObjects: 4.748300 ms  DeleteObjects: 0.845700 ms)
+
+Opening scene 'Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity'
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity'
+	Deserialize:            0.539 ms
+	Integration:            111.981 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.029 ms
+	Total Operation Time:   112.552 ms
+Unloading 1039 unused Assets / (414.9 KB). Loaded Objects now: 6169.
+Memory consumption went from 238.9 MB to 238.5 MB.
+Total: 6.507200 ms (FindLiveObjects: 0.254700 ms CreateObjectMapping: 0.133600 ms MarkObjects: 5.274400 ms  DeleteObjects: 0.843600 ms)
+
+Opening scene 'Assets/Hospital/Scenes/Additive/Exterior_Base.unity'
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Hospital/Scenes/Additive/Exterior_Base.unity'
+	Deserialize:            0.343 ms
+	Integration:            117.701 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.086 ms
+	Total Operation Time:   118.132 ms
+Unloading 1397 unused Assets / (285.4 KB). Loaded Objects now: 6000.
+Memory consumption went from 238.7 MB to 238.4 MB.
+Total: 7.203600 ms (FindLiveObjects: 0.288700 ms CreateObjectMapping: 0.131900 ms MarkObjects: 5.566300 ms  DeleteObjects: 1.215600 ms)
+
+Start importing Assets/Hospital/Settings/Stage05_R43_UnityGate.json using Guid(6b90ae6090b39bb4e9d6923328f6fa05) (TextScriptImporter) -> (artifact id: 'dbea8301fb1a369e4f7c0cd077e55d28') in 0.0029771 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=690a5c3c7bc04e74eaacde860f567bf9): Total: 0.057 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+STAGE05_R43_GATE=PASS
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R43Builder:BuildAndValidateR43 () (at Assets/Hospital/Editor/HospitalStage05R43Builder.cs:100)
+
+(Filename: Assets/Hospital/Editor/HospitalStage05R43Builder.cs Line: 100)
+
+Batchmode quit successfully invoked - shutting down!
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-benli-6000.3.20-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-benli-6000.3.20 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

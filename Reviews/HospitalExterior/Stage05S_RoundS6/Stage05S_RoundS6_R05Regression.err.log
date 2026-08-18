@@ -1,0 +1,4 @@
+C:\CutMyBodyPlease\Tools\Stage05S\validate_stage05s_round_s5.py:302: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  check("s5_materials_are_node_based_opaque", bool(s5_materials) and all(material.use_nodes and material.diffuse_color[3] == 1.0 for material in s5_materials), [material.name for material in s5_materials if not material.use_nodes or material.diffuse_color[3] != 1.0])
+C:\CutMyBodyPlease\Tools\Stage05S\validate_stage05s_round_s5.py:196: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True

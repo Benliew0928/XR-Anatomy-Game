@@ -1,0 +1,328 @@
+{
+    "schema": "HospitalExterior.Stage06A.R01.RouteSurfaceManifest.v1",
+    "status": "PASS",
+    "runtime_only_teleport_components": true,
+    "route_surface_count": 20,
+    "surfaces": [
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_RefinedParkingCrossSpine",
+            "mesh": "S05S_S5_EXP_CoreCollision_RefinedParkingCrossSpine",
+            "vertices": 4,
+            "triangles": 2,
+            "bounds_center": {
+                "x": 45.45000076293945,
+                "y": -65.75,
+                "z": -0.14000000059604646
+            },
+            "bounds_size": {
+                "x": 53.099998474121097,
+                "y": 3.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_RefinedPath_GateLobby",
+            "mesh": "S05S_S5_EXP_CoreCollision_RefinedPath_GateLobby",
+            "vertices": 4,
+            "triangles": 2,
+            "bounds_center": {
+                "x": 6.0,
+                "y": -38.0,
+                "z": -0.14000000059604646
+            },
+            "bounds_size": {
+                "x": 3.0,
+                "y": 12.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_RefinedPath_LakeGate",
+            "mesh": "S05S_S5_EXP_CoreCollision_RefinedPath_LakeGate",
+            "vertices": 182,
+            "triangles": 180,
+            "bounds_center": {
+                "x": -20.890417098999025,
+                "y": -81.32514190673828,
+                "z": -0.14000000059604646
+            },
+            "bounds_size": {
+                "x": 33.748531341552737,
+                "y": 9.231185913085938,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_RefinedPath_LakeHospital",
+            "mesh": "S05S_S5_EXP_CoreCollision_RefinedPath_LakeHospital",
+            "vertices": 24,
+            "triangles": 22,
+            "bounds_center": {
+                "x": -47.96088790893555,
+                "y": -46.542236328125,
+                "z": -0.14000000059604646
+            },
+            "bounds_size": {
+                "x": 14.199546813964844,
+                "y": 15.036849975585938,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_RefinedPath_ParkingLobby",
+            "mesh": "S05S_S5_EXP_CoreCollision_RefinedPath_ParkingLobby",
+            "vertices": 126,
+            "triangles": 124,
+            "bounds_center": {
+                "x": 13.860115051269532,
+                "y": -69.23685455322266,
+                "z": -0.14000000059604646
+            },
+            "bounds_size": {
+                "x": 18.719768524169923,
+                "y": 50.52629470825195,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_RefinedVisitorParkingAccess",
+            "mesh": "S05S_S5_EXP_CoreCollision_RefinedVisitorParkingAccess",
+            "vertices": 4,
+            "triangles": 2,
+            "bounds_center": {
+                "x": 12.25,
+                "y": -86.5,
+                "z": -0.09000000357627869
+            },
+            "bounds_size": {
+                "x": 24.5,
+                "y": 6.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_RefinedVisitorParkingSurface",
+            "mesh": "S05S_S5_EXP_CoreCollision_RefinedVisitorParkingSurface",
+            "vertices": 4,
+            "triangles": 2,
+            "bounds_center": {
+                "x": 51.0,
+                "y": -79.375,
+                "z": -0.07000000029802323
+            },
+            "bounds_size": {
+                "x": 53.0,
+                "y": 30.25,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_S05S_COL_Surface_01",
+            "mesh": "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_01",
+            "vertices": 96,
+            "triangles": 96,
+            "bounds_center": {
+                "x": 0.0,
+                "y": -6.0,
+                "z": -0.07999999821186066
+            },
+            "bounds_size": {
+                "x": 120.0,
+                "y": 116.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_S05S_COL_Surface_02",
+            "mesh": "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_02",
+            "vertices": 4,
+            "triangles": 2,
+            "bounds_center": {
+                "x": 0.0,
+                "y": -68.3499984741211,
+                "z": -0.09000000357627869
+            },
+            "bounds_size": {
+                "x": 7.999999523162842,
+                "y": 62.69999694824219,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_S05S_COL_Surface_03",
+            "mesh": "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_03",
+            "vertices": 14,
+            "triangles": 12,
+            "bounds_center": {
+                "x": 0.0,
+                "y": -42.939361572265628,
+                "z": -0.10000000149011612
+            },
+            "bounds_size": {
+                "x": 90.43401336669922,
+                "y": 18.878719329833986,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_S05S_COL_Surface_04",
+            "mesh": "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_04",
+            "vertices": 4,
+            "triangles": 2,
+            "bounds_center": {
+                "x": -42.0,
+                "y": -56.0,
+                "z": -0.09000000357627869
+            },
+            "bounds_size": {
+                "x": 7.0,
+                "y": 10.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_S05S_COL_Surface_05",
+            "mesh": "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_05",
+            "vertices": 4,
+            "triangles": 2,
+            "bounds_center": {
+                "x": 42.0,
+                "y": -56.0,
+                "z": -0.09000000357627869
+            },
+            "bounds_size": {
+                "x": 7.0,
+                "y": 10.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_S05S_COL_Surface_08",
+            "mesh": "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_08",
+            "vertices": 24,
+            "triangles": 12,
+            "bounds_center": {
+                "x": 62.0,
+                "y": 63.0,
+                "z": -0.03500000014901161
+            },
+            "bounds_size": {
+                "x": 44.0,
+                "y": 18.0,
+                "z": 0.07000000029802323
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_S05S_COL_Surface_09",
+            "mesh": "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_09",
+            "vertices": 6,
+            "triangles": 4,
+            "bounds_center": {
+                "x": 49.12248992919922,
+                "y": 52.910430908203128,
+                "z": -0.09000000357627869
+            },
+            "bounds_size": {
+                "x": 18.127883911132814,
+                "y": 15.645214080810547,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_S05S_COL_Surface_10",
+            "mesh": "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_10",
+            "vertices": 96,
+            "triangles": 96,
+            "bounds_center": {
+                "x": 0.0,
+                "y": -12.5,
+                "z": -0.10000000149011612
+            },
+            "bounds_size": {
+                "x": 174.0,
+                "y": 169.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_S05S_COL_Surface_11",
+            "mesh": "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_11",
+            "vertices": 96,
+            "triangles": 96,
+            "bounds_center": {
+                "x": 0.0,
+                "y": -5.5,
+                "z": -0.11999999731779099
+            },
+            "bounds_size": {
+                "x": 90.0,
+                "y": 73.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_S05S_COL_Surface_17",
+            "mesh": "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_17",
+            "vertices": 6,
+            "triangles": 4,
+            "bounds_center": {
+                "x": 57.60269546508789,
+                "y": 39.39924240112305,
+                "z": -0.12999999523162843
+            },
+            "bounds_size": {
+                "x": 26.66869354248047,
+                "y": 26.700782775878908,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_S05S_COL_Surface_18",
+            "mesh": "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_18",
+            "vertices": 24,
+            "triangles": 12,
+            "bounds_center": {
+                "x": -63.0,
+                "y": 62.5,
+                "z": -0.03999999910593033
+            },
+            "bounds_size": {
+                "x": 42.0,
+                "y": 19.0,
+                "z": 0.07999999821186066
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_S05S_COL_Surface_19",
+            "mesh": "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_19",
+            "vertices": 6,
+            "triangles": 4,
+            "bounds_center": {
+                "x": -48.88225555419922,
+                "y": 53.06463623046875,
+                "z": -0.09000000357627869
+            },
+            "bounds_size": {
+                "x": 21.365982055664064,
+                "y": 16.131717681884767,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "SITE_CoreRoadParking/Hospital_SITE_CoreRoadParking_R05B/S05S_S5_EXP_CoreCollision_S05S_COL_Surface_20",
+            "mesh": "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_20",
+            "vertices": 6,
+            "triangles": 4,
+            "bounds_center": {
+                "x": -59.88740539550781,
+                "y": 37.584556579589847,
+                "z": -0.12999999523162843
+            },
+            "bounds_size": {
+                "x": 31.18902587890625,
+                "y": 22.583324432373048,
+                "z": 0.0
+            }
+        }
+    ]
+}

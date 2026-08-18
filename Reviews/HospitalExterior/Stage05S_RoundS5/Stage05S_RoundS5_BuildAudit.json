@@ -1,0 +1,300 @@
+{
+  "approved_input_sha256": "688b8c6c78b8a9747be300cca55e994c6533708ea9dcd923314e08728c9f03ef",
+  "authoring_preserved": true,
+  "blender_version": "5.1.2",
+  "builder": "C:\\CutMyBodyPlease\\Tools\\Stage05S\\build_stage05s_round_s5.py",
+  "circulation_correction": {
+    "canopy_modules": 24,
+    "canopy_rows_covered": 3,
+    "capacity": 60,
+    "crossings": {
+      "Dropoff": {
+        "center": [
+          6.0,
+          -37.72
+        ],
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "road_width": 7.0
+      },
+      "GateAxis": {
+        "center": [
+          0.0,
+          -84.0
+        ],
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "road_width": 8.0
+      },
+      "ParkingAccess": {
+        "center": [
+          21.72,
+          -86.5
+        ],
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "road_width": 6.0
+      },
+      "ParkingLoop": {
+        "center": [
+          14.57,
+          -60.5
+        ],
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "road_width": 7.0
+      }
+    },
+    "dropoff_parking_removed": true,
+    "frozen_s4b_authoring_untouched": true,
+    "reason": "The visitor lot and legacy drop-off parking overlays conflicted with live roads; canopy modules covered the wrong strip; axis-aligned zebras did not follow the actual pedestrian crossing directions.",
+    "status": "S5_EXPORT_ONLY_REDRAW",
+    "visitor_parking_layout": {
+      "accessible_x_max": 28.6,
+      "accessible_x_min": 25.0,
+      "aisle_centers": [
+        -86.5,
+        -75.5
+      ],
+      "aisle_width": 6.0,
+      "canopy_module_x_centers": [
+        28.0,
+        34.5,
+        41.0,
+        47.5,
+        54.0,
+        60.5,
+        67.0,
+        73.5
+      ],
+      "canopy_rows": [
+        -92.0,
+        -81.0,
+        -70.0
+      ],
+      "canopy_scale_x": 0.92,
+      "canopy_scale_y": 1.62,
+      "parking_spine_x_max": 72.0,
+      "parking_spine_x_min": 18.9,
+      "parking_spine_y": -65.75,
+      "row_centers": [
+        -92.0,
+        -81.0,
+        -70.0
+      ],
+      "row_depth": 5.0,
+      "standard_per_row": 19,
+      "standard_width": 2.5,
+      "standard_x_min": 29.0,
+      "x_max": 77.5,
+      "x_min": 24.5,
+      "y_max": -64.25,
+      "y_min": -94.5
+    }
+  },
+  "export": {
+    "bounds": [
+      [
+        -90.0,
+        -102.767586,
+        -0.222
+      ],
+      [
+        90.0,
+        75.0,
+        11.55007
+      ]
+    ],
+    "objects": 550,
+    "statistics": {
+      "evaluated_instance_triangles": 7008014,
+      "materials": [
+        "MAT_Aluminium_Charcoal",
+        "MAT_Composite_LightGrey",
+        "MAT_Composite_WarmOffWhite",
+        "MAT_Entrance_HonedTravertine",
+        "MAT_Entrance_RefinedBronze",
+        "MAT_S05S_S5_AccentAllium",
+        "MAT_S05S_S5_AccentFlower",
+        "MAT_S05S_S5_AccentStem",
+        "MAT_S05S_S5_BarkTrunk",
+        "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+        "MAT_S05S_S5_FoliageDeep",
+        "MAT_S05S_S5_FoliageLawn",
+        "MAT_S05S_S5_FoliageLight",
+        "MAT_S05S_S5_FoliageMid",
+        "MAT_S05S_S5_KerbServiceConcrete",
+        "MAT_S05S_S5_LakePlaceholder",
+        "MAT_S05S_S5_RoadAsphalt",
+        "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+        "MAT_S05S_S5_RoadMarking_White",
+        "MAT_S05S_S5_RoadMarking_Yellow",
+        "MAT_S05S_S5_SeatingTimber",
+        "MAT_S05S_S5_SoilMulch",
+        "MAT_S05S_S5_SolarPanel",
+        "MAT_S05S_S5_TactilePaving"
+      ],
+      "mesh_objects": 548,
+      "modifier_evaluated_triangles": 7011006,
+      "objects": 550,
+      "unique_meshes": 131,
+      "unique_triangles": 589293,
+      "unique_vertices": 756923
+    },
+    "zones": {
+      "SITE_CoreRoadParking": 120,
+      "SITE_LandscapeHardscape": 12,
+      "SITE_MainGate": 23,
+      "SITE_PerimeterFence": 9,
+      "SITE_PropsVegetation": 380,
+      "SITE_RearService": 6
+    }
+  },
+  "lod_active_triangle_totals": {
+    "LOD0": 5422208,
+    "LOD1": 1192298,
+    "LOD2": 351826
+  },
+  "materials": {
+    "role_count": 12,
+    "roles": {
+      "ACCENT_PLANTING": [
+        "MAT_S05S_S5_AccentAllium",
+        "MAT_S05S_S5_AccentFlower",
+        "MAT_S05S_S5_AccentStem"
+      ],
+      "BARK_TRUNK": [
+        "MAT_S05S_S5_BarkTrunk"
+      ],
+      "EXTERIOR_PAVER": [
+        "MAT_S05S_S5_ExteriorPaver_WarmGrey"
+      ],
+      "KERB_SERVICE_CONCRETE": [
+        "MAT_S05S_S5_KerbServiceConcrete"
+      ],
+      "LAKE_PLACEHOLDER": [
+        "MAT_S05S_S5_LakePlaceholder"
+      ],
+      "PRIMARY_FOLIAGE": [
+        "MAT_S05S_S5_FoliageDeep",
+        "MAT_S05S_S5_FoliageLawn",
+        "MAT_S05S_S5_FoliageLight",
+        "MAT_S05S_S5_FoliageMid"
+      ],
+      "ROAD_ASPHALT": [
+        "MAT_S05S_S5_RoadAsphalt"
+      ],
+      "ROAD_MARKING": [
+        "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+        "MAT_S05S_S5_RoadMarking_White",
+        "MAT_S05S_S5_RoadMarking_Yellow"
+      ],
+      "SEATING_TIMBER": [
+        "MAT_S05S_S5_SeatingTimber"
+      ],
+      "SOIL_MULCH": [
+        "MAT_S05S_S5_SoilMulch"
+      ],
+      "SOLAR_PANEL": [
+        "MAT_S05S_S5_SolarPanel"
+      ],
+      "TACTILE_PAVING": [
+        "MAT_S05S_S5_TactilePaving"
+      ]
+    }
+  },
+  "next_required_action": "Request user visual approval of S5. Do not begin S6 Unity integration before this exact R05 hash is approved.",
+  "output": {
+    "bytes": 36815879,
+    "path": "C:\\CutMyBodyPlease\\ArtSource\\Environment\\Blender\\HospitalSite\\HospitalSite_Stage05S_R05_FINAL.blend",
+    "sha256": "04fad3c3cc06c967478d9b0ec2e67f598e845cbd3e9e12cc11562bd95e096a78"
+  },
+  "review_images": [
+    {
+      "bytes": 2759314,
+      "height": 1200,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_WholeSiteExport.png",
+      "sha256": "b524bb90b3dfb1826764f604edde23e5cf52bf7950bd7dafdeee642cedbd693a",
+      "width": 1600
+    },
+    {
+      "bytes": 2304264,
+      "height": 1200,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_CirculationTopdown.png",
+      "sha256": "c26a22be30ec2e70500efbbd181ebc1a3ef4060b8010220e03b296a33ebcce99",
+      "width": 1600
+    },
+    {
+      "bytes": 2281318,
+      "height": 1200,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_PlayerEyeArrival.png",
+      "sha256": "8ea233238f6a9ea714228d45ff2cb4f0e8272c6d479f0a4b4bc70a533e158605",
+      "width": 1600
+    },
+    {
+      "bytes": 2152456,
+      "height": 1200,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_GateAndRoots.png",
+      "sha256": "00c52698ba633fa99cb9cd6ce0b53f520124cdecca9699374f751162ea20c061",
+      "width": 1600
+    },
+    {
+      "bytes": 2745598,
+      "height": 1200,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_RoadPathMaterials.png",
+      "sha256": "b3a69dbdce70668e7d9fcc1fededece45299cea6daf917ffa4cf5a932ae9768f",
+      "width": 1600
+    },
+    {
+      "bytes": 2263206,
+      "height": 1200,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_CrossingsTopdown.png",
+      "sha256": "6e3e59a608801b2d1de4ae698df3e723b89c89a302101f3a43176e42a3a1ffaa",
+      "width": 1600
+    },
+    {
+      "bytes": 3412164,
+      "height": 1200,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_VegetationLOD0.png",
+      "sha256": "18917ef15b5124bfa1f5832ade48a98c94a43598e9d3e94a6ac2792b816b65a0",
+      "width": 1600
+    },
+    {
+      "bytes": 2308875,
+      "height": 1200,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_LakeLandscape.png",
+      "sha256": "6ec5441d2b21fc8b0862b41b150fec693afb17d18523efc544702db10e0888a3",
+      "width": 1600
+    },
+    {
+      "bytes": 2905483,
+      "height": 1200,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_ParkingExport.png",
+      "sha256": "f61c3ef2e6e85e0c5c006c67a32f8077ea872a8c061483e1d4813e8a55466df0",
+      "width": 1600
+    },
+    {
+      "bytes": 2868868,
+      "height": 1200,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_RearExport.png",
+      "sha256": "82d7532e6b9b27ff97a22e2bd1e8c3090b21d292a838261b2146e45495ece472",
+      "width": 1600
+    }
+  ],
+  "schema": "HospitalExterior.Stage05S.RoundS5.BuildAudit.v1",
+  "status": "READY_FOR_REVIEW",
+  "validation": {
+    "checks_failed": 0,
+    "checks_passed": 87,
+    "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_Validation.json",
+    "result": "PASS"
+  }
+}

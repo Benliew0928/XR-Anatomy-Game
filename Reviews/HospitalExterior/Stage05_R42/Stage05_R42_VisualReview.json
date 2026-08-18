@@ -1,0 +1,75 @@
+{
+  "schema": "HospitalExterior.Stage05.R42.VisualReview.v1",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "ten_zone_alignment",
+      "pass": true,
+      "detail": "Front, left, right, rear, roof and aerial views show one aligned hospital with no displaced zone, doubled shell, scale change or visible origin seam."
+    },
+    {
+      "name": "protected_floor_bands",
+      "pass": true,
+      "detail": "The seven continuous horizontal band levels and their corner returns remain visible and consistently aligned across the tower."
+    },
+    {
+      "name": "right_wing_rear_closure",
+      "pass": true,
+      "detail": "Right and rear views retain the enclosed right-wing/service return and the loading/service elevation remains coherent."
+    },
+    {
+      "name": "glass_and_interior_shell",
+      "pass": true,
+      "detail": "Glass remains separated and transparent, with mullions readable and the independently loaded interior shell providing depth without obscuring the exterior."
+    },
+    {
+      "name": "entrance_and_player_eye",
+      "pass": true,
+      "detail": "Entrance and 1.7 m player-eye views retain the door assembly, curved curtain wall, canopy, signage, lobby depth and plausible architectural scale."
+    },
+    {
+      "name": "roof_and_aerial",
+      "pass": true,
+      "detail": "Roof and aerial views retain the parapet loop, recessed roof, screened/headhouse elements and the approved overall massing."
+    },
+    {
+      "name": "unity_material_baseline",
+      "pass": true,
+      "detail": "The controlled URP material baseline preserves the approved clean white/grey, charcoal, blue-grey glass, warm interior and bronze accents without unresolved pink materials or sorting artifacts."
+    }
+  ],
+  "images": [
+    {
+      "file": "Stage05_R42_Unity_Front.png",
+      "sha256": "c4e88b3dedc186bbba22497ad507521b3dd6d88ffaee2ccabe1cc7601bb1d193"
+    },
+    {
+      "file": "Stage05_R42_Unity_Left.png",
+      "sha256": "2cf329e0f7c51018a9a89f086ff5473c2dc295615ba01ddfbf6d47bf8e629931"
+    },
+    {
+      "file": "Stage05_R42_Unity_Right.png",
+      "sha256": "530987eea0c8d477d1edd780965f9a42977384d962c4418b73a09bc53f13edc1"
+    },
+    {
+      "file": "Stage05_R42_Unity_Rear.png",
+      "sha256": "3670dfd0974faffb69b84cd31dc2c80c806af0d663e1d7dac0d32f3e4da19d86"
+    },
+    {
+      "file": "Stage05_R42_Unity_Roof.png",
+      "sha256": "b2af06992ba8020c953d819008a956829b7ff922431665b999166bfd4b67d362"
+    },
+    {
+      "file": "Stage05_R42_Unity_Entrance.png",
+      "sha256": "9f5c58ca9f151f3e72fc71e20990db691c5349174588bfdf78c5144d034f1c14"
+    },
+    {
+      "file": "Stage05_R42_Unity_Aerial.png",
+      "sha256": "677b3c5bba8f65709070032945309bc198c0abb961e2031513a7768e536d4743"
+    },
+    {
+      "file": "Stage05_R42_Unity_PlayerEye.png",
+      "sha256": "8ed0a6d1c8b456fb79529b9626f692c97e819132732a8c388ea6990b1369d535"
+    }
+  ]
+}

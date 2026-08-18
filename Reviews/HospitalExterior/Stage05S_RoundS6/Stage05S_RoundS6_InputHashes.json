@@ -1,0 +1,58 @@
+{
+    "schema": "HospitalExterior.Stage05S.S6.InputHashes.v1",
+    "status": "PASS",
+    "entries": [
+        {
+            "name": "Hospital_SITE_CoreRoadParking_R05B.fbx",
+            "value": "ed8403c9c43f0b7d1c58ecf492805afe1ac4a7f7b183408aafd2305fe1b3ddd3"
+        },
+        {
+            "name": "Hospital_SITE_GrassRuntimeAssets_R05B.fbx",
+            "value": "5820f307f4b503ee3cf1bbe0dfd16cd6a7b14423896dc40c60a6cb30c98927cd"
+        },
+        {
+            "name": "Hospital_SITE_LandscapeHardscape_R05B.fbx",
+            "value": "ce8a584e5734c78e21a797e8e9579d2e71a10b410194ff9cfb7a16e243aa1e0b"
+        },
+        {
+            "name": "Hospital_SITE_MainGate_R05B.fbx",
+            "value": "3a12ccb30a4b88b536b132473a461e0757ac70be3b409f3f3a04f563f67ff436"
+        },
+        {
+            "name": "Hospital_SITE_PerimeterFence_R05B.fbx",
+            "value": "d6955e8985d41f763bba8a7917968fc652af728e98d97106ea117054a19a0b2b"
+        },
+        {
+            "name": "Hospital_SITE_PropsVegetation_R05B.fbx",
+            "value": "586e32f82770d3d77c75253848065b88e000a695e50f11fe7abbf91ed91b1f0e"
+        },
+        {
+            "name": "Hospital_SITE_RearService_R05B.fbx",
+            "value": "cef0237c93db623acaec1c3a53e3cedeee84923d910149b4fde109444626214d"
+        },
+        {
+            "name": "GrassRuntimeSpec.json",
+            "value": "42705cd564b2415a167a5619ba8df302a4767f341d390a91e6e2ebd60549efbd"
+        },
+        {
+            "name": "Textures/Grass005/T_S05S_Grass005_BaseColor_2K.png",
+            "value": "c27fd2fb5bc29403545d08167fcb76271087c1fb1ffcbb63b9b3a4c47258f4f9"
+        },
+        {
+            "name": "Textures/Grass005/T_S05S_Grass005_NormalGL_2K.png",
+            "value": "64364bc8b3cec8c35a7f1c835e4158cbc32c2cf5dad59c06efa702012ac4911d"
+        },
+        {
+            "name": "Textures/Grass005/T_S05S_Grass005_Roughness_2K.png",
+            "value": "2e05a1d2895ee51a013ed4e5915a1767ff08c6bb342463d723ae4483eb46d462"
+        },
+        {
+            "name": "Textures/Grass005/T_S05S_Grass005_AO_2K.png",
+            "value": "efa6181b02fe9e1f1af52ee604e8ef890de6261ec6b4225d214c96acfef1a719"
+        },
+        {
+            "name": "Textures/Grass005/T_S05S_GrassCoverageMask_2K.png",
+            "value": "a29be4234cde0094c67a2c1ac437f1722f35d4959bda4c369b80d21af2b39564"
+        }
+    ]
+}

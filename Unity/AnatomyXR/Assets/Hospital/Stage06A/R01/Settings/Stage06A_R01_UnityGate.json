@@ -1,0 +1,62 @@
+{
+    "schema": "HospitalExterior.Stage06A.R01.UnityGate.v1",
+    "status": "PASS",
+    "generated_utc": "2026-08-11T13:50:26.8654127Z",
+    "stage6a_status": "READY_FOR_HEADSET_REVIEW",
+    "disposition": "Technical harness gate passed. Physical Quest Link/Air Link review and explicit user approval are still required.",
+    "pass": true,
+    "headset_review_required": true,
+    "headset_performance_accepted": false,
+    "checks": [
+        {
+            "name": "frozen_input_manifest",
+            "detail": "PASS",
+            "pass": true
+        },
+        {
+            "name": "unity_openxr_contract",
+            "detail": "PASS",
+            "pass": true
+        },
+        {
+            "name": "frozen_eight_scene_build_settings",
+            "detail": "PASS",
+            "pass": true
+        },
+        {
+            "name": "input_action_contract",
+            "detail": "PASS",
+            "pass": true
+        },
+        {
+            "name": "minimal_floor_tracked_xr_rig",
+            "detail": "PASS",
+            "pass": true
+        },
+        {
+            "name": "separate_bootstrap_profile_scene",
+            "detail": "PASS",
+            "pass": true
+        },
+        {
+            "name": "exact_runtime_only_route_allowlist",
+            "detail": "PASS",
+            "pass": true
+        },
+        {
+            "name": "route_ground_and_head_clearance",
+            "detail": "PASS",
+            "pass": true
+        },
+        {
+            "name": "scene_profile_contract",
+            "detail": "PASS",
+            "pass": true
+        },
+        {
+            "name": "frozen_stage05s_runtime_contract",
+            "detail": "PASS",
+            "pass": true
+        }
+    ]
+}

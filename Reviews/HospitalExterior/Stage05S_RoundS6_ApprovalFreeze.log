@@ -1,0 +1,43 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.20f1 (c9ba695d4f07) revision 13220457'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 32472 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-benli" at "2026-08-11T12:23:19.7952275Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-08-11T12:23:19Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 90288, path: "C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              7dc327959fb646c187f57521f9e1366d
+  Correlation Id:          6cec87c15ff8fb8f7a7fb382c1d0430b
+  External correlation Id: 5804028738576820301
+  Machine Id:              K/xaE00r9U15jR2vrRRSBHB/pCQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-benli" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-benli-notifications" at "2026-08-11T12:23:19.8357052Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968468702908-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.20f1\Editor\Unity.exe
+-batchmode
+-quit
+-nographics
+-projectPath
+C:\CutMyBodyPlease\Unity\AnatomyXR
+-logFile
+C:\CutMyBodyPlease\Reviews\HospitalExterior\Stage05S_RoundS6_ApprovalFreeze.log
+-executeMethod
+CutMyBodyPlease.HospitalSite.Stage05S.Editor.HospitalStage05SRoundS6Validator.ValidateFinalGate
+Successfully changed project path to: C:\CutMyBodyPlease\Unity\AnatomyXR
+C:/CutMyBodyPlease/Unity/AnatomyXR
+Exiting without the bug reporter. Application will terminate with return code 1

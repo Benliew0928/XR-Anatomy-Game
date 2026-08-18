@@ -1,0 +1,115 @@
+{
+  "schema": "HospitalInterior.R03.S3A.Validation.v1",
+  "status": "PASS",
+  "blenderVersion": "5.1.2",
+  "passCount": 21,
+  "totalCount": 21,
+  "sourceSha256": "d8b8a4e9024cbfb96d91c316407fedb182fd49828fe34baa3194fed56f75a874",
+  "checks": [
+    {
+      "name": "source_path",
+      "pass": true,
+      "detail": "C:\\CutMyBodyPlease\\ArtSource\\Environment\\Blender\\HospitalInterior\\HospitalInterior_E01_Cabin_R03.blend"
+    },
+    {
+      "name": "metric_identity_scene",
+      "pass": true,
+      "detail": "system=METRIC; scale=1.0; revision=R03; stage=S3A"
+    },
+    {
+      "name": "approval_boundary",
+      "pass": true,
+      "detail": "status=DESIGN_CANDIDATE_AWAITING_USER_APPROVAL; runtimeAuthorized=False"
+    },
+    {
+      "name": "no_legacy_geometry",
+      "pass": true,
+      "detail": "libraries=0; objects=94"
+    },
+    {
+      "name": "separate_cabin_and_landing_roots",
+      "pass": true,
+      "detail": "cabin=True; landing=True"
+    },
+    {
+      "name": "stretcher_cabin_dimensions",
+      "pass": true,
+      "detail": "{'s3a_revision': 'R03', 's3a_stage': 'S3A', 'elevator_id': 'E01', 'outer_width_m': 2.35, 'outer_depth_m': 2.45, 'outer_height_m': 2.6, 'inner_width_m': 2.1, 'inner_depth_m': 2.2, 'door_clear_width_m': 1.2, 'door_clear_height_m': 2.2, 'design_direction': 'premium_clinical_future_hospital_stretcher'}"
+    },
+    {
+      "name": "approved_s1_left_core_fit",
+      "pass": true,
+      "detail": "approvedCoreX=0.000..6.000; approvedCoreZ=3.000..5.700; E01LeftCellX=0.000..3.000; cabinX=0.475..2.825; cabinZ=3.125..5.575"
+    },
+    {
+      "name": "walkable_flush_floor_and_threshold",
+      "pass": true,
+      "detail": "floor=True; threshold=True"
+    },
+    {
+      "name": "exact_floor_threshold_door_datum",
+      "pass": true,
+      "detail": "floorTop=0.110; thresholdTop=0.110; cabinDoorBottom=0.110; landingDoorBottom=0.110; landingClearHeight=2.200"
+    },
+    {
+      "name": "required_design_parts",
+      "pass": true,
+      "detail": "missing="
+    },
+    {
+      "name": "four_independent_center_opening_leaves",
+      "pass": true,
+      "detail": "S3A_R03_E01_CabinDoor_L,S3A_R03_E01_CabinDoor_R,S3A_R03_E01_LandingDoor_L,S3A_R03_E01_LandingDoor_R"
+    },
+    {
+      "name": "door_edge_details_baked_into_moving_leaves",
+      "pass": true,
+      "detail": "S3A_R03_E01_CabinDoor_L:2materials,S3A_R03_E01_CabinDoor_R:2materials,S3A_R03_E01_LandingDoor_L:2materials,S3A_R03_E01_LandingDoor_R:2materials"
+    },
+    {
+      "name": "nine_legible_control_commands",
+      "pass": true,
+      "detail": "buttons=9; labels=9"
+    },
+    {
+      "name": "single_cabin_practical_light",
+      "pass": true,
+      "detail": "count=1"
+    },
+    {
+      "name": "premium_clinical_material_roles",
+      "pass": true,
+      "detail": "missing="
+    },
+    {
+      "name": "source_mesh_uvs",
+      "pass": true,
+      "detail": "uv=70; meshes=70"
+    },
+    {
+      "name": "source_mesh_materials",
+      "pass": true,
+      "detail": "materials=70; meshes=70"
+    },
+    {
+      "name": "stretcher_clearance_proxy",
+      "pass": true,
+      "detail": "{'s3a_revision': 'R03', 's3a_stage': 'S3A', 'proxy_width_m': 0.8, 'proxy_length_m': 2.1, 'review_only': True}"
+    },
+    {
+      "name": "preintegration_fbx_exports",
+      "pass": true,
+      "detail": "HospitalInterior_E01_Cabin_R03.fbx:1321644,HospitalInterior_E01_LandingPortal_R03.fbx:291084"
+    },
+    {
+      "name": "six_design_review_renders",
+      "pass": true,
+      "detail": "01_S3A_E01_Landing_DoorsClosed.png:1718291,02_S3A_E01_Landing_DoorsOpen.png:1711555,03_S3A_E01_CabinInterior.png:1887416,04_S3A_E01_ControlPanelClose.png:1829824,05_S3A_E01_StretcherClearance.png:1704653,06_S3A_E01_MaterialsAndCeilingLight.png:1818485"
+    },
+    {
+      "name": "saved_file_has_no_review_camera",
+      "pass": true,
+      "detail": "cameras=0"
+    }
+  ]
+}

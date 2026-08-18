@@ -1,0 +1,265 @@
+{
+    "schema": "HospitalInterior.R03.S2.RuntimeGate.v1",
+    "status": "PASS",
+    "unityVersion": "6000.3.20f1",
+    "passCount": 48,
+    "totalCount": 48,
+    "route": [
+        "F00",
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F00"
+    ],
+    "loadedProductionScenes": [
+        "Exterior_Base",
+        "Exterior_Tower",
+        "Exterior_SidesService",
+        "Exterior_Interactions"
+    ],
+    "checks": [
+        {
+            "name": "bootstrap_references",
+            "pass": true,
+            "detail": "Contract, XROrigin, camera, and locomotion are assigned."
+        },
+        {
+            "name": "exact_production_scene_set",
+            "pass": true,
+            "detail": "Exterior_Base,Exterior_Tower,Exterior_SidesService,Exterior_Interactions"
+        },
+        {
+            "name": "no_shell_preview_or_site",
+            "pass": true,
+            "detail": "shell=False; site=False"
+        },
+        {
+            "name": "exterior_only_balcony_backers_hidden",
+            "pass": true,
+            "detail": "hidden=6; found=6; enabled=0"
+        },
+        {
+            "name": "overlapping_balcony_floor_skins_hidden",
+            "pass": true,
+            "detail": "hidden=6; found=6; enabled=0"
+        },
+        {
+            "name": "persistent_structural_storey_separation",
+            "pass": true,
+            "detail": "undersides=S2_R03_StructuralUnderside_F05,S2_R03_StructuralUnderside_F03,S2_R03_StructuralUnderside_F02,S2_R03_StructuralUnderside_F01,S2_R03_StructuralUnderside_F04,S2_R03_StructuralUnderside_F06"
+        },
+        {
+            "name": "single_review_camera_light_listener",
+            "pass": true,
+            "detail": "Exactly one bootstrap camera, light, and audio listener."
+        },
+        {
+            "name": "review_scale_and_controls",
+            "pass": true,
+            "detail": "eye=1.7; walk=2.0; sprint=4.0"
+        },
+        {
+            "name": "F00_single_active_floor",
+            "pass": true,
+            "detail": "F00"
+        },
+        {
+            "name": "F00_identity_and_visible_allowlist",
+            "pass": true,
+            "detail": "identity=True; labels=1; renderers=S2_R03_EmptySlab,S2_R03_FloorLabel"
+        },
+        {
+            "name": "F00_safe_walkable_arrival",
+            "pass": true,
+            "detail": "arrival=True; walkable=True; position=(3.00, 0.03, 1.90)"
+        },
+        {
+            "name": "F00_integration_seam_coverage",
+            "pass": true,
+            "detail": "approved F00 production-derived footprint"
+        },
+        {
+            "name": "F00_safety_boundary",
+            "pass": true,
+            "detail": "boundaryColliders=9"
+        },
+        {
+            "name": "F01_single_active_floor",
+            "pass": true,
+            "detail": "F01"
+        },
+        {
+            "name": "F01_identity_and_visible_allowlist",
+            "pass": true,
+            "detail": "identity=True; labels=1; renderers=S2_R03_EmptySlab,S2_R03_FloorLabel"
+        },
+        {
+            "name": "F01_safe_walkable_arrival",
+            "pass": true,
+            "detail": "arrival=True; walkable=True; position=(3.00, 5.83, 1.90)"
+        },
+        {
+            "name": "F01_integration_seam_coverage",
+            "pass": true,
+            "detail": "facade/balcony probes=(-35.80,0.00),(17.80,0.00),(0.00,16.80),(-29.99,-16.50)"
+        },
+        {
+            "name": "F01_safety_boundary",
+            "pass": true,
+            "detail": "boundaryColliders=7"
+        },
+        {
+            "name": "F02_single_active_floor",
+            "pass": true,
+            "detail": "F02"
+        },
+        {
+            "name": "F02_identity_and_visible_allowlist",
+            "pass": true,
+            "detail": "identity=True; labels=1; renderers=S2_R03_EmptySlab,S2_R03_FloorLabel"
+        },
+        {
+            "name": "F02_safe_walkable_arrival",
+            "pass": true,
+            "detail": "arrival=True; walkable=True; position=(3.00, 9.73, 1.90)"
+        },
+        {
+            "name": "F02_integration_seam_coverage",
+            "pass": true,
+            "detail": "facade/balcony probes=(-35.80,0.00),(17.80,0.00),(0.00,16.80),(-29.99,-16.50)"
+        },
+        {
+            "name": "F02_safety_boundary",
+            "pass": true,
+            "detail": "boundaryColliders=7"
+        },
+        {
+            "name": "F03_single_active_floor",
+            "pass": true,
+            "detail": "F03"
+        },
+        {
+            "name": "F03_identity_and_visible_allowlist",
+            "pass": true,
+            "detail": "identity=True; labels=1; renderers=S2_R03_EmptySlab,S2_R03_FloorLabel"
+        },
+        {
+            "name": "F03_safe_walkable_arrival",
+            "pass": true,
+            "detail": "arrival=True; walkable=True; position=(3.00, 13.63, 1.90)"
+        },
+        {
+            "name": "F03_integration_seam_coverage",
+            "pass": true,
+            "detail": "facade/balcony probes=(-35.80,0.00),(17.80,0.00),(0.00,16.80),(-29.99,-16.50)"
+        },
+        {
+            "name": "F03_safety_boundary",
+            "pass": true,
+            "detail": "boundaryColliders=7"
+        },
+        {
+            "name": "F04_single_active_floor",
+            "pass": true,
+            "detail": "F04"
+        },
+        {
+            "name": "F04_identity_and_visible_allowlist",
+            "pass": true,
+            "detail": "identity=True; labels=1; renderers=S2_R03_EmptySlab,S2_R03_FloorLabel"
+        },
+        {
+            "name": "F04_safe_walkable_arrival",
+            "pass": true,
+            "detail": "arrival=True; walkable=True; position=(3.00, 17.53, 1.90)"
+        },
+        {
+            "name": "F04_integration_seam_coverage",
+            "pass": true,
+            "detail": "facade/balcony probes=(-35.80,0.00),(17.80,0.00),(0.00,16.80),(-29.99,-16.50)"
+        },
+        {
+            "name": "F04_safety_boundary",
+            "pass": true,
+            "detail": "boundaryColliders=7"
+        },
+        {
+            "name": "F05_single_active_floor",
+            "pass": true,
+            "detail": "F05"
+        },
+        {
+            "name": "F05_identity_and_visible_allowlist",
+            "pass": true,
+            "detail": "identity=True; labels=1; renderers=S2_R03_EmptySlab,S2_R03_FloorLabel"
+        },
+        {
+            "name": "F05_safe_walkable_arrival",
+            "pass": true,
+            "detail": "arrival=True; walkable=True; position=(3.00, 21.43, 1.90)"
+        },
+        {
+            "name": "F05_integration_seam_coverage",
+            "pass": true,
+            "detail": "facade/balcony probes=(-35.80,0.00),(17.80,0.00),(0.00,16.80),(-29.99,-16.50)"
+        },
+        {
+            "name": "F05_safety_boundary",
+            "pass": true,
+            "detail": "boundaryColliders=7"
+        },
+        {
+            "name": "F06_single_active_floor",
+            "pass": true,
+            "detail": "F06"
+        },
+        {
+            "name": "F06_identity_and_visible_allowlist",
+            "pass": true,
+            "detail": "identity=True; labels=1; renderers=S2_R03_EmptySlab,S2_R03_FloorLabel"
+        },
+        {
+            "name": "F06_safe_walkable_arrival",
+            "pass": true,
+            "detail": "arrival=True; walkable=True; position=(3.00, 25.33, 1.90)"
+        },
+        {
+            "name": "F06_integration_seam_coverage",
+            "pass": true,
+            "detail": "facade/balcony probes=(-35.80,0.00),(17.80,0.00),(0.00,16.80),(-29.99,-16.50)"
+        },
+        {
+            "name": "F06_safety_boundary",
+            "pass": true,
+            "detail": "boundaryColliders=7"
+        },
+        {
+            "name": "F00_single_active_floor",
+            "pass": true,
+            "detail": "F00"
+        },
+        {
+            "name": "F00_identity_and_visible_allowlist",
+            "pass": true,
+            "detail": "identity=True; labels=1; renderers=S2_R03_EmptySlab,S2_R03_FloorLabel"
+        },
+        {
+            "name": "F00_safe_walkable_arrival",
+            "pass": true,
+            "detail": "arrival=True; walkable=True; position=(3.00, 0.03, 1.90)"
+        },
+        {
+            "name": "F00_integration_seam_coverage",
+            "pass": true,
+            "detail": "approved F00 production-derived footprint"
+        },
+        {
+            "name": "F00_safety_boundary",
+            "pass": true,
+            "detail": "boundaryColliders=9"
+        }
+    ]
+}

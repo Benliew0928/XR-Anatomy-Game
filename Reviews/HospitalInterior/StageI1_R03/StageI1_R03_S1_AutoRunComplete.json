@@ -1,0 +1,14 @@
+{
+    "schema": "HospitalInterior.R03.S1.AutoRun.v1",
+    "status": "AUTOMATED_PASS_PENDING_USER_VISUAL_REVIEW",
+    "unityVersion": "6000.3.20f1",
+    "completedSteps": [
+        "integration_scene_built",
+        "static_gate_passed",
+        "windows_player_built",
+        "runtime_gate_passed",
+        "four_view_evidence_captured",
+        "post_build_static_regression_passed"
+    ],
+    "error": ""
+}

@@ -1,0 +1,292 @@
+{
+    "schema": "HospitalInterior.R03.S3C.RuntimeGate.v1",
+    "status": "PASS",
+    "unityVersion": "6000.3.20f1",
+    "passCount": 39,
+    "totalCount": 39,
+    "route": [
+        "F00",
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F00"
+    ],
+    "loadedProductionScenes": [
+        "Exterior_Base",
+        "Exterior_Tower",
+        "Exterior_SidesService",
+        "Exterior_Interactions"
+    ],
+    "travelRecords": [
+        {
+            "origin": "F00",
+            "destination": "F01",
+            "accepted": true,
+            "exactDatum": true,
+            "oneActiveFloor": true,
+            "passengerStayedInCabin": true,
+            "finalCabinElevationM": 5.800000190734863,
+            "passengerDriftM": 1.341104507446289e-7
+        },
+        {
+            "origin": "F01",
+            "destination": "F02",
+            "accepted": true,
+            "exactDatum": true,
+            "oneActiveFloor": true,
+            "passengerStayedInCabin": true,
+            "finalCabinElevationM": 9.699999809265137,
+            "passengerDriftM": 3.427267074584961e-7
+        },
+        {
+            "origin": "F02",
+            "destination": "F03",
+            "accepted": true,
+            "exactDatum": true,
+            "oneActiveFloor": true,
+            "passengerStayedInCabin": true,
+            "finalCabinElevationM": 13.600000381469727,
+            "passengerDriftM": 0.0
+        },
+        {
+            "origin": "F03",
+            "destination": "F04",
+            "accepted": true,
+            "exactDatum": true,
+            "oneActiveFloor": true,
+            "passengerStayedInCabin": true,
+            "finalCabinElevationM": 17.5,
+            "passengerDriftM": 0.000001430511474609375
+        },
+        {
+            "origin": "F04",
+            "destination": "F05",
+            "accepted": true,
+            "exactDatum": true,
+            "oneActiveFloor": true,
+            "passengerStayedInCabin": true,
+            "finalCabinElevationM": 21.399999618530275,
+            "passengerDriftM": 0.0
+        },
+        {
+            "origin": "F05",
+            "destination": "F06",
+            "accepted": true,
+            "exactDatum": true,
+            "oneActiveFloor": true,
+            "passengerStayedInCabin": true,
+            "finalCabinElevationM": 25.299999237060548,
+            "passengerDriftM": 0.0
+        },
+        {
+            "origin": "F06",
+            "destination": "F00",
+            "accepted": true,
+            "exactDatum": true,
+            "oneActiveFloor": true,
+            "passengerStayedInCabin": true,
+            "finalCabinElevationM": 0.0,
+            "passengerDriftM": 0.0
+        }
+    ],
+    "checks": [
+        {
+            "name": "bootstrap_references",
+            "pass": true,
+            "detail": "Contract, travel controller, rig, shaft, aperture, observation cabin, and obstruction proxy are assigned."
+        },
+        {
+            "name": "exact_production_scene_set",
+            "pass": true,
+            "detail": "Exterior_Base,Exterior_Tower,Exterior_SidesService,Exterior_Interactions"
+        },
+        {
+            "name": "no_s2_or_s3b_review_controller",
+            "pass": true,
+            "detail": "S3C is the only active floor-travel review system."
+        },
+        {
+            "name": "locked_s3b_shaft_and_sweep",
+            "pass": true,
+            "detail": "shaftInnerX=0.400..2.900; shaftInnerZ=3.000..5.650; runningClearanceL/R/F/R=0.075/0.075/0.125/0.075; vertical=-0.200..28.830; baseClearance=0.090; F06Overrun=1.040; wallsContinuous=True; spandrels=7; rails=2; centerline=(1.650,4.350); shaftInnerX=0.400..2.900; shaftInnerZ=3.000..5.650; runningClearanceL/R/F/R=0.075/0.075/0.125/0.075; vertical=-0.200..28.830; baseClearance=0.090; F06Overrun=1.040; wall=0.075; guideRail=0.040; base=0.090; F06Top=0.940"
+        },
+        {
+            "name": "locked_glass_observation_design",
+            "pass": true,
+            "detail": "glassPanels=11/11; frameMembers=42/42; transparentMaterials=True; nonCollidingFrames=True; glassShadowsOff=True; name=MAT_S3B_R03_ShaftGlass; shader=Universal Render Pipeline/Lit; alpha=-1.000; queue=3000; transparentKeyword=True; glassWalls=3/3; protectionPanels=3/3; frames=10/10; transparent=True; protected=True; nonCollidingFrames=True; safetyBoundary=True; glassShadowsOff=True; sightline=True; glassTop=2.390; protectionTop=0.900; clearViewHeight=1.490; alpha=-1.000; queue=3000; cabinBoundsX=0.475..2.825; cabinBoundsZ=3.116..5.575; innerShaftX=0.400..2.900; innerShaftZ=3.000..5.650; clearanceL/R/F/R=0.075/0.075/0.116/0.075"
+        },
+        {
+            "name": "seven_floor_door_controllers",
+            "pass": true,
+            "detail": "controllers=7"
+        },
+        {
+            "name": "single_initial_floor_and_aperture",
+            "pass": true,
+            "detail": "floor=F00; found=True; renderMesh=HospitalInterior_S3B_R03_F00_ShaftCutSlab; collisionMesh=HospitalInterior_S3B_R03_F00_ShaftCutSlab; vertices=68; triangles=34; holeX=0.300..3.000; holeZ=3.000..5.700; intrusions=False"
+        },
+        {
+            "name": "exterior_runtime_suppression_preserved",
+            "pass": true,
+            "detail": "backers=6; skins=6"
+        },
+        {
+            "name": "exterior_base_f00_hoistway_aperture_applied",
+            "pass": true,
+            "detail": "target=UE_EXT_GlobalStructure_OPAQUE_ALL_02; mesh=HospitalInterior_S3C_R03_ExteriorGlobalStructure02_ShaftCut; opening=X 0.300..3.000 Z 3.000..5.700"
+        },
+        {
+            "name": "all_physical_controls_route_to_s3c",
+            "pass": true,
+            "detail": "buttons=16"
+        },
+        {
+            "name": "outside_cabin_and_invalid_requests_rejected",
+            "pass": true,
+            "detail": "Invalid floor request: F99."
+        },
+        {
+            "name": "passenger_physically_inside_cabin_before_route",
+            "pass": true,
+            "detail": "(1.650, 0.030, 4.000)"
+        },
+        {
+            "name": "obstruction_rejects_travel",
+            "pass": true,
+            "detail": "Travel rejected because the doorway is obstructed."
+        },
+        {
+            "name": "F01_travel_endpoint",
+            "pass": true,
+            "detail": "committed=F01; active=F01; cabin=5.800; doors=1; markers=F01; passenger=True; indicator=F01"
+        },
+        {
+            "name": "F01_noncurrent_landings_locked",
+            "pass": true,
+            "detail": "all six non-current landing pairs are closed and collidable"
+        },
+        {
+            "name": "F02_travel_endpoint",
+            "pass": true,
+            "detail": "committed=F02; active=F02; cabin=9.700; doors=1; markers=F02; passenger=True; indicator=F02"
+        },
+        {
+            "name": "F02_noncurrent_landings_locked",
+            "pass": true,
+            "detail": "all six non-current landing pairs are closed and collidable"
+        },
+        {
+            "name": "F03_travel_endpoint",
+            "pass": true,
+            "detail": "committed=F03; active=F03; cabin=13.600; doors=1; markers=F03; passenger=True; indicator=F03"
+        },
+        {
+            "name": "F03_noncurrent_landings_locked",
+            "pass": true,
+            "detail": "all six non-current landing pairs are closed and collidable"
+        },
+        {
+            "name": "F04_travel_endpoint",
+            "pass": true,
+            "detail": "committed=F04; active=F04; cabin=17.500; doors=1; markers=F04; passenger=True; indicator=F04"
+        },
+        {
+            "name": "F04_noncurrent_landings_locked",
+            "pass": true,
+            "detail": "all six non-current landing pairs are closed and collidable"
+        },
+        {
+            "name": "F05_travel_endpoint",
+            "pass": true,
+            "detail": "committed=F05; active=F05; cabin=21.400; doors=1; markers=F05; passenger=True; indicator=F05"
+        },
+        {
+            "name": "F05_noncurrent_landings_locked",
+            "pass": true,
+            "detail": "all six non-current landing pairs are closed and collidable"
+        },
+        {
+            "name": "F06_travel_endpoint",
+            "pass": true,
+            "detail": "committed=F06; active=F06; cabin=25.300; doors=1; markers=F06; passenger=True; indicator=F06"
+        },
+        {
+            "name": "F06_noncurrent_landings_locked",
+            "pass": true,
+            "detail": "all six non-current landing pairs are closed and collidable"
+        },
+        {
+            "name": "F00_travel_endpoint",
+            "pass": true,
+            "detail": "committed=F00; active=F00; cabin=0.000; doors=1; markers=F00; passenger=True; indicator=F00"
+        },
+        {
+            "name": "F00_noncurrent_landings_locked",
+            "pass": true,
+            "detail": "all six non-current landing pairs are closed and collidable"
+        },
+        {
+            "name": "required_f00_f06_f00_route_complete",
+            "pass": true,
+            "detail": "F00 -> F01 -> F02 -> F03 -> F04 -> F05 -> F06 -> F00"
+        },
+        {
+            "name": "passenger_never_teleported_to_s2_anchor",
+            "pass": true,
+            "detail": "maximum cabin-relative drift=0.0000 m"
+        },
+        {
+            "name": "correct_cabin_indicator_after_route",
+            "pass": true,
+            "detail": "F00"
+        },
+        {
+            "name": "same_floor_request_reopens",
+            "pass": true,
+            "detail": "E01 reopened at F00."
+        },
+        {
+            "name": "busy_request_rejected",
+            "pass": true,
+            "detail": "Arrived safely at F01."
+        },
+        {
+            "name": "cancellation_rolls_back_to_committed_floor",
+            "pass": true,
+            "detail": "committed=F00; active=F00; cabin=0.000; doors=1; markers=F00"
+        },
+        {
+            "name": "load_failure_rolls_back_without_motion",
+            "pass": true,
+            "detail": "committed=F00; active=F00; cabin=0.000; doors=1; markers=F00"
+        },
+        {
+            "name": "failed_rollback_enters_enclosed_faulted_safe",
+            "pass": true,
+            "detail": "Rollback failed after: Travel cancelled during motion."
+        },
+        {
+            "name": "review_only_fault_recovery",
+            "pass": true,
+            "detail": "committed=F00; active=F00; cabin=0.000; doors=1; markers=F00"
+        },
+        {
+            "name": "landing_call_reopens_present_and_rejects_inactive_remote",
+            "pass": true,
+            "detail": "Landing call rejected because F06 is not the active floor."
+        },
+        {
+            "name": "door_timing_and_clearance_preserved",
+            "pass": true,
+            "detail": "open/dwell/close=1.2/4.0/1.2; clear=1.205"
+        },
+        {
+            "name": "review_scale_and_controls",
+            "pass": true,
+            "detail": "eye=1.7; walk=2.0; sprint=4.0"
+        }
+    ]
+}

@@ -1,0 +1,301 @@
+{
+  "affected_objects": [
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_01_BottomRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_01_HeadRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_01_Stile_L",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_01_Stile_R",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_02_BottomRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_02_HeadRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_02_Stile_L",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_02_Stile_R",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_03_BottomRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_03_HeadRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_03_Stile_L",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_03_Stile_R",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_04_BottomRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_04_HeadRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_04_Stile_L",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_INNER_SlidingLeaf_04_Stile_R",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_01_BottomRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_01_HeadRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_01_Stile_L",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_01_Stile_R",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_02_BottomRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_02_HeadRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_02_Stile_L",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_02_Stile_R",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_03_BottomRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_03_HeadRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_03_Stile_L",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_03_Stile_R",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_04_BottomRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.205159013298429e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_04_HeadRail",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_04_Stile_L",
+      "triangles": 188
+    },
+    {
+      "area_le_1e-06": 32,
+      "area_le_1e-08": 0,
+      "area_le_1e-10": 0,
+      "area_le_1e-12": 0,
+      "minimum_area": 5.204892130069065e-07,
+      "object": "UE_S03B_DOOR_OUTER_SlidingLeaf_04_Stile_R",
+      "triangles": 188
+    }
+  ],
+  "fbx": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05_R41_Input\\Hospital_ACT_InteractiveDoors.fbx",
+  "schema": "HospitalExterior.Stage05.FbxDegenerateDiagnostic.v1",
+  "threshold_counts": {
+    "area_le_1e-06": 1024,
+    "area_le_1e-08": 0,
+    "area_le_1e-10": 0,
+    "area_le_1e-12": 0
+  },
+  "triangles": 6160
+}

@@ -1,0 +1,45 @@
+{
+    "schema": "HospitalInterior.R03.S2.EvidenceRecord.v1",
+    "status": "CAPTURED_PENDING_USER_VISUAL_REVIEW",
+    "unityVersion": "6000.3.20f1",
+    "files": [
+        "01_S2_F00_ElevatorArrival.png",
+        "02_S2_F01_ElevatorArrival.png",
+        "03_S2_F02_ElevatorArrival.png",
+        "04_S2_F03_ElevatorArrival.png",
+        "05_S2_F04_ElevatorArrival.png",
+        "06_S2_F05_ElevatorArrival.png",
+        "07_S2_F06_ElevatorArrival.png",
+        "08_S2_F01_BalconySeam_Corrected.png",
+        "09_S2_F01_MainGlassSeam_Corrected.png",
+        "10_S2_F01_StackSeparation_Corrected.png",
+        "11_S2_F04_BalconyJunction_Smoothed.png"
+    ],
+    "sha256": [
+        "7e12075391dd0db68970f462170587c759d66472540ec26ac328ed84748decfa",
+        "21d09252ff31a3fe132a2847b0ebd85508bcb6b08b5f7edf69c84365ecc4f791",
+        "3bfa3c10fe7b7b977d6c279c4db16715894f221fb652a1664d4cd9e8cf083235",
+        "96787efe30bb7271d1510acb07fc65cecbdbf92e9ba75d450389b211d820215a",
+        "e68f73dc88aa352562c97bf6ea3a1f2926a2ec9f4af4563f37ae5dd1c2c40e49",
+        "64608dd70fbd1b91f70b6c9ea4aa78c58971772bb9e9d514f51556733da1a9ba",
+        "72d42eae38a1ea61ab810215f2aac25fd57ee2e7af5521462ac600bda7618330",
+        "f10fb3fafeec0e258a1187d42ebe12d22f1a40971f3f0894977a19dba38d4a93",
+        "9bab717aa732d3c742f9768fc54d2238de422c4db93237c0822dc768361b962d",
+        "d3c2ae563ce650201f46ee73b9143360fd45ad2af303d49ed1b3936970ff097e",
+        "1c90bf2ca1d2ebc7fd046f5218751c602d8e6b966d268f1e421acaef95c19421"
+    ],
+    "bytes": [
+        212139,
+        313029,
+        309546,
+        310038,
+        308700,
+        309723,
+        294357,
+        252767,
+        401221,
+        138235,
+        445160
+    ],
+    "note": "Images 01-07 are captured from the corresponding E01 arrival anchors. Images 08-09 verify the corrected F01 balcony and main-glass facade seams; image 10 verifies persistent structural storey separation; image 11 verifies the smoothed F04 balcony floor/soffit junction with duplicate exterior floor skins and exterior-only backers suppressed. Protected exterior sources remain unchanged; the floor-scene allowlist remains one slab plus one Fxx label."
+}

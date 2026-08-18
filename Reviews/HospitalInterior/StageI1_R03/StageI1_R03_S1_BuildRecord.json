@@ -1,0 +1,23 @@
+{
+    "schema": "HospitalInterior.R03.S1.BuildRecord.v1",
+    "status": "PLAYER_BUILT_RUNTIME_GATE_PASS_USER_APPROVED",
+    "unityVersion": "6000.3.20f1",
+    "bootstrapScene": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S1_R03_Integration_SIM_LOCAL.unity",
+    "productionScenes": [
+        "Assets/Hospital/Scenes/Additive/Exterior_Base.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Tower.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity"
+    ],
+    "playerScenes": [
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S1_R03_Integration_SIM_LOCAL.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Base.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Tower.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity"
+    ],
+    "playerExecutable": "C:\\CutMyBodyPlease\\Exports\\HospitalInterior\\StageI1_R03_S1_AutoGate\\HospitalInterior_S1_R03_Review.exe",
+    "editorBuildSettingsSha256": "62889469c318a93430e41e1fc2f6c7df1fade301520199388d3725f58972a5bb",
+    "editorBuildSettingsUntouched": true,
+    "note": "R03 S1 contains diagnostic datums only and was user-approved on 2026-08-15 00:56:30 +08:00. S2-S8 remain unimplemented; S2 planning is permitted."
+}

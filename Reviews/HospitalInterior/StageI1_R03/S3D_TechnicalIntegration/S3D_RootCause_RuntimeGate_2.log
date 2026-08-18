@@ -1,0 +1,161 @@
+Mono path[0] = 'C:/CutMyBodyPlease/Exports/HospitalInterior/StageI1_R03_S3D_TechnicalIntegration/HospitalInterior_S3D_R03_TechnicalIntegration_Data/Managed'
+Mono config path = 'C:/CutMyBodyPlease/Exports/HospitalInterior/StageI1_R03_S3D_TechnicalIntegration/MonoBleedingEdge/etc'
+Found 2 interfaces on host : 0) 192.168.56.1 1) 203.0.144.52
+Player connection [62172]  Target information:
+
+Player connection [62172]  * "[IP] 192.168.56.1 [Port] 55000 [Flags] 2 [Guid] 2912485311 [EditorId] 1755933242 [Version] 1048832 [Id] WindowsPlayer(2,Ben0928) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] Anatomy XR Hospital" 
+
+Player connection [62172]  * "[IP] 203.0.144.52 [Port] 55000 [Flags] 2 [Guid] 2912485311 [EditorId] 1755933242 [Version] 1048832 [Id] WindowsPlayer(2,Ben0928) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] Anatomy XR Hospital" 
+
+Player connection [62172] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.20f1 (c9ba695d4f07)
+[Subsystems] Discovering subsystems at path C:/CutMyBodyPlease/Exports/HospitalInterior/StageI1_R03_S3D_TechnicalIntegration/HospitalInterior_S3D_R03_TechnicalIntegration_Data/UnitySubsystems
+[Subsystems] No descriptors matched for  examples in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json.
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+[XR] [62172] [14:22:31.888][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [62172] [14:22:31.889][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [62172] [14:22:31.889][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [62172] [14:22:31.889][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [62172] [14:22:31.889][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [62172] [14:22:31.889][Info   ] Available Layers: (0)
+[XR] [62172] [14:22:31.889][Error  ] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5920 MB
+    Driver:   32.0.15.9595
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.101 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+XRGeneral Settings awakening...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+UnityEngine.XR.Management.XRGeneralSettings:Awake () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:86)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[XR] Time interace not found - delta time prediction disabled.
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Display
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Input
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Display
+Loading OpenXR loader library at path: openxr_loader
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:LoadOpenXRSymbols () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/OpenXRLoader.cs:555)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:InitializeInternal () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/OpenXRLoader.cs:237)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Initialize () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/OpenXRLoader.cs:207)
+UnityEngine.XR.Management.XRManagerSettings:InitializeLoaderSync () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRManagerSettings.cs:177)
+UnityEngine.XR.Management.XRGeneralSettings:InitXRSDK () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:154)
+UnityEngine.XR.Management.XRGeneralSettings:AttemptInitializeXRSDKOnLoad () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:112)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[XR] [62172] [14:22:32.342][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[Subsystems] Loading plugin UnityOpenXR for subsystem OpenXR Display...
+[XR] [62172] [14:22:32.350][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [62172] [14:22:32.350][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [62172] [14:22:32.350][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [62172] [14:22:32.350][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [62172] [14:22:32.350][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [62172] [14:22:32.350][Info   ] Available Layers: (0)
+[XR] [62172] [14:22:32.350][Error  ] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE
+[Subsystems] Failed to initialize subsystem OpenXR Display [error: 1]
+[XR] [62172] [14:22:32.351][Error  ] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED
+[XR] [62172] [14:22:32.352][Info   ] 
+
+==== Start Unity OpenXR Diagnostic Report ====
+
+
+[XR] [62172] [14:22:32.352][Info   ] ==== Report Reason: System Shutdown ====
+
+
+[XR] [62172] [14:22:32.352][Info   ] ==== OpenXR Settings ====
+[XR] [62172] [14:22:32.352][Info   ] 
+[XR] [62172] [14:22:32.352][Info   ] Symmetric Projection: False
+[XR] [62172] [14:22:32.352][Info   ] Stereo Rendering Mode: SinglePassInstanced
+[XR] [62172] [14:22:32.352][Info   ] Latency Optimization: PrioritizeRendering
+[XR] [62172] [14:22:32.352][Info   ] Color Submission Modes: kRenderTextureFormatGroup8888
+[XR] [62172] [14:22:32.352][Info   ] Depth Submission Mode: None
+[XR] [62172] [14:22:32.352][Info   ] Space Warp Motion Vector Texture Format: RGBA16f
+[XR] [62172] [14:22:32.352][Info   ] Optimize Buffer Discards: False
+[XR] [62172] [14:22:32.352][Info   ] Multiview Render Regions Optimization Mode: None
+[XR] [62172] [14:22:32.352][Info   ] Use OpenXR Predicted Time: True
+[XR] [62172] [14:22:32.352][Info   ] Foveated Rendering API: SRPFoveation
+[XR] [62172] [14:22:32.352][Info   ] 
+[XR] [62172] [14:22:32.352][Info   ] ==== OpenXR Provider Info ====
+[XR] [62172] [14:22:32.352][Info   ] 
+[XR] [62172] [14:22:32.352][Info   ] Provider Version: 324c489
+[XR] [62172] [14:22:32.352][Info   ] App: Anatomy XR Hospital #3118937138
+[XR] [62172] [14:22:32.352][Info   ] Engine: 6000.3.20f1 #87114753
+[XR] [62172] [14:22:32.352][Info   ] 
+[XR] [62172] [14:22:32.352][Info   ] ==== OpenXR Runtime Info ====
+[XR] [62172] [14:22:32.352][Info   ] 
+[XR] [62172] [14:22:32.352][Info   ] Available Layers: (0)
+[XR] [62172] [14:22:32.352][Info   ] 
+[XR] [62172] [14:22:32.352][Info   ] ==== Last 20 non-XR_SUCCESS returns ====
+[XR] [62172] [14:22:32.352][Info   ] [FAILURE] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE (6x)
+[XR] [62172] [14:22:32.352][Info   ] [FAILURE] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE (1x)
+[XR] [62172] [14:22:32.352][Info   ] [FAILURE] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED (1x)
+[XR] [62172] [14:22:32.352][Info   ] 
+[XR] [62172] [14:22:32.352][Info   ] ==== Last 20 Events ====
+[XR] [62172] [14:22:32.352][Info   ] 
+
+==== End Unity OpenXR Diagnostic Report ====
+
+
+<RI> Initializing input.
+Using Windows.Gaming.Input
+UnloadTime: 0.631500 ms
+HOSPITAL_INTERIOR_R03_S3C_FAULTED_SAFE: Rollback failed after: Travel cancelled during motion.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:LogError (object,UnityEngine.Object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:154)
+CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3ElevatorController:EnterFaultedSafe (string,bool) (at C:/CutMyBodyPlease/Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3ElevatorController.cs:701)
+CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3ElevatorController/<RecoverToCommitted>d__103:MoveNext () (at C:/CutMyBodyPlease/Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3ElevatorController.cs:446)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 154)
+
+HOSPITAL_INTERIOR_R03_S3D_RUNTIME_GATE=FAIL; 44/46; C:\CutMyBodyPlease\Reviews\HospitalInterior\StageI1_R03\S3D_TechnicalIntegration\StageI1_R03_S3D_RuntimeGate.json
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DIntegrationBootstrap/<RunAutoGate>d__63:MoveNext () (at C:/CutMyBodyPlease/Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DIntegrationBootstrap.cs:552)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+PlayerConnection::Cleanup

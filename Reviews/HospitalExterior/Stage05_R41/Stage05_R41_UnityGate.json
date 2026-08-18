@@ -1,0 +1,327 @@
+{
+    "schema": "HospitalExterior.Stage05.R41.UnityGate.v1",
+    "status": "PASS",
+    "pass": true,
+    "unity_editor": "6000.3.20f1",
+    "platform": "Windows x86_64 PC VR",
+    "xr_runtime": "OpenXR",
+    "headset_scope": "Meta Quest 2 / Quest 3 via Quest Link or Air Link; Android standalone excluded",
+    "acceptance_refresh_hz": 72,
+    "acceptance_frame_budget_ms": 13.890000343322754,
+    "preferred_refresh_hz": 90,
+    "preferred_frame_budget_ms": 11.109999656677246,
+    "renderer_count": 69,
+    "triangle_count": 117846,
+    "source_triangle_count": 118060,
+    "degenerate_triangles_discarded": 214,
+    "shared_material_assets": 30,
+    "used_material_assets": 20,
+    "door_roots": [
+        "UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT",
+        "UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT",
+        "UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT",
+        "UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT",
+        "UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT",
+        "UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT",
+        "UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT",
+        "UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT",
+        "UE_S03C_REAR_FireExit_B_Leaf_ROOT",
+        "UE_S03C_REAR_LoadingDoor_Leaf_ROOT",
+        "UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT",
+        "UE_S03C_ROOF_AccessDoor_Leaf_ROOT"
+    ],
+    "zones": [
+        {
+            "zone": "EXT_GlobalStructure",
+            "renderers": 5,
+            "expected_renderers": 5,
+            "triangles": 26864,
+            "source_triangles": 26864,
+            "expected_unity_triangles": 26864,
+            "degenerate_triangles_discarded": 0,
+            "bounds_center": [
+                0.0,
+                14.6850004196167,
+                0.0
+            ],
+            "bounds_size": [
+                73.19999694824219,
+                30.330005645751954,
+                38.999996185302737
+            ],
+            "expected_bounds_size": [
+                73.19999694824219,
+                30.329999923706056,
+                39.0
+            ],
+            "common_origin_transform": true
+        },
+        {
+            "zone": "EXT_GroundEntrance",
+            "renderers": 20,
+            "expected_renderers": 20,
+            "triangles": 84822,
+            "source_triangles": 85036,
+            "expected_unity_triangles": 84822,
+            "degenerate_triangles_discarded": 214,
+            "bounds_center": [
+                -0.08250045776367188,
+                3.1700007915496828,
+                -10.299999237060547
+            ],
+            "bounds_size": [
+                72.5250015258789,
+                6.3400044441223148,
+                45.0
+            ],
+            "expected_bounds_size": [
+                72.5250015258789,
+                6.340000152587891,
+                45.0
+            ],
+            "common_origin_transform": true
+        },
+        {
+            "zone": "ACT_InteractiveDoors",
+            "renderers": 44,
+            "expected_renderers": 44,
+            "triangles": 6160,
+            "source_triangles": 6160,
+            "expected_unity_triangles": 6160,
+            "degenerate_triangles_discarded": 0,
+            "bounds_center": [
+                -9.602500915527344,
+                16.17599868774414,
+                -2.8280029296875
+            ],
+            "bounds_size": [
+                48.43499755859375,
+                31.76799774169922,
+                40.41600036621094
+            ],
+            "expected_bounds_size": [
+                48.435001373291019,
+                31.76799964904785,
+                40.41600036621094
+            ],
+            "common_origin_transform": true
+        }
+    ],
+    "checks": [
+        {
+            "name": "unity_version",
+            "pass": true,
+            "detail": "expected=6000.3.20f1; actual=6000.3.20f1"
+        },
+        {
+            "name": "build_target",
+            "pass": true,
+            "detail": "StandaloneWindows64"
+        },
+        {
+            "name": "input_system_backend",
+            "pass": true,
+            "detail": "activeInputHandler=1"
+        },
+        {
+            "name": "urp_active",
+            "pass": true,
+            "detail": "Hospital_PCVR_URP"
+        },
+        {
+            "name": "windows_openxr_quest_profiles",
+            "pass": true,
+            "detail": "openxr_loader=True; only_loader=True; quest2_profile=True; quest3_profile=True; single_pass_instanced=True; init_on_start=True"
+        },
+        {
+            "name": "no_duplicate_xr_settings_folders",
+            "pass": true,
+            "detail": "none"
+        },
+        {
+            "name": "package_com.unity.render-pipelines.universal",
+            "pass": true,
+            "detail": "expected=17.3.0; actual=17.3.0"
+        },
+        {
+            "name": "package_com.unity.inputsystem",
+            "pass": true,
+            "detail": "expected=1.20.0; actual=1.20.0"
+        },
+        {
+            "name": "package_com.unity.xr.management",
+            "pass": true,
+            "detail": "expected=4.7.0; actual=4.7.0"
+        },
+        {
+            "name": "package_com.unity.xr.openxr",
+            "pass": true,
+            "detail": "expected=1.17.1; actual=1.17.1"
+        },
+        {
+            "name": "package_com.unity.xr.interaction.toolkit",
+            "pass": true,
+            "detail": "expected=3.5.1; actual=3.5.1"
+        },
+        {
+            "name": "project_input_manifest_copy",
+            "pass": true,
+            "detail": "76aa47b30456387c9de9750eb5b34adfa970ed459bbd638e1d899c4d9327a43e"
+        },
+        {
+            "name": "project_material_source_copy",
+            "pass": true,
+            "detail": "5840479cf56fa970680d8776929a0d6a5625f6211a89880a625f6d12161f40ac"
+        },
+        {
+            "name": "only_three_r41_fbx_imported",
+            "pass": true,
+            "detail": "Hospital_ACT_InteractiveDoors.fbx,Hospital_EXT_GlobalStructure.fbx,Hospital_EXT_GroundEntrance.fbx"
+        },
+        {
+            "name": "EXT_GlobalStructure_checksum",
+            "pass": true,
+            "detail": "e9a324bc88a54a702fd3a76c804d16afa696949ef6ba4bb6508589b0b8e1a055"
+        },
+        {
+            "name": "EXT_GlobalStructure_import_policy",
+            "pass": true,
+            "detail": "scale=1; cameras=False; lights=False; colliders=False; animation=False; bakedAxis=True"
+        },
+        {
+            "name": "EXT_GlobalStructure_no_embedded_material_assets",
+            "pass": true,
+            "detail": "embedded=0"
+        },
+        {
+            "name": "EXT_GlobalStructure_renderer_count",
+            "pass": true,
+            "detail": "expected=5; actual=5"
+        },
+        {
+            "name": "EXT_GlobalStructure_triangle_count",
+            "pass": true,
+            "detail": "source=26864; zero_area_discarded=0; expected_unity=26864; actual=26864"
+        },
+        {
+            "name": "EXT_GlobalStructure_bounds_size",
+            "pass": true,
+            "detail": "expected=(73.20, 30.33, 39.00); actual=(73.20, 30.33, 39.00); delta=(0.00, 0.00, 0.00)"
+        },
+        {
+            "name": "EXT_GlobalStructure_common_origin",
+            "pass": true,
+            "detail": "position=(0.00, 0.00, 0.00); rotation=(0.00, 0.00, 0.00); scale=(1.00, 1.00, 1.00)"
+        },
+        {
+            "name": "EXT_GroundEntrance_checksum",
+            "pass": true,
+            "detail": "dc29aa06f1d09ed1c7e767382fcfb39b6821e3f49158952feb193d27a934512c"
+        },
+        {
+            "name": "EXT_GroundEntrance_import_policy",
+            "pass": true,
+            "detail": "scale=1; cameras=False; lights=False; colliders=False; animation=False; bakedAxis=True"
+        },
+        {
+            "name": "EXT_GroundEntrance_no_embedded_material_assets",
+            "pass": true,
+            "detail": "embedded=0"
+        },
+        {
+            "name": "EXT_GroundEntrance_renderer_count",
+            "pass": true,
+            "detail": "expected=20; actual=20"
+        },
+        {
+            "name": "EXT_GroundEntrance_triangle_count",
+            "pass": true,
+            "detail": "source=85036; zero_area_discarded=214; expected_unity=84822; actual=84822"
+        },
+        {
+            "name": "EXT_GroundEntrance_bounds_size",
+            "pass": true,
+            "detail": "expected=(72.53, 6.34, 45.00); actual=(72.53, 6.34, 45.00); delta=(0.00, 0.00, 0.00)"
+        },
+        {
+            "name": "EXT_GroundEntrance_common_origin",
+            "pass": true,
+            "detail": "position=(0.00, 0.00, 0.00); rotation=(0.00, 0.00, 0.00); scale=(1.00, 1.00, 1.00)"
+        },
+        {
+            "name": "ACT_InteractiveDoors_checksum",
+            "pass": true,
+            "detail": "99ed517ff96389940343911076079726d2b146984262469731df175bd2c2f37f"
+        },
+        {
+            "name": "ACT_InteractiveDoors_import_policy",
+            "pass": true,
+            "detail": "scale=1; cameras=False; lights=False; colliders=False; animation=False; bakedAxis=True"
+        },
+        {
+            "name": "ACT_InteractiveDoors_no_embedded_material_assets",
+            "pass": true,
+            "detail": "embedded=0"
+        },
+        {
+            "name": "ACT_InteractiveDoors_renderer_count",
+            "pass": true,
+            "detail": "expected=44; actual=44"
+        },
+        {
+            "name": "ACT_InteractiveDoors_triangle_count",
+            "pass": true,
+            "detail": "source=6160; zero_area_discarded=0; expected_unity=6160; actual=6160"
+        },
+        {
+            "name": "ACT_InteractiveDoors_bounds_size",
+            "pass": true,
+            "detail": "expected=(48.44, 31.77, 40.42); actual=(48.44, 31.77, 40.42); delta=(0.00, 0.00, 0.00)"
+        },
+        {
+            "name": "ACT_InteractiveDoors_common_origin",
+            "pass": true,
+            "detail": "position=(0.00, 0.00, 0.00); rotation=(0.00, 0.00, 0.00); scale=(1.00, 1.00, 1.00)"
+        },
+        {
+            "name": "r41_renderer_allowance",
+            "pass": true,
+            "detail": "actual=69; expected=69; maximum=255"
+        },
+        {
+            "name": "r41_triangle_baseline",
+            "pass": true,
+            "detail": "source=118060; zero_area_discarded=214; expected_unity=117846; actual=117846"
+        },
+        {
+            "name": "normals_present",
+            "pass": true,
+            "detail": "missing=0"
+        },
+        {
+            "name": "uv0_present",
+            "pass": true,
+            "detail": "missing=0"
+        },
+        {
+            "name": "no_camera_light_collider_payload",
+            "pass": true,
+            "detail": "cameras=0; lights=0; colliders=0"
+        },
+        {
+            "name": "twelve_door_roots",
+            "pass": true,
+            "detail": "actual=12; names=UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT,UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT,UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT,UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT,UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT,UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT,UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT,UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT,UE_S03C_REAR_FireExit_B_Leaf_ROOT,UE_S03C_REAR_LoadingDoor_Leaf_ROOT,UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT,UE_S03C_ROOF_AccessDoor_Leaf_ROOT"
+        },
+        {
+            "name": "shared_material_library",
+            "pass": true,
+            "detail": "library_assets=30; used_unique=20; external_or_embedded="
+        },
+        {
+            "name": "sandbox_has_only_planned_zone_roots",
+            "pass": true,
+            "detail": "EXT_GlobalStructure,EXT_GroundEntrance,ACT_InteractiveDoors"
+        }
+    ]
+}

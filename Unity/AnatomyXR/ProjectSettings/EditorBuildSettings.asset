@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Hospital/Scenes/Additive/Exterior_Base.unity
+    guid: 51f59f18f774cd34f80828a1e34f5379
+  - enabled: 1
+    path: Assets/Hospital/Scenes/Additive/Exterior_Tower.unity
+    guid: 242709a263888b54f95f325b50ee883a
+  - enabled: 1
+    path: Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity
+    guid: ae7ee65fa88976d468daba74254ef4b0
+  - enabled: 1
+    path: Assets/Hospital/Scenes/Additive/Exterior_InteriorShellPreview.unity
+    guid: 4bc694e2739cc9c49b402cba22c7f315
+  - enabled: 1
+    path: Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity
+    guid: b9c79e62f417b714a9028c811250fa81
+  - enabled: 1
+    path: Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SiteCore.unity
+    guid: 9f9c32410f2154142992d036771e70ba
+  - enabled: 1
+    path: Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SitePerimeter.unity
+    guid: f7caee493515fb142ae744dceeb67dae
+  - enabled: 1
+    path: Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SiteLandscape.unity
+    guid: e54bf6ebdcca22644a805646b20b6540
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d54efd4665ab34742b750f386ac16965, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2269e0d3307f61742a4f8c45d914c72a, type: 2}
+  m_UseUCBPForAssetBundles: 0

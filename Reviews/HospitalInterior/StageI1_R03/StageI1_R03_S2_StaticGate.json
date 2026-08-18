@@ -1,0 +1,319 @@
+{
+    "schema": "HospitalInterior.R03.S2.StaticGate.v1",
+    "status": "PASS",
+    "unityVersion": "6000.3.20f1",
+    "passCount": 62,
+    "totalCount": 62,
+    "checks": [
+        {
+            "name": "unity_version",
+            "pass": true,
+            "detail": "6000.3.20f1"
+        },
+        {
+            "name": "protected_approved_s1_asset",
+            "pass": true,
+            "detail": "34 files protected; Unity-normalized=2"
+        },
+        {
+            "name": "protected_production_exterior",
+            "pass": true,
+            "detail": "4 files protected; Unity-normalized=0"
+        },
+        {
+            "name": "protected_editor_build_settings",
+            "pass": true,
+            "detail": "1 files protected; Unity-normalized=0"
+        },
+        {
+            "name": "protected_r40_authority",
+            "pass": true,
+            "detail": "1 files protected; Unity-normalized=0"
+        },
+        {
+            "name": "s1_diagnostic_material_semantics",
+            "pass": true,
+            "detail": "Shader, colors, transparency, and depth-write semantics unchanged."
+        },
+        {
+            "name": "s1_and_s2_contracts",
+            "pass": true,
+            "detail": "s1=True; s2=True"
+        },
+        {
+            "name": "protected_production_scene_contract",
+            "pass": true,
+            "detail": "Assets/Hospital/Scenes/Additive/Exterior_Base.unity,Assets/Hospital/Scenes/Additive/Exterior_Tower.unity,Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity,Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity"
+        },
+        {
+            "name": "seven_unique_floor_records",
+            "pass": true,
+            "detail": "F00=Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F00_Empty.unity,F01=Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F01_Empty.unity,F02=Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F02_Empty.unity,F03=Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F03_Empty.unity,F04=Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F04_Empty.unity,F05=Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F05_Empty.unity,F06=Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F06_Empty.unity"
+        },
+        {
+            "name": "s1_datums_copied_exactly",
+            "pass": true,
+            "detail": "F00=0.00,F01=5.80,F02=9.70,F03=13.60,F04=17.50,F05=21.40,F06=25.30"
+        },
+        {
+            "name": "review_contract",
+            "pass": true,
+            "detail": "initial=F00; eye=1.7; walk=2; sprint=4"
+        },
+        {
+            "name": "bootstrap_scene_exists",
+            "pass": true,
+            "detail": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_EmptyFloors_SIM_LOCAL.unity"
+        },
+        {
+            "name": "bootstrap_identity_and_references",
+            "pass": true,
+            "detail": "roots=1; loaders=1; references=True"
+        },
+        {
+            "name": "bootstrap_unique_review_services",
+            "pass": true,
+            "detail": "cameras=1; lights=1; listeners=1; locomotion=1"
+        },
+        {
+            "name": "bootstrap_has_no_s1_diagnostics",
+            "pass": true,
+            "detail": "none"
+        },
+        {
+            "name": "bootstrap_contains_no_floor_content",
+            "pass": true,
+            "detail": "No floor-scene marker is persistent; floor scenes are loaded manually at runtime."
+        },
+        {
+            "name": "bootstrap_persistent_structural_storey_separation",
+            "pass": true,
+            "detail": "undersides=S2_R03_StructuralUnderside_F01,S2_R03_StructuralUnderside_F02,S2_R03_StructuralUnderside_F03,S2_R03_StructuralUnderside_F04,S2_R03_StructuralUnderside_F05,S2_R03_StructuralUnderside_F06"
+        },
+        {
+            "name": "bootstrap_balcony_junction_material_continuity",
+            "pass": true,
+            "detail": "S2 floor matches the protected balcony floor finish; structural undersides match the adjoining warm off-white soffit."
+        },
+        {
+            "name": "bootstrap_exterior_only_backer_suppression_contract",
+            "pass": true,
+            "detail": "UE_EXT_Balconies_OPAQUE_L02_05,UE_EXT_Balconies_OPAQUE_L03_05,UE_EXT_Balconies_OPAQUE_L04_05,UE_EXT_Balconies_OPAQUE_L05_05,UE_EXT_Balconies_OPAQUE_L06_05,UE_EXT_Balconies_OPAQUE_L07_05"
+        },
+        {
+            "name": "bootstrap_overlapping_balcony_floor_skin_suppression_contract",
+            "pass": true,
+            "detail": "UE_EXT_Balconies_OPAQUE_L02_04,UE_EXT_Balconies_OPAQUE_L03_04,UE_EXT_Balconies_OPAQUE_L04_04,UE_EXT_Balconies_OPAQUE_L05_04,UE_EXT_Balconies_OPAQUE_L06_04,UE_EXT_Balconies_OPAQUE_L07_04"
+        },
+        {
+            "name": "F00_identity_and_markers",
+            "pass": true,
+            "detail": "identity=True; marker=1; arrival=1; label=1"
+        },
+        {
+            "name": "F00_empty_visible_allowlist",
+            "pass": true,
+            "detail": "visible=S2_R03_EmptySlab,S2_R03_FloorLabel; forbidden="
+        },
+        {
+            "name": "F00_datum_footprint_and_arrival",
+            "pass": true,
+            "detail": "slab=True; placement=True; elevation=0.00; actualX=-35.05..36.00; actualZ=-22.10..16.35"
+        },
+        {
+            "name": "F00_integration_seam_coverage",
+            "pass": true,
+            "detail": "F00 keeps the approved production-derived eight-vertex footprint; upper seam probes are not applicable."
+        },
+        {
+            "name": "F00_safe_boundary_and_entrance",
+            "pass": true,
+            "detail": "boundaries=9; safeZones=1; entranceOpening=True"
+        },
+        {
+            "name": "F00_no_legacy_scene_or_fbx_reference",
+            "pass": true,
+            "detail": "none"
+        },
+        {
+            "name": "F01_identity_and_markers",
+            "pass": true,
+            "detail": "identity=True; marker=1; arrival=1; label=1"
+        },
+        {
+            "name": "F01_empty_visible_allowlist",
+            "pass": true,
+            "detail": "visible=S2_R03_EmptySlab,S2_R03_FloorLabel; forbidden="
+        },
+        {
+            "name": "F01_datum_footprint_and_arrival",
+            "pass": true,
+            "detail": "slab=True; placement=True; elevation=5.80; actualX=-36.00..18.00; actualZ=-16.90..17.10"
+        },
+        {
+            "name": "F01_integration_seam_coverage",
+            "pass": true,
+            "detail": "probes=(-35.80,0.00),(17.80,0.00),(0.00,16.80),(-29.99,-16.50); actualX=-36.00..18.00; actualZ=-16.90..17.10"
+        },
+        {
+            "name": "F01_safe_boundary_and_entrance",
+            "pass": true,
+            "detail": "boundaries=7; safeZones=1; entranceOpening=False"
+        },
+        {
+            "name": "F01_no_legacy_scene_or_fbx_reference",
+            "pass": true,
+            "detail": "none"
+        },
+        {
+            "name": "F02_identity_and_markers",
+            "pass": true,
+            "detail": "identity=True; marker=1; arrival=1; label=1"
+        },
+        {
+            "name": "F02_empty_visible_allowlist",
+            "pass": true,
+            "detail": "visible=S2_R03_EmptySlab,S2_R03_FloorLabel; forbidden="
+        },
+        {
+            "name": "F02_datum_footprint_and_arrival",
+            "pass": true,
+            "detail": "slab=True; placement=True; elevation=9.70; actualX=-36.00..18.00; actualZ=-16.90..17.10"
+        },
+        {
+            "name": "F02_integration_seam_coverage",
+            "pass": true,
+            "detail": "probes=(-35.80,0.00),(17.80,0.00),(0.00,16.80),(-29.99,-16.50); actualX=-36.00..18.00; actualZ=-16.90..17.10"
+        },
+        {
+            "name": "F02_safe_boundary_and_entrance",
+            "pass": true,
+            "detail": "boundaries=7; safeZones=1; entranceOpening=False"
+        },
+        {
+            "name": "F02_no_legacy_scene_or_fbx_reference",
+            "pass": true,
+            "detail": "none"
+        },
+        {
+            "name": "F03_identity_and_markers",
+            "pass": true,
+            "detail": "identity=True; marker=1; arrival=1; label=1"
+        },
+        {
+            "name": "F03_empty_visible_allowlist",
+            "pass": true,
+            "detail": "visible=S2_R03_EmptySlab,S2_R03_FloorLabel; forbidden="
+        },
+        {
+            "name": "F03_datum_footprint_and_arrival",
+            "pass": true,
+            "detail": "slab=True; placement=True; elevation=13.60; actualX=-36.00..18.00; actualZ=-16.90..17.10"
+        },
+        {
+            "name": "F03_integration_seam_coverage",
+            "pass": true,
+            "detail": "probes=(-35.80,0.00),(17.80,0.00),(0.00,16.80),(-29.99,-16.50); actualX=-36.00..18.00; actualZ=-16.90..17.10"
+        },
+        {
+            "name": "F03_safe_boundary_and_entrance",
+            "pass": true,
+            "detail": "boundaries=7; safeZones=1; entranceOpening=False"
+        },
+        {
+            "name": "F03_no_legacy_scene_or_fbx_reference",
+            "pass": true,
+            "detail": "none"
+        },
+        {
+            "name": "F04_identity_and_markers",
+            "pass": true,
+            "detail": "identity=True; marker=1; arrival=1; label=1"
+        },
+        {
+            "name": "F04_empty_visible_allowlist",
+            "pass": true,
+            "detail": "visible=S2_R03_EmptySlab,S2_R03_FloorLabel; forbidden="
+        },
+        {
+            "name": "F04_datum_footprint_and_arrival",
+            "pass": true,
+            "detail": "slab=True; placement=True; elevation=17.50; actualX=-36.00..18.00; actualZ=-16.90..17.10"
+        },
+        {
+            "name": "F04_integration_seam_coverage",
+            "pass": true,
+            "detail": "probes=(-35.80,0.00),(17.80,0.00),(0.00,16.80),(-29.99,-16.50); actualX=-36.00..18.00; actualZ=-16.90..17.10"
+        },
+        {
+            "name": "F04_safe_boundary_and_entrance",
+            "pass": true,
+            "detail": "boundaries=7; safeZones=1; entranceOpening=False"
+        },
+        {
+            "name": "F04_no_legacy_scene_or_fbx_reference",
+            "pass": true,
+            "detail": "none"
+        },
+        {
+            "name": "F05_identity_and_markers",
+            "pass": true,
+            "detail": "identity=True; marker=1; arrival=1; label=1"
+        },
+        {
+            "name": "F05_empty_visible_allowlist",
+            "pass": true,
+            "detail": "visible=S2_R03_EmptySlab,S2_R03_FloorLabel; forbidden="
+        },
+        {
+            "name": "F05_datum_footprint_and_arrival",
+            "pass": true,
+            "detail": "slab=True; placement=True; elevation=21.40; actualX=-36.00..18.00; actualZ=-16.90..17.10"
+        },
+        {
+            "name": "F05_integration_seam_coverage",
+            "pass": true,
+            "detail": "probes=(-35.80,0.00),(17.80,0.00),(0.00,16.80),(-29.99,-16.50); actualX=-36.00..18.00; actualZ=-16.90..17.10"
+        },
+        {
+            "name": "F05_safe_boundary_and_entrance",
+            "pass": true,
+            "detail": "boundaries=7; safeZones=1; entranceOpening=False"
+        },
+        {
+            "name": "F05_no_legacy_scene_or_fbx_reference",
+            "pass": true,
+            "detail": "none"
+        },
+        {
+            "name": "F06_identity_and_markers",
+            "pass": true,
+            "detail": "identity=True; marker=1; arrival=1; label=1"
+        },
+        {
+            "name": "F06_empty_visible_allowlist",
+            "pass": true,
+            "detail": "visible=S2_R03_EmptySlab,S2_R03_FloorLabel; forbidden="
+        },
+        {
+            "name": "F06_datum_footprint_and_arrival",
+            "pass": true,
+            "detail": "slab=True; placement=True; elevation=25.30; actualX=-36.00..18.00; actualZ=-16.90..17.10"
+        },
+        {
+            "name": "F06_integration_seam_coverage",
+            "pass": true,
+            "detail": "probes=(-35.80,0.00),(17.80,0.00),(0.00,16.80),(-29.99,-16.50); actualX=-36.00..18.00; actualZ=-16.90..17.10"
+        },
+        {
+            "name": "F06_safe_boundary_and_entrance",
+            "pass": true,
+            "detail": "boundaries=7; safeZones=1; entranceOpening=False"
+        },
+        {
+            "name": "F06_no_legacy_scene_or_fbx_reference",
+            "pass": true,
+            "detail": "none"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "schema": "HospitalInterior.R03.S2.BuildRecord.v1",
+    "status": "PLAYER_BUILT_RUNTIME_GATE_PASS_PENDING_USER_REVIEW",
+    "unityVersion": "6000.3.20f1",
+    "contract": "Assets/HospitalInterior/PreProduction/I1/R03/Settings/HospitalInterior_S2_R03_FloorContract.asset",
+    "bootstrapScene": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_EmptyFloors_SIM_LOCAL.unity",
+    "productionScenes": [
+        "Assets/Hospital/Scenes/Additive/Exterior_Base.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Tower.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity"
+    ],
+    "floorScenes": [
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F00_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F01_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F02_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F03_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F04_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F05_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F06_Empty.unity"
+    ],
+    "playerScenes": [
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_EmptyFloors_SIM_LOCAL.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Base.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Tower.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F00_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F01_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F02_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F03_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F04_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F05_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F06_Empty.unity"
+    ],
+    "playerExecutable": "C:\\CutMyBodyPlease\\Exports\\HospitalInterior\\StageI1_R03_S2_AutoGate\\HospitalInterior_S2_R03_Review.exe",
+    "editorBuildSettingsSha256": "62889469c318a93430e41e1fc2f6c7df1fade301520199388d3725f58972a5bb",
+    "editorBuildSettingsUntouched": true,
+    "note": "S2 contains seven empty manually switchable floors. Upper slabs close measured R40 seams; exterior-only balcony backers and six overlapping balcony floor skins are suppressed by the review loader. The exact-datum S2 slab matches the adjoining balcony floor finish, and six non-collidable structural undersides align with and match the production soffits. Elevator travel and finished ceilings/design remain deferred."
+}

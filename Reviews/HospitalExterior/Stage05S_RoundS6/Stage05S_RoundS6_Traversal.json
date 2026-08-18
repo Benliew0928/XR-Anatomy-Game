@@ -1,0 +1,12 @@
+{
+    "schema": "HospitalExterior.Stage05S.S6.Traversal.v1",
+    "status": "PASS",
+    "route": "gate -> lobby -> parking -> lake -> rear route -> gate",
+    "note": "Disposable excluded-from-build harness plus all 20 controlled route proxies; fitted obstacles remain outside authored traversal surfaces.",
+    "harness_height_m": 1.7000000476837159,
+    "surface_proxy_samples": 20,
+    "grass_collision_count": 0,
+    "ground_continuity": true,
+    "head_clearance": true,
+    "crossings_and_curb_transitions": true
+}

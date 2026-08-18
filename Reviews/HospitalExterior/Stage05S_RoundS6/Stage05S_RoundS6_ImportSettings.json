@@ -1,0 +1,34 @@
+{
+    "schema": "HospitalExterior.Stage05S.S6.ImportSettings.v1",
+    "status": "PASS",
+    "entries": [
+        {
+            "name": "Hospital_SITE_CoreRoadParking_R05B.fbx",
+            "value": "scale=1;fileScale=True;axis=True;animation=False;collider=False;readable=False;compression=Off;normals=Import;tangents=CalculateMikk;hierarchy=True;materials=external-controlled"
+        },
+        {
+            "name": "Hospital_SITE_GrassRuntimeAssets_R05B.fbx",
+            "value": "scale=1;fileScale=True;axis=True;animation=False;collider=False;readable=False;compression=Off;normals=Import;tangents=CalculateMikk;hierarchy=True;materials=external-controlled"
+        },
+        {
+            "name": "Hospital_SITE_LandscapeHardscape_R05B.fbx",
+            "value": "scale=1;fileScale=True;axis=True;animation=False;collider=False;readable=False;compression=Off;normals=Import;tangents=CalculateMikk;hierarchy=True;materials=external-controlled"
+        },
+        {
+            "name": "Hospital_SITE_MainGate_R05B.fbx",
+            "value": "scale=1;fileScale=True;axis=True;animation=False;collider=False;readable=False;compression=Off;normals=Import;tangents=CalculateMikk;hierarchy=True;materials=external-controlled"
+        },
+        {
+            "name": "Hospital_SITE_PerimeterFence_R05B.fbx",
+            "value": "scale=1;fileScale=True;axis=True;animation=False;collider=False;readable=False;compression=Off;normals=Import;tangents=CalculateMikk;hierarchy=True;materials=external-controlled"
+        },
+        {
+            "name": "Hospital_SITE_PropsVegetation_R05B.fbx",
+            "value": "scale=1;fileScale=True;axis=True;animation=False;collider=False;readable=False;compression=Off;normals=Import;tangents=CalculateMikk;hierarchy=True;materials=external-controlled"
+        },
+        {
+            "name": "Hospital_SITE_RearService_R05B.fbx",
+            "value": "scale=1;fileScale=True;axis=True;animation=False;collider=False;readable=False;compression=Off;normals=Import;tangents=CalculateMikk;hierarchy=True;materials=external-controlled"
+        }
+    ]
+}

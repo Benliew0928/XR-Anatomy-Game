@@ -1,0 +1,22 @@
+{
+    "schema": "HospitalExterior.Stage05S.S6.CollisionInventory.v1",
+    "status": "PASS",
+    "entries": [
+        {
+            "name": "SITE_CoreRoadParking",
+            "value": "mesh=20;box=0;capsule=0"
+        },
+        {
+            "name": "SITE_PerimeterFence",
+            "value": "mesh=0;box=5;capsule=0"
+        },
+        {
+            "name": "SITE_MainGate",
+            "value": "mesh=0;box=2;capsule=0"
+        },
+        {
+            "name": "SITE_PropsVegetation",
+            "value": "mesh=0;box=5;capsule=32"
+        }
+    ]
+}

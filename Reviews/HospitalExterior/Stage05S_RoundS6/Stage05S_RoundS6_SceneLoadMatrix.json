@@ -1,0 +1,26 @@
+{
+    "schema": "HospitalExterior.Stage05S.S6.SceneLoadMatrix.v1",
+    "status": "PASS",
+    "entries": [
+        {
+            "name": "site_scene_alone",
+            "value": "Exterior_SiteCore|Exterior_SitePerimeter|Exterior_SiteLandscape"
+        },
+        {
+            "name": "site_only_together",
+            "value": "three site scenes; independently unloadable"
+        },
+        {
+            "name": "hospital_only",
+            "value": "five frozen R44 scenes"
+        },
+        {
+            "name": "default_combined",
+            "value": "five hospital + three site scenes"
+        },
+        {
+            "name": "all_eight",
+            "value": "enabled production build settings; no camera/light/manager duplication"
+        }
+    ]
+}

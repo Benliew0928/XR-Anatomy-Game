@@ -1,0 +1,21 @@
+Hospital Exterior Stage 6A R01 technical build log
+Generated UTC: 2026-08-11T13:42:35.4043197Z
+Unity: 6000.3.20f1
+Platform: StandaloneWindows64 / D3D11
+Script compilation: PASS (builder and validator assemblies loaded)
+Protected-input preflight: PASS
+Expanded protected-input inventory: PASS (295 files; independent hash/size mismatches: 0)
+R40 active authority: f797abb08388dbb4b8af69acc0da8c538185a8efea9fb397a0bf2a56c5420126
+R40 exact .blend1 snapshot: 0a530ff9d7d7effa512f1d69178a0be86da722239f0cb992878045358c73ea58
+Input-action contract: PASS
+XR rig and bootstrap validation: PASS
+Route allowlist and landing tests: PASS
+Scene-profile tests: PASS
+Frozen EditorBuildSettings: PASS
+Frozen EditorBuildSettings SHA-256: 62889469c318a93430e41e1fc2f6c7df1fade301520199388d3725f58972a5bb
+Windows development player: PASS (9 scenes; 268799115 total bytes; final incremental build 2.25 seconds)
+Post-build protected-input regression: PASS (canonical project save + 295-file rehash before PASS)
+Player output: C:\CutMyBodyPlease\Exports\HospitalExterior\Stage06A_R01_PCVR\AnatomyXR_Stage06A_R01.exe
+Technical status: READY_FOR_HEADSET_REVIEW
+Physical Quest session: PENDING (required for Stage 6A approval)
+Performance acceptance: OUT OF SCOPE (Stage 6B-6D)

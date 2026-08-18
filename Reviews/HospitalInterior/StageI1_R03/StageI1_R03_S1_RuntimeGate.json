@@ -1,0 +1,90 @@
+{
+    "schema": "HospitalInterior.R03.S1.RuntimeGate.v1",
+    "status": "PASS",
+    "unityVersion": "6000.3.20f1",
+    "passCount": 15,
+    "totalCount": 15,
+    "loadedScenes": [
+        "Exterior_Base",
+        "Exterior_Tower",
+        "Exterior_SidesService",
+        "Exterior_Interactions"
+    ],
+    "checks": [
+        {
+            "name": "bootstrap_references",
+            "pass": true,
+            "detail": "Contract, XROrigin, camera, locomotion, and diagnostics are assigned."
+        },
+        {
+            "name": "load_Exterior_Base",
+            "pass": true,
+            "detail": "Assets/Hospital/Scenes/Additive/Exterior_Base.unity"
+        },
+        {
+            "name": "load_Exterior_Tower",
+            "pass": true,
+            "detail": "Assets/Hospital/Scenes/Additive/Exterior_Tower.unity"
+        },
+        {
+            "name": "load_Exterior_SidesService",
+            "pass": true,
+            "detail": "Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity"
+        },
+        {
+            "name": "load_Exterior_Interactions",
+            "pass": true,
+            "detail": "Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity"
+        },
+        {
+            "name": "exact_production_scene_set",
+            "pass": true,
+            "detail": "Exterior_Base,Exterior_Tower,Exterior_SidesService,Exterior_Interactions"
+        },
+        {
+            "name": "no_shell_preview_or_site",
+            "pass": true,
+            "detail": "shell=False; site=False"
+        },
+        {
+            "name": "production_roots_identity",
+            "pass": true,
+            "detail": "All loaded exterior roots remain at shared origin/unit scale."
+        },
+        {
+            "name": "production_scenes_own_no_camera_or_light",
+            "pass": true,
+            "detail": "cameras=0; lights=0"
+        },
+        {
+            "name": "unique_review_rig_camera_listener_light",
+            "pass": true,
+            "detail": "cameras=1; listeners=1; lights=1"
+        },
+        {
+            "name": "seven_locked_datum_proxies",
+            "pass": true,
+            "detail": "F00=0.00,F01=5.80,F02=9.70,F03=13.60,F04=17.50,F05=21.40,F06=25.30"
+        },
+        {
+            "name": "diagnostics_have_no_colliders",
+            "pass": true,
+            "detail": "Datum and elevator reference geometry is visual-only."
+        },
+        {
+            "name": "single_elevator_reference",
+            "pass": true,
+            "detail": "One E01 reference cage; no cabin, controls, doors, or travel behavior."
+        },
+        {
+            "name": "review_scale_and_locomotion",
+            "pass": true,
+            "detail": "eye=1.700; walk=2.0; sprint=4.0"
+        },
+        {
+            "name": "entrance_approach_and_threshold_supported",
+            "pass": true,
+            "detail": "ground=True; apron=True; threshold=True; step=0.040"
+        }
+    ]
+}

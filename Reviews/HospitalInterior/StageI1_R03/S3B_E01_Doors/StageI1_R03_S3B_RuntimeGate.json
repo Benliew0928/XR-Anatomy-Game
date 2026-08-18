@@ -1,0 +1,120 @@
+{
+    "schema": "HospitalInterior.R03.S3B.RuntimeGate.v4",
+    "status": "PASS",
+    "unityVersion": "6000.3.20f1",
+    "passCount": 22,
+    "totalCount": 22,
+    "currentFloorId": "F00",
+    "checks": [
+        {
+            "name": "bootstrap_references",
+            "pass": true,
+            "detail": "Contract, shaft, door controller, rig, camera, locomotion, cabin, seven portals, and obstruction proxy are assigned."
+        },
+        {
+            "name": "approved_s2_reference",
+            "pass": true,
+            "detail": "seven approved floors"
+        },
+        {
+            "name": "contract_spatial_fit",
+            "pass": true,
+            "detail": "cabinX=0.475..2.825; cabinZ=3.125..5.575; clearanceL/R/F/R=0.175/0.175/0.125/0.125; minimumStorey=3.900; floorDatum=0.000"
+        },
+        {
+            "name": "continuous_full_height_shaft",
+            "pass": true,
+            "detail": "shaftInnerX=0.400..2.900; shaftInnerZ=3.000..5.650; runningClearanceL/R/F/R=0.075/0.075/0.125/0.075; vertical=-0.200..28.830; baseClearance=0.090; F06Overrun=1.040; wallsContinuous=True; spandrels=7; rails=2; centerline=(1.650,4.350); shaftInnerX=0.400..2.900; shaftInnerZ=3.000..5.650; runningClearanceL/R/F/R=0.075/0.075/0.125/0.075; vertical=-0.200..28.830; baseClearance=0.090; F06Overrun=1.040"
+        },
+        {
+            "name": "cabin_sweep_clear_f00_to_f06",
+            "pass": true,
+            "detail": "wall=0.075; guideRail=0.040; base=0.090; F06Top=0.940"
+        },
+        {
+            "name": "transparent_glass_hoistway_design",
+            "pass": true,
+            "detail": "glassPanels=11/11; frameMembers=42/42; transparentMaterials=True; nonCollidingFrames=True; glassShadowsOff=True; name=MAT_S3B_R03_ShaftGlass; shader=Universal Render Pipeline/Lit; alpha=-1.000; queue=3000; transparentKeyword=True"
+        },
+        {
+            "name": "transparent_cabin_observation_zones",
+            "pass": true,
+            "detail": "glassWalls=3/3; protectionPanels=3/3; frames=10/10; transparent=True; protected=True; nonCollidingFrames=True; safetyBoundary=True; glassShadowsOff=True; sightline=True; glassTop=2.390; protectionTop=0.900; clearViewHeight=1.490; alpha=-1.000; queue=3000"
+        },
+        {
+            "name": "cabin_fully_nested_for_f00_f06_sweep",
+            "pass": true,
+            "detail": "cabinBoundsX=0.475..2.825; cabinBoundsZ=3.116..5.575; innerShaftX=0.400..2.900; innerShaftZ=3.000..5.650; clearanceL/R/F/R=0.075/0.075/0.116/0.075"
+        },
+        {
+            "name": "shaft_floor_aperture_assets",
+            "pass": true,
+            "detail": "F00[vertices=68; triangles=34; holeX=0.300..3.000; holeZ=3.000..5.700; intrusions=False]; Upper[vertices=48; triangles=24; holeX=0.300..3.000; holeZ=3.000..5.700; intrusions=False]; Underside[vertices=48; triangles=24; holeX=0.300..3.000; holeZ=3.000..5.700; intrusions=False]; facing=True"
+        },
+        {
+            "name": "active_f00_slab_aperture_applied",
+            "pass": true,
+            "detail": "floor=F00; found=True; renderMesh=HospitalInterior_S3B_R03_F00_ShaftCutSlab; collisionMesh=HospitalInterior_S3B_R03_F00_ShaftCutSlab; vertices=68; triangles=34; holeX=0.300..3.000; holeZ=3.000..5.700; intrusions=False"
+        },
+        {
+            "name": "exact_production_scene_set",
+            "pass": true,
+            "detail": "Exterior_Base,Exterior_Tower,Exterior_SidesService,Exterior_Interactions"
+        },
+        {
+            "name": "single_approved_f00_scene",
+            "pass": true,
+            "detail": "F00"
+        },
+        {
+            "name": "seven_exact_landing_datums",
+            "pass": true,
+            "detail": "-0.110,5.690,9.590,13.490,17.390,21.290,25.190"
+        },
+        {
+            "name": "identity_scale_import_roots",
+            "pass": true,
+            "detail": "cabin and landing portal roots use scale 1,1,1"
+        },
+        {
+            "name": "twelve_noncurrent_leaves_closed_locked",
+            "pass": true,
+            "detail": "nonCurrentLeaves=12"
+        },
+        {
+            "name": "smooth_synchronized_opening_midpoint",
+            "pass": true,
+            "detail": "state=DoorOpening; openness=0.500"
+        },
+        {
+            "name": "full_1200mm_clear_opening",
+            "pass": true,
+            "detail": "clearWidth=1.205; blockers="
+        },
+        {
+            "name": "normal_close_and_positive_interlocks",
+            "pass": true,
+            "detail": "state=ReadyClosed; movementSafe=True"
+        },
+        {
+            "name": "door_open_reopens_closing_pair",
+            "pass": true,
+            "detail": "state=ReadyOpen; openness=1.000"
+        },
+        {
+            "name": "four_second_dwell_then_auto_close",
+            "pass": true,
+            "detail": "state=DoorClosing; remaining=0.000"
+        },
+        {
+            "name": "obstruction_blocks_and_reverses_close",
+            "pass": true,
+            "detail": "reversing=True; finalState=ReadyOpen"
+        },
+        {
+            "name": "physical_open_close_and_landing_call_buttons",
+            "pass": true,
+            "detail": "floorButtons=7; floorTravelIntentionallyDisabled=true"
+        }
+    ]
+}

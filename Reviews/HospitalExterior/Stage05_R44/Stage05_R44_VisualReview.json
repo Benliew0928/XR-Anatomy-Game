@@ -1,0 +1,71 @@
+{
+  "schema": "HospitalExterior.Stage05.R44.VisualReview.v1",
+  "status": "PASS",
+  "pass": true,
+  "reviewed_utc": "2026-08-09T16:37:23.1755160Z",
+  "authority": {
+    "blend": "ArtSource/Environment/Blender/HospitalExterior/HospitalExterior_Stage04_R40_MASTER_ReviewCorrected.blend",
+    "sha256": "0a530ff9d7d7effa512f1d69178a0be86da722239f0cb992878045358c73ea58",
+    "note": "Newest R40 review-corrected Blender master is intentional authority."
+  },
+  "target": "Quest 2/3 PC VR through Link or Air Link; not standalone Android",
+  "checks": [
+    {
+      "name": "eight_standard_views_complete",
+      "pass": true,
+      "detail": "Front, left, right, rear, roof, entrance, aerial, and 1.7 m player-eye views are complete and mutually consistent."
+    },
+    {
+      "name": "additive_scene_alignment",
+      "pass": true,
+      "detail": "No visible gaps, offsets, or rotations at zone boundaries in the full additive assembly."
+    },
+    {
+      "name": "floor_band_continuity",
+      "pass": true,
+      "detail": "Repeated tower floor bands remain level and continuous around the front/right corner."
+    },
+    {
+      "name": "right_wing_rear_closure",
+      "pass": true,
+      "detail": "Right-wing rear/service enclosure is visibly closed and aligned with podium and tower geometry."
+    },
+    {
+      "name": "loading_area",
+      "pass": true,
+      "detail": "Loading opening, shutter, canopy, bollards, curb, and adjacent wall read correctly without clipping."
+    },
+    {
+      "name": "roof_and_service_geometry",
+      "pass": true,
+      "detail": "Roof perimeter, inner plant enclosure, and service volumes are present without obvious open seams."
+    },
+    {
+      "name": "entrance_and_player_scale",
+      "pass": true,
+      "detail": "Entrance composition, door clearances, signage, canopy, and 1.7 m eye-height scale are coherent."
+    },
+    {
+      "name": "materials_glass_and_interior_shell",
+      "pass": true,
+      "detail": "Opaque, glass, frame, accent, furniture, and interior-shell layers remain visually distinct with no missing-material fallback."
+    }
+  ],
+  "images": [
+    { "file": "Stage05_R44_Target_FloorBands.png", "sha256": "eaa178afd61cc603d697cfbe1374aaf75bb894f566173639a5cf38a37109ccdd", "bytes": 405090 },
+    { "file": "Stage05_R44_Target_LoadingArea.png", "sha256": "abb97846ee24e7d4c1873e2c8f7eff9df23edcf453aa9d0976e0191deee1fd07", "bytes": 97633 },
+    { "file": "Stage05_R44_Target_RightWingRearClosure.png", "sha256": "b6f49800673f7455dbefe3b15c5de2abeef19ba8ed7047afdc7bfa94fe7006ec", "bytes": 261725 },
+    { "file": "Stage05_R44_Unity_Aerial.png", "sha256": "db4d1a9bae14d3488455af50e5b460fabb7e465024833b53843be57097086779", "bytes": 226436 },
+    { "file": "Stage05_R44_Unity_Entrance.png", "sha256": "9f5c58ca9f151f3e72fc71e20990db691c5349174588bfdf78c5144d034f1c14", "bytes": 257726 },
+    { "file": "Stage05_R44_Unity_Front.png", "sha256": "3e4ad4f53408822ea036e8138fe8c69bf59de4882a30634e18e49b5fb7738fac", "bytes": 96851 },
+    { "file": "Stage05_R44_Unity_Left.png", "sha256": "42c5e5653f867b002fa87e69e94412aa589d47fd00d0669c679e15b2e3679dc5", "bytes": 79056 },
+    { "file": "Stage05_R44_Unity_PlayerEye.png", "sha256": "8ed0a6d1c8b456fb79529b9626f692c97e819132732a8c388ea6990b1369d535", "bytes": 387417 },
+    { "file": "Stage05_R44_Unity_Rear.png", "sha256": "21361c90046a03d194a89cdd7549996453a4570701eb257453e7d505cbe7b9b7", "bytes": 84251 },
+    { "file": "Stage05_R44_Unity_Right.png", "sha256": "530987eea0c8d477d1edd780965f9a42977384d962c4418b73a09bc53f13edc1", "bytes": 70642 },
+    { "file": "Stage05_R44_Unity_Roof.png", "sha256": "739c2b24fb048427ad4279e547cbfb72d1d37358d7523907e3f43906e5af0b99", "bytes": 96408 }
+  ],
+  "limitations": [
+    "This review freezes integration and visual correctness; it does not claim headset GPU performance acceptance.",
+    "Quest Link or Air Link stereo CPU/GPU capture on Quest 2 and/or Quest 3 remains required before Stage 6 performance acceptance."
+  ]
+}

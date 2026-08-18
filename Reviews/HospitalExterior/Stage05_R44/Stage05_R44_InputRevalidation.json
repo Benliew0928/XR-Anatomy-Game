@@ -1,0 +1,407 @@
+{
+  "baseline": {
+    "cameras": 0,
+    "door_roots": 12,
+    "lights": 0,
+    "mesh_renderers": 237,
+    "modifiers": 0,
+    "objects": 249,
+    "triangles": 644996,
+    "unique_materials": 30,
+    "vertices": 333512
+  },
+  "door_roots": [
+    "UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT",
+    "UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT",
+    "UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT",
+    "UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT",
+    "UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT",
+    "UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT",
+    "UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT",
+    "UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT",
+    "UE_S03C_REAR_FireExit_B_Leaf_ROOT",
+    "UE_S03C_REAR_LoadingDoor_Leaf_ROOT",
+    "UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT",
+    "UE_S03C_ROOF_AccessDoor_Leaf_ROOT"
+  ],
+  "failures": [],
+  "manifest": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05_R41_Input\\Stage05_R41_InputManifest.json",
+  "schema": "HospitalExterior.Stage5InputValidation.v1",
+  "status": "PASS",
+  "zones": {
+    "ACT_InteractiveDoors": {
+      "actual": {
+        "bounds": [
+          [
+            -33.82,
+            -23.036001,
+            0.292
+          ],
+          [
+            14.615,
+            17.379999,
+            32.060001
+          ]
+        ],
+        "cameras": 0,
+        "door_roots": [
+          "UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT",
+          "UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT",
+          "UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT",
+          "UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT",
+          "UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT",
+          "UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT",
+          "UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT",
+          "UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT",
+          "UE_S03C_REAR_FireExit_B_Leaf_ROOT",
+          "UE_S03C_REAR_LoadingDoor_Leaf_ROOT",
+          "UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT",
+          "UE_S03C_ROOF_AccessDoor_Leaf_ROOT"
+        ],
+        "lights": 0,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Entrance_DoorGlass",
+          "MAT_Entrance_RefinedBronze"
+        ],
+        "mesh_objects": 44,
+        "modifiers": 0,
+        "objects": 56,
+        "triangles": 6160,
+        "vertices": 3168
+      },
+      "file": "Hospital_ACT_InteractiveDoors.fbx",
+      "sha256": "99ed517ff96389940343911076079726d2b146984262469731df175bd2c2f37f",
+      "status": "PASS"
+    },
+    "EXT_Balconies": {
+      "actual": {
+        "bounds": [
+          [
+            -36.025002,
+            -16.924999,
+            5.600001
+          ],
+          [
+            -23.949999,
+            -4.849995,
+            28.975002
+          ]
+        ],
+        "cameras": 0,
+        "door_roots": [],
+        "lights": 0,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Composite_LightGrey",
+          "MAT_Composite_WarmOffWhite",
+          "MAT_CornerBalcony_BlueGreyRoomGlass",
+          "MAT_CornerBalcony_IntegratedDoorGlass",
+          "MAT_CornerBalcony_UltraClearGuard",
+          "MAT_Entrance_PolishedArrivalStone",
+          "MAT_Interior_WarmDaylightSurface",
+          "MAT_Signage_WarmWhite_NonEmissive"
+        ],
+        "mesh_objects": 56,
+        "modifiers": 0,
+        "objects": 56,
+        "triangles": 96672,
+        "vertices": 49440
+      },
+      "file": "Hospital_EXT_Balconies.fbx",
+      "sha256": "cd5437d668d0aba757c3e503c00412edc3a44f9eeea5e0168af0bcdac00172c7",
+      "status": "PASS"
+    },
+    "EXT_FrontTower": {
+      "actual": {
+        "bounds": [
+          [
+            -25.2425,
+            -17.620001,
+            5.690003
+          ],
+          [
+            18.24,
+            -14.157495,
+            29.630005
+          ]
+        ],
+        "cameras": 0,
+        "door_roots": [],
+        "lights": 0,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Architectural_ShadowGap",
+          "MAT_Composite_WarmOffWhite",
+          "MAT_Glass_BlueGrey"
+        ],
+        "mesh_objects": 10,
+        "modifiers": 0,
+        "objects": 10,
+        "triangles": 132840,
+        "vertices": 68880
+      },
+      "file": "Hospital_EXT_FrontTower.fbx",
+      "sha256": "0a919954f7112dcbafae6de6848bb9b1d6352599cbd4696d5e362a81986fb20b",
+      "status": "PASS"
+    },
+    "EXT_GlobalStructure": {
+      "actual": {
+        "bounds": [
+          [
+            -36.599998,
+            -19.5,
+            -0.480003
+          ],
+          [
+            36.599998,
+            19.5,
+            29.850002
+          ]
+        ],
+        "cameras": 0,
+        "door_roots": [],
+        "lights": 0,
+        "materials": [
+          "MAT_Architectural_ShadowGap",
+          "MAT_Composite_LightGrey",
+          "MAT_Composite_WarmOffWhite",
+          "MAT_LED_Warm_3200K",
+          "MAT_Neutral_Concrete"
+        ],
+        "mesh_objects": 5,
+        "modifiers": 0,
+        "objects": 5,
+        "triangles": 26864,
+        "vertices": 13456
+      },
+      "file": "Hospital_EXT_GlobalStructure.fbx",
+      "sha256": "e9a324bc88a54a702fd3a76c804d16afa696949ef6ba4bb6508589b0b8e1a055",
+      "status": "PASS"
+    },
+    "EXT_GroundEntrance": {
+      "actual": {
+        "bounds": [
+          [
+            -36.345001,
+            -32.799999,
+            -2e-06
+          ],
+          [
+            36.18,
+            12.2,
+            6.340004
+          ]
+        ],
+        "cameras": 0,
+        "door_roots": [],
+        "lights": 0,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Architectural_ShadowGap",
+          "MAT_Canopy_RecessedSoffit",
+          "MAT_Composite_LightGrey",
+          "MAT_Composite_WarmOffWhite",
+          "MAT_Entrance_DeepGreenFoliage",
+          "MAT_Entrance_DoorGlass",
+          "MAT_Entrance_HighClarityGlass",
+          "MAT_Entrance_HonedTravertine",
+          "MAT_Entrance_PolishedArrivalStone",
+          "MAT_Entrance_RefinedBronze",
+          "MAT_Glass_BlueGrey",
+          "MAT_Interior_WarmDaylightSurface",
+          "MAT_Lobby_HonedTerrazzo",
+          "MAT_Lobby_WarmStone",
+          "MAT_Lobby_WoodCharcoal",
+          "MAT_Neutral_Concrete",
+          "MAT_Portal_DarkBronze",
+          "MAT_Signage_WarmWhite_NonEmissive"
+        ],
+        "mesh_objects": 20,
+        "modifiers": 0,
+        "objects": 20,
+        "triangles": 85036,
+        "vertices": 43980
+      },
+      "file": "Hospital_EXT_GroundEntrance.fbx",
+      "sha256": "dc29aa06f1d09ed1c7e767382fcfb39b6821e3f49158952feb193d27a934512c",
+      "status": "PASS"
+    },
+    "EXT_InteriorShell": {
+      "actual": {
+        "bounds": [
+          [
+            -34.700001,
+            -15.499999,
+            0.129997
+          ],
+          [
+            31.780001,
+            16.950001,
+            28.830002
+          ]
+        ],
+        "cameras": 0,
+        "door_roots": [],
+        "lights": 0,
+        "materials": [
+          "MAT_S03E_Ceiling_SoftWhite",
+          "MAT_S03E_Floor_HonedTerrazzo",
+          "MAT_S03E_FurnitureSilhouette",
+          "MAT_S03E_InteriorWall_WarmWhite",
+          "MAT_S03E_PrivacyShade",
+          "MAT_S03E_ServiceBackdrop",
+          "MAT_S03E_WarmTimber"
+        ],
+        "mesh_objects": 48,
+        "modifiers": 0,
+        "objects": 48,
+        "triangles": 12120,
+        "vertices": 6720
+      },
+      "file": "Hospital_EXT_InteriorShell.fbx",
+      "sha256": "873f89f9519d0ee8795cb45dbc4c64b7c36afd2628fcec7e18ebd4d7717fc3d6",
+      "status": "PASS"
+    },
+    "EXT_LeftFacadePodium": {
+      "actual": {
+        "bounds": [
+          [
+            -36.799999,
+            -16.449999,
+            0.279997
+          ],
+          [
+            -35.960003,
+            17.100004,
+            28.840002
+          ]
+        ],
+        "cameras": 0,
+        "door_roots": [],
+        "lights": 0,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Architectural_ShadowGap",
+          "MAT_Composite_LightGrey",
+          "MAT_Composite_WarmOffWhite",
+          "MAT_Glass_BlueGrey"
+        ],
+        "mesh_objects": 15,
+        "modifiers": 0,
+        "objects": 15,
+        "triangles": 57924,
+        "vertices": 29904
+      },
+      "file": "Hospital_EXT_LeftFacadePodium.fbx",
+      "sha256": "a3410fb311b7a07d9b72f6c79b0dd65962b10eac03cbab556da3071efe1e800b",
+      "status": "PASS"
+    },
+    "EXT_RearService": {
+      "actual": {
+        "bounds": [
+          [
+            -36.400002,
+            11.870002,
+            0.159997
+          ],
+          [
+            36.049999,
+            21.049999,
+            28.839998
+          ]
+        ],
+        "cameras": 0,
+        "door_roots": [],
+        "lights": 0,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Architectural_ShadowGap",
+          "MAT_Canopy_RecessedSoffit",
+          "MAT_Composite_LightGrey",
+          "MAT_Composite_WarmOffWhite",
+          "MAT_Glass_BlueGrey"
+        ],
+        "mesh_objects": 15,
+        "modifiers": 0,
+        "objects": 15,
+        "triangles": 165720,
+        "vertices": 85552
+      },
+      "file": "Hospital_EXT_RearService.fbx",
+      "sha256": "440740db0143f1ec6781bc6f40d5ffc2117ce2c4fe21be86f66527697d93d417",
+      "status": "PASS"
+    },
+    "EXT_RightFacadeWing": {
+      "actual": {
+        "bounds": [
+          [
+            9.0,
+            -22.1,
+            0.279997
+          ],
+          [
+            36.279999,
+            17.290001,
+            28.840002
+          ]
+        ],
+        "cameras": 0,
+        "door_roots": [],
+        "lights": 0,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Architectural_ShadowGap",
+          "MAT_Composite_LightGrey",
+          "MAT_Composite_WarmOffWhite",
+          "MAT_Glass_BlueGrey",
+          "MAT_Interior_WarmDaylightSurface",
+          "MAT_Lobby_WarmStone"
+        ],
+        "mesh_objects": 17,
+        "modifiers": 0,
+        "objects": 17,
+        "triangles": 48684,
+        "vertices": 25144
+      },
+      "file": "Hospital_EXT_RightFacadeWing.fbx",
+      "sha256": "2ac4dd9c6d9a98b5e967c0b0b504a4b0973ae980ac76fa6bf14b448ff9b5f356",
+      "status": "PASS"
+    },
+    "EXT_RoofService": {
+      "actual": {
+        "bounds": [
+          [
+            -36.639999,
+            -17.849998,
+            5.199997
+          ],
+          [
+            36.239998,
+            17.770006,
+            32.710007
+          ]
+        ],
+        "cameras": 0,
+        "door_roots": [],
+        "lights": 0,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Architectural_ShadowGap",
+          "MAT_Composite_LightGrey",
+          "MAT_Composite_WarmOffWhite",
+          "MAT_Neutral_Concrete",
+          "MAT_Signage_WarmWhite_NonEmissive"
+        ],
+        "mesh_objects": 7,
+        "modifiers": 0,
+        "objects": 7,
+        "triangles": 12976,
+        "vertices": 7268
+      },
+      "file": "Hospital_EXT_RoofService.fbx",
+      "sha256": "799334220d700a871f9f23bbb32ddc1b818252cbdfbffdf8411d2e3a89c77287",
+      "status": "PASS"
+    }
+  }
+}

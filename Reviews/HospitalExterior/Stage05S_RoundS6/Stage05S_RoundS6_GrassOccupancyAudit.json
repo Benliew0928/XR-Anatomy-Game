@@ -1,0 +1,38 @@
+{
+    "schema": "HospitalExterior.Stage05S.S6.GrassOccupancyAudit.v1",
+    "status": "PASS",
+    "entries": [
+        {
+            "name": "excluded_0_-64",
+            "value": "PASS_BLOCKED"
+        },
+        {
+            "name": "excluded_10_-64",
+            "value": "PASS_BLOCKED"
+        },
+        {
+            "name": "excluded_36_-64",
+            "value": "PASS_BLOCKED"
+        },
+        {
+            "name": "excluded_0_-42",
+            "value": "PASS_BLOCKED"
+        },
+        {
+            "name": "excluded_-56_-80",
+            "value": "PASS_BLOCKED"
+        },
+        {
+            "name": "lawn_-8_-52",
+            "value": "PASS_OCCUPIED"
+        },
+        {
+            "name": "lawn_-24_-56",
+            "value": "PASS_OCCUPIED"
+        },
+        {
+            "name": "lawn_-10_-46",
+            "value": "PASS_OCCUPIED"
+        }
+    ]
+}

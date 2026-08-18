@@ -1,0 +1,151 @@
+{
+    "schema": "HospitalExterior.Stage05.R44.Manifest.v1",
+    "status": "FINAL_FROZEN",
+    "authority": "ArtSource/Environment/Blender/HospitalExterior/HospitalExterior_Stage04_R40_MASTER_ReviewCorrected.blend",
+    "authority_sha256": "0a530ff9d7d7effa512f1d69178a0be86da722239f0cb992878045358c73ea58",
+    "input_manifest_sha256": "76aa47b30456387c9de9750eb5b34adfa970ed459bbd638e1d899c4d9327a43e",
+    "unity_editor": "6000.3.20f1",
+    "platform": "Windows x86_64 PC VR",
+    "xr_runtime": "OpenXR",
+    "headset_scope": "Meta Quest 2 / Quest 3 via Quest Link or Air Link; Android standalone excluded",
+    "source_triangles": 644996,
+    "unity_triangles": 644332,
+    "zero_area_triangles_discarded": 664,
+    "renderers": 237,
+    "materials": 30,
+    "door_prefabs": 12,
+    "static_box_colliders": 28,
+    "dynamic_door_box_colliders": 12,
+    "mesh_colliders": 0,
+    "fbx": [
+        {
+            "zone": "ACT_InteractiveDoors",
+            "file": "Hospital_ACT_InteractiveDoors.fbx",
+            "sha256": "99ed517ff96389940343911076079726d2b146984262469731df175bd2c2f37f"
+        },
+        {
+            "zone": "EXT_Balconies",
+            "file": "Hospital_EXT_Balconies.fbx",
+            "sha256": "cd5437d668d0aba757c3e503c00412edc3a44f9eeea5e0168af0bcdac00172c7"
+        },
+        {
+            "zone": "EXT_FrontTower",
+            "file": "Hospital_EXT_FrontTower.fbx",
+            "sha256": "0a919954f7112dcbafae6de6848bb9b1d6352599cbd4696d5e362a81986fb20b"
+        },
+        {
+            "zone": "EXT_GlobalStructure",
+            "file": "Hospital_EXT_GlobalStructure.fbx",
+            "sha256": "e9a324bc88a54a702fd3a76c804d16afa696949ef6ba4bb6508589b0b8e1a055"
+        },
+        {
+            "zone": "EXT_GroundEntrance",
+            "file": "Hospital_EXT_GroundEntrance.fbx",
+            "sha256": "dc29aa06f1d09ed1c7e767382fcfb39b6821e3f49158952feb193d27a934512c"
+        },
+        {
+            "zone": "EXT_InteriorShell",
+            "file": "Hospital_EXT_InteriorShell.fbx",
+            "sha256": "873f89f9519d0ee8795cb45dbc4c64b7c36afd2628fcec7e18ebd4d7717fc3d6"
+        },
+        {
+            "zone": "EXT_LeftFacadePodium",
+            "file": "Hospital_EXT_LeftFacadePodium.fbx",
+            "sha256": "a3410fb311b7a07d9b72f6c79b0dd65962b10eac03cbab556da3071efe1e800b"
+        },
+        {
+            "zone": "EXT_RearService",
+            "file": "Hospital_EXT_RearService.fbx",
+            "sha256": "440740db0143f1ec6781bc6f40d5ffc2117ce2c4fe21be86f66527697d93d417"
+        },
+        {
+            "zone": "EXT_RightFacadeWing",
+            "file": "Hospital_EXT_RightFacadeWing.fbx",
+            "sha256": "2ac4dd9c6d9a98b5e967c0b0b504a4b0973ae980ac76fa6bf14b448ff9b5f356"
+        },
+        {
+            "zone": "EXT_RoofService",
+            "file": "Hospital_EXT_RoofService.fbx",
+            "sha256": "799334220d700a871f9f23bbb32ddc1b818252cbdfbffdf8411d2e3a89c77287"
+        }
+    ],
+    "packages": [
+        {
+            "name": "com.unity.inputsystem",
+            "version": "1.20.0"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "version": "17.3.0"
+        },
+        {
+            "name": "com.unity.xr.interaction.toolkit",
+            "version": "3.5.1"
+        },
+        {
+            "name": "com.unity.xr.management",
+            "version": "4.7.0"
+        },
+        {
+            "name": "com.unity.xr.openxr",
+            "version": "1.17.1"
+        }
+    ],
+    "additive_scenes": [
+        "Assets/Hospital/Scenes/Additive/Exterior_Base.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Tower.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_InteriorShellPreview.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity"
+    ],
+    "records": [
+        {
+            "file": "Stage05_R44_ImportSettings.json",
+            "sha256": "ffdb3671e05bec2b60483a8109f3ba0c00ad98fca6ebdd1a916a33d76ea441c5",
+            "bytes": 6656
+        },
+        {
+            "file": "Stage05_R44_MaterialMap.json",
+            "sha256": "979132625c39ab445300861225c932f2986ea7bca01a5b9cc8f31c9796b26ba2",
+            "bytes": 11210
+        },
+        {
+            "file": "Stage05_R44_SceneLoadMatrix.json",
+            "sha256": "0607df0f5a23ac510493b6009f1f9d0dca56b48c6cede5e298ac80fb738a7e78",
+            "bytes": 4178
+        },
+        {
+            "file": "Stage05_R44_SourceChangeLog.json",
+            "sha256": "311f1fe47d9fb822ff4241d7c53a0b765146968799f5ef518dd5d52a67b50eb1",
+            "bytes": 930
+        },
+        {
+            "file": "Stage05_R44_QaEvidence.json",
+            "sha256": "b7625d8f874e2e6c6b368e9dc07e2727cbb285dbee015750794c8dbd21348987",
+            "bytes": 2204
+        },
+        {
+            "file": "Stage05_R44_VisualReview.json",
+            "sha256": "2c464f3096e6f2f106de781b0e392eabca1aeff8406fc9eaacc42e2800d22aca",
+            "bytes": 3993
+        }
+    ],
+    "prior_gates": [
+        {
+            "file": "Stage05_R41/Stage05_R41_UnityGate.json",
+            "sha256": "813f75fa1f83882b0e9a4e5b0a7ecd8d99dfd2187ba47bae536bd23dbcf4a75c",
+            "bytes": 11658
+        },
+        {
+            "file": "Stage05_R42/Stage05_R42_UnityGate.json",
+            "sha256": "bd43c79a52f837027d21d8a5234c1a30efa85419fcb952d564fbb33300905f01",
+            "bytes": 29650
+        },
+        {
+            "file": "Stage05_R43/Stage05_R43_UnityGate.json",
+            "sha256": "c10353808d3acb9e8892b3aec1fcba98c8ff0a95611b4077cf0bd41da04cbf29",
+            "bytes": 16217
+        }
+    ],
+    "performance_disposition": "R43 editor/D3D11 proxy is frozen; Quest Link/Air Link stereo CPU/GPU capture is required before Stage 6 performance acceptance."
+}

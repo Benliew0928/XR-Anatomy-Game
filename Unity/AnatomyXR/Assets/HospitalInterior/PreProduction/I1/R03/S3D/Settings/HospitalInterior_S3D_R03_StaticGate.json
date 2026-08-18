@@ -1,0 +1,94 @@
+{
+    "schema": "HospitalInterior.R03.S3D.StaticGate.v1",
+    "status": "PASS",
+    "unityVersion": "6000.3.20f1",
+    "passCount": 17,
+    "totalCount": 17,
+    "checks": [
+        {
+            "name": "approved_s2_s3_authorities_unchanged",
+            "pass": true,
+            "detail": "S2=38; S3B=12; S3C=17; mismatches=0"
+        },
+        {
+            "name": "approved_r44_r05b_stage06_authority_unchanged",
+            "pass": true,
+            "detail": "exact=294; knownSemanticNormalization=1; unexpected=0"
+        },
+        {
+            "name": "editor_build_settings_byte_identical",
+            "pass": true,
+            "detail": "62889469c318a93430e41e1fc2f6c7df1fade301520199388d3725f58972a5bb"
+        },
+        {
+            "name": "explicit_fifteen_scene_player_matrix",
+            "pass": true,
+            "detail": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S3D_R03_FullTechnicalIntegration.unity,Assets/Hospital/Scenes/Additive/Exterior_Base.unity,Assets/Hospital/Scenes/Additive/Exterior_Tower.unity,Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity,Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity,Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SiteCore.unity,Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SitePerimeter.unity,Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SiteLandscape.unity,Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F00_Empty.unity,Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F01_Empty.unity,Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F02_Empty.unity,Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F03_Empty.unity,Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F04_Empty.unity,Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F05_Empty.unity,Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F06_Empty.unity"
+        },
+        {
+            "name": "desktop_pcvr_input_contract",
+            "pass": true,
+            "detail": "Head/Position,Head/Rotation,Head/TrackingState,Head/IsTracked,LeftController/Position,LeftController/Rotation,LeftController/TrackingState,LeftController/IsTracked,RightController/Position,RightController/Rotation,RightController/TrackingState,RightController/IsTracked,Locomotion/Move,Locomotion/SnapTurn,Locomotion/TeleportAim,Locomotion/TeleportCancel,Interaction/Activate"
+        },
+        {
+            "name": "single_s3d_runtime_stack",
+            "pass": true,
+            "detail": "bootstrap=1; rig=1; entrance=1; teleport=1; recovery=1; siteCollision=1; facadeEdges=1; elevator=1"
+        },
+        {
+            "name": "review_only_s3c_stack_removed",
+            "pass": true,
+            "detail": "No earlier review bootstrap or locomotion remains serialized in S3D."
+        },
+        {
+            "name": "one_adaptive_origin_camera_listener",
+            "pass": true,
+            "detail": "origins=1; cameras=1; listeners=1; characters=1"
+        },
+        {
+            "name": "pcvr_rig_components_and_tracked_poses",
+            "pass": true,
+            "detail": "poseDrivers=3; actionManagers=1; interactionManagers=1; locomotion=1; teleporter=1"
+        },
+        {
+            "name": "one_integration_directional_light",
+            "pass": true,
+            "detail": "directional=1; total=2"
+        },
+        {
+            "name": "bootstrap_references_and_gate_spawn",
+            "pass": true,
+            "detail": "(0.000, 0.030, -99.000)"
+        },
+        {
+            "name": "forgiving_elevator_interaction_targeting",
+            "pass": true,
+            "detail": "reach=5.50m; aimAssistRadius=0.18m"
+        },
+        {
+            "name": "six_natural_main_glass_floor_edge_finishes",
+            "pass": true,
+            "detail": "finishes=6; colliders=6; material=MAT_S2_R03_EmptySlab; spanX=-23.95..18.80; spanZ=-17.30..-15.48; thickness=0.20"
+        },
+        {
+            "name": "sixteen_elevator_controls_still_routed",
+            "pass": true,
+            "detail": "buttons=16"
+        },
+        {
+            "name": "no_missing_script_references",
+            "pass": true,
+            "detail": "missingScripts=0; roots=1"
+        },
+        {
+            "name": "approved_s3c_spatial_elevator_contract",
+            "pass": true,
+            "detail": "cabinX=0.475..2.825; cabinZ=3.125..5.575; clearanceL/R/F/R=0.175/0.175/0.125/0.125; minimumStorey=3.900; floorDatum=0.000; shaftInnerX=0.400..2.900; shaftInnerZ=3.000..5.650; runningClearanceL/R/F/R=0.075/0.075/0.125/0.075; vertical=-0.200..28.830; baseClearance=0.090; F06Overrun=1.040; wallsContinuous=True; spandrels=7; rails=2; centerline=(1.650,4.350); shaftInnerX=0.400..2.900; shaftInnerZ=3.000..5.650; runningClearanceL/R/F/R=0.075/0.075/0.125/0.075; vertical=-0.200..28.830; baseClearance=0.090; F06Overrun=1.040; wall=0.075; guideRail=0.040; base=0.090; F06Top=0.940"
+        },
+        {
+            "name": "eight_metadata_driven_automatic_entrance_leaves",
+            "pass": true,
+            "detail": "leaves=8; UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT,UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT,UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT,UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT,UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT,UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT,UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT,UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT"
+        }
+    ]
+}

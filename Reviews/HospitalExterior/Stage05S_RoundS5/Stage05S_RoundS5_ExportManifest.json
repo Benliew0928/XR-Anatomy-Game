@@ -1,0 +1,1129 @@
+{
+  "approved_input": {
+    "authoring_fingerprint": "cff4de18680ab7354012ccb4701794bbddc619045a3600c29e1cff2837d92690",
+    "material_fingerprint": "735a9135556f3e37506bd0d0b8d0838ae3ced873de0bd71b7dd7becde1aa834f",
+    "path": "C:\\CutMyBodyPlease\\ArtSource\\Environment\\Blender\\HospitalSite\\HospitalSite_Stage05S_R04B_LANDSCAPE_REDESIGN.blend1",
+    "sha256": "688b8c6c78b8a9747be300cca55e994c6533708ea9dcd923314e08728c9f03ef"
+  },
+  "circulation_correction": {
+    "canopy_modules": 24,
+    "canopy_rows_covered": 3,
+    "capacity": 60,
+    "crossings": {
+      "Dropoff": {
+        "center": [
+          6.0,
+          -37.72
+        ],
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "road_width": 7.0
+      },
+      "GateAxis": {
+        "center": [
+          0.0,
+          -84.0
+        ],
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "road_width": 8.0
+      },
+      "ParkingAccess": {
+        "center": [
+          21.72,
+          -86.5
+        ],
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "road_width": 6.0
+      },
+      "ParkingLoop": {
+        "center": [
+          14.57,
+          -60.5
+        ],
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "road_width": 7.0
+      }
+    },
+    "dropoff_parking_removed": true,
+    "frozen_s4b_authoring_untouched": true,
+    "reason": "The visitor lot and legacy drop-off parking overlays conflicted with live roads; canopy modules covered the wrong strip; axis-aligned zebras did not follow the actual pedestrian crossing directions.",
+    "status": "S5_EXPORT_ONLY_REDRAW",
+    "visitor_parking_layout": {
+      "accessible_x_max": 28.6,
+      "accessible_x_min": 25.0,
+      "aisle_centers": [
+        -86.5,
+        -75.5
+      ],
+      "aisle_width": 6.0,
+      "canopy_module_x_centers": [
+        28.0,
+        34.5,
+        41.0,
+        47.5,
+        54.0,
+        60.5,
+        67.0,
+        73.5
+      ],
+      "canopy_rows": [
+        -92.0,
+        -81.0,
+        -70.0
+      ],
+      "canopy_scale_x": 0.92,
+      "canopy_scale_y": 1.62,
+      "parking_spine_x_max": 72.0,
+      "parking_spine_x_min": 18.9,
+      "parking_spine_y": -65.75,
+      "row_centers": [
+        -92.0,
+        -81.0,
+        -70.0
+      ],
+      "row_depth": 5.0,
+      "standard_per_row": 19,
+      "standard_width": 2.5,
+      "standard_x_min": 29.0,
+      "x_max": 77.5,
+      "x_min": 24.5,
+      "y_max": -64.25,
+      "y_min": -94.5
+    }
+  },
+  "fbx_settings": {
+    "apply_unit_scale": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "bake_anim": false,
+    "global_scale": 1.0,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ]
+  },
+  "gate_animation_roots": [
+    "S05S_S5_EXP_MainGate_S05S_ACT_GateLeafRoot_Left",
+    "S05S_S5_EXP_MainGate_S05S_ACT_GateLeafRoot_Right"
+  ],
+  "lod_policy": {
+    "active_triangle_totals": {
+      "LOD0": 5422208,
+      "LOD1": 1192298,
+      "LOD2": 351826
+    },
+    "distance_tuning": "DEFERRED_TO_S6_QUEST_LINK_AIR_LINK_PROFILE",
+    "families": {
+      "S05S_S4B_Mesh_AlliumDrift": {
+        "LOD0": {
+          "mesh": "S05S_S5_MESH_S05S_S4B_Mesh_AlliumDrift",
+          "target_ratio": 1.0,
+          "triangles": 8160,
+          "vertices": 8736
+        },
+        "LOD1": {
+          "mesh": "S05S_S5_LOD1_S05S_S4B_Mesh_AlliumDrift",
+          "target_ratio": 0.22,
+          "triangles": 1771,
+          "vertices": 3355
+        },
+        "LOD2": {
+          "mesh": "S05S_S5_LOD2_S05S_S4B_Mesh_AlliumDrift",
+          "target_ratio": 0.065,
+          "triangles": 506,
+          "vertices": 2090
+        }
+      },
+      "S05S_S4B_Mesh_HedgeModule": {
+        "LOD0": {
+          "mesh": "S05S_S5_MESH_S05S_S4B_Mesh_HedgeModule",
+          "target_ratio": 1.0,
+          "triangles": 27092,
+          "vertices": 29756
+        },
+        "LOD1": {
+          "mesh": "S05S_S5_LOD1_S05S_S4B_Mesh_HedgeModule",
+          "target_ratio": 0.22,
+          "triangles": 5956,
+          "vertices": 11360
+        },
+        "LOD2": {
+          "mesh": "S05S_S5_LOD2_S05S_S4B_Mesh_HedgeModule",
+          "target_ratio": 0.065,
+          "triangles": 1756,
+          "vertices": 7160
+        }
+      },
+      "S05S_S4B_Mesh_OrnamentalGrass": {
+        "LOD0": {
+          "mesh": "S05S_S5_MESH_S05S_S4B_Mesh_OrnamentalGrass",
+          "target_ratio": 1.0,
+          "triangles": 2280,
+          "vertices": 2660
+        },
+        "LOD1": {
+          "mesh": "S05S_S5_LOD1_S05S_S4B_Mesh_OrnamentalGrass",
+          "target_ratio": 0.22,
+          "triangles": 501,
+          "vertices": 881
+        },
+        "LOD2": {
+          "mesh": "S05S_S5_LOD2_S05S_S4B_Mesh_OrnamentalGrass",
+          "target_ratio": 0.065,
+          "triangles": 148,
+          "vertices": 530
+        }
+      },
+      "S05S_S4B_Mesh_TopiaryColumn": {
+        "LOD0": {
+          "mesh": "S05S_S5_MESH_S05S_S4B_Mesh_TopiaryColumn",
+          "target_ratio": 1.0,
+          "triangles": 82666,
+          "vertices": 87612
+        },
+        "LOD1": {
+          "mesh": "S05S_S5_LOD1_S05S_S4B_Mesh_TopiaryColumn",
+          "target_ratio": 0.22,
+          "triangles": 18186,
+          "vertices": 33441
+        },
+        "LOD2": {
+          "mesh": "S05S_S5_LOD2_S05S_S4B_Mesh_TopiaryColumn",
+          "target_ratio": 0.065,
+          "triangles": 5373,
+          "vertices": 20689
+        }
+      },
+      "S05S_S4B_Mesh_TreeBroad_A": {
+        "LOD0": {
+          "mesh": "S05S_S5_MESH_S05S_S4B_Mesh_TreeBroad_A",
+          "target_ratio": 1.0,
+          "triangles": 116610,
+          "vertices": 120868
+        },
+        "LOD1": {
+          "mesh": "S05S_S5_LOD1_S05S_S4B_Mesh_TreeBroad_A",
+          "target_ratio": 0.22,
+          "triangles": 25654,
+          "vertices": 45852
+        },
+        "LOD2": {
+          "mesh": "S05S_S5_LOD2_S05S_S4B_Mesh_TreeBroad_A",
+          "target_ratio": 0.065,
+          "triangles": 7579,
+          "vertices": 28117
+        }
+      },
+      "S05S_S4B_Mesh_TreeFlowering_C": {
+        "LOD0": {
+          "mesh": "S05S_S5_MESH_S05S_S4B_Mesh_TreeFlowering_C",
+          "target_ratio": 1.0,
+          "triangles": 94802,
+          "vertices": 98428
+        },
+        "LOD1": {
+          "mesh": "S05S_S5_LOD1_S05S_S4B_Mesh_TreeFlowering_C",
+          "target_ratio": 0.22,
+          "triangles": 20856,
+          "vertices": 37328
+        },
+        "LOD2": {
+          "mesh": "S05S_S5_LOD2_S05S_S4B_Mesh_TreeFlowering_C",
+          "target_ratio": 0.065,
+          "triangles": 6162,
+          "vertices": 22904
+        }
+      },
+      "S05S_S4B_Mesh_TreeUpright_B": {
+        "LOD0": {
+          "mesh": "S05S_S5_MESH_S05S_S4B_Mesh_TreeUpright_B",
+          "target_ratio": 1.0,
+          "triangles": 103746,
+          "vertices": 107492
+        },
+        "LOD1": {
+          "mesh": "S05S_S5_LOD1_S05S_S4B_Mesh_TreeUpright_B",
+          "target_ratio": 0.22,
+          "triangles": 22824,
+          "vertices": 40700
+        },
+        "LOD2": {
+          "mesh": "S05S_S5_LOD2_S05S_S4B_Mesh_TreeUpright_B",
+          "target_ratio": 0.065,
+          "triangles": 6743,
+          "vertices": 24993
+        }
+      }
+    },
+    "ratios": {
+      "LOD0": 1.0,
+      "LOD1": 0.22,
+      "LOD2": 0.065
+    }
+  },
+  "material_roles": {
+    "ACCENT_PLANTING": [
+      "MAT_S05S_S5_AccentAllium",
+      "MAT_S05S_S5_AccentFlower",
+      "MAT_S05S_S5_AccentStem"
+    ],
+    "BARK_TRUNK": [
+      "MAT_S05S_S5_BarkTrunk"
+    ],
+    "EXTERIOR_PAVER": [
+      "MAT_S05S_S5_ExteriorPaver_WarmGrey"
+    ],
+    "KERB_SERVICE_CONCRETE": [
+      "MAT_S05S_S5_KerbServiceConcrete"
+    ],
+    "LAKE_PLACEHOLDER": [
+      "MAT_S05S_S5_LakePlaceholder"
+    ],
+    "PRIMARY_FOLIAGE": [
+      "MAT_S05S_S5_FoliageDeep",
+      "MAT_S05S_S5_FoliageLawn",
+      "MAT_S05S_S5_FoliageLight",
+      "MAT_S05S_S5_FoliageMid"
+    ],
+    "ROAD_ASPHALT": [
+      "MAT_S05S_S5_RoadAsphalt"
+    ],
+    "ROAD_MARKING": [
+      "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+      "MAT_S05S_S5_RoadMarking_White",
+      "MAT_S05S_S5_RoadMarking_Yellow"
+    ],
+    "SEATING_TIMBER": [
+      "MAT_S05S_S5_SeatingTimber"
+    ],
+    "SOIL_MULCH": [
+      "MAT_S05S_S5_SoilMulch"
+    ],
+    "SOLAR_PANEL": [
+      "MAT_S05S_S5_SolarPanel"
+    ],
+    "TACTILE_PAVING": [
+      "MAT_S05S_S5_TactilePaving"
+    ]
+  },
+  "optimization": {
+    "approved_authoring_untouched": true,
+    "combined_tree_trunk_collider_count": 27,
+    "export_mesh_reuse": true,
+    "perimeter_source_objects": 396,
+    "perimeter_spatial_chunks": 4,
+    "selective_fence_collision_objects": 5,
+    "selective_surface_collision_objects": 20,
+    "transparent_site_materials": 0
+  },
+  "protected_r40": {
+    "path": "C:\\CutMyBodyPlease\\ArtSource\\Environment\\Blender\\HospitalExterior\\HospitalExterior_Stage04_R40_MASTER_ReviewCorrected.blend1",
+    "sha256": "0a530ff9d7d7effa512f1d69178a0be86da722239f0cb992878045358c73ea58"
+  },
+  "schema": "HospitalExterior.Stage05S.RoundS5.ExportManifest.v1",
+  "source": {
+    "bytes": 36815879,
+    "path": "C:\\CutMyBodyPlease\\ArtSource\\Environment\\Blender\\HospitalSite\\HospitalSite_Stage05S_R05_FINAL.blend",
+    "sha256": "04fad3c3cc06c967478d9b0ec2e67f598e845cbd3e9e12cc11562bd95e096a78"
+  },
+  "status": "READY_FOR_REVIEW",
+  "validation": {
+    "checks_failed": 0,
+    "checks_passed": 87,
+    "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_Validation.json",
+    "result": "PASS"
+  },
+  "zones": {
+    "SITE_CoreRoadParking": {
+      "bytes": 294844,
+      "file": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05S_R05_Final\\Hospital_SITE_CoreRoadParking_R05.fbx",
+      "object_names": [
+        "S05S_S5_EXP_CoreCollision_RefinedParkingCrossSpine",
+        "S05S_S5_EXP_CoreCollision_RefinedPath_GateLobby",
+        "S05S_S5_EXP_CoreCollision_RefinedPath_LakeGate",
+        "S05S_S5_EXP_CoreCollision_RefinedPath_LakeHospital",
+        "S05S_S5_EXP_CoreCollision_RefinedPath_ParkingLobby",
+        "S05S_S5_EXP_CoreCollision_RefinedVisitorParkingAccess",
+        "S05S_S5_EXP_CoreCollision_RefinedVisitorParkingSurface",
+        "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_01",
+        "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_02",
+        "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_03",
+        "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_04",
+        "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_05",
+        "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_08",
+        "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_09",
+        "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_10",
+        "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_11",
+        "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_17",
+        "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_18",
+        "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_19",
+        "S05S_S5_EXP_CoreCollision_S05S_COL_Surface_20",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M01_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M01_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M02_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M02_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M03_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M03_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M04_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M04_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M05_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M05_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M06_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M06_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M07_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M07_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M08_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R01_M08_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M01_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M01_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M02_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M02_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M03_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M03_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M04_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M04_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M05_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M05_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M06_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M06_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M07_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M07_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M08_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R02_M08_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M01_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M01_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M02_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M02_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M03_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M03_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M04_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M04_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M05_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M05_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M06_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M06_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M07_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M07_Solar",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M08_Shell",
+        "S05S_S5_EXP_CoreRoadParking_FullRowCanopy_R03_M08_Solar",
+        "S05S_S5_EXP_CoreRoadParking_LobbyArrivalEdge",
+        "S05S_S5_EXP_CoreRoadParking_LobbyArrivalPavers",
+        "S05S_S5_EXP_CoreRoadParking_RefinedDropoffRoute",
+        "S05S_S5_EXP_CoreRoadParking_RefinedPathEdge_GateLobby",
+        "S05S_S5_EXP_CoreRoadParking_RefinedPathEdge_LakeGate",
+        "S05S_S5_EXP_CoreRoadParking_RefinedPathEdge_LakeHospital",
+        "S05S_S5_EXP_CoreRoadParking_RefinedPathEdge_ParkingCrossSpine",
+        "S05S_S5_EXP_CoreRoadParking_RefinedPathEdge_ParkingLobby",
+        "S05S_S5_EXP_CoreRoadParking_RefinedPathFinish_GateLobby",
+        "S05S_S5_EXP_CoreRoadParking_RefinedPathFinish_LakeGate",
+        "S05S_S5_EXP_CoreRoadParking_RefinedPathFinish_LakeHospital",
+        "S05S_S5_EXP_CoreRoadParking_RefinedPathFinish_ParkingCrossSpine",
+        "S05S_S5_EXP_CoreRoadParking_RefinedPathFinish_ParkingLobby",
+        "S05S_S5_EXP_CoreRoadParking_RefinedStaffParkingAccess",
+        "S05S_S5_EXP_CoreRoadParking_RefinedTactile_Dropoff",
+        "S05S_S5_EXP_CoreRoadParking_RefinedTactile_GateAxis",
+        "S05S_S5_EXP_CoreRoadParking_RefinedTactile_ParkingAccess",
+        "S05S_S5_EXP_CoreRoadParking_RefinedTactile_ParkingLoop",
+        "S05S_S5_EXP_CoreRoadParking_RefinedVisitorAccessible03_AccessStrips",
+        "S05S_S5_EXP_CoreRoadParking_RefinedVisitorAccessible03_BlueBacking",
+        "S05S_S5_EXP_CoreRoadParking_RefinedVisitorAccessible03_Outlines",
+        "S05S_S5_EXP_CoreRoadParking_RefinedVisitorParkingAccess",
+        "S05S_S5_EXP_CoreRoadParking_RefinedVisitorParkingSurface",
+        "S05S_S5_EXP_CoreRoadParking_RefinedVisitorStandard57_GroupedMarkings",
+        "S05S_S5_EXP_CoreRoadParking_RefinedZebra_Dropoff",
+        "S05S_S5_EXP_CoreRoadParking_RefinedZebra_GateAxis",
+        "S05S_S5_EXP_CoreRoadParking_RefinedZebra_ParkingAccess",
+        "S05S_S5_EXP_CoreRoadParking_RefinedZebra_ParkingLoop",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S3_Parking_StaffCar12_GroupedMarkings",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S3_Parking_StaffMotorcycle24_GroupedMarkings",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_01",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_02",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_03",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_04",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_05",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_06",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_07",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_08",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_09",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_10",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_11",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_12",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_13",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_14",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_15",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_DrainGrate_16",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_Visual_Parking_StaffMotorcycleSurface",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_Visual_Road_ArrivalBoulevard",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_Visual_Road_TwoWayLoop",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_Visual_Walk_HospitalPerimeter",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_Visual_Walk_InnerPerimeter",
+        "S05S_S5_EXP_CoreRoadParking_S05S_S4B_Visual_Walk_RearPublicConnector"
+      ],
+      "sha256": "8edb2e8994bd6608ff1a27b2156feb1f4b071b860d6fc3b78927929def001ac7",
+      "source_scene": {
+        "bounds": [
+          [
+            -87.0,
+            -99.699997,
+            0.0
+          ],
+          [
+            87.0,
+            72.0,
+            3.405
+          ]
+        ],
+        "statistics": {
+          "evaluated_instance_triangles": 12302,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_RefinedBronze",
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_KerbServiceConcrete",
+            "MAT_S05S_S5_RoadAsphalt",
+            "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+            "MAT_S05S_S5_RoadMarking_White",
+            "MAT_S05S_S5_RoadMarking_Yellow",
+            "MAT_S05S_S5_SolarPanel",
+            "MAT_S05S_S5_TactilePaving"
+          ],
+          "mesh_objects": 120,
+          "modifier_evaluated_triangles": 12302,
+          "objects": 120,
+          "unique_meshes": 59,
+          "unique_triangles": 3374,
+          "unique_vertices": 3664
+        }
+      }
+    },
+    "SITE_LandscapeHardscape": {
+      "bytes": 79180,
+      "file": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05S_R05_Final\\Hospital_SITE_LandscapeHardscape_R05.fbx",
+      "object_names": [
+        "S05S_S5_EXP_LandscapeHardscape_S05S_S4B_Bed_ArrivalGarden",
+        "S05S_S5_EXP_LandscapeHardscape_S05S_S4B_Bed_EastFormalGarden",
+        "S05S_S5_EXP_LandscapeHardscape_S05S_S4B_Bed_LakeEast",
+        "S05S_S5_EXP_LandscapeHardscape_S05S_S4B_Bed_LakeWest",
+        "S05S_S5_EXP_LandscapeHardscape_S05S_S4B_Bed_ParkingEdge",
+        "S05S_S5_EXP_LandscapeHardscape_S05S_S4B_Bed_WestFormalGarden",
+        "S05S_S5_EXP_LandscapeHardscape_S05S_S4B_ContinuousLawnVisual",
+        "S05S_S5_EXP_LandscapeHardscape_S05S_S4B_FutureWaterVisualization",
+        "S05S_S5_EXP_LandscapeHardscape_S05S_S4B_LakeEdgeStone",
+        "S05S_S5_EXP_LandscapeHardscape_S05S_S4B_LakePlantedBank",
+        "S05S_S5_EXP_LandscapeHardscape_S05S_S4B_LakePromenadeEdgeCourse",
+        "S05S_S5_EXP_LandscapeHardscape_S05S_S4B_LakePromenadePavers"
+      ],
+      "sha256": "0191f6d7d76d33bcf7d17d43412db43f7969337d7a50359d23a68afc9db398f1",
+      "source_scene": {
+        "bounds": [
+          [
+            -90.0,
+            -100.0,
+            -0.222
+          ],
+          [
+            90.0,
+            75.0,
+            0.125
+          ]
+        ],
+        "statistics": {
+          "evaluated_instance_triangles": 1092,
+          "materials": [
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_FoliageLawn",
+            "MAT_S05S_S5_KerbServiceConcrete",
+            "MAT_S05S_S5_LakePlaceholder",
+            "MAT_S05S_S5_SoilMulch"
+          ],
+          "mesh_objects": 12,
+          "modifier_evaluated_triangles": 1092,
+          "objects": 12,
+          "unique_meshes": 12,
+          "unique_triangles": 1092,
+          "unique_vertices": 1095
+        }
+      }
+    },
+    "SITE_MainGate": {
+      "bytes": 165980,
+      "file": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05S_R05_Final\\Hospital_SITE_MainGate_R05.fbx",
+      "object_names": [
+        "S05S_S5_EXP_MainGate_S05S_ACT_GateLeafRoot_Left",
+        "S05S_S5_EXP_MainGate_S05S_ACT_GateLeafRoot_Right",
+        "S05S_S5_EXP_MainGate_S05S_S2_GateLeaf_Left",
+        "S05S_S5_EXP_MainGate_S05S_S2_GateLeaf_Right",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_ColumnBronzeInlay_01",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_ColumnBronzeInlay_02",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_ColumnBronzeInlay_03",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_FrontBronzeLine",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_FrontCharcoalRail",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_LeftAnchor",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_PavilionRoof",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_PavilionScreenFin_01",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_PavilionScreenFin_02",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_PavilionScreenFin_03",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_PavilionScreenFin_04",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_PavilionScreenFin_05",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_PedestrianDivider",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_PortalBeam",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_RecessedSoffit",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_RightWelcomePavilion",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_Signage_Campus",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_Signage_Hospital",
+        "S05S_S5_EXP_MainGate_S05S_S2_Gate_VehiclePedDivider"
+      ],
+      "sha256": "756850ce5099ab78e74c9125429833872e589d33ab64c123b637f882107e4fbf",
+      "source_scene": {
+        "bounds": [
+          [
+            -15.0,
+            -100.0,
+            0.0
+          ],
+          [
+            15.05,
+            -88.400002,
+            7.0
+          ]
+        ],
+        "statistics": {
+          "evaluated_instance_triangles": 1700,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Composite_LightGrey",
+            "MAT_Composite_WarmOffWhite",
+            "MAT_Entrance_HonedTravertine",
+            "MAT_Entrance_RefinedBronze"
+          ],
+          "mesh_objects": 21,
+          "modifier_evaluated_triangles": 4692,
+          "objects": 23,
+          "unique_meshes": 21,
+          "unique_triangles": 1700,
+          "unique_vertices": 1512
+        }
+      }
+    },
+    "SITE_PerimeterFence": {
+      "bytes": 346316,
+      "file": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05S_R05_Final\\Hospital_SITE_PerimeterFence_R05.fbx",
+      "object_names": [
+        "S05S_S5_EXP_FenceCollision_S05S_COL_FenceBarrier_East",
+        "S05S_S5_EXP_FenceCollision_S05S_COL_FenceBarrier_FrontEast",
+        "S05S_S5_EXP_FenceCollision_S05S_COL_FenceBarrier_FrontWest",
+        "S05S_S5_EXP_FenceCollision_S05S_COL_FenceBarrier_Rear",
+        "S05S_S5_EXP_FenceCollision_S05S_COL_FenceBarrier_West",
+        "S05S_S5_EXP_PerimeterFence_EastChunk",
+        "S05S_S5_EXP_PerimeterFence_FrontChunk",
+        "S05S_S5_EXP_PerimeterFence_RearChunk",
+        "S05S_S5_EXP_PerimeterFence_WestChunk"
+      ],
+      "sha256": "2a7afdc0768663191c3c02370b42727b9a406ad5b68c78065a2730dcc57a81ec",
+      "source_scene": {
+        "bounds": [
+          [
+            -90.0,
+            -100.0,
+            0.0
+          ],
+          [
+            90.0,
+            75.0,
+            6.85
+          ]
+        ],
+        "statistics": {
+          "evaluated_instance_triangles": 21660,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_HonedTravertine",
+            "MAT_Entrance_RefinedBronze"
+          ],
+          "mesh_objects": 9,
+          "modifier_evaluated_triangles": 21660,
+          "objects": 9,
+          "unique_meshes": 9,
+          "unique_triangles": 21660,
+          "unique_vertices": 14440
+        }
+      }
+    },
+    "SITE_PropsVegetation": {
+      "bytes": 31934988,
+      "file": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05S_R05_Final\\Hospital_SITE_PropsVegetation_R05.fbx",
+      "object_names": [
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_01_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_01_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_01_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_02_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_02_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_02_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_03_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_03_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_03_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_04_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_04_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_04_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_05_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_05_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_05_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_06_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_06_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_06_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_07_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_07_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_07_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_08_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_08_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_08_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_09_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_09_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_09_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_10_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_10_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_10_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_11_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_11_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_11_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_12_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_12_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_12_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_13_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_13_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_13_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_14_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_14_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_14_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_15_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_15_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_15_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_16_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_16_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_AlliumDrift_16_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Bench_01",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Bench_02",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Bench_03",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Bench_04",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Bench_05",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Bin_01",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Bin_02",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Bin_03",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Bin_04",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Bin_05",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_01_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_01_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_01_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_02_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_02_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_02_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_03_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_03_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_03_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_04_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_04_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_04_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_05_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_05_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_05_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_06_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_06_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_06_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_07_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_07_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_07_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_08_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_08_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_08_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_09_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_09_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_09_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_10_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_10_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_10_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_11_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_11_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_11_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_12_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_12_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_12_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_13_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_13_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_13_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_14_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_14_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_14_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_15_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_15_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_15_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_16_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_16_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_16_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_17_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_17_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_17_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_18_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_18_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_18_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_19_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_19_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_19_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_20_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_20_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_20_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_21_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_21_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_21_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_22_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_22_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_22_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_23_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_23_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_23_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_24_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_24_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_24_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_001_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_001_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_001_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_002_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_002_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_002_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_003_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_003_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_003_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_004_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_004_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_004_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_005_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_005_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_005_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_006_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_006_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_006_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_007_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_007_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_007_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_008_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_008_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_008_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_009_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_009_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_009_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_010_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_010_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_010_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_011_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_011_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_011_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_012_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_012_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_012_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_013_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_013_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_013_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_014_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_014_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_014_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_015_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_015_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_015_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_016_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_016_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_016_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_017_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_017_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_017_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_018_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_018_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_018_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_019_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_019_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_019_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_020_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_020_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_020_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_021_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_021_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_021_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_022_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_022_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_022_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_023_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_023_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_023_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_024_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_024_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_024_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_025_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_025_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_025_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_026_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_026_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_026_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_027_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_027_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_027_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_028_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_028_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_028_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_029_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_029_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_029_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_030_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_030_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_030_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_031_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_031_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_031_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_032_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_032_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_032_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_033_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_033_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_033_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_034_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_034_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_034_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_035_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_035_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_035_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_036_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_036_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_036_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_037_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_037_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_037_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_038_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_038_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_038_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_039_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_039_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_039_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_040_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_040_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_040_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_041_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_041_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Hedge_041_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_01_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_01_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_01_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_02_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_02_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_02_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_03_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_03_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_03_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_04_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_04_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_04_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_05_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_05_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_05_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_06_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_06_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_06_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_07_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_07_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_07_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_08_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_08_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_08_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_09_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_09_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_09_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_10_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_10_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_10_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_11_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_11_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_11_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_12_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_12_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_12_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_13_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_13_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_13_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_14_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_14_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_14_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_15_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_15_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_TopiaryColumn_15_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_01_tree_broad_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_01_tree_broad_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_01_tree_broad_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_02_tree_broad_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_02_tree_broad_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_02_tree_broad_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_03_tree_broad_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_03_tree_broad_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_03_tree_broad_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_04_tree_broad_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_04_tree_broad_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_04_tree_broad_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_05_tree_broad_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_05_tree_broad_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_05_tree_broad_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_06_tree_broad_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_06_tree_broad_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_06_tree_broad_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_07_tree_broad_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_07_tree_broad_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_07_tree_broad_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_08_tree_broad_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_08_tree_broad_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_08_tree_broad_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_09_tree_flowering_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_09_tree_flowering_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_09_tree_flowering_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_10_tree_flowering_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_10_tree_flowering_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_10_tree_flowering_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_11_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_11_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_11_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_12_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_12_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_12_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_13_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_13_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_13_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_14_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_14_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_14_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_15_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_15_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_15_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_16_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_16_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_16_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_17_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_17_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_17_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_18_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_18_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_18_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_19_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_19_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_19_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_20_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_20_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_20_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_21_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_21_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_21_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_22_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_22_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_22_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_23_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_23_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_23_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_24_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_24_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_24_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_25_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_25_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_25_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_26_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_26_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_26_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_27_tree_upright_LOD0",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_27_tree_upright_LOD1",
+        "S05S_S5_EXP_PropsVegetation_S05S_S4B_Tree_27_tree_upright_LOD2",
+        "S05S_S5_EXP_PropsVegetation_TreeTrunkCollision"
+      ],
+      "sha256": "9683e8c708984068aaf07a6a38eace47177a8f060701844dab9e28aa2cea90c9",
+      "source_scene": {
+        "bounds": [
+          [
+            -85.922607,
+            -102.767586,
+            0.043469
+          ],
+          [
+            89.864571,
+            68.639519,
+            11.55007
+          ]
+        ],
+        "statistics": {
+          "evaluated_instance_triangles": 6970628,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_RefinedBronze",
+            "MAT_S05S_S5_AccentAllium",
+            "MAT_S05S_S5_AccentFlower",
+            "MAT_S05S_S5_AccentStem",
+            "MAT_S05S_S5_BarkTrunk",
+            "MAT_S05S_S5_FoliageDeep",
+            "MAT_S05S_S5_FoliageLight",
+            "MAT_S05S_S5_FoliageMid",
+            "MAT_S05S_S5_SeatingTimber"
+          ],
+          "mesh_objects": 380,
+          "modifier_evaluated_triangles": 6970628,
+          "objects": 380,
+          "unique_meshes": 24,
+          "unique_triangles": 560835,
+          "unique_vertices": 735784
+        }
+      }
+    },
+    "SITE_RearService": {
+      "bytes": 42396,
+      "file": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05S_R05_Final\\Hospital_SITE_RearService_R05.fbx",
+      "object_names": [
+        "S05S_S5_EXP_RearService_S05S_S3_Service_Loading03_GroupedMarkings",
+        "S05S_S5_EXP_RearService_S05S_S3_Service_PedestrianSeparationHatching",
+        "S05S_S5_EXP_RearService_S05S_S3_Service_PublicEdgeScreen",
+        "S05S_S5_EXP_RearService_S05S_S4B_Visual_Service_AccessRoad",
+        "S05S_S5_EXP_RearService_S05S_S4B_Visual_Service_SeparatedWalk",
+        "S05S_S5_EXP_RearService_S05S_S4B_Visual_Service_YardSurface"
+      ],
+      "sha256": "fa6968305a510e7061a318493b63eb2e9c82e0ba4ad97690217aeafaef6dc96a",
+      "source_scene": {
+        "bounds": [
+          [
+            -84.0,
+            26.292892,
+            0.043
+          ],
+          [
+            -38.199265,
+            72.0,
+            3.75
+          ]
+        ],
+        "statistics": {
+          "evaluated_instance_triangles": 632,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_RoadAsphalt",
+            "MAT_S05S_S5_RoadMarking_White",
+            "MAT_S05S_S5_RoadMarking_Yellow"
+          ],
+          "mesh_objects": 6,
+          "modifier_evaluated_triangles": 632,
+          "objects": 6,
+          "unique_meshes": 6,
+          "unique_triangles": 632,
+          "unique_vertices": 428
+        }
+      }
+    }
+  }
+}

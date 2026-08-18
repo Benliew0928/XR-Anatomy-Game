@@ -1,0 +1,9 @@
+{
+  "schema": "HospitalExterior.Stage05S.S6.UserApproval.v1",
+  "status": "S6 APPROVED / STAGE 5S COMPLETE",
+  "approved_on": "2026-08-11",
+  "authority_sha256": "68df8c9fd460dcadc1f42b12d1009338493eb398bfc8d012246f882d611e8f7d",
+  "technical_gate": "PASS 16/16",
+  "next_stage": "Stage 6A Quest Link/Air Link headset traversal and baseline",
+  "performance_claim": "No headset performance claim; real stereo capture still required"
+}

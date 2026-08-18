@@ -1,0 +1,396 @@
+{
+    "schema": "HospitalExterior.Stage05.R43.UnityGate.v1",
+    "status": "PASS",
+    "pass": true,
+    "checks": [
+        {
+            "name": "r42_prerequisite",
+            "pass": true,
+            "detail": "Reviews/HospitalExterior/Stage05_R42/Stage05_R42_UnityGate.json"
+        },
+        {
+            "name": "twelve_door_prefabs",
+            "pass": true,
+            "detail": "DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT.prefab,DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT.prefab,DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT.prefab,DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT.prefab,DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT.prefab,DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT.prefab,DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT.prefab,DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT.prefab,DOORPREFAB_UE_S03C_REAR_FireExit_B_Leaf_ROOT.prefab,DOORPREFAB_UE_S03C_REAR_LoadingDoor_Leaf_ROOT.prefab,DOORPREFAB_UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT.prefab,DOORPREFAB_UE_S03C_ROOF_AccessDoor_Leaf_ROOT.prefab"
+        },
+        {
+            "name": "UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT_prefab_exists",
+            "pass": true,
+            "detail": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT.prefab"
+        },
+        {
+            "name": "UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT_root_pivot_closed_clearance",
+            "pass": true,
+            "detail": "wrapper_zero=True; hierarchy=True; dynamic=True; physics=True; closed=True; clearance=True; renderers=5"
+        },
+        {
+            "name": "UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT_prefab_exists",
+            "pass": true,
+            "detail": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT.prefab"
+        },
+        {
+            "name": "UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT_root_pivot_closed_clearance",
+            "pass": true,
+            "detail": "wrapper_zero=True; hierarchy=True; dynamic=True; physics=True; closed=True; clearance=True; renderers=5"
+        },
+        {
+            "name": "UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT_prefab_exists",
+            "pass": true,
+            "detail": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT.prefab"
+        },
+        {
+            "name": "UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT_root_pivot_closed_clearance",
+            "pass": true,
+            "detail": "wrapper_zero=True; hierarchy=True; dynamic=True; physics=True; closed=True; clearance=True; renderers=5"
+        },
+        {
+            "name": "UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT_prefab_exists",
+            "pass": true,
+            "detail": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT.prefab"
+        },
+        {
+            "name": "UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT_root_pivot_closed_clearance",
+            "pass": true,
+            "detail": "wrapper_zero=True; hierarchy=True; dynamic=True; physics=True; closed=True; clearance=True; renderers=5"
+        },
+        {
+            "name": "UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT_prefab_exists",
+            "pass": true,
+            "detail": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT.prefab"
+        },
+        {
+            "name": "UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT_root_pivot_closed_clearance",
+            "pass": true,
+            "detail": "wrapper_zero=True; hierarchy=True; dynamic=True; physics=True; closed=True; clearance=True; renderers=5"
+        },
+        {
+            "name": "UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT_prefab_exists",
+            "pass": true,
+            "detail": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT.prefab"
+        },
+        {
+            "name": "UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT_root_pivot_closed_clearance",
+            "pass": true,
+            "detail": "wrapper_zero=True; hierarchy=True; dynamic=True; physics=True; closed=True; clearance=True; renderers=5"
+        },
+        {
+            "name": "UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT_prefab_exists",
+            "pass": true,
+            "detail": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT.prefab"
+        },
+        {
+            "name": "UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT_root_pivot_closed_clearance",
+            "pass": true,
+            "detail": "wrapper_zero=True; hierarchy=True; dynamic=True; physics=True; closed=True; clearance=True; renderers=5"
+        },
+        {
+            "name": "UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT_prefab_exists",
+            "pass": true,
+            "detail": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT.prefab"
+        },
+        {
+            "name": "UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT_root_pivot_closed_clearance",
+            "pass": true,
+            "detail": "wrapper_zero=True; hierarchy=True; dynamic=True; physics=True; closed=True; clearance=True; renderers=5"
+        },
+        {
+            "name": "UE_S03C_REAR_FireExit_B_Leaf_ROOT_prefab_exists",
+            "pass": true,
+            "detail": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_FireExit_B_Leaf_ROOT.prefab"
+        },
+        {
+            "name": "UE_S03C_REAR_FireExit_B_Leaf_ROOT_root_pivot_closed_clearance",
+            "pass": true,
+            "detail": "wrapper_zero=True; hierarchy=True; dynamic=True; physics=True; closed=True; clearance=True; renderers=1"
+        },
+        {
+            "name": "UE_S03C_REAR_LoadingDoor_Leaf_ROOT_prefab_exists",
+            "pass": true,
+            "detail": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_LoadingDoor_Leaf_ROOT.prefab"
+        },
+        {
+            "name": "UE_S03C_REAR_LoadingDoor_Leaf_ROOT_root_pivot_closed_clearance",
+            "pass": true,
+            "detail": "wrapper_zero=True; hierarchy=True; dynamic=True; physics=True; closed=True; clearance=True; renderers=1"
+        },
+        {
+            "name": "UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT_prefab_exists",
+            "pass": true,
+            "detail": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT.prefab"
+        },
+        {
+            "name": "UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT_root_pivot_closed_clearance",
+            "pass": true,
+            "detail": "wrapper_zero=True; hierarchy=True; dynamic=True; physics=True; closed=True; clearance=True; renderers=1"
+        },
+        {
+            "name": "UE_S03C_ROOF_AccessDoor_Leaf_ROOT_prefab_exists",
+            "pass": true,
+            "detail": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_ROOF_AccessDoor_Leaf_ROOT.prefab"
+        },
+        {
+            "name": "UE_S03C_ROOF_AccessDoor_Leaf_ROOT_root_pivot_closed_clearance",
+            "pass": true,
+            "detail": "wrapper_zero=True; hierarchy=True; dynamic=True; physics=True; closed=True; clearance=True; renderers=1"
+        },
+        {
+            "name": "door_root_inventory_exact",
+            "pass": true,
+            "detail": "UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT,UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT,UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT,UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT,UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT,UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT,UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT,UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT,UE_S03C_REAR_FireExit_B_Leaf_ROOT,UE_S03C_REAR_LoadingDoor_Leaf_ROOT,UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT,UE_S03C_ROOF_AccessDoor_Leaf_ROOT"
+        },
+        {
+            "name": "interaction_scene_uses_only_twelve_door_prefabs",
+            "pass": true,
+            "detail": "roots=12; renderers=44; triangles=6160; colliders=12"
+        },
+        {
+            "name": "documented_simple_collision_inventory",
+            "pass": true,
+            "detail": "box=28; mesh=0; renderers=0; names=True"
+        },
+        {
+            "name": "source_zone_prefabs_remain_collider_free",
+            "pass": true,
+            "detail": "colliders=0"
+        },
+        {
+            "name": "collision_integrated_only_with_exterior_base",
+            "pass": true,
+            "detail": "EXT_GlobalStructure,EXT_GroundEntrance,R43_CollisionPrototype"
+        },
+        {
+            "name": "only_verified_opaque_architecture_static",
+            "pass": true,
+            "detail": "opaque=166/166; glass_or_doors_dynamic=71/71"
+        },
+        {
+            "name": "temporary_xr_scale_and_traversal_harness",
+            "pass": true,
+            "detail": "eye=1.7; xr_origin=True; routes=5; camera_disabled=True"
+        },
+        {
+            "name": "temporary_harness_excluded_from_build",
+            "pass": true,
+            "detail": "Assets/Hospital/Scenes/IntegrationSandbox/Hospital_R43_TraversalHarness.unity"
+        },
+        {
+            "name": "three_profile_states_captured",
+            "pass": true,
+            "detail": "ExteriorOnly,ExteriorPlusInteriorShell,DoorInteraction"
+        },
+        {
+            "name": "profile_ExteriorOnly",
+            "pass": true,
+            "detail": "renderers=145; triangles=626052; draw=145; batches=145; setpass=23; counter_estimated=True; cpu_med=0.474; gpu_available=False; memory=251676074"
+        },
+        {
+            "name": "profile_ExteriorPlusInteriorShell",
+            "pass": true,
+            "detail": "renderers=193; triangles=638172; draw=193; batches=193; setpass=30; counter_estimated=True; cpu_med=0.438; gpu_available=False; memory=252837529"
+        },
+        {
+            "name": "profile_DoorInteraction",
+            "pass": true,
+            "detail": "renderers=237; triangles=644332; draw=237; batches=237; setpass=30; counter_estimated=True; cpu_med=0.442; gpu_available=False; memory=254619991"
+        },
+        {
+            "name": "headset_gpu_timing_limitation_explicit",
+            "pass": true,
+            "detail": "Editor proxy is attributable and repeatable but is not a stereo Quest Link/Air Link performance claim. Capture headset CPU/GPU timing before Stage 6 acceptance."
+        }
+    ],
+    "doors": [
+        {
+            "root": "UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT",
+            "motion_type": "HorizontalSlide",
+            "pivot_position": [
+                -5.987500190734863,
+                0.2919999957084656,
+                -20.549999237060548
+            ],
+            "clearance_m": 3.3899998664855959,
+            "collider_size": [
+                1.325000286102295,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "pass": true
+        },
+        {
+            "root": "UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT",
+            "motion_type": "HorizontalSlide",
+            "pivot_position": [
+                -4.662499904632568,
+                0.2919999957084656,
+                -20.549999237060548
+            ],
+            "clearance_m": 3.3899998664855959,
+            "collider_size": [
+                1.3249998092651368,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "pass": true
+        },
+        {
+            "root": "UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT",
+            "motion_type": "HorizontalSlide",
+            "pivot_position": [
+                -3.3375000953674318,
+                0.2919999957084656,
+                -20.549999237060548
+            ],
+            "clearance_m": 3.3899998664855959,
+            "collider_size": [
+                1.3250000476837159,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "pass": true
+        },
+        {
+            "root": "UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT",
+            "motion_type": "HorizontalSlide",
+            "pivot_position": [
+                -2.012500047683716,
+                0.2919999957084656,
+                -20.549999237060548
+            ],
+            "clearance_m": 3.3899998664855959,
+            "collider_size": [
+                1.3250000476837159,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "pass": true
+        },
+        {
+            "root": "UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT",
+            "motion_type": "HorizontalSlide",
+            "pivot_position": [
+                -6.09250020980835,
+                0.2919999957084656,
+                -22.989999771118165
+            ],
+            "clearance_m": 3.3899998664855959,
+            "collider_size": [
+                1.3949999809265137,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "pass": true
+        },
+        {
+            "root": "UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT",
+            "motion_type": "HorizontalSlide",
+            "pivot_position": [
+                -4.697500228881836,
+                0.2919999957084656,
+                -22.989999771118165
+            ],
+            "clearance_m": 3.3899998664855959,
+            "collider_size": [
+                1.3949999809265137,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "pass": true
+        },
+        {
+            "root": "UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT",
+            "motion_type": "HorizontalSlide",
+            "pivot_position": [
+                -3.302500009536743,
+                0.2919999957084656,
+                -22.989999771118165
+            ],
+            "clearance_m": 3.3899998664855959,
+            "collider_size": [
+                1.3949999809265137,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "pass": true
+        },
+        {
+            "root": "UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT",
+            "motion_type": "HorizontalSlide",
+            "pivot_position": [
+                -1.9075000286102296,
+                0.2919999957084656,
+                -22.989999771118165
+            ],
+            "clearance_m": 3.3899998664855959,
+            "collider_size": [
+                1.3950001001358033,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "pass": true
+        },
+        {
+            "root": "UE_S03C_REAR_FireExit_B_Leaf_ROOT",
+            "motion_type": "Hinged",
+            "pivot_position": [
+                13.324999809265137,
+                0.2800000011920929,
+                17.290000915527345
+            ],
+            "clearance_m": 2.549999475479126,
+            "collider_size": [
+                1.2299995422363282,
+                0.09999869763851166,
+                2.4499995708465578
+            ],
+            "pass": true
+        },
+        {
+            "root": "UE_S03C_REAR_LoadingDoor_Leaf_ROOT",
+            "motion_type": "VerticalLift",
+            "pivot_position": [
+                -32.0,
+                0.2800000011920929,
+                17.290000915527345
+            ],
+            "clearance_m": 3.6599998474121095,
+            "collider_size": [
+                3.6399993896484377,
+                0.11999939382076264,
+                3.5099995136260988
+            ],
+            "pass": true
+        },
+        {
+            "root": "UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT",
+            "motion_type": "Hinged",
+            "pivot_position": [
+                -5.675000190734863,
+                0.2800000011920929,
+                17.290000915527345
+            ],
+            "clearance_m": 2.549999475479126,
+            "collider_size": [
+                1.2299995422363282,
+                0.09999869763851166,
+                2.4499995708465578
+            ],
+            "pass": true
+        },
+        {
+            "root": "UE_S03C_ROOF_AccessDoor_Leaf_ROOT",
+            "motion_type": "Hinged",
+            "pivot_position": [
+                -0.550000011920929,
+                29.899999618530275,
+                0.8600000143051148
+            ],
+            "clearance_m": 2.259997606277466,
+            "collider_size": [
+                1.100000023841858,
+                0.12000036239624024,
+                2.1599977016448976
+            ],
+            "pass": true
+        }
+    ]
+}

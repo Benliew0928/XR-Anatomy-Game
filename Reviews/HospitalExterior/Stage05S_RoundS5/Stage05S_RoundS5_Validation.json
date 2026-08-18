@@ -1,0 +1,2626 @@
+{
+  "approved_input": {
+    "path": "C:\\CutMyBodyPlease\\ArtSource\\Environment\\Blender\\HospitalSite\\HospitalSite_Stage05S_R04B_LANDSCAPE_REDESIGN.blend1",
+    "sha256": "688b8c6c78b8a9747be300cca55e994c6533708ea9dcd923314e08728c9f03ef"
+  },
+  "candidate": {
+    "path": "C:\\CutMyBodyPlease\\ArtSource\\Environment\\Blender\\HospitalSite\\HospitalSite_Stage05S_R05_FINAL.blend",
+    "sha256": "04fad3c3cc06c967478d9b0ec2e67f598e845cbd3e9e12cc11562bd95e096a78"
+  },
+  "checks": [
+    {
+      "evidence": "C:\\CutMyBodyPlease\\ArtSource\\Environment\\Blender\\HospitalSite\\HospitalSite_Stage05S_R05_FINAL.blend",
+      "name": "validator_opened_r05",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": "04fad3c3cc06c967478d9b0ec2e67f598e845cbd3e9e12cc11562bd95e096a78",
+        "expected": "04fad3c3cc06c967478d9b0ec2e67f598e845cbd3e9e12cc11562bd95e096a78"
+      },
+      "name": "candidate_hash_matches_manifest",
+      "passed": true
+    },
+    {
+      "evidence": "688b8c6c78b8a9747be300cca55e994c6533708ea9dcd923314e08728c9f03ef",
+      "name": "approved_s4b_unchanged",
+      "passed": true
+    },
+    {
+      "evidence": "0a530ff9d7d7effa512f1d69178a0be86da722239f0cb992878045358c73ea58",
+      "name": "frozen_r40_unchanged",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "authoring": true,
+        "export": true
+      },
+      "name": "authoring_and_export_hierarchy_present",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "round": "S5",
+        "status": "S5_FINAL_BLENDER_CANDIDATE_RENDERED"
+      },
+      "name": "scene_round_status",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "manifest": {
+          "canopy_modules": 24,
+          "canopy_rows_covered": 3,
+          "capacity": 60,
+          "crossings": {
+            "Dropoff": {
+              "center": [
+                6.0,
+                -37.72
+              ],
+              "direction": [
+                0.0,
+                1.0
+              ],
+              "road_width": 7.0
+            },
+            "GateAxis": {
+              "center": [
+                0.0,
+                -84.0
+              ],
+              "direction": [
+                1.0,
+                0.0
+              ],
+              "road_width": 8.0
+            },
+            "ParkingAccess": {
+              "center": [
+                21.72,
+                -86.5
+              ],
+              "direction": [
+                0.0,
+                1.0
+              ],
+              "road_width": 6.0
+            },
+            "ParkingLoop": {
+              "center": [
+                14.57,
+                -60.5
+              ],
+              "direction": [
+                0.0,
+                1.0
+              ],
+              "road_width": 7.0
+            }
+          },
+          "dropoff_parking_removed": true,
+          "frozen_s4b_authoring_untouched": true,
+          "reason": "The visitor lot and legacy drop-off parking overlays conflicted with live roads; canopy modules covered the wrong strip; axis-aligned zebras did not follow the actual pedestrian crossing directions.",
+          "status": "S5_EXPORT_ONLY_REDRAW",
+          "visitor_parking_layout": {
+            "accessible_x_max": 28.6,
+            "accessible_x_min": 25.0,
+            "aisle_centers": [
+              -86.5,
+              -75.5
+            ],
+            "aisle_width": 6.0,
+            "canopy_module_x_centers": [
+              28.0,
+              34.5,
+              41.0,
+              47.5,
+              54.0,
+              60.5,
+              67.0,
+              73.5
+            ],
+            "canopy_rows": [
+              -92.0,
+              -81.0,
+              -70.0
+            ],
+            "canopy_scale_x": 0.92,
+            "canopy_scale_y": 1.62,
+            "parking_spine_x_max": 72.0,
+            "parking_spine_x_min": 18.9,
+            "parking_spine_y": -65.75,
+            "row_centers": [
+              -92.0,
+              -81.0,
+              -70.0
+            ],
+            "row_depth": 5.0,
+            "standard_per_row": 19,
+            "standard_width": 2.5,
+            "standard_x_min": 29.0,
+            "x_max": 77.5,
+            "x_min": 24.5,
+            "y_max": -64.25,
+            "y_min": -94.5
+          }
+        },
+        "scene_canopy_modules": 24,
+        "scene_capacity": 60,
+        "scene_status": "S5_EXPORT_ONLY_VISITOR_PARKING_REDRAW__FROZEN_S4B_UNTOUCHED"
+      },
+      "name": "visitor_parking_correction_metadata",
+      "passed": true
+    },
+    {
+      "evidence": "cff4de18680ab7354012ccb4701794bbddc619045a3600c29e1cff2837d92690",
+      "name": "approved_authoring_geometry_preserved",
+      "passed": true
+    },
+    {
+      "evidence": "735a9135556f3e37506bd0d0b8d0838ae3ced873de0bd71b7dd7becde1aa834f",
+      "name": "approved_authoring_materials_preserved",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actions": 0,
+        "cameras": 0,
+        "lights": 0
+      },
+      "name": "clean_source_has_no_camera_light_action",
+      "passed": true
+    },
+    {
+      "evidence": [
+        "SITE_CoreRoadParking",
+        "SITE_LandscapeHardscape",
+        "SITE_MainGate",
+        "SITE_PerimeterFence",
+        "SITE_PropsVegetation",
+        "SITE_RearService"
+      ],
+      "name": "six_export_zones_exact",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "export_naming_prefix",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "temporary_objects_excluded",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "positive_finite_export_scales",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "all_visual_meshes_uv_complete",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "material_indices_valid",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "legacy_site_materials_absent_from_export",
+      "passed": true
+    },
+    {
+      "evidence": [
+        "ACCENT_PLANTING",
+        "BARK_TRUNK",
+        "EXTERIOR_PAVER",
+        "KERB_SERVICE_CONCRETE",
+        "LAKE_PLACEHOLDER",
+        "PRIMARY_FOLIAGE",
+        "ROAD_ASPHALT",
+        "ROAD_MARKING",
+        "SEATING_TIMBER",
+        "SOIL_MULCH",
+        "SOLAR_PANEL",
+        "TACTILE_PAVING"
+      ],
+      "name": "controlled_twelve_role_palette",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "s5_materials_are_node_based_opaque",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "count": 26,
+        "with_materials": []
+      },
+      "name": "collision_is_selective_and_material_free",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "collision_hidden_from_review_viewport",
+      "passed": true
+    },
+    {
+      "evidence": [
+        "S05S_S5_EXP_PropsVegetation_TreeTrunkCollision"
+      ],
+      "name": "single_combined_tree_collision",
+      "passed": true
+    },
+    {
+      "evidence": [
+        {
+          "name": "S05S_S5_EXP_CoreRoadParking_RefinedPathFinish_GateLobby",
+          "width": 3.0
+        },
+        {
+          "name": "S05S_S5_EXP_CoreRoadParking_RefinedPathFinish_LakeGate",
+          "width": 3.0
+        },
+        {
+          "name": "S05S_S5_EXP_CoreRoadParking_RefinedPathFinish_LakeHospital",
+          "width": 3.0
+        },
+        {
+          "name": "S05S_S5_EXP_CoreRoadParking_RefinedPathFinish_ParkingLobby",
+          "width": 3.0
+        },
+        {
+          "name": "S05S_S5_EXP_CoreRoadParking_RefinedPathFinish_ParkingCrossSpine",
+          "width": 3.0
+        }
+      ],
+      "name": "pedestrian_routes_share_one_clear_width",
+      "passed": true
+    },
+    {
+      "evidence": [
+        {
+          "name": "S05S_S5_EXP_CoreRoadParking_RefinedPathEdge_GateLobby",
+          "width": 3.46
+        },
+        {
+          "name": "S05S_S5_EXP_CoreRoadParking_RefinedPathEdge_LakeGate",
+          "width": 3.46
+        },
+        {
+          "name": "S05S_S5_EXP_CoreRoadParking_RefinedPathEdge_LakeHospital",
+          "width": 3.46
+        },
+        {
+          "name": "S05S_S5_EXP_CoreRoadParking_RefinedPathEdge_ParkingLobby",
+          "width": 3.46
+        },
+        {
+          "name": "S05S_S5_EXP_CoreRoadParking_RefinedPathEdge_ParkingCrossSpine",
+          "width": 3.46
+        }
+      ],
+      "name": "pedestrian_edge_courses_share_one_width",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "edge_max_x": -4.01096248626709,
+        "finish_max_x": -4.016152381896973,
+        "required_west_road_edge_x": -4.0
+      },
+      "name": "lakegate_path_stops_at_west_road_edge_without_east_stub",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "superseded_overlapping_route_slabs_absent",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "hidden": [
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S3_Crossing_Dropoff_GroupedZebra"
+          },
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S3_Crossing_GateAxis_GroupedZebra"
+          },
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S3_Crossing_ParkingLoop_GroupedZebra"
+          },
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S3_Dropoff_Accessible02_AccessStrips"
+          },
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S3_Dropoff_Accessible02_BlueBacking"
+          },
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S3_Dropoff_ShortStay05_GroupedMarkings"
+          },
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S4B_PathEdgeCourse_GateLobby"
+          },
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S4B_PathEdgeCourse_LakeGate"
+          },
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S4B_PathEdgeCourse_ParkingLobby"
+          },
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S4B_PathFinish_GateLobby"
+          },
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S4B_PathFinish_LakeGate"
+          },
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S4B_PathFinish_ParkingLobby"
+          },
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S4B_Visual_Road_DropoffConnector_East"
+          },
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S4B_Visual_Road_DropoffConnector_West"
+          },
+          {
+            "hide_render": true,
+            "hide_set": true,
+            "hide_viewport": true,
+            "name": "S05S_S4B_Visual_Road_DropoffRoute"
+          }
+        ],
+        "visible": []
+      },
+      "name": "rejected_authoring_overlays_stay_hidden_when_authoring_is_revealed",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "DROPOFF": {
+          "actual_center": [
+            6.0,
+            -37.720001220703125
+          ],
+          "expected_center": [
+            6.0,
+            -37.72
+          ],
+          "expected_direction": [
+            0.0,
+            1.0
+          ],
+          "long_edge_m": 7.400001433088834,
+          "saved_direction": [
+            0.0,
+            1.0
+          ],
+          "short_edge_m": 0.31999969327807626,
+          "tactile": "S05S_S5_EXP_CoreRoadParking_RefinedTactile_Dropoff",
+          "tactile_ok": true,
+          "zebra": "S05S_S5_EXP_CoreRoadParking_RefinedZebra_Dropoff",
+          "zebra_ok": true
+        },
+        "GATEAXIS": {
+          "actual_center": [
+            0.0,
+            -84.0
+          ],
+          "expected_center": [
+            0.0,
+            -84.0
+          ],
+          "expected_direction": [
+            1.0,
+            0.0
+          ],
+          "long_edge_m": 8.399999400547552,
+          "saved_direction": [
+            1.0,
+            0.0
+          ],
+          "short_edge_m": 0.3200073183981171,
+          "tactile": "S05S_S5_EXP_CoreRoadParking_RefinedTactile_GateAxis",
+          "tactile_ok": true,
+          "zebra": "S05S_S5_EXP_CoreRoadParking_RefinedZebra_GateAxis",
+          "zebra_ok": true
+        },
+        "PARKINGACCESS": {
+          "actual_center": [
+            21.719999313354492,
+            -86.5
+          ],
+          "expected_center": [
+            21.72,
+            -86.5
+          ],
+          "expected_direction": [
+            0.0,
+            1.0
+          ],
+          "long_edge_m": 6.399993968007106,
+          "saved_direction": [
+            0.0,
+            1.0
+          ],
+          "short_edge_m": 0.31999969327807626,
+          "tactile": "S05S_S5_EXP_CoreRoadParking_RefinedTactile_ParkingAccess",
+          "tactile_ok": true,
+          "zebra": "S05S_S5_EXP_CoreRoadParking_RefinedZebra_ParkingAccess",
+          "zebra_ok": true
+        },
+        "PARKINGLOOP": {
+          "actual_center": [
+            14.569999694824219,
+            -60.5
+          ],
+          "expected_center": [
+            14.57,
+            -60.5
+          ],
+          "expected_direction": [
+            0.0,
+            1.0
+          ],
+          "long_edge_m": 7.39999782459124,
+          "saved_direction": [
+            0.0,
+            1.0
+          ],
+          "short_edge_m": 0.31999969327807626,
+          "tactile": "S05S_S5_EXP_CoreRoadParking_RefinedTactile_ParkingLoop",
+          "tactile_ok": true,
+          "zebra": "S05S_S5_EXP_CoreRoadParking_RefinedZebra_ParkingLoop",
+          "zebra_ok": true
+        }
+      },
+      "name": "all_crossings_have_correct_location_size_and_orientation",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "access": "S05S_S5_EXP_CoreRoadParking_RefinedVisitorParkingAccess",
+        "access_zebra": "S05S_S5_EXP_CoreRoadParking_RefinedZebra_ParkingAccess",
+        "accessible": "S05S_S5_EXP_CoreRoadParking_RefinedVisitorAccessible03_BlueBacking",
+        "cross_spine": "S05S_S5_EXP_CoreRoadParking_RefinedPathFinish_ParkingCrossSpine",
+        "lobby_path": "S05S_S5_EXP_CoreRoadParking_RefinedPathFinish_ParkingLobby",
+        "standard": "S05S_S5_EXP_CoreRoadParking_RefinedVisitorStandard57_GroupedMarkings",
+        "surface": "S05S_S5_EXP_CoreRoadParking_RefinedVisitorParkingSurface"
+      },
+      "name": "refined_visitor_parking_objects_complete",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": [
+          24.5,
+          77.5,
+          -94.5,
+          -64.25
+        ],
+        "expected": [
+          24.5,
+          77.5,
+          -94.5,
+          -64.25
+        ],
+        "front_perimeter_inner_edge_y": -95.0,
+        "loop_outer_edge_y": -64.0
+      },
+      "name": "visitor_parking_inside_conflict_free_envelope",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "accessible": [
+          25.079999923706055,
+          28.520000457763672,
+          -94.41999816894531,
+          -67.58000183105469
+        ],
+        "front_perimeter_inner_edge_y": -95.0,
+        "loop_outer_edge_y": -64.0,
+        "standard": [
+          29.0,
+          76.5,
+          -94.5,
+          -67.5
+        ]
+      },
+      "name": "visitor_parking_markings_clear_perimeter_and_loop",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "clearance_m": 1.2800006866455078,
+        "parking_min_x": 24.5,
+        "path_max_x_in_parking_band": 23.219999313354492
+      },
+      "name": "parking_lobby_path_stays_outside_vehicle_field",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          0.0,
+          24.5,
+          -89.5,
+          -83.5
+        ],
+        "center_y": -86.5,
+        "width": 6.0
+      },
+      "name": "parking_access_targets_six_metre_drive_aisle",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "aisle_centers": [
+          -86.5,
+          -75.5
+        ],
+        "aisle_width_m": 6.0,
+        "row_centers": [
+          -92.0,
+          -81.0,
+          -70.0
+        ],
+        "row_depth_m": 5.0
+      },
+      "name": "parking_rows_do_not_occupy_drive_aisles",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "accessible": 3,
+        "standard": 57,
+        "total": 60
+      },
+      "name": "visitor_capacity_remains_in_approved_range",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "loop_outer_edge_y": -64.0,
+        "parking_rows": [
+          29.0,
+          76.5,
+          -94.5,
+          -67.5
+        ],
+        "spine": [
+          18.899999618530273,
+          72.0,
+          -67.25,
+          -64.25
+        ]
+      },
+      "name": "parking_cross_spine_occupies_dedicated_top_band",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "nearest_gate_route_distance_m": 0.0,
+        "parking_join": [
+          6.0,
+          -44.0,
+          0.04899999871850014
+        ]
+      },
+      "name": "parking_lobby_route_joins_gate_route_before_dropoff_road",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "centerline_samples": 63,
+        "maximum_heading_change_degrees": 2.1699907694641385,
+        "maximum_left_right_edge_length_ratio": 1.1983251388634317
+      },
+      "name": "parking_lobby_curve_is_smooth_and_even_sided",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "count": 48,
+        "hidden": [],
+        "parts": {
+          "SHELL": 24,
+          "SOLAR": 24
+        },
+        "rows": {
+          "1": {
+            "module_indices": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "row_center_y_m": -92.0,
+            "row_ok": true,
+            "shell_bounds": [
+              [
+                24.688,
+                -94.753998,
+                0.012
+              ],
+              [
+                76.811996,
+                -89.246002,
+                3.272
+              ]
+            ],
+            "shell_count": 8,
+            "solar_count": 8
+          },
+          "2": {
+            "module_indices": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "row_center_y_m": -81.0,
+            "row_ok": true,
+            "shell_bounds": [
+              [
+                24.688,
+                -83.753998,
+                0.012
+              ],
+              [
+                76.811996,
+                -78.246002,
+                3.272
+              ]
+            ],
+            "shell_count": 8,
+            "solar_count": 8
+          },
+          "3": {
+            "module_indices": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "row_center_y_m": -70.0,
+            "row_ok": true,
+            "shell_bounds": [
+              [
+                24.688,
+                -72.753998,
+                0.012
+              ],
+              [
+                76.811996,
+                -67.246002,
+                3.272
+              ]
+            ],
+            "shell_count": 8,
+            "solar_count": 8
+          }
+        }
+      },
+      "name": "parking_canopies_cover_all_three_car_rows",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "obsolete_conflicting_parking_and_dropoff_layout_absent",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": [
+          "REFINED_COLLISION_PARKING_CROSS_SPINE",
+          "REFINED_COLLISION_PATH_GATELOBBY",
+          "REFINED_COLLISION_PATH_LAKEGATE",
+          "REFINED_COLLISION_PATH_LAKEHOSPITAL",
+          "REFINED_COLLISION_PATH_PARKINGLOBBY",
+          "REFINED_COLLISION_VISITOR_PARKING_ACCESS",
+          "REFINED_COLLISION_VISITOR_PARKING_SURFACE"
+        ],
+        "expected": [
+          "REFINED_COLLISION_PARKING_CROSS_SPINE",
+          "REFINED_COLLISION_PATH_GATELOBBY",
+          "REFINED_COLLISION_PATH_LAKEGATE",
+          "REFINED_COLLISION_PATH_LAKEHOSPITAL",
+          "REFINED_COLLISION_PATH_PARKINGLOBBY",
+          "REFINED_COLLISION_VISITOR_PARKING_ACCESS",
+          "REFINED_COLLISION_VISITOR_PARKING_SURFACE"
+        ]
+      },
+      "name": "refined_circulation_collision_matches_visual_layout",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "chunks": [
+          "S05S_S5_EXP_PerimeterFence_EastChunk",
+          "S05S_S5_EXP_PerimeterFence_FrontChunk",
+          "S05S_S5_EXP_PerimeterFence_RearChunk",
+          "S05S_S5_EXP_PerimeterFence_WestChunk"
+        ],
+        "zone_objects": 9
+      },
+      "name": "perimeter_spatial_chunk_optimization",
+      "passed": true
+    },
+    {
+      "evidence": [
+        {
+          "children": [
+            "S05S_S5_EXP_MainGate_S05S_S2_GateLeaf_Left"
+          ],
+          "name": "S05S_S5_EXP_MainGate_S05S_ACT_GateLeafRoot_Left",
+          "type": "EMPTY"
+        },
+        {
+          "children": [
+            "S05S_S5_EXP_MainGate_S05S_S2_GateLeaf_Right"
+          ],
+          "name": "S05S_S5_EXP_MainGate_S05S_ACT_GateLeafRoot_Right",
+          "type": "EMPTY"
+        }
+      ],
+      "name": "gate_animation_roots_preserved",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bad_groups": {},
+        "groups": 123
+      },
+      "name": "vegetation_has_three_lods_per_group",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "lod_visibility_defaults_to_lod0",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": {
+          "LOD0": 5422208,
+          "LOD1": 1192298,
+          "LOD2": 351826
+        },
+        "expected": {
+          "LOD0": 5422208,
+          "LOD1": 1192298,
+          "LOD2": 351826
+        }
+      },
+      "name": "lod_triangle_totals_match_manifest",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "LOD1_over_LOD0": 0.21989160135501995,
+        "LOD2_over_LOD0": 0.06488611281603361
+      },
+      "name": "lod_reduction_is_material",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "count": 27,
+        "minimum_triangles": 94802
+      },
+      "name": "lod0_tree_close_quality_preserved",
+      "passed": true
+    },
+    {
+      "evidence": [
+        {
+          "bytes": 2759314,
+          "dimensions": [
+            1600,
+            1200
+          ],
+          "exists": true,
+          "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_WholeSiteExport.png",
+          "sha256": "b524bb90b3dfb1826764f604edde23e5cf52bf7950bd7dafdeee642cedbd693a"
+        },
+        {
+          "bytes": 2304264,
+          "dimensions": [
+            1600,
+            1200
+          ],
+          "exists": true,
+          "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_CirculationTopdown.png",
+          "sha256": "c26a22be30ec2e70500efbbd181ebc1a3ef4060b8010220e03b296a33ebcce99"
+        },
+        {
+          "bytes": 2281318,
+          "dimensions": [
+            1600,
+            1200
+          ],
+          "exists": true,
+          "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_PlayerEyeArrival.png",
+          "sha256": "8ea233238f6a9ea714228d45ff2cb4f0e8272c6d479f0a4b4bc70a533e158605"
+        },
+        {
+          "bytes": 2152456,
+          "dimensions": [
+            1600,
+            1200
+          ],
+          "exists": true,
+          "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_GateAndRoots.png",
+          "sha256": "00c52698ba633fa99cb9cd6ce0b53f520124cdecca9699374f751162ea20c061"
+        },
+        {
+          "bytes": 2745598,
+          "dimensions": [
+            1600,
+            1200
+          ],
+          "exists": true,
+          "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_RoadPathMaterials.png",
+          "sha256": "b3a69dbdce70668e7d9fcc1fededece45299cea6daf917ffa4cf5a932ae9768f"
+        },
+        {
+          "bytes": 2263206,
+          "dimensions": [
+            1600,
+            1200
+          ],
+          "exists": true,
+          "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_CrossingsTopdown.png",
+          "sha256": "6e3e59a608801b2d1de4ae698df3e723b89c89a302101f3a43176e42a3a1ffaa"
+        },
+        {
+          "bytes": 3412164,
+          "dimensions": [
+            1600,
+            1200
+          ],
+          "exists": true,
+          "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_VegetationLOD0.png",
+          "sha256": "18917ef15b5124bfa1f5832ade48a98c94a43598e9d3e94a6ac2792b816b65a0"
+        },
+        {
+          "bytes": 2308875,
+          "dimensions": [
+            1600,
+            1200
+          ],
+          "exists": true,
+          "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_LakeLandscape.png",
+          "sha256": "6ec5441d2b21fc8b0862b41b150fec693afb17d18523efc544702db10e0888a3"
+        },
+        {
+          "bytes": 2905483,
+          "dimensions": [
+            1600,
+            1200
+          ],
+          "exists": true,
+          "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_ParkingExport.png",
+          "sha256": "f61c3ef2e6e85e0c5c006c67a32f8077ea872a8c061483e1d4813e8a55466df0"
+        },
+        {
+          "bytes": 2868868,
+          "dimensions": [
+            1600,
+            1200
+          ],
+          "exists": true,
+          "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_RearExport.png",
+          "sha256": "82d7532e6b9b27ff97a22e2bd1e8c3090b21d292a838261b2146e45495ece472"
+        }
+      ],
+      "name": "review_pack_complete",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": {
+          "bounds": [
+            [
+              -87.0,
+              -99.699997,
+              0.0
+            ],
+            [
+              87.0,
+              72.0,
+              3.405
+            ]
+          ],
+          "statistics": {
+            "camera_objects": 0,
+            "empty_objects": 0,
+            "evaluated_instance_triangles": 12302,
+            "light_objects": 0,
+            "materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_Entrance_RefinedBronze",
+              "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+              "MAT_S05S_S5_KerbServiceConcrete",
+              "MAT_S05S_S5_RoadAsphalt",
+              "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+              "MAT_S05S_S5_RoadMarking_White",
+              "MAT_S05S_S5_RoadMarking_Yellow",
+              "MAT_S05S_S5_SolarPanel",
+              "MAT_S05S_S5_TactilePaving"
+            ],
+            "mesh_objects": 120,
+            "modifier_evaluated_triangles": 12302,
+            "objects": 120,
+            "unique_meshes": 59,
+            "unique_triangles": 3374,
+            "unique_vertices": 3664,
+            "used_materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_Entrance_RefinedBronze",
+              "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+              "MAT_S05S_S5_KerbServiceConcrete",
+              "MAT_S05S_S5_RoadAsphalt",
+              "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+              "MAT_S05S_S5_RoadMarking_White",
+              "MAT_S05S_S5_RoadMarking_Yellow",
+              "MAT_S05S_S5_SolarPanel",
+              "MAT_S05S_S5_TactilePaving"
+            ]
+          }
+        },
+        "expected": {
+          "bounds": [
+            [
+              -87.0,
+              -99.699997,
+              0.0
+            ],
+            [
+              87.0,
+              72.0,
+              3.405
+            ]
+          ],
+          "statistics": {
+            "evaluated_instance_triangles": 12302,
+            "materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_Entrance_RefinedBronze",
+              "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+              "MAT_S05S_S5_KerbServiceConcrete",
+              "MAT_S05S_S5_RoadAsphalt",
+              "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+              "MAT_S05S_S5_RoadMarking_White",
+              "MAT_S05S_S5_RoadMarking_Yellow",
+              "MAT_S05S_S5_SolarPanel",
+              "MAT_S05S_S5_TactilePaving"
+            ],
+            "mesh_objects": 120,
+            "modifier_evaluated_triangles": 12302,
+            "objects": 120,
+            "unique_meshes": 59,
+            "unique_triangles": 3374,
+            "unique_vertices": 3664
+          }
+        }
+      },
+      "name": "source_zone_SITE_CoreRoadParking_matches_manifest",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": {
+          "bounds": [
+            [
+              -90.0,
+              -100.0,
+              -0.222
+            ],
+            [
+              90.0,
+              75.0,
+              0.125
+            ]
+          ],
+          "statistics": {
+            "camera_objects": 0,
+            "empty_objects": 0,
+            "evaluated_instance_triangles": 1092,
+            "light_objects": 0,
+            "materials": [
+              "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+              "MAT_S05S_S5_FoliageLawn",
+              "MAT_S05S_S5_KerbServiceConcrete",
+              "MAT_S05S_S5_LakePlaceholder",
+              "MAT_S05S_S5_SoilMulch"
+            ],
+            "mesh_objects": 12,
+            "modifier_evaluated_triangles": 1092,
+            "objects": 12,
+            "unique_meshes": 12,
+            "unique_triangles": 1092,
+            "unique_vertices": 1095,
+            "used_materials": [
+              "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+              "MAT_S05S_S5_FoliageLawn",
+              "MAT_S05S_S5_KerbServiceConcrete",
+              "MAT_S05S_S5_LakePlaceholder",
+              "MAT_S05S_S5_SoilMulch"
+            ]
+          }
+        },
+        "expected": {
+          "bounds": [
+            [
+              -90.0,
+              -100.0,
+              -0.222
+            ],
+            [
+              90.0,
+              75.0,
+              0.125
+            ]
+          ],
+          "statistics": {
+            "evaluated_instance_triangles": 1092,
+            "materials": [
+              "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+              "MAT_S05S_S5_FoliageLawn",
+              "MAT_S05S_S5_KerbServiceConcrete",
+              "MAT_S05S_S5_LakePlaceholder",
+              "MAT_S05S_S5_SoilMulch"
+            ],
+            "mesh_objects": 12,
+            "modifier_evaluated_triangles": 1092,
+            "objects": 12,
+            "unique_meshes": 12,
+            "unique_triangles": 1092,
+            "unique_vertices": 1095
+          }
+        }
+      },
+      "name": "source_zone_SITE_LandscapeHardscape_matches_manifest",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": {
+          "bounds": [
+            [
+              -15.0,
+              -100.0,
+              0.0
+            ],
+            [
+              15.05,
+              -88.400002,
+              7.0
+            ]
+          ],
+          "statistics": {
+            "camera_objects": 0,
+            "empty_objects": 2,
+            "evaluated_instance_triangles": 1700,
+            "light_objects": 0,
+            "materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_Composite_LightGrey",
+              "MAT_Composite_WarmOffWhite",
+              "MAT_Entrance_HonedTravertine",
+              "MAT_Entrance_RefinedBronze"
+            ],
+            "mesh_objects": 21,
+            "modifier_evaluated_triangles": 4692,
+            "objects": 23,
+            "unique_meshes": 21,
+            "unique_triangles": 1700,
+            "unique_vertices": 1512,
+            "used_materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_Composite_LightGrey",
+              "MAT_Composite_WarmOffWhite",
+              "MAT_Entrance_HonedTravertine",
+              "MAT_Entrance_RefinedBronze"
+            ]
+          }
+        },
+        "expected": {
+          "bounds": [
+            [
+              -15.0,
+              -100.0,
+              0.0
+            ],
+            [
+              15.05,
+              -88.400002,
+              7.0
+            ]
+          ],
+          "statistics": {
+            "evaluated_instance_triangles": 1700,
+            "materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_Composite_LightGrey",
+              "MAT_Composite_WarmOffWhite",
+              "MAT_Entrance_HonedTravertine",
+              "MAT_Entrance_RefinedBronze"
+            ],
+            "mesh_objects": 21,
+            "modifier_evaluated_triangles": 4692,
+            "objects": 23,
+            "unique_meshes": 21,
+            "unique_triangles": 1700,
+            "unique_vertices": 1512
+          }
+        }
+      },
+      "name": "source_zone_SITE_MainGate_matches_manifest",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": {
+          "bounds": [
+            [
+              -90.0,
+              -100.0,
+              0.0
+            ],
+            [
+              90.0,
+              75.0,
+              6.85
+            ]
+          ],
+          "statistics": {
+            "camera_objects": 0,
+            "empty_objects": 0,
+            "evaluated_instance_triangles": 21660,
+            "light_objects": 0,
+            "materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_Entrance_HonedTravertine",
+              "MAT_Entrance_RefinedBronze"
+            ],
+            "mesh_objects": 9,
+            "modifier_evaluated_triangles": 21660,
+            "objects": 9,
+            "unique_meshes": 9,
+            "unique_triangles": 21660,
+            "unique_vertices": 14440,
+            "used_materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_Entrance_HonedTravertine",
+              "MAT_Entrance_RefinedBronze"
+            ]
+          }
+        },
+        "expected": {
+          "bounds": [
+            [
+              -90.0,
+              -100.0,
+              0.0
+            ],
+            [
+              90.0,
+              75.0,
+              6.85
+            ]
+          ],
+          "statistics": {
+            "evaluated_instance_triangles": 21660,
+            "materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_Entrance_HonedTravertine",
+              "MAT_Entrance_RefinedBronze"
+            ],
+            "mesh_objects": 9,
+            "modifier_evaluated_triangles": 21660,
+            "objects": 9,
+            "unique_meshes": 9,
+            "unique_triangles": 21660,
+            "unique_vertices": 14440
+          }
+        }
+      },
+      "name": "source_zone_SITE_PerimeterFence_matches_manifest",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": {
+          "bounds": [
+            [
+              -85.922607,
+              -102.767586,
+              0.043469
+            ],
+            [
+              89.864571,
+              68.639519,
+              11.55007
+            ]
+          ],
+          "statistics": {
+            "camera_objects": 0,
+            "empty_objects": 0,
+            "evaluated_instance_triangles": 6970628,
+            "light_objects": 0,
+            "materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_Entrance_RefinedBronze",
+              "MAT_S05S_S5_AccentAllium",
+              "MAT_S05S_S5_AccentFlower",
+              "MAT_S05S_S5_AccentStem",
+              "MAT_S05S_S5_BarkTrunk",
+              "MAT_S05S_S5_FoliageDeep",
+              "MAT_S05S_S5_FoliageLight",
+              "MAT_S05S_S5_FoliageMid",
+              "MAT_S05S_S5_SeatingTimber"
+            ],
+            "mesh_objects": 380,
+            "modifier_evaluated_triangles": 6970628,
+            "objects": 380,
+            "unique_meshes": 24,
+            "unique_triangles": 560835,
+            "unique_vertices": 735784,
+            "used_materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_Entrance_RefinedBronze",
+              "MAT_S05S_S5_AccentAllium",
+              "MAT_S05S_S5_AccentFlower",
+              "MAT_S05S_S5_AccentStem",
+              "MAT_S05S_S5_BarkTrunk",
+              "MAT_S05S_S5_FoliageDeep",
+              "MAT_S05S_S5_FoliageLight",
+              "MAT_S05S_S5_FoliageMid",
+              "MAT_S05S_S5_SeatingTimber"
+            ]
+          }
+        },
+        "expected": {
+          "bounds": [
+            [
+              -85.922607,
+              -102.767586,
+              0.043469
+            ],
+            [
+              89.864571,
+              68.639519,
+              11.55007
+            ]
+          ],
+          "statistics": {
+            "evaluated_instance_triangles": 6970628,
+            "materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_Entrance_RefinedBronze",
+              "MAT_S05S_S5_AccentAllium",
+              "MAT_S05S_S5_AccentFlower",
+              "MAT_S05S_S5_AccentStem",
+              "MAT_S05S_S5_BarkTrunk",
+              "MAT_S05S_S5_FoliageDeep",
+              "MAT_S05S_S5_FoliageLight",
+              "MAT_S05S_S5_FoliageMid",
+              "MAT_S05S_S5_SeatingTimber"
+            ],
+            "mesh_objects": 380,
+            "modifier_evaluated_triangles": 6970628,
+            "objects": 380,
+            "unique_meshes": 24,
+            "unique_triangles": 560835,
+            "unique_vertices": 735784
+          }
+        }
+      },
+      "name": "source_zone_SITE_PropsVegetation_matches_manifest",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": {
+          "bounds": [
+            [
+              -84.0,
+              26.292892,
+              0.043
+            ],
+            [
+              -38.199265,
+              72.0,
+              3.75
+            ]
+          ],
+          "statistics": {
+            "camera_objects": 0,
+            "empty_objects": 0,
+            "evaluated_instance_triangles": 632,
+            "light_objects": 0,
+            "materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+              "MAT_S05S_S5_RoadAsphalt",
+              "MAT_S05S_S5_RoadMarking_White",
+              "MAT_S05S_S5_RoadMarking_Yellow"
+            ],
+            "mesh_objects": 6,
+            "modifier_evaluated_triangles": 632,
+            "objects": 6,
+            "unique_meshes": 6,
+            "unique_triangles": 632,
+            "unique_vertices": 428,
+            "used_materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+              "MAT_S05S_S5_RoadAsphalt",
+              "MAT_S05S_S5_RoadMarking_White",
+              "MAT_S05S_S5_RoadMarking_Yellow"
+            ]
+          }
+        },
+        "expected": {
+          "bounds": [
+            [
+              -84.0,
+              26.292892,
+              0.043
+            ],
+            [
+              -38.199265,
+              72.0,
+              3.75
+            ]
+          ],
+          "statistics": {
+            "evaluated_instance_triangles": 632,
+            "materials": [
+              "MAT_Aluminium_Charcoal",
+              "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+              "MAT_S05S_S5_RoadAsphalt",
+              "MAT_S05S_S5_RoadMarking_White",
+              "MAT_S05S_S5_RoadMarking_Yellow"
+            ],
+            "mesh_objects": 6,
+            "modifier_evaluated_triangles": 632,
+            "objects": 6,
+            "unique_meshes": 6,
+            "unique_triangles": 632,
+            "unique_vertices": 428
+          }
+        }
+      },
+      "name": "source_zone_SITE_RearService_matches_manifest",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bytes": 294844,
+        "path": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05S_R05_Final\\Hospital_SITE_CoreRoadParking_R05.fbx",
+        "sha256": "8edb2e8994bd6608ff1a27b2156feb1f4b071b860d6fc3b78927929def001ac7"
+      },
+      "name": "fbx_SITE_CoreRoadParking_exists_and_hashes",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -87.0,
+            -99.699997,
+            5e-06
+          ],
+          [
+            87.0,
+            72.0,
+            3.405
+          ]
+        ],
+        "bounds_delta_m": 5e-06,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 12302,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_RefinedBronze",
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_KerbServiceConcrete",
+            "MAT_S05S_S5_RoadAsphalt",
+            "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+            "MAT_S05S_S5_RoadMarking_White",
+            "MAT_S05S_S5_RoadMarking_Yellow",
+            "MAT_S05S_S5_SolarPanel",
+            "MAT_S05S_S5_TactilePaving"
+          ],
+          "mesh_objects": 120,
+          "modifier_evaluated_triangles": 12302,
+          "objects": 120,
+          "unique_meshes": 59,
+          "unique_triangles": 3374,
+          "unique_vertices": 3664,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_RefinedBronze",
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_KerbServiceConcrete",
+            "MAT_S05S_S5_RoadAsphalt",
+            "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+            "MAT_S05S_S5_RoadMarking_White",
+            "MAT_S05S_S5_RoadMarking_Yellow",
+            "MAT_S05S_S5_SolarPanel",
+            "MAT_S05S_S5_TactilePaving"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_CoreRoadParking_geometry",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -87.0,
+            -99.699997,
+            5e-06
+          ],
+          [
+            87.0,
+            72.0,
+            3.405
+          ]
+        ],
+        "bounds_delta_m": 5e-06,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 12302,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_RefinedBronze",
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_KerbServiceConcrete",
+            "MAT_S05S_S5_RoadAsphalt",
+            "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+            "MAT_S05S_S5_RoadMarking_White",
+            "MAT_S05S_S5_RoadMarking_Yellow",
+            "MAT_S05S_S5_SolarPanel",
+            "MAT_S05S_S5_TactilePaving"
+          ],
+          "mesh_objects": 120,
+          "modifier_evaluated_triangles": 12302,
+          "objects": 120,
+          "unique_meshes": 59,
+          "unique_triangles": 3374,
+          "unique_vertices": 3664,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_RefinedBronze",
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_KerbServiceConcrete",
+            "MAT_S05S_S5_RoadAsphalt",
+            "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+            "MAT_S05S_S5_RoadMarking_White",
+            "MAT_S05S_S5_RoadMarking_Yellow",
+            "MAT_S05S_S5_SolarPanel",
+            "MAT_S05S_S5_TactilePaving"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_CoreRoadParking_bounds",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -87.0,
+            -99.699997,
+            5e-06
+          ],
+          [
+            87.0,
+            72.0,
+            3.405
+          ]
+        ],
+        "bounds_delta_m": 5e-06,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 12302,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_RefinedBronze",
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_KerbServiceConcrete",
+            "MAT_S05S_S5_RoadAsphalt",
+            "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+            "MAT_S05S_S5_RoadMarking_White",
+            "MAT_S05S_S5_RoadMarking_Yellow",
+            "MAT_S05S_S5_SolarPanel",
+            "MAT_S05S_S5_TactilePaving"
+          ],
+          "mesh_objects": 120,
+          "modifier_evaluated_triangles": 12302,
+          "objects": 120,
+          "unique_meshes": 59,
+          "unique_triangles": 3374,
+          "unique_vertices": 3664,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_RefinedBronze",
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_KerbServiceConcrete",
+            "MAT_S05S_S5_RoadAsphalt",
+            "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+            "MAT_S05S_S5_RoadMarking_White",
+            "MAT_S05S_S5_RoadMarking_Yellow",
+            "MAT_S05S_S5_SolarPanel",
+            "MAT_S05S_S5_TactilePaving"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_CoreRoadParking_used_materials",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "roundtrip_SITE_CoreRoadParking_uvs",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bytes": 79180,
+        "path": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05S_R05_Final\\Hospital_SITE_LandscapeHardscape_R05.fbx",
+        "sha256": "0191f6d7d76d33bcf7d17d43412db43f7969337d7a50359d23a68afc9db398f1"
+      },
+      "name": "fbx_SITE_LandscapeHardscape_exists_and_hashes",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -90.0,
+            -100.0,
+            -0.222012
+          ],
+          [
+            90.0,
+            75.0,
+            0.125016
+          ]
+        ],
+        "bounds_delta_m": 1.5999999999988246e-05,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 1092,
+          "light_objects": 0,
+          "materials": [
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_FoliageLawn",
+            "MAT_S05S_S5_KerbServiceConcrete",
+            "MAT_S05S_S5_LakePlaceholder",
+            "MAT_S05S_S5_SoilMulch"
+          ],
+          "mesh_objects": 12,
+          "modifier_evaluated_triangles": 1092,
+          "objects": 12,
+          "unique_meshes": 12,
+          "unique_triangles": 1092,
+          "unique_vertices": 1095,
+          "used_materials": [
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_FoliageLawn",
+            "MAT_S05S_S5_KerbServiceConcrete",
+            "MAT_S05S_S5_LakePlaceholder",
+            "MAT_S05S_S5_SoilMulch"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_LandscapeHardscape_geometry",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -90.0,
+            -100.0,
+            -0.222012
+          ],
+          [
+            90.0,
+            75.0,
+            0.125016
+          ]
+        ],
+        "bounds_delta_m": 1.5999999999988246e-05,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 1092,
+          "light_objects": 0,
+          "materials": [
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_FoliageLawn",
+            "MAT_S05S_S5_KerbServiceConcrete",
+            "MAT_S05S_S5_LakePlaceholder",
+            "MAT_S05S_S5_SoilMulch"
+          ],
+          "mesh_objects": 12,
+          "modifier_evaluated_triangles": 1092,
+          "objects": 12,
+          "unique_meshes": 12,
+          "unique_triangles": 1092,
+          "unique_vertices": 1095,
+          "used_materials": [
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_FoliageLawn",
+            "MAT_S05S_S5_KerbServiceConcrete",
+            "MAT_S05S_S5_LakePlaceholder",
+            "MAT_S05S_S5_SoilMulch"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_LandscapeHardscape_bounds",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -90.0,
+            -100.0,
+            -0.222012
+          ],
+          [
+            90.0,
+            75.0,
+            0.125016
+          ]
+        ],
+        "bounds_delta_m": 1.5999999999988246e-05,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 1092,
+          "light_objects": 0,
+          "materials": [
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_FoliageLawn",
+            "MAT_S05S_S5_KerbServiceConcrete",
+            "MAT_S05S_S5_LakePlaceholder",
+            "MAT_S05S_S5_SoilMulch"
+          ],
+          "mesh_objects": 12,
+          "modifier_evaluated_triangles": 1092,
+          "objects": 12,
+          "unique_meshes": 12,
+          "unique_triangles": 1092,
+          "unique_vertices": 1095,
+          "used_materials": [
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_FoliageLawn",
+            "MAT_S05S_S5_KerbServiceConcrete",
+            "MAT_S05S_S5_LakePlaceholder",
+            "MAT_S05S_S5_SoilMulch"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_LandscapeHardscape_used_materials",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "roundtrip_SITE_LandscapeHardscape_uvs",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bytes": 165980,
+        "path": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05S_R05_Final\\Hospital_SITE_MainGate_R05.fbx",
+        "sha256": "756850ce5099ab78e74c9125429833872e589d33ab64c123b637f882107e4fbf"
+      },
+      "name": "fbx_SITE_MainGate_exists_and_hashes",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -15.0,
+            -100.0,
+            1.6e-05
+          ],
+          [
+            15.05,
+            -88.400002,
+            7.000016
+          ]
+        ],
+        "bounds_delta_m": 1.6e-05,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 2,
+          "evaluated_instance_triangles": 4692,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Composite_LightGrey",
+            "MAT_Composite_WarmOffWhite",
+            "MAT_Entrance_HonedTravertine",
+            "MAT_Entrance_RefinedBronze"
+          ],
+          "mesh_objects": 21,
+          "modifier_evaluated_triangles": 4692,
+          "objects": 23,
+          "unique_meshes": 21,
+          "unique_triangles": 4692,
+          "unique_vertices": 3008,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Composite_LightGrey",
+            "MAT_Composite_WarmOffWhite",
+            "MAT_Entrance_HonedTravertine",
+            "MAT_Entrance_RefinedBronze"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_MainGate_geometry",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -15.0,
+            -100.0,
+            1.6e-05
+          ],
+          [
+            15.05,
+            -88.400002,
+            7.000016
+          ]
+        ],
+        "bounds_delta_m": 1.6e-05,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 2,
+          "evaluated_instance_triangles": 4692,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Composite_LightGrey",
+            "MAT_Composite_WarmOffWhite",
+            "MAT_Entrance_HonedTravertine",
+            "MAT_Entrance_RefinedBronze"
+          ],
+          "mesh_objects": 21,
+          "modifier_evaluated_triangles": 4692,
+          "objects": 23,
+          "unique_meshes": 21,
+          "unique_triangles": 4692,
+          "unique_vertices": 3008,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Composite_LightGrey",
+            "MAT_Composite_WarmOffWhite",
+            "MAT_Entrance_HonedTravertine",
+            "MAT_Entrance_RefinedBronze"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_MainGate_bounds",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -15.0,
+            -100.0,
+            1.6e-05
+          ],
+          [
+            15.05,
+            -88.400002,
+            7.000016
+          ]
+        ],
+        "bounds_delta_m": 1.6e-05,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 2,
+          "evaluated_instance_triangles": 4692,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Composite_LightGrey",
+            "MAT_Composite_WarmOffWhite",
+            "MAT_Entrance_HonedTravertine",
+            "MAT_Entrance_RefinedBronze"
+          ],
+          "mesh_objects": 21,
+          "modifier_evaluated_triangles": 4692,
+          "objects": 23,
+          "unique_meshes": 21,
+          "unique_triangles": 4692,
+          "unique_vertices": 3008,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Composite_LightGrey",
+            "MAT_Composite_WarmOffWhite",
+            "MAT_Entrance_HonedTravertine",
+            "MAT_Entrance_RefinedBronze"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_MainGate_used_materials",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "roundtrip_SITE_MainGate_uvs",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bytes": 346316,
+        "path": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05S_R05_Final\\Hospital_SITE_PerimeterFence_R05.fbx",
+        "sha256": "2a7afdc0768663191c3c02370b42727b9a406ad5b68c78065a2730dcc57a81ec"
+      },
+      "name": "fbx_SITE_PerimeterFence_exists_and_hashes",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -90.0,
+            -100.0,
+            -1.2e-05
+          ],
+          [
+            90.0,
+            75.0,
+            6.850016
+          ]
+        ],
+        "bounds_delta_m": 1.600000000046009e-05,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 21660,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_HonedTravertine",
+            "MAT_Entrance_RefinedBronze"
+          ],
+          "mesh_objects": 9,
+          "modifier_evaluated_triangles": 21660,
+          "objects": 9,
+          "unique_meshes": 9,
+          "unique_triangles": 21660,
+          "unique_vertices": 14440,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_HonedTravertine",
+            "MAT_Entrance_RefinedBronze"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_PerimeterFence_geometry",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -90.0,
+            -100.0,
+            -1.2e-05
+          ],
+          [
+            90.0,
+            75.0,
+            6.850016
+          ]
+        ],
+        "bounds_delta_m": 1.600000000046009e-05,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 21660,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_HonedTravertine",
+            "MAT_Entrance_RefinedBronze"
+          ],
+          "mesh_objects": 9,
+          "modifier_evaluated_triangles": 21660,
+          "objects": 9,
+          "unique_meshes": 9,
+          "unique_triangles": 21660,
+          "unique_vertices": 14440,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_HonedTravertine",
+            "MAT_Entrance_RefinedBronze"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_PerimeterFence_bounds",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -90.0,
+            -100.0,
+            -1.2e-05
+          ],
+          [
+            90.0,
+            75.0,
+            6.850016
+          ]
+        ],
+        "bounds_delta_m": 1.600000000046009e-05,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 21660,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_HonedTravertine",
+            "MAT_Entrance_RefinedBronze"
+          ],
+          "mesh_objects": 9,
+          "modifier_evaluated_triangles": 21660,
+          "objects": 9,
+          "unique_meshes": 9,
+          "unique_triangles": 21660,
+          "unique_vertices": 14440,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_HonedTravertine",
+            "MAT_Entrance_RefinedBronze"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_PerimeterFence_used_materials",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "roundtrip_SITE_PerimeterFence_uvs",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bytes": 31934988,
+        "path": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05S_R05_Final\\Hospital_SITE_PropsVegetation_R05.fbx",
+        "sha256": "9683e8c708984068aaf07a6a38eace47177a8f060701844dab9e28aa2cea90c9"
+      },
+      "name": "fbx_SITE_PropsVegetation_exists_and_hashes",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -85.922607,
+            -102.767586,
+            0.043469
+          ],
+          [
+            89.864571,
+            68.639519,
+            11.55007
+          ]
+        ],
+        "bounds_delta_m": 0.0,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 6970628,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_RefinedBronze",
+            "MAT_S05S_S5_AccentAllium",
+            "MAT_S05S_S5_AccentFlower",
+            "MAT_S05S_S5_AccentStem",
+            "MAT_S05S_S5_BarkTrunk",
+            "MAT_S05S_S5_FoliageDeep",
+            "MAT_S05S_S5_FoliageLight",
+            "MAT_S05S_S5_FoliageMid",
+            "MAT_S05S_S5_SeatingTimber"
+          ],
+          "mesh_objects": 380,
+          "modifier_evaluated_triangles": 6970628,
+          "objects": 380,
+          "unique_meshes": 24,
+          "unique_triangles": 560835,
+          "unique_vertices": 735784,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_RefinedBronze",
+            "MAT_S05S_S5_AccentAllium",
+            "MAT_S05S_S5_AccentFlower",
+            "MAT_S05S_S5_AccentStem",
+            "MAT_S05S_S5_BarkTrunk",
+            "MAT_S05S_S5_FoliageDeep",
+            "MAT_S05S_S5_FoliageLight",
+            "MAT_S05S_S5_FoliageMid",
+            "MAT_S05S_S5_SeatingTimber"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_PropsVegetation_geometry",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -85.922607,
+            -102.767586,
+            0.043469
+          ],
+          [
+            89.864571,
+            68.639519,
+            11.55007
+          ]
+        ],
+        "bounds_delta_m": 0.0,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 6970628,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_RefinedBronze",
+            "MAT_S05S_S5_AccentAllium",
+            "MAT_S05S_S5_AccentFlower",
+            "MAT_S05S_S5_AccentStem",
+            "MAT_S05S_S5_BarkTrunk",
+            "MAT_S05S_S5_FoliageDeep",
+            "MAT_S05S_S5_FoliageLight",
+            "MAT_S05S_S5_FoliageMid",
+            "MAT_S05S_S5_SeatingTimber"
+          ],
+          "mesh_objects": 380,
+          "modifier_evaluated_triangles": 6970628,
+          "objects": 380,
+          "unique_meshes": 24,
+          "unique_triangles": 560835,
+          "unique_vertices": 735784,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_RefinedBronze",
+            "MAT_S05S_S5_AccentAllium",
+            "MAT_S05S_S5_AccentFlower",
+            "MAT_S05S_S5_AccentStem",
+            "MAT_S05S_S5_BarkTrunk",
+            "MAT_S05S_S5_FoliageDeep",
+            "MAT_S05S_S5_FoliageLight",
+            "MAT_S05S_S5_FoliageMid",
+            "MAT_S05S_S5_SeatingTimber"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_PropsVegetation_bounds",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -85.922607,
+            -102.767586,
+            0.043469
+          ],
+          [
+            89.864571,
+            68.639519,
+            11.55007
+          ]
+        ],
+        "bounds_delta_m": 0.0,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 6970628,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_RefinedBronze",
+            "MAT_S05S_S5_AccentAllium",
+            "MAT_S05S_S5_AccentFlower",
+            "MAT_S05S_S5_AccentStem",
+            "MAT_S05S_S5_BarkTrunk",
+            "MAT_S05S_S5_FoliageDeep",
+            "MAT_S05S_S5_FoliageLight",
+            "MAT_S05S_S5_FoliageMid",
+            "MAT_S05S_S5_SeatingTimber"
+          ],
+          "mesh_objects": 380,
+          "modifier_evaluated_triangles": 6970628,
+          "objects": 380,
+          "unique_meshes": 24,
+          "unique_triangles": 560835,
+          "unique_vertices": 735784,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_Entrance_RefinedBronze",
+            "MAT_S05S_S5_AccentAllium",
+            "MAT_S05S_S5_AccentFlower",
+            "MAT_S05S_S5_AccentStem",
+            "MAT_S05S_S5_BarkTrunk",
+            "MAT_S05S_S5_FoliageDeep",
+            "MAT_S05S_S5_FoliageLight",
+            "MAT_S05S_S5_FoliageMid",
+            "MAT_S05S_S5_SeatingTimber"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_PropsVegetation_used_materials",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "roundtrip_SITE_PropsVegetation_uvs",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bytes": 42396,
+        "path": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage05S_R05_Final\\Hospital_SITE_RearService_R05.fbx",
+        "sha256": "fa6968305a510e7061a318493b63eb2e9c82e0ba4ad97690217aeafaef6dc96a"
+      },
+      "name": "fbx_SITE_RearService_exists_and_hashes",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -84.0,
+            26.292892,
+            0.042988
+          ],
+          [
+            -38.199265,
+            72.0,
+            3.749991
+          ]
+        ],
+        "bounds_delta_m": 1.1999999999998123e-05,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 632,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_RoadAsphalt",
+            "MAT_S05S_S5_RoadMarking_White",
+            "MAT_S05S_S5_RoadMarking_Yellow"
+          ],
+          "mesh_objects": 6,
+          "modifier_evaluated_triangles": 632,
+          "objects": 6,
+          "unique_meshes": 6,
+          "unique_triangles": 632,
+          "unique_vertices": 428,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_RoadAsphalt",
+            "MAT_S05S_S5_RoadMarking_White",
+            "MAT_S05S_S5_RoadMarking_Yellow"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_RearService_geometry",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -84.0,
+            26.292892,
+            0.042988
+          ],
+          [
+            -38.199265,
+            72.0,
+            3.749991
+          ]
+        ],
+        "bounds_delta_m": 1.1999999999998123e-05,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 632,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_RoadAsphalt",
+            "MAT_S05S_S5_RoadMarking_White",
+            "MAT_S05S_S5_RoadMarking_Yellow"
+          ],
+          "mesh_objects": 6,
+          "modifier_evaluated_triangles": 632,
+          "objects": 6,
+          "unique_meshes": 6,
+          "unique_triangles": 632,
+          "unique_vertices": 428,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_RoadAsphalt",
+            "MAT_S05S_S5_RoadMarking_White",
+            "MAT_S05S_S5_RoadMarking_Yellow"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_RearService_bounds",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bounds": [
+          [
+            -84.0,
+            26.292892,
+            0.042988
+          ],
+          [
+            -38.199265,
+            72.0,
+            3.749991
+          ]
+        ],
+        "bounds_delta_m": 1.1999999999998123e-05,
+        "import_result": [
+          "FINISHED"
+        ],
+        "missing_used_materials": [],
+        "statistics": {
+          "camera_objects": 0,
+          "empty_objects": 0,
+          "evaluated_instance_triangles": 632,
+          "light_objects": 0,
+          "materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_RoadAsphalt",
+            "MAT_S05S_S5_RoadMarking_White",
+            "MAT_S05S_S5_RoadMarking_Yellow"
+          ],
+          "mesh_objects": 6,
+          "modifier_evaluated_triangles": 632,
+          "objects": 6,
+          "unique_meshes": 6,
+          "unique_triangles": 632,
+          "unique_vertices": 428,
+          "used_materials": [
+            "MAT_Aluminium_Charcoal",
+            "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "MAT_S05S_S5_RoadAsphalt",
+            "MAT_S05S_S5_RoadMarking_White",
+            "MAT_S05S_S5_RoadMarking_Yellow"
+          ]
+        }
+      },
+      "name": "roundtrip_SITE_RearService_used_materials",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "roundtrip_SITE_RearService_uvs",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actions": 0,
+        "cameras": 0,
+        "lights": 0
+      },
+      "name": "roundtrip_combined_scene_clean",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "bytes": 2365183,
+        "dimensions": [
+          1600,
+          1200
+        ],
+        "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_RoundTripWholeSite.png",
+        "sha256": "2e5ceb07953ae6d7f4cfd6bba9fd7af9bdf2000750b14bcba05c2b2744cea751"
+      },
+      "name": "roundtrip_review_render_complete",
+      "passed": true
+    }
+  ],
+  "checks_failed": 0,
+  "checks_passed": 87,
+  "failed_checks": [],
+  "next_required_action": "Request user visual approval of S5. Do not begin S6 Unity integration until this exact R05 hash is approved.",
+  "performance": {
+    "collision_proxy_objects": 26,
+    "export_object_count": 550,
+    "lod1_ratio": 0.21989160135501995,
+    "lod2_ratio": 0.06488611281603361,
+    "lod_active_triangle_totals": {
+      "LOD0": 5422208,
+      "LOD1": 1192298,
+      "LOD2": 351826
+    },
+    "perimeter_spatial_chunks": 4
+  },
+  "review_images": [
+    {
+      "bytes": 2759314,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "exists": true,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_WholeSiteExport.png",
+      "sha256": "b524bb90b3dfb1826764f604edde23e5cf52bf7950bd7dafdeee642cedbd693a"
+    },
+    {
+      "bytes": 2304264,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "exists": true,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_CirculationTopdown.png",
+      "sha256": "c26a22be30ec2e70500efbbd181ebc1a3ef4060b8010220e03b296a33ebcce99"
+    },
+    {
+      "bytes": 2281318,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "exists": true,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_PlayerEyeArrival.png",
+      "sha256": "8ea233238f6a9ea714228d45ff2cb4f0e8272c6d479f0a4b4bc70a533e158605"
+    },
+    {
+      "bytes": 2152456,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "exists": true,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_GateAndRoots.png",
+      "sha256": "00c52698ba633fa99cb9cd6ce0b53f520124cdecca9699374f751162ea20c061"
+    },
+    {
+      "bytes": 2745598,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "exists": true,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_RoadPathMaterials.png",
+      "sha256": "b3a69dbdce70668e7d9fcc1fededece45299cea6daf917ffa4cf5a932ae9768f"
+    },
+    {
+      "bytes": 2263206,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "exists": true,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_CrossingsTopdown.png",
+      "sha256": "6e3e59a608801b2d1de4ae698df3e723b89c89a302101f3a43176e42a3a1ffaa"
+    },
+    {
+      "bytes": 3412164,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "exists": true,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_VegetationLOD0.png",
+      "sha256": "18917ef15b5124bfa1f5832ade48a98c94a43598e9d3e94a6ac2792b816b65a0"
+    },
+    {
+      "bytes": 2308875,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "exists": true,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_LakeLandscape.png",
+      "sha256": "6ec5441d2b21fc8b0862b41b150fec693afb17d18523efc544702db10e0888a3"
+    },
+    {
+      "bytes": 2905483,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "exists": true,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_ParkingExport.png",
+      "sha256": "f61c3ef2e6e85e0c5c006c67a32f8077ea872a8c061483e1d4813e8a55466df0"
+    },
+    {
+      "bytes": 2868868,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "exists": true,
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_RearExport.png",
+      "sha256": "82d7532e6b9b27ff97a22e2bd1e8c3090b21d292a838261b2146e45495ece472"
+    },
+    {
+      "bytes": 2365183,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "C:\\CutMyBodyPlease\\Reviews\\HospitalExterior\\Stage05S_RoundS5\\Stage05S_RoundS5_RoundTripWholeSite.png",
+      "sha256": "2e5ceb07953ae6d7f4cfd6bba9fd7af9bdf2000750b14bcba05c2b2744cea751"
+    }
+  ],
+  "schema": "HospitalExterior.Stage05S.RoundS5.Validation.v1",
+  "status": "PASS"
+}

@@ -1,0 +1,442 @@
+{
+    "schema": "HospitalExterior.Stage05.R43.CollisionMap.v1",
+    "layer": "HospitalCollision",
+    "static_box_colliders": [
+        {
+            "name": "COL_Walkable_ExteriorGround",
+            "role": "walkable_ground",
+            "center": [
+                0.0,
+                -0.15000000596046449,
+                -5.5
+            ],
+            "size": [
+                80.0,
+                0.30000001192092898,
+                58.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Walkable_EntranceApron",
+            "role": "walkable_entrance",
+            "center": [
+                0.0,
+                0.019999999552965165,
+                -26.0
+            ],
+            "size": [
+                24.0,
+                0.07999999821186066,
+                12.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_EntranceThreshold",
+            "role": "entrance_threshold",
+            "center": [
+                0.0,
+                0.05000000074505806,
+                -17.700000762939454
+            ],
+            "size": [
+                8.399999618530274,
+                0.10000000149011612,
+                0.23999999463558198
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Perimeter_Front",
+            "role": "unsafe_perimeter",
+            "center": [
+                0.0,
+                1.0,
+                -34.099998474121097
+            ],
+            "size": [
+                80.0,
+                2.0,
+                0.20000000298023225
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Perimeter_Rear",
+            "role": "unsafe_perimeter",
+            "center": [
+                0.0,
+                1.0,
+                22.200000762939454
+            ],
+            "size": [
+                80.0,
+                2.0,
+                0.20000000298023225
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Perimeter_Left",
+            "role": "unsafe_perimeter",
+            "center": [
+                -40.099998474121097,
+                1.0,
+                -6.0
+            ],
+            "size": [
+                0.20000000298023225,
+                2.0,
+                56.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Perimeter_Right",
+            "role": "unsafe_perimeter",
+            "center": [
+                40.099998474121097,
+                1.0,
+                -6.0
+            ],
+            "size": [
+                0.20000000298023225,
+                2.0,
+                56.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_ServiceBoundary_LoadingWest",
+            "role": "service_boundary",
+            "center": [
+                16.0,
+                1.0,
+                20.0
+            ],
+            "size": [
+                0.25,
+                2.0,
+                4.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_ServiceBoundary_LoadingEast",
+            "role": "service_boundary",
+            "center": [
+                36.0,
+                1.0,
+                20.0
+            ],
+            "size": [
+                0.25,
+                2.0,
+                4.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_ServiceBoundary_LoadingRear",
+            "role": "service_boundary",
+            "center": [
+                26.0,
+                1.0,
+                21.799999237060548
+            ],
+            "size": [
+                20.0,
+                2.0,
+                0.25
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L1_Floor",
+            "role": "walkable_balcony",
+            "center": [
+                -29.987499237060548,
+                5.650000095367432,
+                -10.887499809265137
+            ],
+            "size": [
+                12.0,
+                0.11999999731779099,
+                12.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L1_OuterGuard",
+            "role": "unsafe_balcony_edge",
+            "center": [
+                -29.987499237060548,
+                6.300000190734863,
+                -16.899999618530275
+            ],
+            "size": [
+                12.0,
+                1.2999999523162842,
+                0.11999999731779099
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L1_WestGuard",
+            "role": "unsafe_balcony_edge",
+            "center": [
+                -36.02000045776367,
+                6.300000190734863,
+                -10.887499809265137
+            ],
+            "size": [
+                0.11999999731779099,
+                1.2999999523162842,
+                12.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L2_Floor",
+            "role": "walkable_balcony",
+            "center": [
+                -29.987499237060548,
+                9.550000190734864,
+                -10.887499809265137
+            ],
+            "size": [
+                12.0,
+                0.11999999731779099,
+                12.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L2_OuterGuard",
+            "role": "unsafe_balcony_edge",
+            "center": [
+                -29.987499237060548,
+                10.199999809265137,
+                -16.899999618530275
+            ],
+            "size": [
+                12.0,
+                1.2999999523162842,
+                0.11999999731779099
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L2_WestGuard",
+            "role": "unsafe_balcony_edge",
+            "center": [
+                -36.02000045776367,
+                10.199999809265137,
+                -10.887499809265137
+            ],
+            "size": [
+                0.11999999731779099,
+                1.2999999523162842,
+                12.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L3_Floor",
+            "role": "walkable_balcony",
+            "center": [
+                -29.987499237060548,
+                13.450000762939454,
+                -10.887499809265137
+            ],
+            "size": [
+                12.0,
+                0.11999999731779099,
+                12.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L3_OuterGuard",
+            "role": "unsafe_balcony_edge",
+            "center": [
+                -29.987499237060548,
+                14.100000381469727,
+                -16.899999618530275
+            ],
+            "size": [
+                12.0,
+                1.2999999523162842,
+                0.11999999731779099
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L3_WestGuard",
+            "role": "unsafe_balcony_edge",
+            "center": [
+                -36.02000045776367,
+                14.100000381469727,
+                -10.887499809265137
+            ],
+            "size": [
+                0.11999999731779099,
+                1.2999999523162842,
+                12.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L4_Floor",
+            "role": "walkable_balcony",
+            "center": [
+                -29.987499237060548,
+                17.350000381469728,
+                -10.887499809265137
+            ],
+            "size": [
+                12.0,
+                0.11999999731779099,
+                12.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L4_OuterGuard",
+            "role": "unsafe_balcony_edge",
+            "center": [
+                -29.987499237060548,
+                18.0,
+                -16.899999618530275
+            ],
+            "size": [
+                12.0,
+                1.2999999523162842,
+                0.11999999731779099
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L4_WestGuard",
+            "role": "unsafe_balcony_edge",
+            "center": [
+                -36.02000045776367,
+                18.0,
+                -10.887499809265137
+            ],
+            "size": [
+                0.11999999731779099,
+                1.2999999523162842,
+                12.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L5_Floor",
+            "role": "walkable_balcony",
+            "center": [
+                -29.987499237060548,
+                21.25,
+                -10.887499809265137
+            ],
+            "size": [
+                12.0,
+                0.11999999731779099,
+                12.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L5_OuterGuard",
+            "role": "unsafe_balcony_edge",
+            "center": [
+                -29.987499237060548,
+                21.899999618530275,
+                -16.899999618530275
+            ],
+            "size": [
+                12.0,
+                1.2999999523162842,
+                0.11999999731779099
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L5_WestGuard",
+            "role": "unsafe_balcony_edge",
+            "center": [
+                -36.02000045776367,
+                21.899999618530275,
+                -10.887499809265137
+            ],
+            "size": [
+                0.11999999731779099,
+                1.2999999523162842,
+                12.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L6_Floor",
+            "role": "walkable_balcony",
+            "center": [
+                -29.987499237060548,
+                25.150001525878908,
+                -10.887499809265137
+            ],
+            "size": [
+                12.0,
+                0.11999999731779099,
+                12.0
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L6_OuterGuard",
+            "role": "unsafe_balcony_edge",
+            "center": [
+                -29.987499237060548,
+                25.80000114440918,
+                -16.899999618530275
+            ],
+            "size": [
+                12.0,
+                1.2999999523162842,
+                0.11999999731779099
+            ],
+            "collider": "BoxCollider"
+        },
+        {
+            "name": "COL_Balcony_L6_WestGuard",
+            "role": "unsafe_balcony_edge",
+            "center": [
+                -36.02000045776367,
+                25.80000114440918,
+                -10.887499809265137
+            ],
+            "size": [
+                0.11999999731779099,
+                1.2999999523162842,
+                12.0
+            ],
+            "collider": "BoxCollider"
+        }
+    ],
+    "dynamic_door_box_colliders": [
+        "UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT",
+        "UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT",
+        "UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT",
+        "UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT",
+        "UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT",
+        "UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT",
+        "UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT",
+        "UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT",
+        "UE_S03C_REAR_FireExit_B_Leaf_ROOT",
+        "UE_S03C_REAR_LoadingDoor_Leaf_ROOT",
+        "UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT",
+        "UE_S03C_ROOF_AccessDoor_Leaf_ROOT"
+    ],
+    "mesh_colliders": 0,
+    "decorative_geometry_colliders": 0
+}

@@ -1,0 +1,498 @@
+{
+    "schema": "HospitalExterior.Stage05.R43.DoorRootReport.v1",
+    "source_zone": "ACT_InteractiveDoors",
+    "doors": [
+        {
+            "root": "UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT",
+            "prefab": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT.prefab",
+            "motion_type": "HorizontalSlide",
+            "closed_local_position": [
+                -5.987500190734863,
+                0.2919999957084656,
+                -20.549999237060548
+            ],
+            "closed_local_rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "pivot_world_position_at_common_origin": [
+                -5.987500190734863,
+                0.2919999957084656,
+                -20.549999237060548
+            ],
+            "motion_axis": [
+                -1.0,
+                0.0,
+                0.0
+            ],
+            "open_distance_m": 3.3899998664855959,
+            "open_angle_degrees": 0.0,
+            "verified_clearance_m": 3.3899998664855959,
+            "collider_center": [
+                2.384185791015625e-7,
+                -0.0060007572174072269,
+                -1.619999647140503
+            ],
+            "collider_size": [
+                1.325000286102295,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "kinematic_rigidbody": true,
+            "renderer_count": 5
+        },
+        {
+            "root": "UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT",
+            "prefab": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT.prefab",
+            "motion_type": "HorizontalSlide",
+            "closed_local_position": [
+                -4.662499904632568,
+                0.2919999957084656,
+                -20.549999237060548
+            ],
+            "closed_local_rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "pivot_world_position_at_common_origin": [
+                -4.662499904632568,
+                0.2919999957084656,
+                -20.549999237060548
+            ],
+            "motion_axis": [
+                -1.0,
+                0.0,
+                0.0
+            ],
+            "open_distance_m": 3.3899998664855959,
+            "open_angle_degrees": 0.0,
+            "verified_clearance_m": 3.3899998664855959,
+            "collider_center": [
+                0.0,
+                -0.0060007572174072269,
+                -1.619999647140503
+            ],
+            "collider_size": [
+                1.3249998092651368,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "kinematic_rigidbody": true,
+            "renderer_count": 5
+        },
+        {
+            "root": "UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT",
+            "prefab": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT.prefab",
+            "motion_type": "HorizontalSlide",
+            "closed_local_position": [
+                -3.3375000953674318,
+                0.2919999957084656,
+                -20.549999237060548
+            ],
+            "closed_local_rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "pivot_world_position_at_common_origin": [
+                -3.3375000953674318,
+                0.2919999957084656,
+                -20.549999237060548
+            ],
+            "motion_axis": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "open_distance_m": 3.3899998664855959,
+            "open_angle_degrees": 0.0,
+            "verified_clearance_m": 3.3899998664855959,
+            "collider_center": [
+                1.1920928955078126e-7,
+                -0.0060007572174072269,
+                -1.619999647140503
+            ],
+            "collider_size": [
+                1.3250000476837159,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "kinematic_rigidbody": true,
+            "renderer_count": 5
+        },
+        {
+            "root": "UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT",
+            "prefab": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT.prefab",
+            "motion_type": "HorizontalSlide",
+            "closed_local_position": [
+                -2.012500047683716,
+                0.2919999957084656,
+                -20.549999237060548
+            ],
+            "closed_local_rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "pivot_world_position_at_common_origin": [
+                -2.012500047683716,
+                0.2919999957084656,
+                -20.549999237060548
+            ],
+            "motion_axis": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "open_distance_m": 3.3899998664855959,
+            "open_angle_degrees": 0.0,
+            "verified_clearance_m": 3.3899998664855959,
+            "collider_center": [
+                1.1920928955078126e-7,
+                -0.0060007572174072269,
+                -1.619999647140503
+            ],
+            "collider_size": [
+                1.3250000476837159,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "kinematic_rigidbody": true,
+            "renderer_count": 5
+        },
+        {
+            "root": "UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT",
+            "prefab": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT.prefab",
+            "motion_type": "HorizontalSlide",
+            "closed_local_position": [
+                -6.09250020980835,
+                0.2919999957084656,
+                -22.989999771118165
+            ],
+            "closed_local_rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "pivot_world_position_at_common_origin": [
+                -6.09250020980835,
+                0.2919999957084656,
+                -22.989999771118165
+            ],
+            "motion_axis": [
+                -1.0,
+                0.0,
+                0.0
+            ],
+            "open_distance_m": 3.3899998664855959,
+            "open_angle_degrees": 0.0,
+            "verified_clearance_m": 3.3899998664855959,
+            "collider_center": [
+                2.384185791015625e-7,
+                -0.0060007572174072269,
+                -1.619999647140503
+            ],
+            "collider_size": [
+                1.3949999809265137,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "kinematic_rigidbody": true,
+            "renderer_count": 5
+        },
+        {
+            "root": "UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT",
+            "prefab": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT.prefab",
+            "motion_type": "HorizontalSlide",
+            "closed_local_position": [
+                -4.697500228881836,
+                0.2919999957084656,
+                -22.989999771118165
+            ],
+            "closed_local_rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "pivot_world_position_at_common_origin": [
+                -4.697500228881836,
+                0.2919999957084656,
+                -22.989999771118165
+            ],
+            "motion_axis": [
+                -1.0,
+                0.0,
+                0.0
+            ],
+            "open_distance_m": 3.3899998664855959,
+            "open_angle_degrees": 0.0,
+            "verified_clearance_m": 3.3899998664855959,
+            "collider_center": [
+                2.384185791015625e-7,
+                -0.0060007572174072269,
+                -1.619999647140503
+            ],
+            "collider_size": [
+                1.3949999809265137,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "kinematic_rigidbody": true,
+            "renderer_count": 5
+        },
+        {
+            "root": "UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT",
+            "prefab": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT.prefab",
+            "motion_type": "HorizontalSlide",
+            "closed_local_position": [
+                -3.302500009536743,
+                0.2919999957084656,
+                -22.989999771118165
+            ],
+            "closed_local_rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "pivot_world_position_at_common_origin": [
+                -3.302500009536743,
+                0.2919999957084656,
+                -22.989999771118165
+            ],
+            "motion_axis": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "open_distance_m": 3.3899998664855959,
+            "open_angle_degrees": 0.0,
+            "verified_clearance_m": 3.3899998664855959,
+            "collider_center": [
+                0.0,
+                -0.0060007572174072269,
+                -1.619999647140503
+            ],
+            "collider_size": [
+                1.3949999809265137,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "kinematic_rigidbody": true,
+            "renderer_count": 5
+        },
+        {
+            "root": "UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT",
+            "prefab": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT.prefab",
+            "motion_type": "HorizontalSlide",
+            "closed_local_position": [
+                -1.9075000286102296,
+                0.2919999957084656,
+                -22.989999771118165
+            ],
+            "closed_local_rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "pivot_world_position_at_common_origin": [
+                -1.9075000286102296,
+                0.2919999957084656,
+                -22.989999771118165
+            ],
+            "motion_axis": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "open_distance_m": 3.3899998664855959,
+            "open_angle_degrees": 0.0,
+            "verified_clearance_m": 3.3899998664855959,
+            "collider_center": [
+                5.960464477539063e-8,
+                -0.0060007572174072269,
+                -1.619999647140503
+            ],
+            "collider_size": [
+                1.3950001001358033,
+                0.0800023078918457,
+                3.239999771118164
+            ],
+            "kinematic_rigidbody": true,
+            "renderer_count": 5
+        },
+        {
+            "root": "UE_S03C_REAR_FireExit_B_Leaf_ROOT",
+            "prefab": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_FireExit_B_Leaf_ROOT.prefab",
+            "motion_type": "Hinged",
+            "closed_local_position": [
+                13.324999809265137,
+                0.2800000011920929,
+                17.290000915527345
+            ],
+            "closed_local_rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "pivot_world_position_at_common_origin": [
+                13.324999809265137,
+                0.2800000011920929,
+                17.290000915527345
+            ],
+            "motion_axis": [
+                0.0,
+                -1.1920930376163597e-7,
+                -1.0
+            ],
+            "open_distance_m": 0.0,
+            "open_angle_degrees": 90.0,
+            "verified_clearance_m": 2.549999475479126,
+            "collider_center": [
+                0.6750001907348633,
+                0.029998652637004854,
+                -1.274999737739563
+            ],
+            "collider_size": [
+                1.2299995422363282,
+                0.09999869763851166,
+                2.4499995708465578
+            ],
+            "kinematic_rigidbody": true,
+            "renderer_count": 1
+        },
+        {
+            "root": "UE_S03C_REAR_LoadingDoor_Leaf_ROOT",
+            "prefab": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_LoadingDoor_Leaf_ROOT.prefab",
+            "motion_type": "VerticalLift",
+            "closed_local_position": [
+                -32.0,
+                0.2800000011920929,
+                17.290000915527345
+            ],
+            "closed_local_rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "pivot_world_position_at_common_origin": [
+                -32.0,
+                0.2800000011920929,
+                17.290000915527345
+            ],
+            "motion_axis": [
+                0.0,
+                -1.1920930376163597e-7,
+                -1.0
+            ],
+            "open_distance_m": 3.6599998474121095,
+            "open_angle_degrees": 0.0,
+            "verified_clearance_m": 3.6599998474121095,
+            "collider_center": [
+                0.0,
+                0.0299985334277153,
+                -1.8249999284744263
+            ],
+            "collider_size": [
+                3.6399993896484377,
+                0.11999939382076264,
+                3.5099995136260988
+            ],
+            "kinematic_rigidbody": true,
+            "renderer_count": 1
+        },
+        {
+            "root": "UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT",
+            "prefab": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT.prefab",
+            "motion_type": "Hinged",
+            "closed_local_position": [
+                -5.675000190734863,
+                0.2800000011920929,
+                17.290000915527345
+            ],
+            "closed_local_rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "pivot_world_position_at_common_origin": [
+                -5.675000190734863,
+                0.2800000011920929,
+                17.290000915527345
+            ],
+            "motion_axis": [
+                0.0,
+                -1.1920930376163597e-7,
+                -1.0
+            ],
+            "open_distance_m": 0.0,
+            "open_angle_degrees": 90.0,
+            "verified_clearance_m": 2.549999475479126,
+            "collider_center": [
+                0.6750001907348633,
+                0.029998652637004854,
+                -1.274999737739563
+            ],
+            "collider_size": [
+                1.2299995422363282,
+                0.09999869763851166,
+                2.4499995708465578
+            ],
+            "kinematic_rigidbody": true,
+            "renderer_count": 1
+        },
+        {
+            "root": "UE_S03C_ROOF_AccessDoor_Leaf_ROOT",
+            "prefab": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_ROOF_AccessDoor_Leaf_ROOT.prefab",
+            "motion_type": "Hinged",
+            "closed_local_position": [
+                -0.550000011920929,
+                29.899999618530275,
+                0.8600000143051148
+            ],
+            "closed_local_rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "pivot_world_position_at_common_origin": [
+                -0.550000011920929,
+                29.899999618530275,
+                0.8600000143051148
+            ],
+            "motion_axis": [
+                0.0,
+                -1.1920930376163597e-7,
+                -1.0
+            ],
+            "open_distance_m": 0.0,
+            "open_angle_degrees": 90.0,
+            "verified_clearance_m": 2.259997606277466,
+            "collider_center": [
+                0.550000011920929,
+                -0.019999980926513673,
+                -1.0799988508224488
+            ],
+            "collider_size": [
+                1.100000023841858,
+                0.12000036239624024,
+                2.1599977016448976
+            ],
+            "kinematic_rigidbody": true,
+            "renderer_count": 1
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+ℹ️  blendkit: Verbose is enabled [19:46:24.551, addon_updater.py:150]
+ℹ️  blendkit: Read in JSON settings from file [19:46:24.553, addon_updater.py:150]
+ℹ️  blendkit: Ports reordered so first port is now 62485 (previous index was 0) [19:46:24.555, client_lib.py:156]
+Created history step bb0246a1-4b37-4786-b0ae-8d58d27ba552
+ℹ️  blendkit: Created new search history step [19:46:24.619, search.py:2698]
+ℹ️  blendkit: No temporarily enabled addons to clean up [19:46:24.619, download.py:419]
+00:01.562  blend            | Read blend: "C:\CutMyBodyPlease\ArtSource\Environment\Blender\HospitalSite\HospitalSite_Stage05S_R05_FINAL.blend"
+00:01.718  reports          | Read library: 'C:\CutMyBodyPlease\ArtSource\Environment\Blender\HospitalExterior\HospitalExterior_Stage04_R40_MASTER_ReviewCorrected.blend', '//..\HospitalExterior\HospitalExterior_Stage04_R40_MASTER_ReviewCorrected.blend', parent '<direct>'
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+ℹ️  blendkit: No temporarily enabled addons to clean up [19:46:24.892, download.py:419]
+ℹ️  blendkit: Unregistering Blendkit add-on [19:46:36.501, __init__.py:2973]
+ℹ️  blendkit: No temporarily enabled addons to clean up [19:46:36.502, download.py:419]
+00:33.171  render           | Saved: 'C:\CutMyBodyPlease\Reviews\HospitalExterior\Stage05S_RoundS5\Stage05S_RoundS5_RoundTripWholeSite.png'
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+Info: Saved as "Stage05S_RoundS5_FBXRoundTrip.blend"
+STAGE05S_S5_VALIDATION={"candidate_sha256": "04fad3c3cc06c967478d9b0ec2e67f598e845cbd3e9e12cc11562bd95e096a78", "failed": 0, "failed_checks": [], "passed": 87, "status": "PASS"}
+
+Blender quit

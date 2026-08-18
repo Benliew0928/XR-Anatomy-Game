@@ -1,0 +1,22 @@
+{
+    "schema": "HospitalExterior.Stage06A.R01.PCVRBuild.v1",
+    "status": "PASS",
+    "build_type": "Windows x86_64 Development + AllowDebugging",
+    "output": "C:\\CutMyBodyPlease\\Exports\\HospitalExterior\\Stage06A_R01_PCVR\\AnatomyXR_Stage06A_R01.exe",
+    "note": "Traversal-development build only. Stage 6B captures the real stereo performance baseline.",
+    "total_bytes": 268799115,
+    "total_time_seconds": 2.2501046,
+    "scenes": [
+        "Assets/Hospital/Stage06A/R01/Scenes/Hospital_Stage06A_TraversalProfile.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Base.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Tower.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_InteriorShellPreview.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity",
+        "Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SiteCore.unity",
+        "Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SitePerimeter.unity",
+        "Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SiteLandscape.unity"
+    ],
+    "editor_build_settings_preserved": true,
+    "headset_performance_accepted": false
+}

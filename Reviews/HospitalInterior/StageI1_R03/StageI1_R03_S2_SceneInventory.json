@@ -1,0 +1,294 @@
+{
+    "schema": "HospitalInterior.R03.S2.SceneInventory.v1",
+    "status": "PASS",
+    "unityVersion": "6000.3.20f1",
+    "allowedVisibleContent": "One neutral slab and one Fxx label per floor; protected exterior context is outside floor-scene inventory.",
+    "floors": [
+        {
+            "floorId": "F00",
+            "scenePath": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F00_Empty.unity",
+            "elevationM": 0.0,
+            "rootCount": 1,
+            "footprintSource": "Approved S1 production-derived eight-vertex F00 footprint.",
+            "actualFootprintBounds": "X -35.05..36.00; Z -22.10..16.35",
+            "integrationCoverageProbes": [],
+            "visibleObjects": [
+                "S2_R03_EmptySlab",
+                "S2_R03_FloorLabel"
+            ],
+            "colliderObjects": [
+                "S2_R03_ElevatorArrivalAnchor",
+                "S2_R03_EmptySlab",
+                "S2_R03_SafetyBoundary_01",
+                "S2_R03_SafetyBoundary_02",
+                "S2_R03_SafetyBoundary_03",
+                "S2_R03_SafetyBoundary_04",
+                "S2_R03_SafetyBoundary_05",
+                "S2_R03_SafetyBoundary_06",
+                "S2_R03_SafetyBoundary_07",
+                "S2_R03_SafetyBoundary_08",
+                "S2_R03_SafetyBoundary_09"
+            ],
+            "forbiddenObjects": [],
+            "status": "PASS"
+        },
+        {
+            "floorId": "F01",
+            "scenePath": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F01_Empty.unity",
+            "elevationM": 5.800000190734863,
+            "rootCount": 1,
+            "footprintSource": "Approved S1 upper-floor core plus measured R40 facade and balcony seam-closure extensions.",
+            "actualFootprintBounds": "X -36.00..18.00; Z -16.90..17.10",
+            "integrationCoverageProbes": [
+                {
+                    "x": -35.79999923706055,
+                    "y": 0.0
+                },
+                {
+                    "x": 17.799999237060548,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 16.799999237060548
+                },
+                {
+                    "x": -29.989999771118165,
+                    "y": -16.5
+                }
+            ],
+            "visibleObjects": [
+                "S2_R03_EmptySlab",
+                "S2_R03_FloorLabel"
+            ],
+            "colliderObjects": [
+                "S2_R03_ElevatorArrivalAnchor",
+                "S2_R03_EmptySlab",
+                "S2_R03_SafetyBoundary_01",
+                "S2_R03_SafetyBoundary_02",
+                "S2_R03_SafetyBoundary_03",
+                "S2_R03_SafetyBoundary_04",
+                "S2_R03_SafetyBoundary_05",
+                "S2_R03_SafetyBoundary_06",
+                "S2_R03_SafetyBoundary_07"
+            ],
+            "forbiddenObjects": [],
+            "status": "PASS"
+        },
+        {
+            "floorId": "F02",
+            "scenePath": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F02_Empty.unity",
+            "elevationM": 9.699999809265137,
+            "rootCount": 1,
+            "footprintSource": "Approved S1 upper-floor core plus measured R40 facade and balcony seam-closure extensions.",
+            "actualFootprintBounds": "X -36.00..18.00; Z -16.90..17.10",
+            "integrationCoverageProbes": [
+                {
+                    "x": -35.79999923706055,
+                    "y": 0.0
+                },
+                {
+                    "x": 17.799999237060548,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 16.799999237060548
+                },
+                {
+                    "x": -29.989999771118165,
+                    "y": -16.5
+                }
+            ],
+            "visibleObjects": [
+                "S2_R03_EmptySlab",
+                "S2_R03_FloorLabel"
+            ],
+            "colliderObjects": [
+                "S2_R03_ElevatorArrivalAnchor",
+                "S2_R03_EmptySlab",
+                "S2_R03_SafetyBoundary_01",
+                "S2_R03_SafetyBoundary_02",
+                "S2_R03_SafetyBoundary_03",
+                "S2_R03_SafetyBoundary_04",
+                "S2_R03_SafetyBoundary_05",
+                "S2_R03_SafetyBoundary_06",
+                "S2_R03_SafetyBoundary_07"
+            ],
+            "forbiddenObjects": [],
+            "status": "PASS"
+        },
+        {
+            "floorId": "F03",
+            "scenePath": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F03_Empty.unity",
+            "elevationM": 13.600000381469727,
+            "rootCount": 1,
+            "footprintSource": "Approved S1 upper-floor core plus measured R40 facade and balcony seam-closure extensions.",
+            "actualFootprintBounds": "X -36.00..18.00; Z -16.90..17.10",
+            "integrationCoverageProbes": [
+                {
+                    "x": -35.79999923706055,
+                    "y": 0.0
+                },
+                {
+                    "x": 17.799999237060548,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 16.799999237060548
+                },
+                {
+                    "x": -29.989999771118165,
+                    "y": -16.5
+                }
+            ],
+            "visibleObjects": [
+                "S2_R03_EmptySlab",
+                "S2_R03_FloorLabel"
+            ],
+            "colliderObjects": [
+                "S2_R03_ElevatorArrivalAnchor",
+                "S2_R03_EmptySlab",
+                "S2_R03_SafetyBoundary_01",
+                "S2_R03_SafetyBoundary_02",
+                "S2_R03_SafetyBoundary_03",
+                "S2_R03_SafetyBoundary_04",
+                "S2_R03_SafetyBoundary_05",
+                "S2_R03_SafetyBoundary_06",
+                "S2_R03_SafetyBoundary_07"
+            ],
+            "forbiddenObjects": [],
+            "status": "PASS"
+        },
+        {
+            "floorId": "F04",
+            "scenePath": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F04_Empty.unity",
+            "elevationM": 17.5,
+            "rootCount": 1,
+            "footprintSource": "Approved S1 upper-floor core plus measured R40 facade and balcony seam-closure extensions.",
+            "actualFootprintBounds": "X -36.00..18.00; Z -16.90..17.10",
+            "integrationCoverageProbes": [
+                {
+                    "x": -35.79999923706055,
+                    "y": 0.0
+                },
+                {
+                    "x": 17.799999237060548,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 16.799999237060548
+                },
+                {
+                    "x": -29.989999771118165,
+                    "y": -16.5
+                }
+            ],
+            "visibleObjects": [
+                "S2_R03_EmptySlab",
+                "S2_R03_FloorLabel"
+            ],
+            "colliderObjects": [
+                "S2_R03_ElevatorArrivalAnchor",
+                "S2_R03_EmptySlab",
+                "S2_R03_SafetyBoundary_01",
+                "S2_R03_SafetyBoundary_02",
+                "S2_R03_SafetyBoundary_03",
+                "S2_R03_SafetyBoundary_04",
+                "S2_R03_SafetyBoundary_05",
+                "S2_R03_SafetyBoundary_06",
+                "S2_R03_SafetyBoundary_07"
+            ],
+            "forbiddenObjects": [],
+            "status": "PASS"
+        },
+        {
+            "floorId": "F05",
+            "scenePath": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F05_Empty.unity",
+            "elevationM": 21.399999618530275,
+            "rootCount": 1,
+            "footprintSource": "Approved S1 upper-floor core plus measured R40 facade and balcony seam-closure extensions.",
+            "actualFootprintBounds": "X -36.00..18.00; Z -16.90..17.10",
+            "integrationCoverageProbes": [
+                {
+                    "x": -35.79999923706055,
+                    "y": 0.0
+                },
+                {
+                    "x": 17.799999237060548,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 16.799999237060548
+                },
+                {
+                    "x": -29.989999771118165,
+                    "y": -16.5
+                }
+            ],
+            "visibleObjects": [
+                "S2_R03_EmptySlab",
+                "S2_R03_FloorLabel"
+            ],
+            "colliderObjects": [
+                "S2_R03_ElevatorArrivalAnchor",
+                "S2_R03_EmptySlab",
+                "S2_R03_SafetyBoundary_01",
+                "S2_R03_SafetyBoundary_02",
+                "S2_R03_SafetyBoundary_03",
+                "S2_R03_SafetyBoundary_04",
+                "S2_R03_SafetyBoundary_05",
+                "S2_R03_SafetyBoundary_06",
+                "S2_R03_SafetyBoundary_07"
+            ],
+            "forbiddenObjects": [],
+            "status": "PASS"
+        },
+        {
+            "floorId": "F06",
+            "scenePath": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F06_Empty.unity",
+            "elevationM": 25.299999237060548,
+            "rootCount": 1,
+            "footprintSource": "Approved S1 upper-floor core plus measured R40 facade and balcony seam-closure extensions.",
+            "actualFootprintBounds": "X -36.00..18.00; Z -16.90..17.10",
+            "integrationCoverageProbes": [
+                {
+                    "x": -35.79999923706055,
+                    "y": 0.0
+                },
+                {
+                    "x": 17.799999237060548,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 16.799999237060548
+                },
+                {
+                    "x": -29.989999771118165,
+                    "y": -16.5
+                }
+            ],
+            "visibleObjects": [
+                "S2_R03_EmptySlab",
+                "S2_R03_FloorLabel"
+            ],
+            "colliderObjects": [
+                "S2_R03_ElevatorArrivalAnchor",
+                "S2_R03_EmptySlab",
+                "S2_R03_SafetyBoundary_01",
+                "S2_R03_SafetyBoundary_02",
+                "S2_R03_SafetyBoundary_03",
+                "S2_R03_SafetyBoundary_04",
+                "S2_R03_SafetyBoundary_05",
+                "S2_R03_SafetyBoundary_06",
+                "S2_R03_SafetyBoundary_07"
+            ],
+            "forbiddenObjects": [],
+            "status": "PASS"
+        }
+    ]
+}

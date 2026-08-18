@@ -1,0 +1,40 @@
+# Main source repository: Unity-generated files
+/Unity/AnatomyXR/[Ll]ibrary/
+/Unity/AnatomyXR/[Tt]emp/
+/Unity/AnatomyXR/[Oo]bj/
+/Unity/AnatomyXR/[Ll]ogs/
+/Unity/AnatomyXR/[Uu]ser[Ss]ettings/
+/Unity/AnatomyXR/[Bb]uild/
+/Unity/AnatomyXR/[Bb]uilds/
+/Unity/AnatomyXR/[Mm]emoryCaptures/
+/Unity/AnatomyXR/[Rr]ecordings/
+
+# IDE-generated project files
+/Unity/AnatomyXR/*.csproj
+/Unity/AnatomyXR/*.sln
+/Unity/AnatomyXR/*.suo
+/Unity/AnatomyXR/*.user
+/Unity/AnatomyXR/*.userprefs
+/Unity/AnatomyXR/*.pidb
+/Unity/AnatomyXR/*.booproj
+/Unity/AnatomyXR/*.svd
+/Unity/AnatomyXR/*.pdb
+/Unity/AnatomyXR/*.mdb
+/Unity/AnatomyXR/*.opendb
+/Unity/AnatomyXR/*.VC.db
+/Unity/AnatomyXR/.vs/
+/Unity/AnatomyXR/.idea/
+/Unity/AnatomyXR/.gradle/
+/Unity/AnatomyXR/.utmp/
+
+# Packaged players and local copies: distribute the approved player separately.
+/Exports/
+/Archive/
+/Temp/
+/tmp/
+
+# Operating-system and distribution by-products
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.zip

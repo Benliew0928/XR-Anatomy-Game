@@ -1,0 +1,1782 @@
+{
+    "schema": "HospitalExterior.Stage06A.R01.ProtectedInputManifest.v1",
+    "status": "PASS",
+    "created_utc": "2026-08-11T13:42:33.1830447Z",
+    "r40_authority_sha256": "f797abb08388dbb4b8af69acc0da8c538185a8efea9fb397a0bf2a56c5420126",
+    "r40_exact_snapshot_sha256": "0a530ff9d7d7effa512f1d69178a0be86da722239f0cb992878045358c73ea58",
+    "r05b_authority_sha256": "68df8c9fd460dcadc1f42b12d1009338493eb398bfc8d012246f882d611e8f7d",
+    "unity_version": "6000.3.20f1",
+    "target": "Windows x86_64 PC VR through Quest Link/Air Link; Android standalone excluded",
+    "files": [
+        {
+            "path": "../../ArtSource/Environment/Blender/HospitalExterior/HospitalExterior_Stage04_R40_MASTER_ReviewCorrected.blend",
+            "role": "frozen_r40_authority",
+            "sha256": "f797abb08388dbb4b8af69acc0da8c538185a8efea9fb397a0bf2a56c5420126",
+            "bytes": 7754033
+        },
+        {
+            "path": "../../ArtSource/Environment/Blender/HospitalExterior/HospitalExterior_Stage04_R40_MASTER_ReviewCorrected.blend1",
+            "role": "frozen_r40_exact_snapshot",
+            "sha256": "0a530ff9d7d7effa512f1d69178a0be86da722239f0cb992878045358c73ea58",
+            "bytes": 7709942
+        },
+        {
+            "path": "../../ArtSource/Environment/Blender/HospitalSite/HospitalSite_Stage05S_R05B_GRASS_REFINEMENT.blend",
+            "role": "frozen_r05b_authority",
+            "sha256": "68df8c9fd460dcadc1f42b12d1009338493eb398bfc8d012246f882d611e8f7d",
+            "bytes": 39629951
+        },
+        {
+            "path": "../../Exports/HospitalExterior/Stage05_R41_Input/Hospital_ACT_InteractiveDoors.fbx",
+            "role": "frozen_stage05_external_input",
+            "sha256": "99ed517ff96389940343911076079726d2b146984262469731df175bd2c2f37f",
+            "bytes": 294092
+        },
+        {
+            "path": "../../Exports/HospitalExterior/Stage05_R41_Input/Hospital_EXT_Balconies.fbx",
+            "role": "frozen_stage05_external_input",
+            "sha256": "cd5437d668d0aba757c3e503c00412edc3a44f9eeea5e0168af0bcdac00172c7",
+            "bytes": 1953212
+        },
+        {
+            "path": "../../Exports/HospitalExterior/Stage05_R41_Input/Hospital_EXT_FrontTower.fbx",
+            "role": "frozen_stage05_external_input",
+            "sha256": "0a919954f7112dcbafae6de6848bb9b1d6352599cbd4696d5e362a81986fb20b",
+            "bytes": 2055644
+        },
+        {
+            "path": "../../Exports/HospitalExterior/Stage05_R41_Input/Hospital_EXT_GlobalStructure.fbx",
+            "role": "frozen_stage05_external_input",
+            "sha256": "e9a324bc88a54a702fd3a76c804d16afa696949ef6ba4bb6508589b0b8e1a055",
+            "bytes": 492940
+        },
+        {
+            "path": "../../Exports/HospitalExterior/Stage05_R41_Input/Hospital_EXT_GroundEntrance.fbx",
+            "role": "frozen_stage05_external_input",
+            "sha256": "dc29aa06f1d09ed1c7e767382fcfb39b6821e3f49158952feb193d27a934512c",
+            "bytes": 1897516
+        },
+        {
+            "path": "../../Exports/HospitalExterior/Stage05_R41_Input/Hospital_EXT_InteriorShell.fbx",
+            "role": "frozen_stage05_external_input",
+            "sha256": "873f89f9519d0ee8795cb45dbc4c64b7c36afd2628fcec7e18ebd4d7717fc3d6",
+            "bytes": 300252
+        },
+        {
+            "path": "../../Exports/HospitalExterior/Stage05_R41_Input/Hospital_EXT_LeftFacadePodium.fbx",
+            "role": "frozen_stage05_external_input",
+            "sha256": "a3410fb311b7a07d9b72f6c79b0dd65962b10eac03cbab556da3071efe1e800b",
+            "bytes": 1046124
+        },
+        {
+            "path": "../../Exports/HospitalExterior/Stage05_R41_Input/Hospital_EXT_RearService.fbx",
+            "role": "frozen_stage05_external_input",
+            "sha256": "440740db0143f1ec6781bc6f40d5ffc2117ce2c4fe21be86f66527697d93d417",
+            "bytes": 2845180
+        },
+        {
+            "path": "../../Exports/HospitalExterior/Stage05_R41_Input/Hospital_EXT_RightFacadeWing.fbx",
+            "role": "frozen_stage05_external_input",
+            "sha256": "2ac4dd9c6d9a98b5e967c0b0b504a4b0973ae980ac76fa6bf14b448ff9b5f356",
+            "bytes": 927340
+        },
+        {
+            "path": "../../Exports/HospitalExterior/Stage05_R41_Input/Hospital_EXT_RoofService.fbx",
+            "role": "frozen_stage05_external_input",
+            "sha256": "799334220d700a871f9f23bbb32ddc1b818252cbdfbffdf8411d2e3a89c77287",
+            "bytes": 305660
+        },
+        {
+            "path": "../../Exports/HospitalExterior/Stage05_R41_Input/Stage05_R41_InputManifest.json",
+            "role": "frozen_stage05_external_input",
+            "sha256": "76aa47b30456387c9de9750eb5b34adfa970ed459bbd638e1d899c4d9327a43e",
+            "bytes": 12579
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Aluminium_Charcoal.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "0d017f43f327ec01aa47aae6066785fd1ae3de009d7e0cde3e9e6410045bb885",
+            "bytes": 3857
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Aluminium_Charcoal.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "ceacb225a1cb5ae6ad9bcd50aa36d1d8ef0220bb8bd71594ee1be7a84fb7187b",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Architectural_ShadowGap.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "743ea7ccb1b2d380233eb2536f7455ef1a6a0f5085cec51d6dfc877666fff3aa",
+            "bytes": 3853
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Architectural_ShadowGap.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "6076e035a0e4e48c1faa65269d5a37783709dd863ecce33e6d597afabb8667e8",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Canopy_RecessedSoffit.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "3df2ec14b88d2c6cfc3f65e2dbd5ba842508e943a804df3825f5efea02b5730f",
+            "bytes": 3862
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Canopy_RecessedSoffit.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "8732202cdcd88a20201db72f5aee13532487981e07772dc3a4735d2029d6cc91",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Composite_LightGrey.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "42ae3f44a3660433e6457ba256ecfca8fefdc74553838db579ff62a2a52b9874",
+            "bytes": 3842
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Composite_LightGrey.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "81fd36cbeee2e51ceb02af0533fe56e23118539fd2ba567e25ae348d13b8f934",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Composite_WarmOffWhite.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "e30f84ee74c2a031f1d1bc784102a94e4a93f9ac6276c204d9dcfedf9f327b9a",
+            "bytes": 3845
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Composite_WarmOffWhite.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "98bda9e894744439925af66e268ec54dc994c2660d6b0ee20930992d6764d120",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_CornerBalcony_BlueGreyRoomGlass.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "6e45b6612b50d090fd80ed5a3020d3a1ac00a1bb34c5d17cad07ca2340ecaf1f",
+            "bytes": 3977
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_CornerBalcony_BlueGreyRoomGlass.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "ed8d669d91bd238cc179990eddb9710769ff18766afc606fd9d15454188294df",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_CornerBalcony_IntegratedDoorGlass.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "989ea1e1687b023424c0189b26cbc2f6ddfb04efb9b72f5cf6cf5ca9f951e317",
+            "bytes": 3971
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_CornerBalcony_IntegratedDoorGlass.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "1de7c0cdabaaed3a8fce5c414c968658b0a8052ff173a047d896828d8added72",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_CornerBalcony_UltraClearGuard.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "8e40b856c677024bdf78e3cd2b594d363f689ee67193559799d485d618a56e5e",
+            "bytes": 3851
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_CornerBalcony_UltraClearGuard.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "110e1034b31d1e2bd37636c394931ed6e45e74c79e2c775605bef5d4a91cebf2",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Entrance_DeepGreenFoliage.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "173f532da28311e6095072cd865c432ed959a991a03ede3edd023233c46e8f8c",
+            "bytes": 3860
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Entrance_DeepGreenFoliage.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "6c5edea72ae85536a0979acc1e51151c76eb5735d946581641591802732e831f",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Entrance_DoorGlass.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "376716c7e25daf7b821fe9ce9f8136d09b8c4760524d150ecaac45372a87a9fe",
+            "bytes": 3954
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Entrance_DoorGlass.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "d4a07f92abe1df6414bb66d4f2c1dd3e370946d7026dc49beda264c6f6401350",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Entrance_HighClarityGlass.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "f855889a3885d90adec4a0ff3c54f33a9bdae7e1cf1a91b60ac354d62abc29fe",
+            "bytes": 3971
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Entrance_HighClarityGlass.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "23ba992284303a18ae0034011cd02731806f89817ae8b6e6c64665fb67df7a3f",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Entrance_HonedTravertine.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "be55cb571b4c03603ffa837c92381f801bbd43de009580df8cbebf90f4d62f4d",
+            "bytes": 3859
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Entrance_HonedTravertine.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "a524457e8127a5b00828ce4d68e489ae9f1618230d4478ca70231f02b7f8f1d1",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Entrance_PolishedArrivalStone.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "dd122a955ceb003afc99ccb85eba47e7b6b6a1df006d970ea2b34e3fb6e7fee8",
+            "bytes": 3866
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Entrance_PolishedArrivalStone.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "6c4828e2a3089eeb4c9a34030c65b2dbf466749edf5b4560efb05ea6564a25e1",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Entrance_RefinedBronze.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "2e419c512b90d7c0d30830eeb3018250d34a39ed27ce93585a85a5f512e0dd83",
+            "bytes": 3864
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Entrance_RefinedBronze.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "6ca77effd0548344a01094a12ed491e0626aa92c65676a3cd0d610795f14c6dd",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Glass_BlueGrey.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "5fc4b74c0bfbbe2605020b59a101432ba70d83e6d16eab01706a9356f8f860e3",
+            "bytes": 3959
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Glass_BlueGrey.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "0a0a67cdbf99055e0b4de1ec5a511a457f0eb0f9a4795f08a95dee58273dc9a6",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Interior_WarmDaylightSurface.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "8aec5e8c87ebc3d49df10e721b1c9b65f64676f44a5cf114bc672cdbaae23091",
+            "bytes": 3859
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Interior_WarmDaylightSurface.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "e8e08af16f8139320e86edd12c7eff5edb7723ad3e2d2bf5fbdb079967814c19",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_LED_Warm_3200K.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "eb0513d5f053319c1aedc487869d8af627e4189c076a37044e237ec563499cfc",
+            "bytes": 3836
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_LED_Warm_3200K.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "bd0fe4719054dbdba3974c8589b31d015c99a49efede60fb24623e26df545609",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Lobby_HonedTerrazzo.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "5f22d5f57749fe409e17f4b217471f3cea2a2666c6e8125c963ecb04d6c7915e",
+            "bytes": 3847
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Lobby_HonedTerrazzo.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "6d8c82e7076071679dc64fb72ec1d7cc8ae2daf7322b2efb35c8ced0ddf50284",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Lobby_WarmStone.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "b3c7216f6f9455e4445a5c85de4ebf25bf54f67bd60f5099d055d1454c3d0cb7",
+            "bytes": 3857
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Lobby_WarmStone.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "9c73294ad9d19be580f9fe62024322a9a50aa11870a696c065cc1a27ce80bb7d",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Lobby_WoodCharcoal.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "bcd3544ee3062f1c1ca3f1612cff61d4f983d2aefda16995ef0797e8cb7515a4",
+            "bytes": 3856
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Lobby_WoodCharcoal.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "45b89f15a48256c113aa1893a1e339975c8a265cff1aacd1885a454d83e6652e",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Neutral_Concrete.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "f305e579493d54b9a0e62cd25b09299a6f51a2c5082eab80a35551fbbccd4c6a",
+            "bytes": 3853
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Neutral_Concrete.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "c7aa83fb4cb50606da5f1d15dad9e952b85fb0aea38a9165ca2e3cfa1c7de896",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Portal_DarkBronze.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "3e555561d979d110a6679cb14bd3816ed67330f3c3805f17222c7694d82d4140",
+            "bytes": 3855
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Portal_DarkBronze.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "5e60ab3c562d37e81db1b79547b5e03970615e83c634917aec4c3ddf5c66d686",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_S03E_Ceiling_SoftWhite.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "eb7b51dfa8e804bf4b50658b2d8b26a22006357ec8752363e540241c2922a9f0",
+            "bytes": 3847
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_S03E_Ceiling_SoftWhite.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "7330239ac6147200d9e9fd129a59d2fdea988347d809722164bdd2a255ded0d5",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_S03E_Floor_HonedTerrazzo.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "6af70473f6f3139ed236f49a677e055f4afb31f8d7deeae6b132e0419d12f51d",
+            "bytes": 3861
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_S03E_Floor_HonedTerrazzo.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "3ebded7f6a568e484218ecf1b6e3d8aade7dd668c15a83e1eac4fbe4f3016c79",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_S03E_FurnitureSilhouette.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "c4b20302fec0bb55bc58d0b60d75cb823f55bbb84ad6a12abefc801c9897985f",
+            "bytes": 3866
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_S03E_FurnitureSilhouette.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "5c39e4200f3d032f79b295c308b572cdce2bec5ad5f693d86ab367bba5b77e73",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_S03E_InteriorWall_WarmWhite.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "8ab5ea4b17b11446e1ac5d3048baec3536640273e65583693ea2b70742e06e8b",
+            "bytes": 3861
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_S03E_InteriorWall_WarmWhite.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "02bf853344a3a29e370c7b6b0864b27a44fa62032c62a915265947e8a08b04bf",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_S03E_PrivacyShade.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "0c4b9b25c552639dd35710061a700ba5d9a88f95ba7a0d0dcf405dbfe407b80e",
+            "bytes": 3955
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_S03E_PrivacyShade.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "cdd58030cd5b38fbe26b1df655b3d33313f565bc021c12cd0e8ed7e7e9f6979d",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_S03E_ServiceBackdrop.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "168cd164411f1e35ae0ee69fb036a1c64b7cecad79ff98df1642444020760354",
+            "bytes": 3855
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_S03E_ServiceBackdrop.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "6f4ff9920bd0ddc7751920e3012a4673111efd5ed316fbd83604663084f67d0a",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_S03E_WarmTimber.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "c58e1157c20c212ec1daef79e1e7461691c885852c0560219bbe7933813bc824",
+            "bytes": 3849
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_S03E_WarmTimber.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "c1f96c20f2821dc27bac54c20616c117edf5ddb0d1a0aa61b30ba721b802f7fa",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Signage_WarmWhite_NonEmissive.mat",
+            "role": "frozen_hospital_material",
+            "sha256": "ffcd90ed0c9711c37aec3036095d2b897b2d144ff3d0ae1abf42a22b90b10c26",
+            "bytes": 3853
+        },
+        {
+            "path": "Assets/Hospital/Materials/MAT_Signage_WarmWhite_NonEmissive.mat.meta",
+            "role": "frozen_hospital_material",
+            "sha256": "f549c42aa655fbbf8e789cbd4c205a38adcf02b6e02c7b61ba58692fa98a1f18",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Collision.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "f8fce696902f02f522bab99aaac2990396800f59005bd53c3679ce3354e9a3f8",
+            "bytes": 172
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Collision/HospitalExterior_R43_CollisionPrototype.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "4203da535fee4b46618853907c4cf4620d61753c28e1a3983102be6cf41e5a2d",
+            "bytes": 43497
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Collision/HospitalExterior_R43_CollisionPrototype.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "ce2df69ca5d2f7129b92e32b6e2bd07e1b6c88e2fa129625a90ac161b466bba5",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "0f032f9a7f35fa91aeab99baf04804d38889e4dd2e08936c2426048c28939d2a",
+            "bytes": 172
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "fbfbf301b84dfadb796928eb08a51d470a80b3e73720148aa4e99091f5fdb5b9",
+            "bytes": 17664
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "4e715f05f576ca789ae7f47fee3eb4b8c4e1354ba29575508c4abb62c10f989d",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "5abd964deb1d9132bb23c21c4293fdcd71e0b14c757ad1ac98b191b51e934eae",
+            "bytes": 17661
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "44dbb9bacbaaf1f7b22273633f6706604432034d58c5611ec2948a796ffa420b",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "30748a28057707e3b5ddaabbe2129b34f07e2eaded4f92d33b352f8f0096ea5d",
+            "bytes": 17658
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "d101278c75b01665a44c60a17eeee1f2f61f863da4af920de74797e86c7eee69",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "dfb2f1c87a3c96ecba482c7115112156d408fc66b156411debbc09b57ac46433",
+            "bytes": 17661
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "b549861ce24dc88808f15fdd2f9592a4a022d63285381ad287031aec347c72ed",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "b174ac59c98579b458efcf5dab66f67f2164dbc2352532be658b33c8d8a08d2d",
+            "bytes": 17654
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "35e302283023c419b762b929090f9ae74595319416cf0f4a5b55e99506c0b89b",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "456da8f718817578c3b44d1af4869efd5b20c590dca844e3cf39958f2bb40f7d",
+            "bytes": 17666
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "84c4d870546456ae3fb3a50d3dc31836fae1b5ab05ff4107d5b4eabe56716fc5",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "a846f68b6081e701734244c0f1896dc97f2f6515466aa7580515b4716ca24f4e",
+            "bytes": 17645
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "5b3e12b3390079462e54740b33bca591e3e814b021cb44f419c6bada460d24fa",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "71a1b886421d6965392348501b8337e207902e28478905e519dda5551e1affa9",
+            "bytes": 17670
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "8e0f042048f0a2ea74e14008e4238d05001c29edf04e6e6a1b26d7491d88ef4d",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_FireExit_B_Leaf_ROOT.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "81a7c9dcdea4e04d38bc70080ff96640c95d28c839ea3a21150cdbdf7f323781",
+            "bytes": 6762
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_FireExit_B_Leaf_ROOT.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "7fc6fbadbb54f4fb399d760277305b2bbccc6ed6e50327b6a7e00cf9121b997a",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_LoadingDoor_Leaf_ROOT.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "c23853fb697dcf4b66113878c9aa9d80b601dd93951ef2ffb413a87bd2ae049b",
+            "bytes": 6769
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_LoadingDoor_Leaf_ROOT.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "cc8e1b1c97f2f62ad42ccb23a8d068bf43cc1ca49a230556d4deed5ae5ef724a",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "88719f1d37ed1dbdaf2a4716734aa06e3fca956c20bf36576e41b70487702a80",
+            "bytes": 6785
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "91a5f872a3221a2f7143abb4f662295a11281acbde728bdf6cab4ad670c05c22",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_ROOF_AccessDoor_Leaf_ROOT.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "f296fe3244c99af2c71db7bf6a7485af968f2e2bfac884ccb00f0017eb8555ad",
+            "bytes": 6754
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Doors/DOORPREFAB_UE_S03C_ROOF_AccessDoor_Leaf_ROOT.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "7d8039a0d8996279d83e66f47028ed10c69401015d93f5b26fc55dfbbd411cfb",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "3801385ec842e8c04796fa5d1af7fd37319ad608b3d6d54dd31ec1ec1d3bbd0c",
+            "bytes": 172
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/ACT_InteractiveDoors.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "3ac315ec512d85e29fe2d30367c0158428fe85f39c0348aa8c267e46a63a45e9",
+            "bytes": 3631
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/ACT_InteractiveDoors.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "232cfffe05cb7ea61ced43548cd6c0d92af86301f5226bb8462622ee20f54030",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_Balconies.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "5c9917ab75ff883e9e33003eaecb3f2245da638102270c169ab72643eb45e23d",
+            "bytes": 12656
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_Balconies.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "1faebbe53a0a5bee6a22263487afae74d478754ecac317958057648eec5d949a",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_FrontTower.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "de85c00c155edbac9eb1e4876b9f5596559f906f593e0348fcc0cc17a3b23136",
+            "bytes": 5097
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_FrontTower.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "aabcb2849d6be020804241e53f836ac44f445e168246c2eee0751ebbf913c87d",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_GlobalStructure.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "964511822b00ba7dcb120878798b00ebf7591cee0ff57bb6685664fb989a9d45",
+            "bytes": 4553
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_GlobalStructure.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "9e29f13f478dbfc3fb0a3dc647d64ea21fb8a1a55e1b6614dc65d542480e722b",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_GroundEntrance.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "730115112eddc6fb54a7f0d0276d5957cc75063bd9e006380175f9b41a4edf33",
+            "bytes": 6761
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_GroundEntrance.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "bd36687a7ceea51e400c6ca559d70df44525bf0ffaa379c8dd73c010c222b686",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_InteriorShell.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "c706db84ff403bd44f621e34d7acce0f43ee2fe6f6131d7a823729409d4394e0",
+            "bytes": 11375
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_InteriorShell.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "862dc35676966fbe5b4f34d455184723a3a4648d0f821f7a770ad30e3dda9684",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_LeftFacadePodium.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "f6a105e3ca53d86e933e422a67c5b3f998b0f810bb281ee8cd1577794ce7ed13",
+            "bytes": 5843
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_LeftFacadePodium.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "cf94c03ce747821aa5ca9bbf974b8d4173b37c47155f056c9a3d5c023ac5cc03",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_RearService.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "63f8533a2cf74612b0746b098e0df936c4a97be68a605911b13f0352065c6d57",
+            "bytes": 5839
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_RearService.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "0a09cebcc3485ad2ac405aa77837a142a11829cdcecb4f823b0f2fe6b0993720",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_RightFacadeWing.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "eee9a0a33b54213909ee1735fbcc2246c2c5b98d94a10f0f47f8343542bcc235",
+            "bytes": 6215
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_RightFacadeWing.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "41a315b6b3b2bddc217be1cb9fc447f05fcee3cf9d9e223e88e29a0370d6b951",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_RoofService.prefab",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "fe30ffc53540f1497b58c460f86ae9cdc9441f106fed50d0ac3d542c779c16a4",
+            "bytes": 4913
+        },
+        {
+            "path": "Assets/Hospital/Prefabs/Zones/EXT_RoofService.prefab.meta",
+            "role": "frozen_hospital_prefab_collision_lod",
+            "sha256": "a236717aca1a59ad545352e1ba1a324c686e592a319d6f5e4b39ec3633975d74",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/Hospital/Scenes/Additive/Exterior_Base.unity",
+            "role": "frozen_r44_scene",
+            "sha256": "b063aa138ac9c30ef79337c6973534d6343038456dfb507b45bcd4fba00935be",
+            "bytes": 10812
+        },
+        {
+            "path": "Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity",
+            "role": "frozen_r44_scene",
+            "sha256": "bf226e73789c4066e39fdad45f5c061211d69938bc4acdc9c70f824f36f91d47",
+            "bytes": 32951
+        },
+        {
+            "path": "Assets/Hospital/Scenes/Additive/Exterior_InteriorShellPreview.unity",
+            "role": "frozen_r44_scene",
+            "sha256": "90175c4e10a1d5fa9a5e4b017a1567c0beb2e2863075b3822d67b0088dde9c1a",
+            "bytes": 5960
+        },
+        {
+            "path": "Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity",
+            "role": "frozen_r44_scene",
+            "sha256": "edc11308773951d173261ed54bc9f5b151a0dc62b1a9911fa5a48f5c398588a3",
+            "bytes": 13229
+        },
+        {
+            "path": "Assets/Hospital/Scenes/Additive/Exterior_Tower.unity",
+            "role": "frozen_r44_scene",
+            "sha256": "660d26b776bb28496087af37abebf034b2ac8e4b5e67a44be40b5989719ebd6c",
+            "bytes": 8377
+        },
+        {
+            "path": "Assets/Hospital/Settings/Hospital_PCVR_Renderer.asset",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "ddb59da7a9ee55e662d03cd736ebe37631a65c79fa2753314435180156546931",
+            "bytes": 1899
+        },
+        {
+            "path": "Assets/Hospital/Settings/Hospital_PCVR_Renderer.asset.meta",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "523a8f53c6975df5967b2993c1778e2458e4011bfef3b219bb5ed399efff21cc",
+            "bytes": 189
+        },
+        {
+            "path": "Assets/Hospital/Settings/Hospital_PCVR_URP.asset",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "d40694706b4a4c978dadc3fae1a1a1605196a9bff39867ffff40c946adf25fbf",
+            "bytes": 4696
+        },
+        {
+            "path": "Assets/Hospital/Settings/Hospital_PCVR_URP.asset.meta",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "5f1a68ceea6ddd2274c9bd36bae15ab53262125f8d9357eac485d233c4ab76d9",
+            "bytes": 189
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R41_InputManifest.json",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "76aa47b30456387c9de9750eb5b34adfa970ed459bbd638e1d899c4d9327a43e",
+            "bytes": 12579
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R41_InputManifest.json.meta",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "1b65d8c6032621760f6120ddf9ab29f4ec0f78c025daee9dbb68fbefbdc65041",
+            "bytes": 158
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R41_MaterialMap.json",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "b1ab66e9b97deedc9567051ab362a1c23bfbc8c19e88e3a2e6a2dd61b50e6d88",
+            "bytes": 15847
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R41_MaterialMap.json.meta",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "54f9ce3121fa3e9f5a846b0deb45ed539d2f1d52ba9f78c728e1447d629d884f",
+            "bytes": 158
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R41_MaterialSource.json",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "5840479cf56fa970680d8776929a0d6a5625f6211a89880a625f6d12161f40ac",
+            "bytes": 18538
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R41_MaterialSource.json.meta",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "ed2d6b74fa0408197b82c36464dbecec29fd6d503f9f7ae476b8cd4c048703eb",
+            "bytes": 158
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R41_ProjectBaseline.json",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "dfe9b83b2482f647f9ea180c54222308542f95dcd242ec260ec08c1c7a701e81",
+            "bytes": 1217
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R41_ProjectBaseline.json.meta",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "699e20b56334c690c75cf56bab61ff5761b4181a12185dc4a48c6fa8cd4bf96f",
+            "bytes": 158
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R41_UnityGate.json",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "813f75fa1f83882b0e9a4e5b0a7ecd8d99dfd2187ba47bae536bd23dbcf4a75c",
+            "bytes": 11658
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R41_UnityGate.json.meta",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "b08baadd129a58e9a2d6463e32914e8a3fa3d9af611791979aeab76d847f09c7",
+            "bytes": 158
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R42_MaterialUsage.json",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "c3fca0c6392a1cdf45a942c5893555f8c6ddcfaaeabeb5f154a3d08deed9253a",
+            "bytes": 13878
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R42_MaterialUsage.json.meta",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "6b01c768a8fc93a4333b98bee2169d5225754df4bbe11b53a53e28b21a6893d5",
+            "bytes": 158
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R42_SceneLoadMatrix.json",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "caea3e4ac88ce979a2fd5d23ba4e87a26c7508866468955674d96392a07b3dc0",
+            "bytes": 1752
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R42_SceneLoadMatrix.json.meta",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "08815245fe9495fca668ff73eeb1b322b42e7893c0889760b97e3fab682e5956",
+            "bytes": 158
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R42_UnityGate.json",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "bd43c79a52f837027d21d8a5234c1a30efa85419fcb952d564fbb33300905f01",
+            "bytes": 29650
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R42_UnityGate.json.meta",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "414f8ada3efec6bd2ea48a0a687e72f0f540cb53b74b5b0d642bddd1ff2eae12",
+            "bytes": 158
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R43_UnityGate.json",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "c10353808d3acb9e8892b3aec1fcba98c8ff0a95611b4077cf0bd41da04cbf29",
+            "bytes": 16217
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R43_UnityGate.json.meta",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "202f563dfe243e64a013398adb4520c7da2b980101ca1f16cdba0f7c37b3b4b8",
+            "bytes": 158
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R44_Manifest.json",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "70db1c66d9882307ae5d9ffe3c73fd6ff8f1d8de2b2363c75c3fb3812590aff2",
+            "bytes": 5822
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R44_Manifest.json.meta",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "af5ad7a5519a2f4c917c9399c5b771deefabb1128a5082ff182d4a8bf2ee4be8",
+            "bytes": 158
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R44_UnityGate.json",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "46b7aea9b7b949a043b186642d87d3bf1d4123f72b14bfc26be52de138ae8226",
+            "bytes": 10785
+        },
+        {
+            "path": "Assets/Hospital/Settings/Stage05_R44_UnityGate.json.meta",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "74f3bfa99d130091c468f74a3921bcd96f7fac87049ad9045a50904403267fcf",
+            "bytes": 158
+        },
+        {
+            "path": "Assets/Hospital/Settings/XRGeneralSettingsPerBuildTarget.asset",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "a6c04b54b3a5d0199a1a5194fff57dedf9685af61366efe989d7375f1ad133c3",
+            "bytes": 1735
+        },
+        {
+            "path": "Assets/Hospital/Settings/XRGeneralSettingsPerBuildTarget.asset.meta",
+            "role": "frozen_hospital_render_xr_record",
+            "sha256": "2581a04b18bed2e29487d5629f83966e20bc5618ba24c82b2bf6dc9d1fa997d4",
+            "bytes": 189
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_ACT_InteractiveDoors.fbx",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "99ed517ff96389940343911076079726d2b146984262469731df175bd2c2f37f",
+            "bytes": 294092
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_ACT_InteractiveDoors.fbx.meta",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "b7c972cd17ed2b2f1a21691056f9b1b0e1a6a30df2539902700ce7fc8b873d8d",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_Balconies.fbx",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "cd5437d668d0aba757c3e503c00412edc3a44f9eeea5e0168af0bcdac00172c7",
+            "bytes": 1953212
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_Balconies.fbx.meta",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "d216393eaead1804c4aff891ba6180777f8eb8acff13ca0a7c1650952c6e9e9c",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_FrontTower.fbx",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "0a919954f7112dcbafae6de6848bb9b1d6352599cbd4696d5e362a81986fb20b",
+            "bytes": 2055644
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_FrontTower.fbx.meta",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "4ffbc65b9040b81a63ce119efc5c1ca4ba11f7a9e8dd05b7650c0e883b7f73b9",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_GlobalStructure.fbx",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "e9a324bc88a54a702fd3a76c804d16afa696949ef6ba4bb6508589b0b8e1a055",
+            "bytes": 492940
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_GlobalStructure.fbx.meta",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "1cf73b7dfffb8ed1872a12c68383033074b1a3b2440aedac1b0c1169e9eb71fa",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_GroundEntrance.fbx",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "dc29aa06f1d09ed1c7e767382fcfb39b6821e3f49158952feb193d27a934512c",
+            "bytes": 1897516
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_GroundEntrance.fbx.meta",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "2b94472d067f23529eaf674a5f39f4b21adae8373443ab3b4fa9360de60b29ef",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_InteriorShell.fbx",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "873f89f9519d0ee8795cb45dbc4c64b7c36afd2628fcec7e18ebd4d7717fc3d6",
+            "bytes": 300252
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_InteriorShell.fbx.meta",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "a25e4055954638ae1bd9ac6b4c6f27d829eef520ac5527b95280d718e1aaade1",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_LeftFacadePodium.fbx",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "a3410fb311b7a07d9b72f6c79b0dd65962b10eac03cbab556da3071efe1e800b",
+            "bytes": 1046124
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_LeftFacadePodium.fbx.meta",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "87e35124e15be7bfe6a0df1bd29fbf6658bbf2ece4f9fba2c8eef73802616ad9",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_RearService.fbx",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "440740db0143f1ec6781bc6f40d5ffc2117ce2c4fe21be86f66527697d93d417",
+            "bytes": 2845180
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_RearService.fbx.meta",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "efd687ca36e312cceda16bdc1339ec74176a4d0fae5f0f27712104f26db4be55",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_RightFacadeWing.fbx",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "2ac4dd9c6d9a98b5e967c0b0b504a4b0973ae980ac76fa6bf14b448ff9b5f356",
+            "bytes": 927340
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_RightFacadeWing.fbx.meta",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "413909c5bd5bf527729bf80da5d19e09a5da0bfbdb1316520739cd5e6d2083af",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_RoofService.fbx",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "799334220d700a871f9f23bbb32ddc1b818252cbdfbffdf8411d2e3a89c77287",
+            "bytes": 305660
+        },
+        {
+            "path": "Assets/Hospital/SourceFBX/R40/Hospital_EXT_RoofService.fbx.meta",
+            "role": "frozen_hospital_source_and_import",
+            "sha256": "d05214b01d1580c36563677f5860901a9076924c8452be9548fefbb79cfd6936",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Generated/GrassRuntimeSpec.json",
+            "role": "frozen_site_generated_lod_grass",
+            "sha256": "42705cd564b2415a167a5619ba8df302a4767f341d390a91e6e2ebd60549efbd",
+            "bytes": 3636
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Generated/GrassRuntimeSpec.json.meta",
+            "role": "frozen_site_generated_lod_grass",
+            "sha256": "5140b3a22e25ca2664a1984bc8378bb083737bb3aa1fce98dd1ad652ea04183e",
+            "bytes": 158
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Generated/T_S06_SharedDetail.asset",
+            "role": "frozen_site_generated_lod_grass",
+            "sha256": "7efac752e17ee44b3167d85e6184c109c1fbbd7447fe973b885f4ca0a848ed84",
+            "bytes": 44723
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Generated/T_S06_SharedDetail.asset.meta",
+            "role": "frozen_site_generated_lod_grass",
+            "sha256": "0354b6af88572c4a6a5a0e0ba318aa3527b9140112b9a4a854a86e2e95f2eb84",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Generated/T_S06_SharedNormal.asset",
+            "role": "frozen_site_generated_lod_grass",
+            "sha256": "3f2016a0f7b1346a9f97fc4774ad63b54876967d776df6a8c19d285d621016f7",
+            "bytes": 44723
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Generated/T_S06_SharedNormal.asset.meta",
+            "role": "frozen_site_generated_lod_grass",
+            "sha256": "52a7b53e65c0c8fa2e99117ada294aaea64b177b7cd4206c79fd5cd53eec72cb",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5B_GrassBlade.mat",
+            "role": "frozen_site_material",
+            "sha256": "bbfabd6dda7aaf1452b0109fa391f4299b994447b70346d7ba8591440e7f59e5",
+            "bytes": 1180
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5B_GrassBlade.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "cc114d84b34a77aeea6ad50b4b17b2aee1817ced63765c28dee9c8c71ba2a28b",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5B_GrassLawn.mat",
+            "role": "frozen_site_material",
+            "sha256": "c61502889f3a1c84a8d3ff3cfe2897174d473d95eb1b7fedceff1c3b8e4781a8",
+            "bytes": 1614
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5B_GrassLawn.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "530039e185e38eba7018679b85ad7b67fe55bf3d7373e1b49919802cae52c04c",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_AccentAllium.mat",
+            "role": "frozen_site_material",
+            "sha256": "0f8710e1f78c263df3d692f8f24c7b75d9afa7a206f4784f184104906fe72189",
+            "bytes": 1298
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_AccentAllium.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "cc4ed5fb2f5d02056462a0b77a0429d357bfaaa2989aab9e28b1651ae4b8507a",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_AccentFlower.mat",
+            "role": "frozen_site_material",
+            "sha256": "2c98c2fea760a2b8c5533601a1fd4d9b9c8f257800937b7c1bcf03a4df43d406",
+            "bytes": 1293
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_AccentFlower.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "1d31c8c978495eb874265e10a2ddfea43b064bdee2af8e0165de4a639d722c58",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_AccentStem.mat",
+            "role": "frozen_site_material",
+            "sha256": "70c65f4696690fa57c664c13ea9a6fda6e724896ff42e2196e228ef15a9480ad",
+            "bytes": 1294
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_AccentStem.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "e30f468056934fa6df307dc558a2473565603a0a31a601742051226e4b40c222",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_BarkTrunk.mat",
+            "role": "frozen_site_material",
+            "sha256": "2b8404f42ec9268dc310da05e8719773b112d1fdb934f2ee3288b35278f230f4",
+            "bytes": 1299
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_BarkTrunk.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "5157229d87c913abf2ababadc3ce412cb1d411d4e5585d7fd134cad535eb2ac3",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_ExteriorPaver_WarmGrey.mat",
+            "role": "frozen_site_material",
+            "sha256": "6c5a414f75ef9a07eb35db6345d2613dd8593194c5dd73e01b4ee696ed40b454",
+            "bytes": 1306
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_ExteriorPaver_WarmGrey.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "41becd1fad1e40e806c4654532f9817d3132a1532758c2908a1b17be07201a58",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_FoliageDeep.mat",
+            "role": "frozen_site_material",
+            "sha256": "61937bee7cc152fe83c7f82eddd7d0291bfa3acf695ba7e6eeafe15d34faff9e",
+            "bytes": 1302
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_FoliageDeep.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "5961a23bf3b09ac82a4a524bcc97915d58050a4bae605e8e6ccd60988c48027e",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_FoliageLight.mat",
+            "role": "frozen_site_material",
+            "sha256": "fbe56b4f8da4f1138d931960692252c87e7c6fd11c9f066e36523efff2c48fd3",
+            "bytes": 1300
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_FoliageLight.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "56e4df41a93952e6a432a67462964232a48fd3cf1da75d87603d52bbfe959e89",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_FoliageMid.mat",
+            "role": "frozen_site_material",
+            "sha256": "11dc5f6538821cd833ce13f93da14f48aa9d5fa0d917d7c3858809378b266ca5",
+            "bytes": 1300
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_FoliageMid.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "3fe174edd72af285f93226fbd421101b9e9d90d901f99302ef40b3c68133a560",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_KerbServiceConcrete.mat",
+            "role": "frozen_site_material",
+            "sha256": "8e96519924b6b0f243972006c1b9541b03de28a90ef2443a99656769aa7b5edd",
+            "bytes": 1303
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_KerbServiceConcrete.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "30934d1b48771f5a0997c11ef45a779d4991222ce1646e22f626f0b1aa31a4d7",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_LakePlaceholder.mat",
+            "role": "frozen_site_material",
+            "sha256": "aef7b8a7d2997f2e0453bbf49acfbd8dc065fc106e2e42371c8d51fce559b594",
+            "bytes": 1302
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_LakePlaceholder.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "8d81d734a72f06e66a8a3b8370e0bbe70d24fd4f1fe6bded4bd8fcd32363f727",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadAsphalt.mat",
+            "role": "frozen_site_material",
+            "sha256": "db43d33d6855c0832fb6065f1c6dfad7429f2d4f0cf042dd1942788f125903c6",
+            "bytes": 1298
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadAsphalt.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "ad3cfedfc2fa87149cef17fd888023a4d6660532565e36ca225d88dbfcacf682",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadMarking_AccessibleBlue.mat",
+            "role": "frozen_site_material",
+            "sha256": "4ab015eda4e7fdb5a26f7863ca1e28b22eb4d7a778a16760c7055ca27602b0cc",
+            "bytes": 1308
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadMarking_AccessibleBlue.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "90908f0fb56eaf1c6838b5ee61399ec155260c888ba03f53d02894c91c66f5db",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadMarking_White.mat",
+            "role": "frozen_site_material",
+            "sha256": "3638b94520502bea26e56f3d48534f698ec40c096ccce3fbb500c0a5a0d025b9",
+            "bytes": 1299
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadMarking_White.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "a64c206e3fa4e5fb83dddac3522eacb6484b938e44c78471247abee1d02a0e67",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadMarking_Yellow.mat",
+            "role": "frozen_site_material",
+            "sha256": "3c0f0f7f888691226997be8b8b938261aa1f982c2e6ba9f7f7f147f1db1677d3",
+            "bytes": 1299
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadMarking_Yellow.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "bd4a2be39a3d2342c0dc5805b71d2eab7360c96a9f22827f30091d348cacb008",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_SeatingTimber.mat",
+            "role": "frozen_site_material",
+            "sha256": "d3da6f5126ef5f4c0377893e222508bad47d0b82214b9711c900d9c32069a9e0",
+            "bytes": 1300
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_SeatingTimber.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "e045d0f82eece8110f88634954b8c46cc24833c10bf1085df6bd9dab932c3b51",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_SoilMulch.mat",
+            "role": "frozen_site_material",
+            "sha256": "91f32143a17e9ef007cce167f24c87e7b6ebfb0c5683047243be68932aa1df58",
+            "bytes": 1297
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_SoilMulch.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "16c5c1b527d2dab05cbcf9b0822e1b8a6896e6ef3811639bcc7949dda70b7f02",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_SolarPanel.mat",
+            "role": "frozen_site_material",
+            "sha256": "de0b02276c5a640d059fe35f685119c63f93e149845dcfc4db6e79f4451779f0",
+            "bytes": 1302
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_SolarPanel.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "1178ade1c37d3f734344a58e60b31f12397509c85f6935990998448e33d25e90",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_TactilePaving.mat",
+            "role": "frozen_site_material",
+            "sha256": "45d3f6a8f40f0bbd49a9ed8504ffb725ab63a7021a64b50fc36ad116e4506b8e",
+            "bytes": 1297
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_TactilePaving.mat.meta",
+            "role": "frozen_site_material",
+            "sha256": "d1d9d52b1c1a9b91aa8784a0994455f8fe42c78f47cf64dc06284271afd23cfa",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_CoreRoadParking.prefab",
+            "role": "frozen_site_prefab_collision_lod",
+            "sha256": "056a231d5d60a518507309e384fa427b9a0d989bc0d88c9acb9fbc68b8067258",
+            "bytes": 319672
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_CoreRoadParking.prefab.meta",
+            "role": "frozen_site_prefab_collision_lod",
+            "sha256": "31853692976d2a4cad5eecedf594c933ff390fca321525e59734842babb7ca78",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_GrassRuntime.prefab",
+            "role": "frozen_site_prefab_collision_lod",
+            "sha256": "21ba7552c5f991159d0bc777b1b9b7df9564599538e2c4b5bc4eab59d06bd25f",
+            "bytes": 1567
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_GrassRuntime.prefab.meta",
+            "role": "frozen_site_prefab_collision_lod",
+            "sha256": "638242fa7a4559b5d97a9a93c109d078630afb4e016b806a5c82126d1fecc33d",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_LandscapeHardscape.prefab",
+            "role": "frozen_site_prefab_collision_lod",
+            "sha256": "97cb2089d5f9de3ae09eaf7da45da095b13a448bff943802bf2b217652c08996",
+            "bytes": 34661
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_LandscapeHardscape.prefab.meta",
+            "role": "frozen_site_prefab_collision_lod",
+            "sha256": "7cd60f752f51abe77ce50072bd39a6c80be0370ecc737fd7b60c283e18f0f83f",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_MainGate.prefab",
+            "role": "frozen_site_prefab_collision_lod",
+            "sha256": "682454301ccf5a37cd0a601f14c3f4cabdae3f2e70c7b42b83d7a02d8cfe0116",
+            "bytes": 62186
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_MainGate.prefab.meta",
+            "role": "frozen_site_prefab_collision_lod",
+            "sha256": "5a9949edfda5600eff24a40f6053e8cc7374140abde78b27914c5a731611634b",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_PerimeterFence.prefab",
+            "role": "frozen_site_prefab_collision_lod",
+            "sha256": "b503f2f348378391080a246b3207a0103e4360215357ae2cbe821fc19c860337",
+            "bytes": 22961
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_PerimeterFence.prefab.meta",
+            "role": "frozen_site_prefab_collision_lod",
+            "sha256": "3f3b805f703ad83b347d5b81439a14ef483e0e5cfc2e92e3350d073c035ce2a0",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_PropsVegetation.prefab",
+            "role": "frozen_site_prefab_collision_lod",
+            "sha256": "2010c882402328e57f1dc0b07c7f87879abc2c491d3e4e3368661ae5775fc1c7",
+            "bytes": 1100302
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_PropsVegetation.prefab.meta",
+            "role": "frozen_site_prefab_collision_lod",
+            "sha256": "8a23dfd9c69891b9796ac3c47f7efd8f553ab2420ad9cf18ea94aea0ca202523",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_RearService.prefab",
+            "role": "frozen_site_prefab_collision_lod",
+            "sha256": "f875e70a2e7e7ac9c004916bab5a411a7589d714b4e4bc3cf1c4592b9954b5ab",
+            "bytes": 18283
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Prefabs/Zones/SITE_RearService.prefab.meta",
+            "role": "frozen_site_prefab_collision_lod",
+            "sha256": "e64cceb49cfc52194c019fbe2ddba1d050572ee2a329aeb1668a34dae63551c5",
+            "bytes": 154
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Runtime/HospitalSiteGrassRenderer.cs",
+            "role": "frozen_site_grass_runtime",
+            "sha256": "87c0aa73ac1dfed507ee0f454a0d7589fc7142d2addfd631eb96c52ef45928c6",
+            "bytes": 8464
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Runtime/HospitalSiteGrassRenderer.cs.meta",
+            "role": "frozen_site_grass_runtime",
+            "sha256": "3abdd5ad1e221f32e9c2eb6ba7d51846f27318e5e0eeb5181345448feb62133e",
+            "bytes": 59
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Runtime/HospitalSiteGrassRuntimeConfig.cs",
+            "role": "frozen_site_grass_runtime",
+            "sha256": "fd62c7a13b3ca24e862971818cf2bb28290679fbd9b37d25d842df9e43234c15",
+            "bytes": 3338
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Runtime/HospitalSiteGrassRuntimeConfig.cs.meta",
+            "role": "frozen_site_grass_runtime",
+            "sha256": "af1961d1af6cc7075766afe619fccbdd036231a6eb0ee35acbab8b69f85d4216",
+            "bytes": 59
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SiteCore.unity",
+            "role": "frozen_stage05s_scene",
+            "sha256": "33c3411ce8b3f00652c6750a1852ab317020dc07462c8b65eff2c27968dffe3e",
+            "bytes": 8384
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SiteLandscape.unity",
+            "role": "frozen_stage05s_scene",
+            "sha256": "a64254fada600a96ea42be1e408c83deef45dfba0b0b9aceff34c4f8d20af7b9",
+            "bytes": 10805
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SitePerimeter.unity",
+            "role": "frozen_stage05s_scene",
+            "sha256": "f8d55491f13e2dc6ef66c755443bcf525d2bb933a051bcc020a2559584ccc6ab",
+            "bytes": 8379
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Settings/HospitalSiteGrassRuntimeConfig.asset",
+            "role": "frozen_site_setting",
+            "sha256": "16de1b2e53e7b9a25cf0f76ea1e3c8c6972dc8da27333e614630b9762b14bdf9",
+            "bytes": 17236
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Settings/HospitalSiteGrassRuntimeConfig.asset.meta",
+            "role": "frozen_site_setting",
+            "sha256": "198087d3a43018160d310a79603ef36b5c8832476df876dc2195d17e7769e8cb",
+            "bytes": 189
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Settings/Stage05S_RoundS6_UnityGate.json",
+            "role": "frozen_site_setting",
+            "sha256": "9156e2c392b6b8df13dfe2f2c1143fa1aea11f6fb1c2dc9358df9d1680d69cbc",
+            "bytes": 2613
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Settings/Stage05S_RoundS6_UnityGate.json.meta",
+            "role": "frozen_site_setting",
+            "sha256": "4dd9108612f91aa699b47e5f105981b8518a03e0ede50e5e99f306e43737753b",
+            "bytes": 158
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Shaders/HospitalSiteGrassBlade.shader",
+            "role": "frozen_site_grass_shader",
+            "sha256": "934ce8935e6ec9e9879044314f047f3847ed84632fc46bb67e1ad30eef053a17",
+            "bytes": 5360
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Shaders/HospitalSiteGrassBlade.shader.meta",
+            "role": "frozen_site_grass_shader",
+            "sha256": "a4e0458efb75e8224810b65284d941c2a84937a2cf663e348daf12a8b7c881c0",
+            "bytes": 204
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Shaders/HospitalSiteGrassLawn.shader",
+            "role": "frozen_site_grass_shader",
+            "sha256": "6a0f34362a3b45257954c613955988098eb72862540d03f851f72c4c3d48ba59",
+            "bytes": 4684
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Shaders/HospitalSiteGrassLawn.shader.meta",
+            "role": "frozen_site_grass_shader",
+            "sha256": "d01c9983e9c9666b728f79ee14f0191fcd5170144140d00f9ea5524f8fc8c876",
+            "bytes": 204
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Shaders/HospitalSiteWorldMappedOpaque.shader",
+            "role": "frozen_site_grass_shader",
+            "sha256": "5d73fadf4a64cf0a6666fbab93881d4c75e239413cf8d5dd6a7c0caf9f929f0b",
+            "bytes": 5733
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Shaders/HospitalSiteWorldMappedOpaque.shader.meta",
+            "role": "frozen_site_grass_shader",
+            "sha256": "24fd5de73e48c006ec6a5fa663d89289be761b48cf19518666578c27385b71ba",
+            "bytes": 204
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_CoreRoadParking_R05B.fbx",
+            "role": "frozen_site_source_and_import",
+            "sha256": "ed8403c9c43f0b7d1c58ecf492805afe1ac4a7f7b183408aafd2305fe1b3ddd3",
+            "bytes": 294844
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_CoreRoadParking_R05B.fbx.meta",
+            "role": "frozen_site_source_and_import",
+            "sha256": "92ac4ee1bc3321b371dce29ec617afd45ea5daa98369e9c93a477d7992fcff45",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_GrassRuntimeAssets_R05B.fbx",
+            "role": "frozen_site_source_and_import",
+            "sha256": "5820f307f4b503ee3cf1bbe0dfd16cd6a7b14423896dc40c60a6cb30c98927cd",
+            "bytes": 103676
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_GrassRuntimeAssets_R05B.fbx.meta",
+            "role": "frozen_site_source_and_import",
+            "sha256": "4ccb777b2886d17151792710a15235236216a59e2db835f67860d3a2a0490b8c",
+            "bytes": 2910
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_LandscapeHardscape_R05B.fbx",
+            "role": "frozen_site_source_and_import",
+            "sha256": "ce8a584e5734c78e21a797e8e9579d2e71a10b410194ff9cfb7a16e243aa1e0b",
+            "bytes": 82844
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_LandscapeHardscape_R05B.fbx.meta",
+            "role": "frozen_site_source_and_import",
+            "sha256": "053831fd0ed5a38e3b0142c935e9728dfbdd4e3c402aa26e7258e57a118e8c17",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_MainGate_R05B.fbx",
+            "role": "frozen_site_source_and_import",
+            "sha256": "3a12ccb30a4b88b536b132473a461e0757ac70be3b409f3f3a04f563f67ff436",
+            "bytes": 165980
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_MainGate_R05B.fbx.meta",
+            "role": "frozen_site_source_and_import",
+            "sha256": "1bc910570fb2692a3deed9914ba541e3fe990fc22aa2ac439bcc2bc0340c4fca",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_PerimeterFence_R05B.fbx",
+            "role": "frozen_site_source_and_import",
+            "sha256": "d6955e8985d41f763bba8a7917968fc652af728e98d97106ea117054a19a0b2b",
+            "bytes": 346316
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_PerimeterFence_R05B.fbx.meta",
+            "role": "frozen_site_source_and_import",
+            "sha256": "51d1733b48a1d94b89a36d58042be4101f01176903983854430ec9dd7926a87c",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_PropsVegetation_R05B.fbx",
+            "role": "frozen_site_source_and_import",
+            "sha256": "586e32f82770d3d77c75253848065b88e000a695e50f11fe7abbf91ed91b1f0e",
+            "bytes": 31723852
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_PropsVegetation_R05B.fbx.meta",
+            "role": "frozen_site_source_and_import",
+            "sha256": "444b7fda6b508e026de2f5ace69ee905e6902ce212206f156d089ca1f86b387c",
+            "bytes": 2922
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_RearService_R05B.fbx",
+            "role": "frozen_site_source_and_import",
+            "sha256": "cef0237c93db623acaec1c3a53e3cedeee84923d910149b4fde109444626214d",
+            "bytes": 42396
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Hospital_SITE_RearService_R05B.fbx.meta",
+            "role": "frozen_site_source_and_import",
+            "sha256": "d0fffce4a1f33cb526d9a67d954d23634c8bcbdfc59dfda28e9b7c849308d1f7",
+            "bytes": 2891
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Materials.meta",
+            "role": "frozen_site_source_and_import",
+            "sha256": "101389fe913884e2d12f04943e30f9228d36ff4188d8c7095c9293f6eea69b0c",
+            "bytes": 172
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Materials/No Name.mat",
+            "role": "frozen_site_source_and_import",
+            "sha256": "fcb0a910adbbc990cde4ef6cfb7badbe3fcd28a1118553d5e3f6b429931f6e7c",
+            "bytes": 3322
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/SourceFBX/Materials/No Name.mat.meta",
+            "role": "frozen_site_source_and_import",
+            "sha256": "cc8c0ff3a57e5717b7d1f42f8488c8a6749f15eceb73be7ff8ef23debc9174b8",
+            "bytes": 188
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Textures/Grass005.meta",
+            "role": "frozen_site_texture_and_import",
+            "sha256": "b87e534640945ca3ba4a589a4f735360274699c439b966101870790a916a55c7",
+            "bytes": 172
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_Grass005_AO_2K.png",
+            "role": "frozen_site_texture_and_import",
+            "sha256": "efa6181b02fe9e1f1af52ee604e8ef890de6261ec6b4225d214c96acfef1a719",
+            "bytes": 4055129
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_Grass005_AO_2K.png.meta",
+            "role": "frozen_site_texture_and_import",
+            "sha256": "8f24e841739494e50b5d540092933e3c7325c6a31a579741648a83c76c684064",
+            "bytes": 2652
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_Grass005_BaseColor_2K.png",
+            "role": "frozen_site_texture_and_import",
+            "sha256": "c27fd2fb5bc29403545d08167fcb76271087c1fb1ffcbb63b9b3a4c47258f4f9",
+            "bytes": 8619086
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_Grass005_BaseColor_2K.png.meta",
+            "role": "frozen_site_texture_and_import",
+            "sha256": "911710da9f11a9a99ce3aaf2e2d41f601585ef4fcc8ecb27f4c784eb4da7f3ed",
+            "bytes": 2652
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_Grass005_NormalGL_2K.png",
+            "role": "frozen_site_texture_and_import",
+            "sha256": "64364bc8b3cec8c35a7f1c835e4158cbc32c2cf5dad59c06efa702012ac4911d",
+            "bytes": 24178362
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_Grass005_NormalGL_2K.png.meta",
+            "role": "frozen_site_texture_and_import",
+            "sha256": "12d3627923af0b7fe7eac568f0f9ee1c128072c983127dac64a7122d251c3138",
+            "bytes": 2652
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_Grass005_Roughness_2K.png",
+            "role": "frozen_site_texture_and_import",
+            "sha256": "2e05a1d2895ee51a013ed4e5915a1767ff08c6bb342463d723ae4483eb46d462",
+            "bytes": 3325584
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_Grass005_Roughness_2K.png.meta",
+            "role": "frozen_site_texture_and_import",
+            "sha256": "7ed87f019313c7a6cc2d89bf5a31e3f28891e6e4444cd7c3c904863f791ea3d5",
+            "bytes": 2652
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_GrassCoverageMask_2K.png",
+            "role": "frozen_site_texture_and_import",
+            "sha256": "a29be4234cde0094c67a2c1ac437f1722f35d4959bda4c369b80d21af2b39564",
+            "bytes": 23004
+        },
+        {
+            "path": "Assets/HospitalSite/Stage05S/R05B/Textures/Grass005/T_S05S_GrassCoverageMask_2K.png.meta",
+            "role": "frozen_site_texture_and_import",
+            "sha256": "05ac94304c236b2ad0b574f7bf1a90f4fb62781e4aa44df6ccad1cef392aa057",
+            "bytes": 2652
+        },
+        {
+            "path": "Assets/XR/Loaders.meta",
+            "role": "frozen_openxr_asset",
+            "sha256": "b946135d4040b442cb112e512b28e44714289ed0c0bfb20a57cb4306f8618987",
+            "bytes": 172
+        },
+        {
+            "path": "Assets/XR/Loaders/OpenXRLoader.asset",
+            "role": "frozen_openxr_asset",
+            "sha256": "3dade780ddfc9ef1e12c3275788df48569ad586f9310d96cd91105e1c5739a7a",
+            "bytes": 452
+        },
+        {
+            "path": "Assets/XR/Loaders/OpenXRLoader.asset.meta",
+            "role": "frozen_openxr_asset",
+            "sha256": "019a261bc1e9bcef093cdd02b86fa21e64cff8c3f3a9000d15c44539b7fbaa06",
+            "bytes": 189
+        },
+        {
+            "path": "Assets/XR/Settings.meta",
+            "role": "frozen_openxr_asset",
+            "sha256": "e95326473b3e66d440561a6c58f7b557deb7a76017801dc36cf6d29a263cc6b1",
+            "bytes": 172
+        },
+        {
+            "path": "Assets/XR/Settings/OpenXR Editor Settings.asset",
+            "role": "frozen_openxr_asset",
+            "sha256": "0a04d3014504fca0e88ace93470aa51e1a00f408d631b5b34860128fd79ec2ca",
+            "bytes": 581
+        },
+        {
+            "path": "Assets/XR/Settings/OpenXR Editor Settings.asset.meta",
+            "role": "frozen_openxr_asset",
+            "sha256": "e6eb9db209d99872c6f70ba80d6c7f25ef212d8bccbe9b6f6d49899c0e6c147f",
+            "bytes": 189
+        },
+        {
+            "path": "Assets/XR/Settings/OpenXR Package Settings.asset",
+            "role": "frozen_openxr_asset",
+            "sha256": "316679a75f3e64f6c65d0674a35c4d807e1bf89a4bd1a9dd4de95ee8079012d7",
+            "bytes": 18808
+        },
+        {
+            "path": "Assets/XR/Settings/OpenXR Package Settings.asset.meta",
+            "role": "frozen_openxr_asset",
+            "sha256": "bc32432d9bd3b3cca54088e554932e40b199db1ef36ddced5880128e4c0227c9",
+            "bytes": 189
+        },
+        {
+            "path": "Packages/manifest.json",
+            "role": "frozen_package_contract",
+            "sha256": "1795addc80df10e6be4027f579da07e0dde11ba5acc152bedf43dc9ced567d01",
+            "bytes": 1789
+        },
+        {
+            "path": "Packages/packages-lock.json",
+            "role": "frozen_package_lock",
+            "sha256": "aeccc1bf1fa5bef2d75ae3071aa586e5aae197429d1f24ffe7723ca12bf8e168",
+            "bytes": 12679
+        },
+        {
+            "path": "ProjectSettings/EditorBuildSettings.asset",
+            "role": "frozen_eight_scene_build_settings",
+            "sha256": "62889469c318a93430e41e1fc2f6c7df1fade301520199388d3725f58972a5bb",
+            "bytes": 1469
+        },
+        {
+            "path": "ProjectSettings/GraphicsSettings.asset",
+            "role": "frozen_graphics_config",
+            "sha256": "2cefd72397dc71134a05957ced512baf549c36b156d8eb4b5f3428f3418f37cd",
+            "bytes": 2615
+        },
+        {
+            "path": "ProjectSettings/ProjectSettings.asset",
+            "role": "frozen_player_platform_config",
+            "sha256": "065cb547c2e0beaa584627fe26c0011af4e3bd9d2439eb2bbbe1ed492847beab",
+            "bytes": 20661
+        },
+        {
+            "path": "ProjectSettings/QualitySettings.asset",
+            "role": "frozen_quality_config",
+            "sha256": "e0f11096ea6f94218d1f2787c004be79632dc83e8ec7a6b92eec9b5abc08e10b",
+            "bytes": 9858
+        }
+    ]
+}

@@ -1,0 +1,181 @@
+Mono path[0] = 'C:/CutMyBodyPlease/Exports/HospitalInterior/StageI1_R03_S3D_TechnicalIntegration/HospitalInterior_S3D_R03_TechnicalIntegration_Data/Managed'
+Mono config path = 'C:/CutMyBodyPlease/Exports/HospitalInterior/StageI1_R03_S3D_TechnicalIntegration/MonoBleedingEdge/etc'
+Found 2 interfaces on host : 0) 192.168.56.1 1) 203.0.144.52
+Player connection [38708]  Target information:
+
+Player connection [38708]  * "[IP] 192.168.56.1 [Port] 55000 [Flags] 2 [Guid] 245540204 [EditorId] 559433688 [Version] 1048832 [Id] WindowsPlayer(2,Ben0928) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] Anatomy XR Hospital" 
+
+Player connection [38708]  * "[IP] 203.0.144.52 [Port] 55000 [Flags] 2 [Guid] 245540204 [EditorId] 559433688 [Version] 1048832 [Id] WindowsPlayer(2,Ben0928) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] Anatomy XR Hospital" 
+
+Player connection [38708] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.20f1 (c9ba695d4f07)
+[Subsystems] Discovering subsystems at path C:/CutMyBodyPlease/Exports/HospitalInterior/StageI1_R03_S3D_TechnicalIntegration/HospitalInterior_S3D_R03_TechnicalIntegration_Data/UnitySubsystems
+[Subsystems] No descriptors matched for  examples in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json.
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+[XR] [38708] [14:18:04.703][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [38708] [14:18:04.703][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [38708] [14:18:04.703][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [38708] [14:18:04.703][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [38708] [14:18:04.703][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [38708] [14:18:04.703][Info   ] Available Layers: (0)
+[XR] [38708] [14:18:04.703][Error  ] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5920 MB
+    Driver:   32.0.15.9595
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.103 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+XRGeneral Settings awakening...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+UnityEngine.XR.Management.XRGeneralSettings:Awake () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:86)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[XR] Time interace not found - delta time prediction disabled.
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Display
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Input
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Display
+Loading OpenXR loader library at path: openxr_loader
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:LoadOpenXRSymbols () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/OpenXRLoader.cs:555)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:InitializeInternal () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/OpenXRLoader.cs:237)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Initialize () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/OpenXRLoader.cs:207)
+UnityEngine.XR.Management.XRManagerSettings:InitializeLoaderSync () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRManagerSettings.cs:177)
+UnityEngine.XR.Management.XRGeneralSettings:InitXRSDK () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:154)
+UnityEngine.XR.Management.XRGeneralSettings:AttemptInitializeXRSDKOnLoad () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:112)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[XR] [38708] [14:18:05.176][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[Subsystems] Loading plugin UnityOpenXR for subsystem OpenXR Display...
+[XR] [38708] [14:18:05.184][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [38708] [14:18:05.184][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [38708] [14:18:05.184][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [38708] [14:18:05.184][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [38708] [14:18:05.184][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [38708] [14:18:05.184][Info   ] Available Layers: (0)
+[XR] [38708] [14:18:05.184][Error  ] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE
+[Subsystems] Failed to initialize subsystem OpenXR Display [error: 1]
+[XR] [38708] [14:18:05.185][Error  ] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED
+[XR] [38708] [14:18:05.185][Info   ] 
+
+==== Start Unity OpenXR Diagnostic Report ====
+
+
+[XR] [38708] [14:18:05.185][Info   ] ==== Report Reason: System Shutdown ====
+
+
+[XR] [38708] [14:18:05.185][Info   ] ==== OpenXR Settings ====
+[XR] [38708] [14:18:05.185][Info   ] 
+[XR] [38708] [14:18:05.185][Info   ] Symmetric Projection: False
+[XR] [38708] [14:18:05.185][Info   ] Stereo Rendering Mode: SinglePassInstanced
+[XR] [38708] [14:18:05.185][Info   ] Latency Optimization: PrioritizeRendering
+[XR] [38708] [14:18:05.185][Info   ] Color Submission Modes: kRenderTextureFormatGroup8888
+[XR] [38708] [14:18:05.185][Info   ] Depth Submission Mode: None
+[XR] [38708] [14:18:05.185][Info   ] Space Warp Motion Vector Texture Format: RGBA16f
+[XR] [38708] [14:18:05.185][Info   ] Optimize Buffer Discards: False
+[XR] [38708] [14:18:05.185][Info   ] Multiview Render Regions Optimization Mode: None
+[XR] [38708] [14:18:05.185][Info   ] Use OpenXR Predicted Time: True
+[XR] [38708] [14:18:05.185][Info   ] Foveated Rendering API: SRPFoveation
+[XR] [38708] [14:18:05.185][Info   ] 
+[XR] [38708] [14:18:05.185][Info   ] ==== OpenXR Provider Info ====
+[XR] [38708] [14:18:05.185][Info   ] 
+[XR] [38708] [14:18:05.185][Info   ] Provider Version: 324c489
+[XR] [38708] [14:18:05.185][Info   ] App: Anatomy XR Hospital #3118937138
+[XR] [38708] [14:18:05.185][Info   ] Engine: 6000.3.20f1 #87114753
+[XR] [38708] [14:18:05.185][Info   ] 
+[XR] [38708] [14:18:05.185][Info   ] ==== OpenXR Runtime Info ====
+[XR] [38708] [14:18:05.185][Info   ] 
+[XR] [38708] [14:18:05.185][Info   ] Available Layers: (0)
+[XR] [38708] [14:18:05.185][Info   ] 
+[XR] [38708] [14:18:05.185][Info   ] ==== Last 20 non-XR_SUCCESS returns ====
+[XR] [38708] [14:18:05.185][Info   ] [FAILURE] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE (6x)
+[XR] [38708] [14:18:05.185][Info   ] [FAILURE] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE (1x)
+[XR] [38708] [14:18:05.185][Info   ] [FAILURE] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED (1x)
+[XR] [38708] [14:18:05.185][Info   ] 
+[XR] [38708] [14:18:05.185][Info   ] ==== Last 20 Events ====
+[XR] [38708] [14:18:05.185][Info   ] 
+
+==== End Unity OpenXR Diagnostic Report ====
+
+
+<RI> Initializing input.
+Using Windows.Gaming.Input
+UnloadTime: 0.561400 ms
+CollisionMeshData couldn't be created because the mesh has been marked as non-accessible. Mesh name "Combined Mesh (root: scene)"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.MeshCollider:set_sharedMesh (UnityEngine.Mesh)
+CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DSiteCollisionCoordinator:BindRenderedLawnSupport (string&) (at C:/CutMyBodyPlease/Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DSiteCollisionCoordinator.cs:130)
+CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DSiteCollisionCoordinator:Initialize (CutMyBodyPlease.HospitalSite.Stage05S.HospitalSiteGrassRuntimeConfig,CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DEntranceDoorController,CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S2FloorContract,string&) (at C:/CutMyBodyPlease/Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DSiteCollisionCoordinator.cs:71)
+CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DIntegrationBootstrap/<Start>d__62:MoveNext () (at C:/CutMyBodyPlease/Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DIntegrationBootstrap.cs:204)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+[C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
+
+CollisionMeshData couldn't be created because the mesh has been marked as non-accessible. Mesh name "Combined Mesh (root: scene)"
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.MeshCollider:set_convex (bool)
+CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DSiteCollisionCoordinator:BindRenderedLawnSupport (string&) (at C:/CutMyBodyPlease/Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DSiteCollisionCoordinator.cs:131)
+CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DSiteCollisionCoordinator:Initialize (CutMyBodyPlease.HospitalSite.Stage05S.HospitalSiteGrassRuntimeConfig,CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DEntranceDoorController,CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S2FloorContract,string&) (at C:/CutMyBodyPlease/Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DSiteCollisionCoordinator.cs:71)
+CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DIntegrationBootstrap/<Start>d__62:MoveNext () (at C:/CutMyBodyPlease/Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DIntegrationBootstrap.cs:204)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+[C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
+
+Not allowed to access triangles/indices on mesh 'Combined Mesh (root: scene)' (isReadable is false; Read/Write must be enabled in import settings)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:LogError (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:151)
+UnityEngine.Mesh:PrintErrorCantAccessIndices () (at C:/build/output/unity/unity/Runtime/Export/Graphics/Mesh.cs:894)
+UnityEngine.Mesh:get_triangles () (at C:/build/output/unity/unity/Runtime/Export/Graphics/Mesh.cs:920)
+CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DSiteCollisionCoordinator:BindRenderedLawnSupport (string&) (at C:/CutMyBodyPlease/Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DSiteCollisionCoordinator.cs:133)
+CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DSiteCollisionCoordinator:Initialize (CutMyBodyPlease.HospitalSite.Stage05S.HospitalSiteGrassRuntimeConfig,CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DEntranceDoorController,CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S2FloorContract,string&) (at C:/CutMyBodyPlease/Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DSiteCollisionCoordinator.cs:71)
+CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DIntegrationBootstrap/<Start>d__62:MoveNext () (at C:/CutMyBodyPlease/Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DIntegrationBootstrap.cs:204)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 151)
+
+HOSPITAL_INTERIOR_R03_S3D_RUNTIME_FAIL: S3D site collision integration failed: renderer=S05S_S5_EXP_LandscapeHardscape_S05S_S4B_ContinuousLawnVisual; mesh=Combined Mesh (root: scene); triangles=0; samples=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:LogError (object,UnityEngine.Object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:154)
+CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DIntegrationBootstrap:Fail (string) (at C:/CutMyBodyPlease/Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DIntegrationBootstrap.cs:725)
+CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S3DIntegrationBootstrap/<Start>d__62:MoveNext () (at C:/CutMyBodyPlease/Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DIntegrationBootstrap.cs:207)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 154)
+

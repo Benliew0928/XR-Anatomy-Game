@@ -1,0 +1,283 @@
+{
+    "schema": "HospitalExterior.Stage05.R44.UnityGate.v1",
+    "status": "PASS",
+    "unity_editor": "6000.3.20f1",
+    "platform": "Windows x86_64 PC VR",
+    "pass": true,
+    "checks": [
+        {
+            "name": "r43_prerequisite",
+            "pass": true,
+            "detail": "Reviews/HospitalExterior/Stage05_R43/Stage05_R43_UnityGate.json"
+        },
+        {
+            "name": "authority_checksum",
+            "pass": true,
+            "detail": "0a530ff9d7d7effa512f1d69178a0be86da722239f0cb992878045358c73ea58"
+        },
+        {
+            "name": "unity_version",
+            "pass": true,
+            "detail": "6000.3.20f1"
+        },
+        {
+            "name": "pcvr_openxr_frozen",
+            "pass": true,
+            "detail": "openxr_loader=True; only_loader=True; quest2_profile=True; quest3_profile=True; single_pass_instanced=True; init_on_start=True"
+        },
+        {
+            "name": "exact_ten_unity_fbx",
+            "pass": true,
+            "detail": "Hospital_ACT_InteractiveDoors.fbx,Hospital_EXT_Balconies.fbx,Hospital_EXT_FrontTower.fbx,Hospital_EXT_GlobalStructure.fbx,Hospital_EXT_GroundEntrance.fbx,Hospital_EXT_InteriorShell.fbx,Hospital_EXT_LeftFacadePodium.fbx,Hospital_EXT_RearService.fbx,Hospital_EXT_RightFacadeWing.fbx,Hospital_EXT_RoofService.fbx"
+        },
+        {
+            "name": "ACT_InteractiveDoors_clean_import",
+            "pass": true,
+            "detail": "checksum=True; import_policy=True"
+        },
+        {
+            "name": "EXT_Balconies_clean_import",
+            "pass": true,
+            "detail": "checksum=True; import_policy=True"
+        },
+        {
+            "name": "EXT_FrontTower_clean_import",
+            "pass": true,
+            "detail": "checksum=True; import_policy=True"
+        },
+        {
+            "name": "EXT_GlobalStructure_clean_import",
+            "pass": true,
+            "detail": "checksum=True; import_policy=True"
+        },
+        {
+            "name": "EXT_GroundEntrance_clean_import",
+            "pass": true,
+            "detail": "checksum=True; import_policy=True"
+        },
+        {
+            "name": "EXT_InteriorShell_clean_import",
+            "pass": true,
+            "detail": "checksum=True; import_policy=True"
+        },
+        {
+            "name": "EXT_LeftFacadePodium_clean_import",
+            "pass": true,
+            "detail": "checksum=True; import_policy=True"
+        },
+        {
+            "name": "EXT_RearService_clean_import",
+            "pass": true,
+            "detail": "checksum=True; import_policy=True"
+        },
+        {
+            "name": "EXT_RightFacadeWing_clean_import",
+            "pass": true,
+            "detail": "checksum=True; import_policy=True"
+        },
+        {
+            "name": "EXT_RoofService_clean_import",
+            "pass": true,
+            "detail": "checksum=True; import_policy=True"
+        },
+        {
+            "name": "five_final_additive_scenes_in_build_settings",
+            "pass": true,
+            "detail": "Assets/Hospital/Scenes/Additive/Exterior_Base.unity:True,Assets/Hospital/Scenes/Additive/Exterior_Tower.unity:True,Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity:True,Assets/Hospital/Scenes/Additive/Exterior_InteriorShellPreview.unity:True,Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity:True"
+        },
+        {
+            "name": "scene_Exterior_Base",
+            "pass": true,
+            "detail": "roots=EXT_GlobalStructure,EXT_GroundEntrance,R43_CollisionPrototype; renderers=25; triangles=111686; colliders=28; connected=True; zero=True; cameras=0; lights=0"
+        },
+        {
+            "name": "scene_Exterior_Tower",
+            "pass": true,
+            "detail": "roots=EXT_FrontTower,EXT_Balconies; renderers=66; triangles=229512; colliders=0; connected=True; zero=True; cameras=0; lights=0"
+        },
+        {
+            "name": "scene_Exterior_SidesService",
+            "pass": true,
+            "detail": "roots=EXT_LeftFacadePodium,EXT_RightFacadeWing,EXT_RearService,EXT_RoofService; renderers=54; triangles=284854; colliders=0; connected=True; zero=True; cameras=0; lights=0"
+        },
+        {
+            "name": "scene_Exterior_InteriorShellPreview",
+            "pass": true,
+            "detail": "roots=EXT_InteriorShell; renderers=48; triangles=12120; colliders=0; connected=True; zero=True; cameras=0; lights=0"
+        },
+        {
+            "name": "scene_Exterior_Interactions",
+            "pass": true,
+            "detail": "roots=DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT,DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT,DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT,DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT,DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT,DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT,DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT,DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT,DOORPREFAB_UE_S03C_REAR_FireExit_B_Leaf_ROOT,DOORPREFAB_UE_S03C_REAR_LoadingDoor_Leaf_ROOT,DOORPREFAB_UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT,DOORPREFAB_UE_S03C_ROOF_AccessDoor_Leaf_ROOT; renderers=44; triangles=6160; colliders=12; connected=True; zero=True; cameras=0; lights=0"
+        },
+        {
+            "name": "combination_ExteriorOnly",
+            "pass": true,
+            "detail": "renderers=145; triangles=626052; colliders=28; cameras=0; lights=0"
+        },
+        {
+            "name": "combination_ExteriorWithShell",
+            "pass": true,
+            "detail": "renderers=193; triangles=638172; colliders=28; cameras=0; lights=0"
+        },
+        {
+            "name": "combination_ExteriorWithDoors",
+            "pass": true,
+            "detail": "renderers=189; triangles=632212; colliders=40; cameras=0; lights=0"
+        },
+        {
+            "name": "combination_FullHospital",
+            "pass": true,
+            "detail": "renderers=237; triangles=644332; colliders=40; cameras=0; lights=0"
+        },
+        {
+            "name": "final_shared_material_library",
+            "pass": true,
+            "detail": "library=30; used=30; bad="
+        },
+        {
+            "name": "final_frozen_records_present",
+            "pass": true,
+            "detail": "Stage05_R44_ImportSettings.json,Stage05_R44_MaterialMap.json,Stage05_R44_SceneLoadMatrix.json,Stage05_R44_SourceChangeLog.json,Stage05_R44_QaEvidence.json,Stage05_R44_Manifest.json"
+        },
+        {
+            "name": "profile_limitation_preserved",
+            "pass": true,
+            "detail": "Editor proxy is attributable and repeatable but is not a stereo Quest Link/Air Link performance claim. Capture headset CPU/GPU timing before Stage 6 acceptance."
+        },
+        {
+            "name": "disposable_scenes_archived_and_removed",
+            "pass": true,
+            "detail": "active_removed=True; archive_manifest=True"
+        },
+        {
+            "name": "no_legacy_r39_assets",
+            "pass": true,
+            "detail": "none"
+        },
+        {
+            "name": "no_duplicate_xr_folders",
+            "pass": true,
+            "detail": "checked"
+        },
+        {
+            "name": "final_door_collision_inventory",
+            "pass": true,
+            "detail": "door_prefabs=12; collision_boxes=28; mesh=0"
+        },
+        {
+            "name": "final_standard_and_targeted_visual_review",
+            "pass": true,
+            "detail": "eleven checksum-bound views PASS"
+        }
+    ],
+    "scenes": [
+        {
+            "scene": "Exterior_Base",
+            "roots": [
+                "EXT_GlobalStructure",
+                "EXT_GroundEntrance",
+                "R43_CollisionPrototype"
+            ],
+            "renderers": 25,
+            "triangles": 111686,
+            "colliders": 28,
+            "cameras": 0,
+            "lights": 0,
+            "pass": true
+        },
+        {
+            "scene": "Exterior_Tower",
+            "roots": [
+                "EXT_FrontTower",
+                "EXT_Balconies"
+            ],
+            "renderers": 66,
+            "triangles": 229512,
+            "colliders": 0,
+            "cameras": 0,
+            "lights": 0,
+            "pass": true
+        },
+        {
+            "scene": "Exterior_SidesService",
+            "roots": [
+                "EXT_LeftFacadePodium",
+                "EXT_RightFacadeWing",
+                "EXT_RearService",
+                "EXT_RoofService"
+            ],
+            "renderers": 54,
+            "triangles": 284854,
+            "colliders": 0,
+            "cameras": 0,
+            "lights": 0,
+            "pass": true
+        },
+        {
+            "scene": "Exterior_InteriorShellPreview",
+            "roots": [
+                "EXT_InteriorShell"
+            ],
+            "renderers": 48,
+            "triangles": 12120,
+            "colliders": 0,
+            "cameras": 0,
+            "lights": 0,
+            "pass": true
+        },
+        {
+            "scene": "Exterior_Interactions",
+            "roots": [
+                "DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT",
+                "DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT",
+                "DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT",
+                "DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT",
+                "DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT",
+                "DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT",
+                "DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT",
+                "DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT",
+                "DOORPREFAB_UE_S03C_REAR_FireExit_B_Leaf_ROOT",
+                "DOORPREFAB_UE_S03C_REAR_LoadingDoor_Leaf_ROOT",
+                "DOORPREFAB_UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT",
+                "DOORPREFAB_UE_S03C_ROOF_AccessDoor_Leaf_ROOT"
+            ],
+            "renderers": 44,
+            "triangles": 6160,
+            "colliders": 12,
+            "cameras": 0,
+            "lights": 0,
+            "pass": true
+        }
+    ],
+    "combinations": [
+        {
+            "state": "ExteriorOnly",
+            "renderers": 145,
+            "triangles": 626052,
+            "colliders": 28,
+            "pass": true
+        },
+        {
+            "state": "ExteriorWithShell",
+            "renderers": 193,
+            "triangles": 638172,
+            "colliders": 28,
+            "pass": true
+        },
+        {
+            "state": "ExteriorWithDoors",
+            "renderers": 189,
+            "triangles": 632212,
+            "colliders": 40,
+            "pass": true
+        },
+        {
+            "state": "FullHospital",
+            "renderers": 237,
+            "triangles": 644332,
+            "colliders": 40,
+            "pass": true
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "schema": "HospitalExterior.Stage06A.R01.InputActionContract.v1",
+    "status": "PASS",
+    "asset": "Assets/Hospital/Stage06A/R01/Input/Hospital_Stage06A_XR_Actions.inputactions",
+    "teleport_control": "Right primary button (A): hold to aim, release to commit",
+    "cancel_control": "Right secondary button (B)",
+    "move_speed_mps": 2.0,
+    "snap_turn_degrees": 45.0,
+    "actions": [
+        {
+            "action": "Head/Position",
+            "type": "Value",
+            "expected_control": "Vector3",
+            "bindings": [
+                "<XRHMD>/centerEyePosition"
+            ]
+        },
+        {
+            "action": "Head/Rotation",
+            "type": "Value",
+            "expected_control": "Quaternion",
+            "bindings": [
+                "<XRHMD>/centerEyeRotation"
+            ]
+        },
+        {
+            "action": "Head/TrackingState",
+            "type": "Value",
+            "expected_control": "Integer",
+            "bindings": [
+                "<XRHMD>/trackingState"
+            ]
+        },
+        {
+            "action": "Head/IsTracked",
+            "type": "Button",
+            "expected_control": "Button",
+            "bindings": [
+                "<XRHMD>/isTracked"
+            ]
+        },
+        {
+            "action": "LeftController/Position",
+            "type": "Value",
+            "expected_control": "Vector3",
+            "bindings": [
+                "<XRController>{LeftHand}/devicePosition"
+            ]
+        },
+        {
+            "action": "LeftController/Rotation",
+            "type": "Value",
+            "expected_control": "Quaternion",
+            "bindings": [
+                "<XRController>{LeftHand}/deviceRotation"
+            ]
+        },
+        {
+            "action": "LeftController/TrackingState",
+            "type": "Value",
+            "expected_control": "Integer",
+            "bindings": [
+                "<XRController>{LeftHand}/trackingState"
+            ]
+        },
+        {
+            "action": "LeftController/IsTracked",
+            "type": "Button",
+            "expected_control": "Button",
+            "bindings": [
+                "<XRController>{LeftHand}/isTracked"
+            ]
+        },
+        {
+            "action": "RightController/Position",
+            "type": "Value",
+            "expected_control": "Vector3",
+            "bindings": [
+                "<XRController>{RightHand}/devicePosition"
+            ]
+        },
+        {
+            "action": "RightController/Rotation",
+            "type": "Value",
+            "expected_control": "Quaternion",
+            "bindings": [
+                "<XRController>{RightHand}/deviceRotation"
+            ]
+        },
+        {
+            "action": "RightController/TrackingState",
+            "type": "Value",
+            "expected_control": "Integer",
+            "bindings": [
+                "<XRController>{RightHand}/trackingState"
+            ]
+        },
+        {
+            "action": "RightController/IsTracked",
+            "type": "Button",
+            "expected_control": "Button",
+            "bindings": [
+                "<XRController>{RightHand}/isTracked"
+            ]
+        },
+        {
+            "action": "Locomotion/Move",
+            "type": "Value",
+            "expected_control": "Vector2",
+            "bindings": [
+                "<XRController>{LeftHand}/primary2DAxis"
+            ]
+        },
+        {
+            "action": "Locomotion/SnapTurn",
+            "type": "Value",
+            "expected_control": "Vector2",
+            "bindings": [
+                "<XRController>{RightHand}/primary2DAxis"
+            ]
+        },
+        {
+            "action": "Locomotion/TeleportAim",
+            "type": "Button",
+            "expected_control": "Button",
+            "bindings": [
+                "<XRController>{RightHand}/primaryButton"
+            ]
+        },
+        {
+            "action": "Locomotion/TeleportCancel",
+            "type": "Button",
+            "expected_control": "Button",
+            "bindings": [
+                "<XRController>{RightHand}/secondaryButton"
+            ]
+        }
+    ]
+}

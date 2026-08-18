@@ -1,0 +1,32 @@
+{
+    "schema": "HospitalInterior.R03.S3C.BuildRecord.v1",
+    "status": "AUTOMATED_GATES_PASS_PENDING_USER_FUNCTIONAL_APPROVAL",
+    "unityVersion": "6000.3.20f1",
+    "sourceS3BScene": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S3B_R03_Doors_SIM_LOCAL.unity",
+    "bootstrapScene": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S3C_R03_E01Travel_SIM_LOCAL.unity",
+    "playerScenes": [
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S3C_R03_E01Travel_SIM_LOCAL.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Base.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Tower.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F00_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F01_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F02_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F03_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F04_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F05_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F06_Empty.unity"
+    ],
+    "playerExecutable": "C:\\CutMyBodyPlease\\Exports\\HospitalInterior\\StageI1_R03_S3C_AutoGate\\HospitalInterior_S3C_R03_TravelReview.exe",
+    "protectedS2FileCount": 38,
+    "protectedS2MismatchCount": 0,
+    "protectedS3BFileCount": 12,
+    "protectedS3BMismatchCount": 0,
+    "editorBuildSettingsSha256": "62889469c318a93430e41e1fc2f6c7df1fade301520199388d3725f58972a5bb",
+    "editorBuildSettingsUntouched": true,
+    "route": "F00 -> F01 -> F02 -> F03 -> F04 -> F05 -> F06 -> F00",
+    "passengerPolicy": "Cabin requests require the player inside; cabin and player receive the same continuous vertical delta. S2 anchors are never normal-travel teleports.",
+    "transitionPolicy": "Destination validates behind closed interlocked doors; the committed floor is retained until exact arrival and one-floor scene commit.",
+    "recoveryPolicy": "Cancellation/load failure rolls back to the last committed floor; failed rollback remains enclosed in FaultedSafe with review-only recovery."
+}

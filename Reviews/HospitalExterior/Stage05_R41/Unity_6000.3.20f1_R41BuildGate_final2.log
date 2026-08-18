@@ -1,0 +1,626 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-benli" at "2026-08-09T15:54:51.2179144Z"
+Built from '6000.3/staging' branch; Version is '6000.3.20f1 (c9ba695d4f07) revision 13220457'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 32472 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-08-09T15:54:51Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.20f1\Editor\Unity.exe
+-batchmode
+-nographics
+-quit
+-projectPath
+C:\CutMyBodyPlease\Unity\AnatomyXR
+-executeMethod
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder.BuildAndValidateR41
+-logFile
+C:\CutMyBodyPlease\Reviews\HospitalExterior\Stage05_R41\Unity_6000.3.20f1_R41BuildGate_final2.log
+Successfully changed project path to: C:\CutMyBodyPlease\Unity\AnatomyXR
+C:/CutMyBodyPlease/Unity/AnatomyXR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [68116]  Target information:
+
+Player connection [68116]  * "[IP] 192.168.56.1 [Port] 55504 [Flags] 2 [Guid] 3936725992 [EditorId] 3936725992 [Version] 1048832 [Id] WindowsEditor(7,Ben0928) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [68116]  * "[IP] 172.19.25.183 [Port] 55504 [Flags] 2 [Guid] 3936725992 [EditorId] 3936725992 [Version] 1048832 [Id] WindowsEditor(7,Ben0928) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [68116] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [68116] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-62404" after 0.2 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-benli"
+[Licensing::IpcConnector] LicenseClient-benli channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-benli-6000.3.20 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 66092)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-benli-6000.3.20" at "2026-08-09T15:54:53.0860613Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 66092, path: "C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              c1fc984693454b9a8f01699793acb2ad
+  Correlation Id:          34bf6e80ac98164535698c3e3d1953c9
+  External correlation Id: 3744459683683625058
+  Machine Id:              K/xaE00r9U15jR2vrRRSBHB/pCQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-benli-6000.3.20" (connect: 0.25s, validation: 0.20s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-benli-6000.3.20-notifications" at "2026-08-09T15:54:53.2949187Z"
+[Licensing::Module] Connected to LicensingClient (PId: 66092, launch time: 0.01, total connection time: 0.45s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968468702908-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 2.11s
+[Licensing::Module] Licensing is initialized (took 1.51s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 1 unused hashed content files
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.20f1 (c9ba695d4f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/CutMyBodyPlease/Unity/AnatomyXR/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001183 seconds.
+- Loaded All Assemblies, in  0.330 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.300 seconds
+Domain Reload Profiling: 630ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (125ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (301ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (268ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 55 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.inputsystem@1.20.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.xr.interaction.toolkit@3.5.1 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.xr.interaction.toolkit@63ca3b7ce776)
+    com.unity.xr.management@4.7.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.xr.management@2ad85c7dd480)
+    com.unity.xr.openxr@1.17.1 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.xr.openxr@58837b2992e0)
+    com.unity.xr.core-utils@2.6.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.xr.core-utils@a8b900321199)
+    com.unity.xr.legacyinputhelpers@2.1.13 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.xr.legacyinputhelpers@9535ff2c27ac)
+    com.unity.mathematics@1.3.3 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.mathematics@19a9377c4ffa)
+    com.unity.searcher@4.9.4 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.searcher@d45a78918735)
+    com.unity.burst@1.8.29 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.burst@6bb9aca3ef38)
+    com.unity.collections@2.6.6 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.collections@9796e5ee0d9e)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.3.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.render-pipelines.universal@37e06a5b08b3)
+    com.unity.modules.accessibility@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ugui@2.0.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.ugui@e20f1880fa04)
+    com.unity.render-pipelines.core@17.3.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.render-pipelines.core@731b06833851)
+    com.unity.shadergraph@17.3.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.shadergraph@fe0f710ccc2d)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+    com.unity.test-framework@1.6.0 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.test-framework@bd7f943e9647)
+    com.unity.ext.nunit@2.0.5 (location: C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+[Subsystems] Looking for new subsystems at path C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.xr.openxr@58837b2992e0
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/CutMyBodyPlease/Unity/AnatomyXR/Assets
+[Subsystems] Discovering subsystems at path C:\CutMyBodyPlease\Unity\AnatomyXR\Library\PackageCache\com.unity.xr.openxr@58837b2992e0
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json.
+[Package Manager] Done registering packages in 0.01 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.20f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/CutMyBodyPlease/Unity/AnatomyXR
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s684ms
+[685/879    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[875/879    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[876/879    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 137 defines and 325 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[877/879    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[878/879    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (0.66 seconds), 5 items updated, 879 evaluated
+AssetDatabase: script compilation time: 1.052829s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.603 seconds
+Refreshing native plugins compatible for Editor in 2.55 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.156 seconds
+Domain Reload Profiling: 2756ms
+	BeginReloadAssembly (277ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (144ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (75ms)
+			BuildScriptInfoCaches (30ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2156ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2008ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (1617ms)
+			ProcessInitializeOnLoadMethodAttributes (247ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(2269e0d3307f61742a4f8c45d914c72a) (NativeFormatImporter) -> (artifact id: '884c1a24e0b42c0538e3cbb5161e9a65') in 0.0098103 seconds
+Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRays.urtshader using Guid(1142bbad8b9e8c44c83a9775ff120d37) (ScriptedImporter)Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+ -> (artifact id: '38ac005376b021a7e9f4e9f75cb2c4e8') in 0.0337147 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/RisEstimation.urtshader using Guid(713f6141bd66a134383b787f2eaa7c11) (ScriptedImporter) -> (artifact id: '5146b39842153622670d027e1887ac6d') in 0.0108197 seconds
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/RenderingLayerMask/TraceRenderingLayerMask.urtshader using Guid(94a070d33e408384bafc1dea4a565df9) (ScriptedImporter) -> (artifact id: 'b67936887104dd6aebfe8d0931bc482f') in 0.0164671 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/UniformEstimation.urtshader using Guid(94a39d12848d8d64ca962a72b74e7c50) (ScriptedImporter) -> (artifact id: '0d4636a02768de9269d2f27db7d580ce') in 0.006196 seconds
+Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceTransparentRays.urtshader using Guid(6513c3b892e933c4f8d00c19d5c47532) (ScriptedImporter) -> (artifact id: 'd5a22aa85d0a39d2617229ecf7a50a09') in 0.004001 seconds
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/DynamicGI/DynamicGISkyOcclusion.urtshader using Guid(5a2a534753fbdb44e96c3c78b5a6999d) (ScriptedImporter) -> (artifact id: '94c013258671826b0a2d6ac6ab67bff2') in 0.0056144 seconds
+Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRaysAndFetchAttributes.urtshader using Guid(fbc59f55df2416344b008dc23753cae2) (ScriptedImporter) -> (artifact id: 'ace34066ac714b5376a279e670a068d5') in 0.0048246 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/RestirCandidateTemporal.urtshader using Guid(ad3a9f9982f8c4f4a839a78955e78458) (ScriptedImporter) -> (artifact id: 'a9c30a87e55d2b0482dd2bc019ad5471') in 0.0060175 seconds
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VirtualOffset/TraceVirtualOffset.urtshader using Guid(ff2cbab5da58bf04d82c5f34037ed123) (ScriptedImporter) -> (artifact id: '42f73bbc0b48d50a1f6843655e53df83') in 0.0078006 seconds
+Refreshing native plugins compatible for Editor in 3.26 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=5c9617e45759d384099ad660a444fb76): Total: 4.588 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=10 (actual=10, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=2612 ms
+		Asset DB Callback time: managed=189 ms, native=88 ms
+		Scripting: domain reloads=1, domain reload time=603 ms, compile time=1055 ms, other=36 ms
+		Project Asset Count: scripts=1143, non-scripts=1742
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 16.513ms
+	ApplyChangesToAssetFolders: 0.667ms
+	Scan: 140.792ms
+	OnSourceAssetsModified: 0.678ms
+	CategorizeAssetsWithTransientArtifact: 18.493ms
+	ProcessAssetsWithTransientArtifactChanges: 39.016ms
+	CategorizeAssets: 37.007ms
+	ImportOutOfDateAssets: 2278.279ms (1109.848ms without children)
+		ImportManagerImport: 110.873ms (2.853ms without children)
+			ImportInProcess: 107.598ms
+			UpdateCategorizedAssets: 0.421ms
+		CompileScripts: 1054.552ms
+		ReloadNativeAssets: 0.022ms
+		UnloadImportedAssets: 1.080ms
+		ReloadImportedAssets: 1.012ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.364ms
+		InitializingProgressBar: 0.007ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.519ms
+	PostProcessAllAssets: 257.853ms
+	Hotreload: 4.249ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.005ms
+	UnloadStreamsBegin: 1.032ms
+	PersistCurrentRevisions: 0.256ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 2.394ms
+	Untracked: 1792.690ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 3.217ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Anatomy XR Hospital
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4766 unused Assets / (9.1 MB). Loaded Objects now: 5537.
+Memory consumption went from 187.7 MB to 178.6 MB.
+Total: 10.583800 ms (FindLiveObjects: 0.278800 ms CreateObjectMapping: 0.162500 ms MarkObjects: 5.297100 ms  DeleteObjects: 4.844400 ms)
+
+Asset Pipeline Refresh (id=471bf5e58082bbf4f8fe79d5cd0885f5): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(2269e0d3307f61742a4f8c45d914c72a) (NativeFormatImporter) -> (artifact id: '884c1a24e0b42c0538e3cbb5161e9a65') in 0.0029267 seconds
+Start importing Assets/Hospital/Settings/XRGeneralSettingsPerBuildTarget.asset using Guid(d54efd4665ab34742b750f386ac16965) (NativeFormatImporter) -> (artifact id: 'cb50dd9f6cda316764be3734467d8013') in 0.0018774 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=44247b13883521247ba89301284cc69b): Total: 0.028 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+STAGE05_WINDOWS_OPENXR=CONFIGURED openxr_loader=True; only_loader=True; quest2_profile=True; quest3_profile=True; single_pass_instanced=True; init_on_start=True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05XRSetup:Configure () (at Assets/Hospital/Editor/HospitalStage05XRSetup.cs:63)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:BuildAndValidateR41 () (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:74)
+
+(Filename: Assets/Hospital/Editor/HospitalStage05XRSetup.cs Line: 63)
+
+Refreshing native plugins compatible for Editor in 2.75 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=588c6ebc15ce44f499ccae826a886e6c): Total: 0.036 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Refreshing native plugins compatible for Editor in 2.77 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=4960d76b5344c6c409a02feaf82e1113): Total: 0.036 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Refreshing native plugins compatible for Editor in 2.64 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=729bcdaf02cb316478b70ff5fff32913): Total: 0.040 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Refreshing native plugins compatible for Editor in 2.46 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=06aca8bbd35b63e4c89344177b3dbd68): Total: 0.030 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=d5ee6f84fa9646a49b1feec96008fcfc): Total: 0.037 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) (LibraryAssetImporter) -> (artifact id: '23a66668730609685d79987ab719c906') in 0.0021793 seconds
+Start importing ProjectSettings/GraphicsSettings.asset using Guid(00000000000000006100000000000000) (LibraryAssetImporter) -> (artifact id: '9224ae4bdf25320a6774e2da3417b8bc') in 0.0016947 seconds
+Start importing Assets/Hospital/Settings/Hospital_PCVR_Renderer.asset using Guid(f85eacc74777b03459a612985df23860) (NativeFormatImporter) -> (artifact id: 'ca2615a0c82a6a2c6a34ff669d946a06') in 0.001436 seconds
+Start importing Assets/Hospital/Settings/Hospital_PCVR_URP.asset using Guid(09fbd1b998cd4d2418d6b2ea8189e940) (NativeFormatImporter) -> (artifact id: '6c93cb978c181317d3a944ba46c1d6fe') in 0.0014649 seconds
+Refreshing native plugins compatible for Editor in 2.62 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=eeaf83fb27cb71d4eaae5c60963605c0): Total: 0.026 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Hospital/Materials/MAT_S03E_InteriorWall_WarmWhite.mat using Guid(000c452005418c84f89195398934c2ac) (NativeFormatImporter) -> (artifact id: 'b7be9807feb0d78657e149594ffe1a4d') in 0.0014828 seconds
+Start importing Assets/Hospital/Materials/MAT_Entrance_PolishedArrivalStone.mat using Guid(3165a9a48f74c024fab97974108bb69a) (NativeFormatImporter) -> (artifact id: 'a9f3f4f42883ecd30b94e3b85f167721') in 0.0012559 seconds
+Start importing Assets/Hospital/Materials/MAT_Composite_WarmOffWhite.mat using Guid(81af0662b33f0ec48ad8a354fdb14560) (NativeFormatImporter) -> (artifact id: '5a6ed1fe46712001d194375315d48c39') in 0.0010887 seconds
+Start importing Assets/Hospital/Materials/MAT_S03E_FurnitureSilhouette.mat using Guid(d1b63c295f434c44f9b627a5fa9983a4) (NativeFormatImporter) -> (artifact id: 'ffb95b3f8aa47a7e2529b21446a1ee63') in 0.0011557 seconds
+Start importing Assets/Hospital/Materials/MAT_LED_Warm_3200K.mat using Guid(822dc5fbd0f97bd49982758f8675c77d) (NativeFormatImporter) -> (artifact id: '70a82f33c51e176d130ce86fd7ed3f30') in 0.0012583 seconds
+Start importing Assets/Hospital/Materials/MAT_Entrance_RefinedBronze.mat using Guid(331c48feccda88647b66f03f508333ef) (NativeFormatImporter) -> (artifact id: '48f5d22eb1b823fb2aa6f885cb3929fc') in 0.0010869 seconds
+Start importing Assets/Hospital/Materials/MAT_Entrance_DeepGreenFoliage.mat using Guid(438ecf2f66fbeb94b8ea583a771401f2) (NativeFormatImporter) -> (artifact id: '0393cb76deba7ee6b2b428588b875fe0') in 0.0011147 seconds
+Start importing Assets/Hospital/Materials/MAT_CornerBalcony_UltraClearGuard.mat using Guid(83539c5aea37112409432afb340f8810) (NativeFormatImporter) -> (artifact id: 'a85cc447ee99560cb46bb01fee137bc3') in 0.000965 seconds
+Start importing Assets/Hospital/Materials/MAT_Entrance_HighClarityGlass.mat using Guid(b47c30317a8483a45a888256012efb95) (NativeFormatImporter) -> (artifact id: '605824f677bb9f0a409a306b48a23ea7') in 0.0009431 seconds
+Start importing Assets/Hospital/Materials/MAT_S03E_PrivacyShade.mat using Guid(c503c9e93cdbf954cbc758650bd6030d) (NativeFormatImporter) -> (artifact id: '2678696a98bf198dafa0faecce2276a2') in 0.0010266 seconds
+Start importing Assets/Hospital/Materials/MAT_Architectural_ShadowGap.mat using Guid(065782ae8ca97d64497d51628550788c) (NativeFormatImporter) -> (artifact id: 'b8b4f73505acbb4c61e48ac969e57123') in 0.0010696 seconds
+Start importing Assets/Hospital/Materials/MAT_S03E_Ceiling_SoftWhite.mat using Guid(36ff0ec412e491a4a8774f6b414510a5) (NativeFormatImporter) -> (artifact id: '4ce20241c02cde25865dbfdbfbf2a366') in 0.0010643 seconds
+Start importing Assets/Hospital/Materials/MAT_Interior_WarmDaylightSurface.mat using Guid(1728498b8f46f7e4a80ff2baba0eb6a4) (NativeFormatImporter) -> (artifact id: 'c0ef6e1fc2d742dee55e25fcea60e62b') in 0.0011034 seconds
+Start importing Assets/Hospital/Materials/MAT_Composite_LightGrey.mat using Guid(67714f9bf3fb02945a40b6571a64c58b) (NativeFormatImporter) -> (artifact id: '85cc317a50966f0189cbd8f4e1c959c6') in 0.0011817 seconds
+Start importing Assets/Hospital/Materials/MAT_Entrance_HonedTravertine.mat using Guid(77fd61d79836ea44c829f69720fe877f) (NativeFormatImporter) -> (artifact id: 'a2034552e9ab23955e5fd56777fa324c') in 0.0011236 seconds
+Start importing Assets/Hospital/Materials/MAT_Lobby_HonedTerrazzo.mat using Guid(48af3a80caeadc44c933f22365562b50) (NativeFormatImporter) -> (artifact id: 'a3000c413e876adc06474065642eb51c') in 0.0011513 seconds
+Start importing Assets/Hospital/Materials/MAT_Neutral_Concrete.mat using Guid(58e1e105d87e8e34a92122bcb4200db1) (NativeFormatImporter) -> (artifact id: 'b05a0ba3bef6bea963b19cf75903fef3') in 0.0010066 seconds
+Start importing Assets/Hospital/Materials/MAT_CornerBalcony_BlueGreyRoomGlass.mat using Guid(3a6a01099d12cf648888298db67e5a89) (NativeFormatImporter) -> (artifact id: '09f88d1e982f8e19db401131aaca1aa4') in 0.0009998 seconds
+Start importing Assets/Hospital/Materials/MAT_Glass_BlueGrey.mat using Guid(da28c897c8f23f64aa90bc4d63f6e00f) (NativeFormatImporter) -> (artifact id: '31bcd05b163db7313fb8357c09403168') in 0.0011146 seconds
+Start importing Assets/Hospital/Materials/MAT_S03E_WarmTimber.mat using Guid(4b9b6ac8bc4f05141b6e38b24e580b2e) (NativeFormatImporter) -> (artifact id: '4c85082ba2efcc078136d95996026872') in 0.0009331 seconds
+Start importing Assets/Hospital/Materials/MAT_S03E_Floor_HonedTerrazzo.mat using Guid(9b8908fe7aa0b1f4d9515434b9395738) (NativeFormatImporter) -> (artifact id: '81ce23e4a26b01905f97b33fdf50a329') in 0.0010146 seconds
+Start importing Assets/Hospital/Materials/MAT_Entrance_DoorGlass.mat using Guid(bbb182272c94c2444a6277950295135c) (NativeFormatImporter) -> (artifact id: '9c1ca9b0b226a6fc367ad293aa7f0446') in 0.0009033 seconds
+Start importing Assets/Hospital/Materials/MAT_Canopy_RecessedSoffit.mat using Guid(db058a0f4fed39e43a6c3e985f9fb756) (NativeFormatImporter) -> (artifact id: 'd152f13077e4626fd2b2adf2fba5557d') in 0.0012226 seconds
+Start importing Assets/Hospital/Materials/MAT_S03E_ServiceBackdrop.mat using Guid(6c7d3fc23cbaa644f909f3591b22ff71) (NativeFormatImporter) -> (artifact id: '464201982cded4f6375bb644e80d3ba2') in 0.0010078 seconds
+Start importing Assets/Hospital/Materials/MAT_Lobby_WarmStone.mat using Guid(8c69794c8b2e6c64e971da5650ab24bd) (NativeFormatImporter) -> (artifact id: '05bda313ebce7cac540ed3734f50587e') in 0.0010252 seconds
+Start importing Assets/Hospital/Materials/MAT_Aluminium_Charcoal.mat using Guid(4d6647e5dd7154546b4d8d04ae147e9c) (NativeFormatImporter) -> (artifact id: '3a2b8e0f873603763c8affb419ed6f50') in 0.0009972 seconds
+Start importing Assets/Hospital/Materials/MAT_Lobby_WoodCharcoal.mat using Guid(8d6c7eaf110c1a04cbeb82ce0bbe352c) (NativeFormatImporter) -> (artifact id: '3bc5e5fa51a845dcaabce27808bb1470') in 0.0011969 seconds
+Start importing Assets/Hospital/Materials/MAT_Portal_DarkBronze.mat using Guid(2fb91e1224506ce449b6c46cc2d75dfd) (NativeFormatImporter) -> (artifact id: 'db483589d21df0ca8ad6c6549be605ec') in 0.0011369 seconds
+Start importing Assets/Hospital/Materials/MAT_Signage_WarmWhite_NonEmissive.mat using Guid(bf60d98d58578b0459f1c0e7b9bd07a4) (NativeFormatImporter) -> (artifact id: 'ceb9a94d76f5095769eb22d8b75bc1bf') in 0.0009866 seconds
+Start importing Assets/Hospital/Materials/MAT_CornerBalcony_IntegratedDoorGlass.mat using Guid(ef7fc5a5a2e51a1458e91dd2db305749) (NativeFormatImporter) -> (artifact id: '52dcad2416b89aff710b99dcb859eb5d') in 0.0010694 seconds
+Refreshing native plugins compatible for Editor in 2.83 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=dcf909d4c26faed4397db10c71de4182): Total: 0.072 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=b840651d34596b249bfac77546a656f5): Total: 0.008 seconds - Initiated by RefreshV2(ForceUpdate)
+Start importing Assets/Hospital/SourceFBX/R40/Hospital_EXT_GlobalStructure.fbx using Guid(e4e2b74e35fcebf4c9053a4da90a392c) (FBXImporter) -> (artifact id: 'f23bf793c6bfbe599a631fe805728d48') in 0.0503326 seconds
+Refreshing native plugins compatible for Editor in 2.52 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=7381193721d083a4582d0b56c40bb25d): Total: 0.063 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Hospital/SourceFBX/R40/Hospital_EXT_GroundEntrance.fbx using Guid(422a12929c78f0b499cde29d7b1665af) (FBXImporter) -> (artifact id: '546b621eec0e4b182b2077b2c5cc5031') in 0.1051485 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=4d59f5c54c3f3ab4f914200c5a97942b): Total: 0.120 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Hospital/SourceFBX/R40/Hospital_ACT_InteractiveDoors.fbx using Guid(a661af9d099edfe40b4796769626a043) (FBXImporter) -> (artifact id: '05910403ee0b036eb676f888e9e29896') in 0.0323201 seconds
+Refreshing native plugins compatible for Editor in 2.33 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=ecb8a51ccc1f2e648955a7300659f3f5): Total: 0.045 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=eccfadc2e16e5ff4f980a9514ac2e0a1): Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=8ce9ac27e878c6042aea6aa3e520d937): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=216b54d1eae3e02468463e3f5ccba48d): Total: 0.005 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 810 unused Assets / (280.3 KB). Loaded Objects now: 5537.
+Memory consumption went from 202.6 MB to 202.3 MB.
+Total: 5.220100 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.078600 ms MarkObjects: 4.471400 ms  DeleteObjects: 0.470400 ms)
+
+RenderTexture.Create failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:Create ()
+UnityEngine.Rendering.RTHandleSystem:CreateRenderTexture (int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.FilterMode,UnityEngine.TextureWrapMode,UnityEngine.TextureWrapMode,UnityEngine.TextureWrapMode,UnityEngine.Rendering.TextureDimension,bool,bool,bool,bool,int,single,UnityEngine.Rendering.MSAASamples,bool,bool,bool,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool,string) (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/Textures/RTHandleSystem.cs:909)
+UnityEngine.Rendering.RTHandleSystem:Alloc (int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.TextureWrapMode,UnityEngine.TextureWrapMode,UnityEngine.TextureWrapMode,int,UnityEngine.FilterMode,UnityEngine.Rendering.TextureDimension,bool,bool,bool,bool,int,single,UnityEngine.Rendering.MSAASamples,bool,bool,bool,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,string) (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/Textures/RTHandleSystem.cs:774)
+UnityEngine.Rendering.RTHandleSystem:Alloc (int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.FilterMode,UnityEngine.TextureWrapMode,UnityEngine.Rendering.TextureDimension,bool,bool,bool,bool,int,single,UnityEngine.Rendering.MSAASamples,bool,bool,bool,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,string) (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/Textures/RTHandleSystem.cs:638)
+UnityEngine.Rendering.RTHandles:Alloc (int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.FilterMode,UnityEngine.TextureWrapMode,UnityEngine.Rendering.TextureDimension,bool,bool,bool,bool,int,single,UnityEngine.Rendering.MSAASamples,bool,bool,bool,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,string) (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/Textures/RTHandles.cs:169)
+UnityEngine.Rendering.RenderGraphModule.RenderGraphDefaultResources:InitDefaultResourcesIfNeeded () (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraphDefaultResources.cs:52)
+UnityEngine.Rendering.RenderGraphModule.RenderGraphDefaultResources:.ctor () (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraphDefaultResources.cs:39)
+UnityEngine.Rendering.RenderGraphModule.RenderGraph:.ctor (string) (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraph.cs:513)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:.ctor (UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset) (at ./Library/PackageCache/com.unity.render-pipelines.universal@37e06a5b08b3/Runtime/UniversalRenderPipeline.cs:283)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at ./Library/PackageCache/com.unity.render-pipelines.universal@37e06a5b08b3/Runtime/Data/UniversalRenderPipelineAsset.cs:830)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:RenderQaImage (string,UnityEngine.Bounds,UnityEngine.Vector3,System.Nullable`1<single>) (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:472)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:BuildSandboxScene (string) (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:418)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:BuildAndValidateR41 () (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:85)
+
+[Assets/Hospital/Editor/HospitalStage05R41Builder.cs line 418]
+
+RenderTexture.Create failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:ExecuteCommandBuffer (UnityEngine.Rendering.CommandBuffer)
+UnityEngine.Rendering.RenderGraphModule.RenderGraphDefaultResources:InitDefaultResourcesIfNeeded () (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraphDefaultResources.cs:58)
+UnityEngine.Rendering.RenderGraphModule.RenderGraphDefaultResources:.ctor () (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraphDefaultResources.cs:39)
+UnityEngine.Rendering.RenderGraphModule.RenderGraph:.ctor (string) (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraph.cs:513)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:.ctor (UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset) (at ./Library/PackageCache/com.unity.render-pipelines.universal@37e06a5b08b3/Runtime/UniversalRenderPipeline.cs:283)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at ./Library/PackageCache/com.unity.render-pipelines.universal@37e06a5b08b3/Runtime/Data/UniversalRenderPipelineAsset.cs:830)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:RenderQaImage (string,UnityEngine.Bounds,UnityEngine.Vector3,System.Nullable`1<single>) (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:472)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:BuildSandboxScene (string) (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:418)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:BuildAndValidateR41 () (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:85)
+
+[Assets/Hospital/Editor/HospitalStage05R41Builder.cs line 418]
+
+Failed to set the active render target, ensure that it is a valid render target.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:ExecuteCommandBuffer (UnityEngine.Rendering.CommandBuffer)
+UnityEngine.Rendering.RenderGraphModule.RenderGraphDefaultResources:InitDefaultResourcesIfNeeded () (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraphDefaultResources.cs:58)
+UnityEngine.Rendering.RenderGraphModule.RenderGraphDefaultResources:.ctor () (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraphDefaultResources.cs:39)
+UnityEngine.Rendering.RenderGraphModule.RenderGraph:.ctor (string) (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraph.cs:513)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:.ctor (UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset) (at ./Library/PackageCache/com.unity.render-pipelines.universal@37e06a5b08b3/Runtime/UniversalRenderPipeline.cs:283)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at ./Library/PackageCache/com.unity.render-pipelines.universal@37e06a5b08b3/Runtime/Data/UniversalRenderPipelineAsset.cs:830)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:RenderQaImage (string,UnityEngine.Bounds,UnityEngine.Vector3,System.Nullable`1<single>) (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:472)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:BuildSandboxScene (string) (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:418)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:BuildAndValidateR41 () (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:85)
+
+[Assets/Hospital/Editor/HospitalStage05R41Builder.cs line 418]
+
+RenderTexture.Create failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:Create ()
+UnityEngine.Rendering.RTHandleSystem:CreateRenderTexture (int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.FilterMode,UnityEngine.TextureWrapMode,UnityEngine.TextureWrapMode,UnityEngine.TextureWrapMode,UnityEngine.Rendering.TextureDimension,bool,bool,bool,bool,int,single,UnityEngine.Rendering.MSAASamples,bool,bool,bool,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool,string) (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/Textures/RTHandleSystem.cs:909)
+UnityEngine.Rendering.RTHandleSystem:Alloc (int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.TextureWrapMode,UnityEngine.TextureWrapMode,UnityEngine.TextureWrapMode,int,UnityEngine.FilterMode,UnityEngine.Rendering.TextureDimension,bool,bool,bool,bool,int,single,UnityEngine.Rendering.MSAASamples,bool,bool,bool,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,string) (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/Textures/RTHandleSystem.cs:774)
+UnityEngine.Rendering.RTHandleSystem:Alloc (int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.FilterMode,UnityEngine.TextureWrapMode,UnityEngine.Rendering.TextureDimension,bool,bool,bool,bool,int,single,UnityEngine.Rendering.MSAASamples,bool,bool,bool,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,string) (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/Textures/RTHandleSystem.cs:638)
+UnityEngine.Rendering.RTHandles:Alloc (int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.FilterMode,UnityEngine.TextureWrapMode,UnityEngine.Rendering.TextureDimension,bool,bool,bool,bool,int,single,UnityEngine.Rendering.MSAASamples,bool,bool,bool,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,string) (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/Textures/RTHandles.cs:169)
+UnityEngine.Rendering.RenderGraphModule.RenderGraphDefaultResources:InitDefaultResourcesIfNeeded () (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraphDefaultResources.cs:52)
+UnityEngine.Rendering.RenderGraphModule.RenderGraphDefaultResources:.ctor () (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraphDefaultResources.cs:39)
+UnityEngine.Rendering.RenderGraphModule.RenderGraph:.ctor (string) (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraph.cs:513)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:.ctor (UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset) (at ./Library/PackageCache/com.unity.render-pipelines.universal@37e06a5b08b3/Runtime/UniversalRenderPipeline.cs:283)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at ./Library/PackageCache/com.unity.render-pipelines.universal@37e06a5b08b3/Runtime/Data/UniversalRenderPipelineAsset.cs:830)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:RenderQaImage (string,UnityEngine.Bounds,UnityEngine.Vector3,System.Nullable`1<single>) (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:472)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:BuildSandboxScene (string) (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:423)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:BuildAndValidateR41 () (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:85)
+
+[Assets/Hospital/Editor/HospitalStage05R41Builder.cs line 423]
+
+RenderTexture.Create failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:ExecuteCommandBuffer (UnityEngine.Rendering.CommandBuffer)
+UnityEngine.Rendering.RenderGraphModule.RenderGraphDefaultResources:InitDefaultResourcesIfNeeded () (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraphDefaultResources.cs:58)
+UnityEngine.Rendering.RenderGraphModule.RenderGraphDefaultResources:.ctor () (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraphDefaultResources.cs:39)
+UnityEngine.Rendering.RenderGraphModule.RenderGraph:.ctor (string) (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraph.cs:513)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:.ctor (UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset) (at ./Library/PackageCache/com.unity.render-pipelines.universal@37e06a5b08b3/Runtime/UniversalRenderPipeline.cs:283)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at ./Library/PackageCache/com.unity.render-pipelines.universal@37e06a5b08b3/Runtime/Data/UniversalRenderPipelineAsset.cs:830)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:RenderQaImage (string,UnityEngine.Bounds,UnityEngine.Vector3,System.Nullable`1<single>) (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:472)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:BuildSandboxScene (string) (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:423)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:BuildAndValidateR41 () (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:85)
+
+[Assets/Hospital/Editor/HospitalStage05R41Builder.cs line 423]
+
+Failed to set the active render target, ensure that it is a valid render target.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:ExecuteCommandBuffer (UnityEngine.Rendering.CommandBuffer)
+UnityEngine.Rendering.RenderGraphModule.RenderGraphDefaultResources:InitDefaultResourcesIfNeeded () (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraphDefaultResources.cs:58)
+UnityEngine.Rendering.RenderGraphModule.RenderGraphDefaultResources:.ctor () (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraphDefaultResources.cs:39)
+UnityEngine.Rendering.RenderGraphModule.RenderGraph:.ctor (string) (at ./Library/PackageCache/com.unity.render-pipelines.core@731b06833851/Runtime/RenderGraph/RenderGraph.cs:513)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:.ctor (UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset) (at ./Library/PackageCache/com.unity.render-pipelines.universal@37e06a5b08b3/Runtime/UniversalRenderPipeline.cs:283)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at ./Library/PackageCache/com.unity.render-pipelines.universal@37e06a5b08b3/Runtime/Data/UniversalRenderPipelineAsset.cs:830)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:RenderQaImage (string,UnityEngine.Bounds,UnityEngine.Vector3,System.Nullable`1<single>) (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:472)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:BuildSandboxScene (string) (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:423)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:BuildAndValidateR41 () (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:85)
+
+[Assets/Hospital/Editor/HospitalStage05R41Builder.cs line 423]
+
+Start importing Assets/Hospital/Materials/MAT_Entrance_HighClarityGlass.mat using Guid(b47c30317a8483a45a888256012efb95) (NativeFormatImporter) -> (artifact id: '6be4fd0d31258358a4dc6c3a89578a86') in 0.0014567 seconds
+Start importing Assets/Hospital/Materials/MAT_Glass_BlueGrey.mat using Guid(da28c897c8f23f64aa90bc4d63f6e00f) (NativeFormatImporter) -> (artifact id: 'd614d868c73239843bee6f95e8cd64e9') in 0.0011522 seconds
+Start importing Assets/Hospital/Materials/MAT_Entrance_DoorGlass.mat using Guid(bbb182272c94c2444a6277950295135c) (NativeFormatImporter) -> (artifact id: 'a6cf3be85053c65f7f77ecb7b1f00528') in 0.0010298 seconds
+Refreshing native plugins compatible for Editor in 2.09 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b03ebc431e847d348b4cf865f81725b5): Total: 0.028 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Hospital/Scenes/IntegrationSandbox/Hospital_R41_IntegrationSandbox.unity using Guid(55027c5f1274af948a66a439336eaf26) (DefaultImporter) -> (artifact id: '8dd79bfd82dd073ee1542a894cfec330') in 0.0009856 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=233086a92baf24347a5a53a7c5f2dfbf): Total: 0.028 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Hospital/Scenes/IntegrationSandbox/Hospital_R41_IntegrationSandbox.unity'
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Hospital/Scenes/IntegrationSandbox/Hospital_R41_IntegrationSandbox.unity'
+	Deserialize:            0.524 ms
+	Integration:            108.327 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   108.864 ms
+Unloading 175 unused Assets / (3.9 MB). Loaded Objects now: 6602.
+Memory consumption went from 221.7 MB to 217.8 MB.
+Total: 5.139500 ms (FindLiveObjects: 0.251100 ms CreateObjectMapping: 0.098800 ms MarkObjects: 4.592800 ms  DeleteObjects: 0.196100 ms)
+
+Start importing Assets/Hospital/Settings/Stage05_R41_UnityGate.json using Guid(9f01ba88832e0db4b8d9c5fde1b3ce23) (TextScriptImporter) -> (artifact id: 'cfa215624444bf536f968bc528fe4495') in 0.0018428 seconds
+Refreshing native plugins compatible for Editor in 2.33 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=0a1ae9f88622bd440a4d01e6e18d0681): Total: 0.062 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+STAGE05_R41_GATE=PASS
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CutMyBodyPlease.Hospital.Stage05.Editor.HospitalStage05R41Builder:BuildAndValidateR41 () (at Assets/Hospital/Editor/HospitalStage05R41Builder.cs:97)
+
+(Filename: Assets/Hospital/Editor/HospitalStage05R41Builder.cs Line: 97)
+
+Batchmode quit successfully invoked - shutting down!
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-benli-6000.3.20-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-benli-6000.3.20 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

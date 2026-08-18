@@ -1,0 +1,411 @@
+{
+    "schema": "HospitalExterior.Stage05S.S6.LODInventory.v1",
+    "status": "PASS",
+    "groups": 99,
+    "tree_groups": 27,
+    "topiary_groups": 15,
+    "hedge_groups": 41,
+    "allium_groups": 16,
+    "shared_meshes": 18,
+    "lod0_triangles": 5367488,
+    "lod1_triangles": 1180274,
+    "lod2_triangles": 348274,
+    "entries": [
+        {
+            "name": "LODGroup_AlliumDrift_01",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_02",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_03",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_04",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_05",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_06",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_07",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_08",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_09",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_10",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_11",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_12",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_13",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_14",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_15",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_AlliumDrift_16",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=8160|LOD1:threshold=0.22,fade=0.05,triangles=1771|LOD2:threshold=0.06,fade=0.05,triangles=506"
+        },
+        {
+            "name": "LODGroup_Hedge_001",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_002",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_003",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_004",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_005",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_006",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_007",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_008",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_009",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_010",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_011",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_012",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_013",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_014",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_015",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_016",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_017",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_018",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_019",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_020",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_021",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_022",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_023",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_024",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_025",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_026",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_027",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_028",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_029",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_030",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_031",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_032",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_033",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_034",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_035",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_036",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_037",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_038",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_039",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_040",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_Hedge_041",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=27092|LOD1:threshold=0.22,fade=0.05,triangles=5956|LOD2:threshold=0.06,fade=0.05,triangles=1756"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_01",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_02",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_03",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_04",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_05",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_06",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_07",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_08",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_09",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_10",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_11",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_12",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_13",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_14",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_TopiaryColumn_15",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=82666|LOD1:threshold=0.22,fade=0.05,triangles=18186|LOD2:threshold=0.06,fade=0.05,triangles=5373"
+        },
+        {
+            "name": "LODGroup_Tree_01",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=116610|LOD1:threshold=0.22,fade=0.05,triangles=25654|LOD2:threshold=0.06,fade=0.05,triangles=7579"
+        },
+        {
+            "name": "LODGroup_Tree_02",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=116610|LOD1:threshold=0.22,fade=0.05,triangles=25654|LOD2:threshold=0.06,fade=0.05,triangles=7579"
+        },
+        {
+            "name": "LODGroup_Tree_03",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=116610|LOD1:threshold=0.22,fade=0.05,triangles=25654|LOD2:threshold=0.06,fade=0.05,triangles=7579"
+        },
+        {
+            "name": "LODGroup_Tree_04",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=116610|LOD1:threshold=0.22,fade=0.05,triangles=25654|LOD2:threshold=0.06,fade=0.05,triangles=7579"
+        },
+        {
+            "name": "LODGroup_Tree_05",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=116610|LOD1:threshold=0.22,fade=0.05,triangles=25654|LOD2:threshold=0.06,fade=0.05,triangles=7579"
+        },
+        {
+            "name": "LODGroup_Tree_06",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=116610|LOD1:threshold=0.22,fade=0.05,triangles=25654|LOD2:threshold=0.06,fade=0.05,triangles=7579"
+        },
+        {
+            "name": "LODGroup_Tree_07",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=116610|LOD1:threshold=0.22,fade=0.05,triangles=25654|LOD2:threshold=0.06,fade=0.05,triangles=7579"
+        },
+        {
+            "name": "LODGroup_Tree_08",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=116610|LOD1:threshold=0.22,fade=0.05,triangles=25654|LOD2:threshold=0.06,fade=0.05,triangles=7579"
+        },
+        {
+            "name": "LODGroup_Tree_09",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=94802|LOD1:threshold=0.22,fade=0.05,triangles=20856|LOD2:threshold=0.06,fade=0.05,triangles=6162"
+        },
+        {
+            "name": "LODGroup_Tree_10",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=94802|LOD1:threshold=0.22,fade=0.05,triangles=20856|LOD2:threshold=0.06,fade=0.05,triangles=6162"
+        },
+        {
+            "name": "LODGroup_Tree_11",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_12",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_13",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_14",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_15",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_16",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_17",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_18",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_19",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_20",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_21",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_22",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_23",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_24",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_25",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_26",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        },
+        {
+            "name": "LODGroup_Tree_27",
+            "value": "LOD0:threshold=0.60,fade=0.05,triangles=103746|LOD1:threshold=0.22,fade=0.05,triangles=22824|LOD2:threshold=0.06,fade=0.05,triangles=6743"
+        }
+    ]
+}

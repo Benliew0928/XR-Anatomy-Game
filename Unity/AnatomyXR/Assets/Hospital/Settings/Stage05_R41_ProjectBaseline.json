@@ -1,0 +1,44 @@
+{
+    "schema": "HospitalExterior.Stage05.R41.ProjectBaseline.v1",
+    "unity_editor": "6000.3.20f1",
+    "build_target": "StandaloneWindows64",
+    "platform": "Windows x86_64 PC VR",
+    "render_pipeline": "Universal Render Pipeline",
+    "xr_runtime": "OpenXR",
+    "interaction": "XR Interaction Toolkit + Input System",
+    "target_headsets": [
+        "Meta Quest 2",
+        "Meta Quest 3"
+    ],
+    "connection": [
+        "Quest Link",
+        "Air Link"
+    ],
+    "standalone_android": false,
+    "acceptance_refresh_hz": 72,
+    "acceptance_frame_budget_ms": 13.890000343322754,
+    "preferred_refresh_hz": 90,
+    "preferred_frame_budget_ms": 11.109999656677246,
+    "packages": [
+        {
+            "name": "com.unity.inputsystem",
+            "version": "1.20.0"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "version": "17.3.0"
+        },
+        {
+            "name": "com.unity.xr.interaction.toolkit",
+            "version": "3.5.1"
+        },
+        {
+            "name": "com.unity.xr.management",
+            "version": "4.7.0"
+        },
+        {
+            "name": "com.unity.xr.openxr",
+            "version": "1.17.1"
+        }
+    ]
+}

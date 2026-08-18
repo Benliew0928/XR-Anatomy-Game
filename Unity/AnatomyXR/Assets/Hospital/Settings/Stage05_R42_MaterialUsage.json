@@ -1,0 +1,418 @@
+{
+    "schema": "HospitalExterior.Stage05.R42.MaterialUsage.v1",
+    "authority_sha256": "0a530ff9d7d7effa512f1d69178a0be86da722239f0cb992878045358c73ea58",
+    "entries": [
+        {
+            "material": "MAT_Aluminium_Charcoal",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Aluminium_Charcoal.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "ACT_InteractiveDoors",
+                "EXT_Balconies",
+                "EXT_FrontTower",
+                "EXT_GroundEntrance",
+                "EXT_LeftFacadePodium",
+                "EXT_RearService",
+                "EXT_RightFacadeWing",
+                "EXT_RoofService"
+            ],
+            "actual_zones": [
+                "ACT_InteractiveDoors",
+                "EXT_Balconies",
+                "EXT_FrontTower",
+                "EXT_GroundEntrance",
+                "EXT_LeftFacadePodium",
+                "EXT_RearService",
+                "EXT_RightFacadeWing",
+                "EXT_RoofService"
+            ]
+        },
+        {
+            "material": "MAT_Architectural_ShadowGap",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Architectural_ShadowGap.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_FrontTower",
+                "EXT_GlobalStructure",
+                "EXT_GroundEntrance",
+                "EXT_LeftFacadePodium",
+                "EXT_RearService",
+                "EXT_RightFacadeWing",
+                "EXT_RoofService"
+            ],
+            "actual_zones": [
+                "EXT_FrontTower",
+                "EXT_GlobalStructure",
+                "EXT_GroundEntrance",
+                "EXT_LeftFacadePodium",
+                "EXT_RearService",
+                "EXT_RightFacadeWing",
+                "EXT_RoofService"
+            ]
+        },
+        {
+            "material": "MAT_Canopy_RecessedSoffit",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Canopy_RecessedSoffit.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_GroundEntrance",
+                "EXT_RearService"
+            ],
+            "actual_zones": [
+                "EXT_GroundEntrance",
+                "EXT_RearService"
+            ]
+        },
+        {
+            "material": "MAT_Composite_LightGrey",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Composite_LightGrey.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_Balconies",
+                "EXT_GlobalStructure",
+                "EXT_GroundEntrance",
+                "EXT_LeftFacadePodium",
+                "EXT_RearService",
+                "EXT_RightFacadeWing",
+                "EXT_RoofService"
+            ],
+            "actual_zones": [
+                "EXT_Balconies",
+                "EXT_GlobalStructure",
+                "EXT_GroundEntrance",
+                "EXT_LeftFacadePodium",
+                "EXT_RearService",
+                "EXT_RightFacadeWing",
+                "EXT_RoofService"
+            ]
+        },
+        {
+            "material": "MAT_Composite_WarmOffWhite",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Composite_WarmOffWhite.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_Balconies",
+                "EXT_FrontTower",
+                "EXT_GlobalStructure",
+                "EXT_GroundEntrance",
+                "EXT_LeftFacadePodium",
+                "EXT_RearService",
+                "EXT_RightFacadeWing",
+                "EXT_RoofService"
+            ],
+            "actual_zones": [
+                "EXT_Balconies",
+                "EXT_FrontTower",
+                "EXT_GlobalStructure",
+                "EXT_GroundEntrance",
+                "EXT_LeftFacadePodium",
+                "EXT_RearService",
+                "EXT_RightFacadeWing",
+                "EXT_RoofService"
+            ]
+        },
+        {
+            "material": "MAT_CornerBalcony_BlueGreyRoomGlass",
+            "unity_asset": "Assets/Hospital/Materials/MAT_CornerBalcony_BlueGreyRoomGlass.mat",
+            "role": "glass",
+            "permitted_zones": [
+                "EXT_Balconies"
+            ],
+            "actual_zones": [
+                "EXT_Balconies"
+            ]
+        },
+        {
+            "material": "MAT_CornerBalcony_IntegratedDoorGlass",
+            "unity_asset": "Assets/Hospital/Materials/MAT_CornerBalcony_IntegratedDoorGlass.mat",
+            "role": "glass",
+            "permitted_zones": [
+                "EXT_Balconies"
+            ],
+            "actual_zones": [
+                "EXT_Balconies"
+            ]
+        },
+        {
+            "material": "MAT_CornerBalcony_UltraClearGuard",
+            "unity_asset": "Assets/Hospital/Materials/MAT_CornerBalcony_UltraClearGuard.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_Balconies"
+            ],
+            "actual_zones": [
+                "EXT_Balconies"
+            ]
+        },
+        {
+            "material": "MAT_Entrance_DeepGreenFoliage",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Entrance_DeepGreenFoliage.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_GroundEntrance"
+            ],
+            "actual_zones": [
+                "EXT_GroundEntrance"
+            ]
+        },
+        {
+            "material": "MAT_Entrance_DoorGlass",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Entrance_DoorGlass.mat",
+            "role": "glass",
+            "permitted_zones": [
+                "ACT_InteractiveDoors",
+                "EXT_GroundEntrance"
+            ],
+            "actual_zones": [
+                "ACT_InteractiveDoors",
+                "EXT_GroundEntrance"
+            ]
+        },
+        {
+            "material": "MAT_Entrance_HighClarityGlass",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Entrance_HighClarityGlass.mat",
+            "role": "glass",
+            "permitted_zones": [
+                "EXT_GroundEntrance"
+            ],
+            "actual_zones": [
+                "EXT_GroundEntrance"
+            ]
+        },
+        {
+            "material": "MAT_Entrance_HonedTravertine",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Entrance_HonedTravertine.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_GroundEntrance"
+            ],
+            "actual_zones": [
+                "EXT_GroundEntrance"
+            ]
+        },
+        {
+            "material": "MAT_Entrance_PolishedArrivalStone",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Entrance_PolishedArrivalStone.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_Balconies",
+                "EXT_GroundEntrance"
+            ],
+            "actual_zones": [
+                "EXT_Balconies",
+                "EXT_GroundEntrance"
+            ]
+        },
+        {
+            "material": "MAT_Entrance_RefinedBronze",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Entrance_RefinedBronze.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "ACT_InteractiveDoors",
+                "EXT_GroundEntrance"
+            ],
+            "actual_zones": [
+                "ACT_InteractiveDoors",
+                "EXT_GroundEntrance"
+            ]
+        },
+        {
+            "material": "MAT_Glass_BlueGrey",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Glass_BlueGrey.mat",
+            "role": "glass",
+            "permitted_zones": [
+                "EXT_FrontTower",
+                "EXT_GroundEntrance",
+                "EXT_LeftFacadePodium",
+                "EXT_RearService",
+                "EXT_RightFacadeWing"
+            ],
+            "actual_zones": [
+                "EXT_FrontTower",
+                "EXT_GroundEntrance",
+                "EXT_LeftFacadePodium",
+                "EXT_RearService",
+                "EXT_RightFacadeWing"
+            ]
+        },
+        {
+            "material": "MAT_Interior_WarmDaylightSurface",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Interior_WarmDaylightSurface.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_Balconies",
+                "EXT_GroundEntrance",
+                "EXT_RightFacadeWing"
+            ],
+            "actual_zones": [
+                "EXT_Balconies",
+                "EXT_GroundEntrance",
+                "EXT_RightFacadeWing"
+            ]
+        },
+        {
+            "material": "MAT_LED_Warm_3200K",
+            "unity_asset": "Assets/Hospital/Materials/MAT_LED_Warm_3200K.mat",
+            "role": "fixture",
+            "permitted_zones": [
+                "EXT_GlobalStructure"
+            ],
+            "actual_zones": [
+                "EXT_GlobalStructure"
+            ]
+        },
+        {
+            "material": "MAT_Lobby_HonedTerrazzo",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Lobby_HonedTerrazzo.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_GroundEntrance"
+            ],
+            "actual_zones": [
+                "EXT_GroundEntrance"
+            ]
+        },
+        {
+            "material": "MAT_Lobby_WarmStone",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Lobby_WarmStone.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_GroundEntrance",
+                "EXT_RightFacadeWing"
+            ],
+            "actual_zones": [
+                "EXT_GroundEntrance",
+                "EXT_RightFacadeWing"
+            ]
+        },
+        {
+            "material": "MAT_Lobby_WoodCharcoal",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Lobby_WoodCharcoal.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_GroundEntrance"
+            ],
+            "actual_zones": [
+                "EXT_GroundEntrance"
+            ]
+        },
+        {
+            "material": "MAT_Neutral_Concrete",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Neutral_Concrete.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_GlobalStructure",
+                "EXT_GroundEntrance",
+                "EXT_RoofService"
+            ],
+            "actual_zones": [
+                "EXT_GlobalStructure",
+                "EXT_GroundEntrance",
+                "EXT_RoofService"
+            ]
+        },
+        {
+            "material": "MAT_Portal_DarkBronze",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Portal_DarkBronze.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_GroundEntrance"
+            ],
+            "actual_zones": [
+                "EXT_GroundEntrance"
+            ]
+        },
+        {
+            "material": "MAT_S03E_Ceiling_SoftWhite",
+            "unity_asset": "Assets/Hospital/Materials/MAT_S03E_Ceiling_SoftWhite.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_InteriorShell"
+            ],
+            "actual_zones": [
+                "EXT_InteriorShell"
+            ]
+        },
+        {
+            "material": "MAT_S03E_Floor_HonedTerrazzo",
+            "unity_asset": "Assets/Hospital/Materials/MAT_S03E_Floor_HonedTerrazzo.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_InteriorShell"
+            ],
+            "actual_zones": [
+                "EXT_InteriorShell"
+            ]
+        },
+        {
+            "material": "MAT_S03E_FurnitureSilhouette",
+            "unity_asset": "Assets/Hospital/Materials/MAT_S03E_FurnitureSilhouette.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_InteriorShell"
+            ],
+            "actual_zones": [
+                "EXT_InteriorShell"
+            ]
+        },
+        {
+            "material": "MAT_S03E_InteriorWall_WarmWhite",
+            "unity_asset": "Assets/Hospital/Materials/MAT_S03E_InteriorWall_WarmWhite.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_InteriorShell"
+            ],
+            "actual_zones": [
+                "EXT_InteriorShell"
+            ]
+        },
+        {
+            "material": "MAT_S03E_PrivacyShade",
+            "unity_asset": "Assets/Hospital/Materials/MAT_S03E_PrivacyShade.mat",
+            "role": "glass",
+            "permitted_zones": [
+                "EXT_InteriorShell"
+            ],
+            "actual_zones": [
+                "EXT_InteriorShell"
+            ]
+        },
+        {
+            "material": "MAT_S03E_ServiceBackdrop",
+            "unity_asset": "Assets/Hospital/Materials/MAT_S03E_ServiceBackdrop.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_InteriorShell"
+            ],
+            "actual_zones": [
+                "EXT_InteriorShell"
+            ]
+        },
+        {
+            "material": "MAT_S03E_WarmTimber",
+            "unity_asset": "Assets/Hospital/Materials/MAT_S03E_WarmTimber.mat",
+            "role": "opaque",
+            "permitted_zones": [
+                "EXT_InteriorShell"
+            ],
+            "actual_zones": [
+                "EXT_InteriorShell"
+            ]
+        },
+        {
+            "material": "MAT_Signage_WarmWhite_NonEmissive",
+            "unity_asset": "Assets/Hospital/Materials/MAT_Signage_WarmWhite_NonEmissive.mat",
+            "role": "fixture",
+            "permitted_zones": [
+                "EXT_Balconies",
+                "EXT_GroundEntrance",
+                "EXT_RoofService"
+            ],
+            "actual_zones": [
+                "EXT_Balconies",
+                "EXT_GroundEntrance",
+                "EXT_RoofService"
+            ]
+        }
+    ]
+}

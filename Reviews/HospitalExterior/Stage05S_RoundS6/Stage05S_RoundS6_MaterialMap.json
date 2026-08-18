@@ -1,0 +1,106 @@
+{
+    "schema": "HospitalExterior.Stage05S.S6.MaterialMap.v1",
+    "status": "PASS",
+    "entries": [
+        {
+            "name": "MAT_S05S_S5_AccentAllium",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_AccentAllium.mat;shader=Hospital/Site/World Mapped Opaque;instancing=True;sha256=0f8710e1f78c263df3d692f8f24c7b75d9afa7a206f4784f184104906fe72189"
+        },
+        {
+            "name": "MAT_S05S_S5_AccentFlower",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_AccentFlower.mat;shader=Hospital/Site/World Mapped Opaque;instancing=True;sha256=2c98c2fea760a2b8c5533601a1fd4d9b9c8f257800937b7c1bcf03a4df43d406"
+        },
+        {
+            "name": "MAT_S05S_S5_AccentStem",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_AccentStem.mat;shader=Hospital/Site/World Mapped Opaque;instancing=True;sha256=70c65f4696690fa57c664c13ea9a6fda6e724896ff42e2196e228ef15a9480ad"
+        },
+        {
+            "name": "MAT_S05S_S5_BarkTrunk",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_BarkTrunk.mat;shader=Hospital/Site/World Mapped Opaque;instancing=True;sha256=2b8404f42ec9268dc310da05e8719773b112d1fdb934f2ee3288b35278f230f4"
+        },
+        {
+            "name": "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_ExteriorPaver_WarmGrey.mat;shader=Hospital/Site/World Mapped Opaque;instancing=False;sha256=6c5a414f75ef9a07eb35db6345d2613dd8593194c5dd73e01b4ee696ed40b454"
+        },
+        {
+            "name": "MAT_S05S_S5_FoliageDeep",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_FoliageDeep.mat;shader=Hospital/Site/World Mapped Opaque;instancing=True;sha256=61937bee7cc152fe83c7f82eddd7d0291bfa3acf695ba7e6eeafe15d34faff9e"
+        },
+        {
+            "name": "MAT_S05S_S5_FoliageLight",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_FoliageLight.mat;shader=Hospital/Site/World Mapped Opaque;instancing=True;sha256=fbe56b4f8da4f1138d931960692252c87e7c6fd11c9f066e36523efff2c48fd3"
+        },
+        {
+            "name": "MAT_S05S_S5_FoliageMid",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_FoliageMid.mat;shader=Hospital/Site/World Mapped Opaque;instancing=True;sha256=11dc5f6538821cd833ce13f93da14f48aa9d5fa0d917d7c3858809378b266ca5"
+        },
+        {
+            "name": "MAT_S05S_S5_KerbServiceConcrete",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_KerbServiceConcrete.mat;shader=Hospital/Site/World Mapped Opaque;instancing=False;sha256=8e96519924b6b0f243972006c1b9541b03de28a90ef2443a99656769aa7b5edd"
+        },
+        {
+            "name": "MAT_S05S_S5_LakePlaceholder",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_LakePlaceholder.mat;shader=Hospital/Site/World Mapped Opaque;instancing=False;sha256=aef7b8a7d2997f2e0453bbf49acfbd8dc065fc106e2e42371c8d51fce559b594"
+        },
+        {
+            "name": "MAT_S05S_S5_RoadAsphalt",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadAsphalt.mat;shader=Hospital/Site/World Mapped Opaque;instancing=False;sha256=db43d33d6855c0832fb6065f1c6dfad7429f2d4f0cf042dd1942788f125903c6"
+        },
+        {
+            "name": "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadMarking_AccessibleBlue.mat;shader=Hospital/Site/World Mapped Opaque;instancing=False;sha256=4ab015eda4e7fdb5a26f7863ca1e28b22eb4d7a778a16760c7055ca27602b0cc"
+        },
+        {
+            "name": "MAT_S05S_S5_RoadMarking_White",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadMarking_White.mat;shader=Hospital/Site/World Mapped Opaque;instancing=False;sha256=3638b94520502bea26e56f3d48534f698ec40c096ccce3fbb500c0a5a0d025b9"
+        },
+        {
+            "name": "MAT_S05S_S5_RoadMarking_Yellow",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_RoadMarking_Yellow.mat;shader=Hospital/Site/World Mapped Opaque;instancing=False;sha256=3c0f0f7f888691226997be8b8b938261aa1f982c2e6ba9f7f7f147f1db1677d3"
+        },
+        {
+            "name": "MAT_S05S_S5_SeatingTimber",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_SeatingTimber.mat;shader=Hospital/Site/World Mapped Opaque;instancing=False;sha256=d3da6f5126ef5f4c0377893e222508bad47d0b82214b9711c900d9c32069a9e0"
+        },
+        {
+            "name": "MAT_S05S_S5_SoilMulch",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_SoilMulch.mat;shader=Hospital/Site/World Mapped Opaque;instancing=False;sha256=91f32143a17e9ef007cce167f24c87e7b6ebfb0c5683047243be68932aa1df58"
+        },
+        {
+            "name": "MAT_S05S_S5_SolarPanel",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_SolarPanel.mat;shader=Hospital/Site/World Mapped Opaque;instancing=False;sha256=de0b02276c5a640d059fe35f685119c63f93e149845dcfc4db6e79f4451779f0"
+        },
+        {
+            "name": "MAT_S05S_S5_TactilePaving",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5_TactilePaving.mat;shader=Hospital/Site/World Mapped Opaque;instancing=False;sha256=45d3f6a8f40f0bbd49a9ed8504ffb725ab63a7021a64b50fc36ad116e4506b8e"
+        },
+        {
+            "name": "MAT_S05S_S5B_GrassBlade",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5B_GrassBlade.mat;shader=Hospital/Site/S5B Instanced Grass Blade;instancing=True;sha256=bbfabd6dda7aaf1452b0109fa391f4299b994447b70346d7ba8591440e7f59e5"
+        },
+        {
+            "name": "MAT_S05S_S5B_GrassLawn",
+            "value": "Assets/HospitalSite/Stage05S/R05B/Materials/MAT_S05S_S5B_GrassLawn.mat;shader=Hospital/Site/S5B Grass Lawn;instancing=True;sha256=c61502889f3a1c84a8d3ff3cfe2897174d473d95eb1b7fedceff1c3b8e4781a8"
+        },
+        {
+            "name": "MAT_Aluminium_Charcoal",
+            "value": "reused:Assets/Hospital/Materials/MAT_Aluminium_Charcoal.mat"
+        },
+        {
+            "name": "MAT_Composite_LightGrey",
+            "value": "reused:Assets/Hospital/Materials/MAT_Composite_LightGrey.mat"
+        },
+        {
+            "name": "MAT_Composite_WarmOffWhite",
+            "value": "reused:Assets/Hospital/Materials/MAT_Composite_WarmOffWhite.mat"
+        },
+        {
+            "name": "MAT_Entrance_HonedTravertine",
+            "value": "reused:Assets/Hospital/Materials/MAT_Entrance_HonedTravertine.mat"
+        },
+        {
+            "name": "MAT_Entrance_RefinedBronze",
+            "value": "reused:Assets/Hospital/Materials/MAT_Entrance_RefinedBronze.mat"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "schema": "HospitalInterior.R03.S3B.BuildRecord.v4",
+    "status": "S3B_APPROVED_COMPLETE_S3C_AUTHORIZED_NOT_STARTED",
+    "unityVersion": "6000.3.20f1",
+    "contract": "Assets/HospitalInterior/PreProduction/I1/R03/Settings/HospitalInterior_S3_R03_ElevatorContract.asset",
+    "cabinFbx": "Assets/HospitalInterior/PreProduction/I1/R03/S3B/SourceFBX/HospitalInterior_E01_Cabin_R03.fbx",
+    "landingFbx": "Assets/HospitalInterior/PreProduction/I1/R03/S3B/SourceFBX/HospitalInterior_E01_LandingPortal_R03.fbx",
+    "bootstrapScene": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S3B_R03_Doors_SIM_LOCAL.unity",
+    "playerScenes": [
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S3B_R03_Doors_SIM_LOCAL.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Base.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Tower.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F00_Empty.unity"
+    ],
+    "playerExecutable": "C:\\CutMyBodyPlease\\Exports\\HospitalInterior\\StageI1_R03_S3B_AutoGate\\HospitalInterior_S3B_R03_DoorReview.exe",
+    "externalCabinSha256": "5830cdd18d1a281f3b75b0b33ffafa4a277771d64e6110f673e0f08cd78673bc",
+    "importedCabinSha256": "5830cdd18d1a281f3b75b0b33ffafa4a277771d64e6110f673e0f08cd78673bc",
+    "externalLandingSha256": "b0c52ec1263d7cda874cd9e677713c55bc7ba88fda869701a3469d8d1ea174a6",
+    "importedLandingSha256": "b0c52ec1263d7cda874cd9e677713c55bc7ba88fda869701a3469d8d1ea174a6",
+    "s2BaselineFileCount": 38,
+    "s2BaselineMismatchCount": 0,
+    "editorBuildSettingsSha256": "62889469c318a93430e41e1fc2f6c7df1fade301520199388d3725f58972a5bb",
+    "editorBuildSettingsUntouched": true,
+    "shaftMinY": -0.20000000298023225,
+    "shaftMaxY": 28.829999923706056,
+    "shaftInnerEnvelope": "X 0.400..2.900; Z 3.000..5.650",
+    "shaftFloorApertureEnvelope": "X 0.300..3.000; Z 3.000..5.700",
+    "shaftCutMeshAssets": [
+        "Assets/HospitalInterior/PreProduction/I1/R03/S3B/Generated/HospitalInterior_S3B_R03_F00_ShaftCutSlab.asset",
+        "Assets/HospitalInterior/PreProduction/I1/R03/S3B/Generated/HospitalInterior_S3B_R03_Upper_ShaftCutSlab.asset",
+        "Assets/HospitalInterior/PreProduction/I1/R03/S3B/Generated/HospitalInterior_S3B_R03_Upper_ShaftCutUnderside.asset"
+    ],
+    "shaftArchitecturalFinish": "Low-iron blue-grey transparent laminated glass with slim charcoal metallic mullions and restrained bronze landing transoms.",
+    "shaftGlassPanelCount": 11,
+    "shaftFrameMemberCount": 42,
+    "cabinObservationFinish": "Transparent low-iron side/rear observation glazing above retained stainless lower protection panels, with charcoal mullions and bronze protection lines.",
+    "cabinObservationGlassWallCount": 3,
+    "cabinObservationFrameCount": 10,
+    "minimumShaftRunningClearanceM": 0.07000000029802323,
+    "f06TopOverrunM": 1.0400009155273438
+}

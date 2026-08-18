@@ -1,0 +1,122 @@
+{
+    "schema": "HospitalExterior.Stage05.R44.SceneLoadMatrix.v1",
+    "scenes": [
+        {
+            "scene": "Exterior_Base",
+            "asset": "Assets/Hospital/Scenes/Additive/Exterior_Base.unity",
+            "roots": [
+                "EXT_GlobalStructure",
+                "EXT_GroundEntrance",
+                "R43_CollisionPrototype"
+            ],
+            "renderer_count": 25,
+            "triangle_count": 111686,
+            "collider_count": 28
+        },
+        {
+            "scene": "Exterior_Tower",
+            "asset": "Assets/Hospital/Scenes/Additive/Exterior_Tower.unity",
+            "roots": [
+                "EXT_FrontTower",
+                "EXT_Balconies"
+            ],
+            "renderer_count": 66,
+            "triangle_count": 229512,
+            "collider_count": 0
+        },
+        {
+            "scene": "Exterior_SidesService",
+            "asset": "Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity",
+            "roots": [
+                "EXT_LeftFacadePodium",
+                "EXT_RightFacadeWing",
+                "EXT_RearService",
+                "EXT_RoofService"
+            ],
+            "renderer_count": 54,
+            "triangle_count": 284854,
+            "collider_count": 0
+        },
+        {
+            "scene": "Exterior_InteriorShellPreview",
+            "asset": "Assets/Hospital/Scenes/Additive/Exterior_InteriorShellPreview.unity",
+            "roots": [
+                "EXT_InteriorShell"
+            ],
+            "renderer_count": 48,
+            "triangle_count": 12120,
+            "collider_count": 0
+        },
+        {
+            "scene": "Exterior_Interactions",
+            "asset": "Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity",
+            "roots": [
+                "DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_01_ROOT",
+                "DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_02_ROOT",
+                "DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_03_ROOT",
+                "DOORPREFAB_UE_S03B_DOOR_INNER_SlidingLeaf_04_ROOT",
+                "DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_01_ROOT",
+                "DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_02_ROOT",
+                "DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_03_ROOT",
+                "DOORPREFAB_UE_S03B_DOOR_OUTER_SlidingLeaf_04_ROOT",
+                "DOORPREFAB_UE_S03C_REAR_FireExit_B_Leaf_ROOT",
+                "DOORPREFAB_UE_S03C_REAR_LoadingDoor_Leaf_ROOT",
+                "DOORPREFAB_UE_S03C_REAR_ServiceDoor_A_Leaf_ROOT",
+                "DOORPREFAB_UE_S03C_ROOF_AccessDoor_Leaf_ROOT"
+            ],
+            "renderer_count": 44,
+            "triangle_count": 6160,
+            "collider_count": 12
+        }
+    ],
+    "combinations": [
+        {
+            "state": "ExteriorOnly",
+            "scenes": [
+                "Exterior_Base",
+                "Exterior_Tower",
+                "Exterior_SidesService"
+            ],
+            "renderer_count": 145,
+            "triangle_count": 626052,
+            "collider_count": 28
+        },
+        {
+            "state": "ExteriorWithShell",
+            "scenes": [
+                "Exterior_Base",
+                "Exterior_Tower",
+                "Exterior_SidesService",
+                "Exterior_InteriorShellPreview"
+            ],
+            "renderer_count": 193,
+            "triangle_count": 638172,
+            "collider_count": 28
+        },
+        {
+            "state": "ExteriorWithDoors",
+            "scenes": [
+                "Exterior_Base",
+                "Exterior_Tower",
+                "Exterior_SidesService",
+                "Exterior_Interactions"
+            ],
+            "renderer_count": 189,
+            "triangle_count": 632212,
+            "collider_count": 40
+        },
+        {
+            "state": "FullHospital",
+            "scenes": [
+                "Exterior_Base",
+                "Exterior_Tower",
+                "Exterior_SidesService",
+                "Exterior_InteriorShellPreview",
+                "Exterior_Interactions"
+            ],
+            "renderer_count": 237,
+            "triangle_count": 644332,
+            "collider_count": 40
+        }
+    ]
+}

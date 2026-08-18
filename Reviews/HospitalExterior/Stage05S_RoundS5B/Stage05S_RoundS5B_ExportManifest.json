@@ -1,0 +1,558 @@
+{
+  "candidate": {
+    "path": "ArtSource/Environment/Blender/HospitalSite/HospitalSite_Stage05S_R05B_GRASS_REFINEMENT.blend",
+    "sha256": "68df8c9fd460dcadc1f42b12d1009338493eb398bfc8d012246f882d611e8f7d"
+  },
+  "change_control": {
+    "authoring_fingerprint": "cff4de18680ab7354012ccb4701794bbddc619045a3600c29e1cff2837d92690",
+    "continuous_lawn_material": "MAT_S05S_S5B_GrassLawn",
+    "continuous_lawn_object": "S05S_S5_EXP_LandscapeHardscape_S05S_S4B_ContinuousLawnVisual",
+    "non_grass_export_fingerprint": "b0cdb347a14a5d1ad92e8df9f51afce023637f9ab353a3115a79d2a2e0e6eead",
+    "removed_tuft_export_objects": [
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_01_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_01_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_01_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_02_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_02_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_02_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_03_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_03_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_03_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_04_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_04_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_04_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_05_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_05_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_05_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_06_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_06_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_06_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_07_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_07_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_07_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_08_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_08_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_08_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_09_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_09_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_09_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_10_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_10_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_10_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_11_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_11_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_11_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_12_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_12_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_12_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_13_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_13_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_13_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_14_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_14_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_14_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_15_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_15_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_15_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_16_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_16_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_16_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_17_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_17_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_17_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_18_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_18_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_18_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_19_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_19_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_19_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_20_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_20_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_20_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_21_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_21_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_21_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_22_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_22_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_22_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_23_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_23_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_23_LOD2",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_24_LOD0",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_24_LOD1",
+      "S05S_S5_EXP_PropsVegetation_S05S_S4B_GrassBedTuft_24_LOD2"
+    ],
+    "removed_tuft_instance_count": 24
+  },
+  "coverage_mask": {
+    "clearance_m": 0.15,
+    "clearance_pixels": 2,
+    "coverage_ratio": 0.45532727241516113,
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "obstacle_mesh_count": 143,
+    "path": "ArtSource/Environment/Textures/HospitalSite/Grass005/T_S05S_GrassCoverageMask_2K.png",
+    "sha256": "a29be4234cde0094c67a2c1ac437f1722f35d4959bda4c369b80d21af2b39564"
+  },
+  "immutable_inputs": {
+    "r04b": {
+      "path": "ArtSource/Environment/Blender/HospitalSite/HospitalSite_Stage05S_R04B_LANDSCAPE_REDESIGN.blend1",
+      "sha256": "688b8c6c78b8a9747be300cca55e994c6533708ea9dcd923314e08728c9f03ef"
+    },
+    "r05": {
+      "path": "ArtSource/Environment/Blender/HospitalSite/HospitalSite_Stage05S_R05_FINAL.blend",
+      "sha256": "04fad3c3cc06c967478d9b0ec2e67f598e845cbd3e9e12cc11562bd95e096a78"
+    },
+    "r40": {
+      "path": "ArtSource/Environment/Blender/HospitalExterior/HospitalExterior_Stage04_R40_MASTER_ReviewCorrected.blend1",
+      "sha256": "0a530ff9d7d7effa512f1d69178a0be86da722239f0cb992878045358c73ea58"
+    }
+  },
+  "review_images": [
+    {
+      "bytes": 2791612,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_WholeSiteExport.png",
+      "sha256": "9aa8c83a4249cf4b44975318f3548fc3a06200d1588ac8be6134867f199c12ca"
+    },
+    {
+      "bytes": 2385849,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_CirculationTopdown.png",
+      "sha256": "8c7bf8ec6c4074851e48cb9129fa0fc9e513128f8ec0fd6aa8b6fd696e5cb6c7"
+    },
+    {
+      "bytes": 2281156,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_PlayerEyeArrival.png",
+      "sha256": "654a63d410e307d9b7896a7925aa76aefc35989ef6436ba3f9b72b0c48191300"
+    },
+    {
+      "bytes": 2158615,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_GateAndRoots.png",
+      "sha256": "4e38bb086966e96583d746dfe4756a885acbe2ad325f624517e766fffdaa4ce1"
+    },
+    {
+      "bytes": 2945475,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_RoadPathMaterials.png",
+      "sha256": "a1be60549d6693a8a95f487712bba97bfce755fdbcbf9b82f36c143c695010c1"
+    },
+    {
+      "bytes": 2387439,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_CrossingsTopdown.png",
+      "sha256": "6bc0e79b0a1ba4c619aa0313fbeb3168a0e087a9b3486a9b775d14c806e956a7"
+    },
+    {
+      "bytes": 3418391,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_VegetationLOD0.png",
+      "sha256": "6f13754beb5d7fbc51c737d73eb4aff278ee6d96e4ec042936014e950ca5b3b9"
+    },
+    {
+      "bytes": 2306360,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_LakeLandscape.png",
+      "sha256": "8dc3fdf3f3757aa9b85826ef1106fd8e146d5c7f2b7ae6b3fb3904a205f07068"
+    },
+    {
+      "bytes": 2915963,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_ParkingExport.png",
+      "sha256": "2f9297373e2af9df02750826b07258a4522cf88a7614647928193cd503a49d62"
+    },
+    {
+      "bytes": 2886668,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_RearExport.png",
+      "sha256": "26bdf97051ed897faf88c183b5003d383a49072e97cc0f2e922b08d187407b89"
+    },
+    {
+      "bytes": 3255274,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_GrassPlayerEyeClose.png",
+      "sha256": "1284e977c6dd0be45a812b087377e3e174769863411c1f4bcc82b8437c04f8e0"
+    },
+    {
+      "bytes": 3215110,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_GrassLakeBenchEdge.png",
+      "sha256": "884aad2c8115a1e5cd35b61a2d84d534bea73f813909e413eb948895e378ce89"
+    },
+    {
+      "bytes": 2583718,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_GrassAerialCoverage.png",
+      "sha256": "49ddaa4cc9ce37832670b06c3f24c4fa0611a3791f33765e817c25cd3d987604"
+    },
+    {
+      "bytes": 2961065,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_GrassTransitionMedium.png",
+      "sha256": "dde34919fb8abbbb8250b9e770787bde99110a393047ef3bcc843eebf1e47e39"
+    }
+  ],
+  "runtime_spec": {
+    "path": "Exports/HospitalExterior/Stage05S_R05B_GrassRefinement/GrassRuntimeSpec.json",
+    "schema": "HospitalExterior.Stage05S.GrassRuntimeSpec.v1"
+  },
+  "schema": "HospitalExterior.Stage05S.RoundS5B.ExportManifest.v1",
+  "static_vegetation": {
+    "active_triangle_totals": {
+      "LOD0": 5367488,
+      "LOD1": 1180274,
+      "LOD2": 348274
+    },
+    "lod_groups": 99
+  },
+  "status": "READY_FOR_REVIEW",
+  "validation": {
+    "checks_failed": 0,
+    "checks_passed": 64,
+    "path": "Reviews/HospitalExterior/Stage05S_RoundS5B/Stage05S_RoundS5B_Validation.json",
+    "result": "PASS"
+  },
+  "zones": {
+    "SITE_CoreRoadParking": {
+      "bounds": [
+        [
+          -87.0,
+          -99.699997,
+          0.0
+        ],
+        [
+          87.0,
+          72.0,
+          3.405
+        ]
+      ],
+      "bytes": 294844,
+      "file": "Hospital_SITE_CoreRoadParking_R05B.fbx",
+      "materials": [
+        "MAT_Aluminium_Charcoal",
+        "MAT_Entrance_RefinedBronze",
+        "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+        "MAT_S05S_S5_KerbServiceConcrete",
+        "MAT_S05S_S5_RoadAsphalt",
+        "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+        "MAT_S05S_S5_RoadMarking_White",
+        "MAT_S05S_S5_RoadMarking_Yellow",
+        "MAT_S05S_S5_SolarPanel",
+        "MAT_S05S_S5_TactilePaving"
+      ],
+      "objects": 120,
+      "sha256": "ed8403c9c43f0b7d1c58ecf492805afe1ac4a7f7b183408aafd2305fe1b3ddd3",
+      "statistics": {
+        "evaluated_instance_triangles": 12302,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Entrance_RefinedBronze",
+          "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+          "MAT_S05S_S5_KerbServiceConcrete",
+          "MAT_S05S_S5_RoadAsphalt",
+          "MAT_S05S_S5_RoadMarking_AccessibleBlue",
+          "MAT_S05S_S5_RoadMarking_White",
+          "MAT_S05S_S5_RoadMarking_Yellow",
+          "MAT_S05S_S5_SolarPanel",
+          "MAT_S05S_S5_TactilePaving"
+        ],
+        "mesh_objects": 120,
+        "modifier_evaluated_triangles": 12302,
+        "objects": 120,
+        "unique_meshes": 59,
+        "unique_triangles": 3374,
+        "unique_vertices": 3664
+      }
+    },
+    "SITE_GrassRuntimeAssets": {
+      "bounds": [
+        [
+          -0.994893,
+          -0.997822,
+          0.0
+        ],
+        [
+          1.000047,
+          1.00249,
+          0.08788
+        ]
+      ],
+      "bytes": 103676,
+      "file": "Hospital_SITE_GrassRuntimeAssets_R05B.fbx",
+      "materials": [
+        "MAT_S05S_S5B_GrassBlade"
+      ],
+      "objects": 2,
+      "sha256": "5820f307f4b503ee3cf1bbe0dfd16cd6a7b14423896dc40c60a6cb30c98927cd",
+      "statistics": {
+        "evaluated_instance_triangles": 1088,
+        "materials": [
+          "MAT_S05S_S5B_GrassBlade"
+        ],
+        "mesh_objects": 2,
+        "modifier_evaluated_triangles": 1088,
+        "objects": 2,
+        "unique_meshes": 2,
+        "unique_triangles": 1088,
+        "unique_vertices": 3264
+      }
+    },
+    "SITE_LandscapeHardscape": {
+      "bounds": [
+        [
+          -90.0,
+          -100.0,
+          -0.222
+        ],
+        [
+          90.0,
+          75.0,
+          0.125
+        ]
+      ],
+      "bytes": 82844,
+      "file": "Hospital_SITE_LandscapeHardscape_R05B.fbx",
+      "materials": [
+        "MAT_S05S_S5B_GrassLawn",
+        "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+        "MAT_S05S_S5_KerbServiceConcrete",
+        "MAT_S05S_S5_LakePlaceholder",
+        "MAT_S05S_S5_SoilMulch"
+      ],
+      "objects": 12,
+      "sha256": "ce8a584e5734c78e21a797e8e9579d2e71a10b410194ff9cfb7a16e243aa1e0b",
+      "statistics": {
+        "evaluated_instance_triangles": 1092,
+        "materials": [
+          "MAT_S05S_S5B_GrassLawn",
+          "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+          "MAT_S05S_S5_KerbServiceConcrete",
+          "MAT_S05S_S5_LakePlaceholder",
+          "MAT_S05S_S5_SoilMulch"
+        ],
+        "mesh_objects": 12,
+        "modifier_evaluated_triangles": 1092,
+        "objects": 12,
+        "unique_meshes": 12,
+        "unique_triangles": 1092,
+        "unique_vertices": 1095
+      }
+    },
+    "SITE_MainGate": {
+      "bounds": [
+        [
+          -15.0,
+          -100.0,
+          0.0
+        ],
+        [
+          15.05,
+          -88.400002,
+          7.0
+        ]
+      ],
+      "bytes": 165980,
+      "file": "Hospital_SITE_MainGate_R05B.fbx",
+      "materials": [
+        "MAT_Aluminium_Charcoal",
+        "MAT_Composite_LightGrey",
+        "MAT_Composite_WarmOffWhite",
+        "MAT_Entrance_HonedTravertine",
+        "MAT_Entrance_RefinedBronze"
+      ],
+      "objects": 23,
+      "sha256": "3a12ccb30a4b88b536b132473a461e0757ac70be3b409f3f3a04f563f67ff436",
+      "statistics": {
+        "evaluated_instance_triangles": 1700,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Composite_LightGrey",
+          "MAT_Composite_WarmOffWhite",
+          "MAT_Entrance_HonedTravertine",
+          "MAT_Entrance_RefinedBronze"
+        ],
+        "mesh_objects": 21,
+        "modifier_evaluated_triangles": 4692,
+        "objects": 23,
+        "unique_meshes": 21,
+        "unique_triangles": 1700,
+        "unique_vertices": 1512
+      }
+    },
+    "SITE_PerimeterFence": {
+      "bounds": [
+        [
+          -90.0,
+          -100.0,
+          0.0
+        ],
+        [
+          90.0,
+          75.0,
+          6.85
+        ]
+      ],
+      "bytes": 346316,
+      "file": "Hospital_SITE_PerimeterFence_R05B.fbx",
+      "materials": [
+        "MAT_Aluminium_Charcoal",
+        "MAT_Entrance_HonedTravertine",
+        "MAT_Entrance_RefinedBronze"
+      ],
+      "objects": 9,
+      "sha256": "d6955e8985d41f763bba8a7917968fc652af728e98d97106ea117054a19a0b2b",
+      "statistics": {
+        "evaluated_instance_triangles": 21660,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Entrance_HonedTravertine",
+          "MAT_Entrance_RefinedBronze"
+        ],
+        "mesh_objects": 9,
+        "modifier_evaluated_triangles": 21660,
+        "objects": 9,
+        "unique_meshes": 9,
+        "unique_triangles": 21660,
+        "unique_vertices": 14440
+      }
+    },
+    "SITE_PropsVegetation": {
+      "bounds": [
+        [
+          -85.922607,
+          -102.767586,
+          0.043469
+        ],
+        [
+          89.864571,
+          68.639519,
+          11.55007
+        ]
+      ],
+      "bytes": 31723852,
+      "file": "Hospital_SITE_PropsVegetation_R05B.fbx",
+      "materials": [
+        "MAT_Aluminium_Charcoal",
+        "MAT_Entrance_RefinedBronze",
+        "MAT_S05S_S5_AccentAllium",
+        "MAT_S05S_S5_AccentFlower",
+        "MAT_S05S_S5_AccentStem",
+        "MAT_S05S_S5_BarkTrunk",
+        "MAT_S05S_S5_FoliageDeep",
+        "MAT_S05S_S5_FoliageLight",
+        "MAT_S05S_S5_FoliageMid",
+        "MAT_S05S_S5_SeatingTimber"
+      ],
+      "objects": 308,
+      "sha256": "586e32f82770d3d77c75253848065b88e000a695e50f11fe7abbf91ed91b1f0e",
+      "statistics": {
+        "evaluated_instance_triangles": 6900332,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_Entrance_RefinedBronze",
+          "MAT_S05S_S5_AccentAllium",
+          "MAT_S05S_S5_AccentFlower",
+          "MAT_S05S_S5_AccentStem",
+          "MAT_S05S_S5_BarkTrunk",
+          "MAT_S05S_S5_FoliageDeep",
+          "MAT_S05S_S5_FoliageLight",
+          "MAT_S05S_S5_FoliageMid",
+          "MAT_S05S_S5_SeatingTimber"
+        ],
+        "mesh_objects": 308,
+        "modifier_evaluated_triangles": 6900332,
+        "objects": 308,
+        "unique_meshes": 21,
+        "unique_triangles": 557906,
+        "unique_vertices": 731713
+      }
+    },
+    "SITE_RearService": {
+      "bounds": [
+        [
+          -84.0,
+          26.292892,
+          0.043
+        ],
+        [
+          -38.199265,
+          72.0,
+          3.75
+        ]
+      ],
+      "bytes": 42396,
+      "file": "Hospital_SITE_RearService_R05B.fbx",
+      "materials": [
+        "MAT_Aluminium_Charcoal",
+        "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+        "MAT_S05S_S5_RoadAsphalt",
+        "MAT_S05S_S5_RoadMarking_White",
+        "MAT_S05S_S5_RoadMarking_Yellow"
+      ],
+      "objects": 6,
+      "sha256": "cef0237c93db623acaec1c3a53e3cedeee84923d910149b4fde109444626214d",
+      "statistics": {
+        "evaluated_instance_triangles": 632,
+        "materials": [
+          "MAT_Aluminium_Charcoal",
+          "MAT_S05S_S5_ExteriorPaver_WarmGrey",
+          "MAT_S05S_S5_RoadAsphalt",
+          "MAT_S05S_S5_RoadMarking_White",
+          "MAT_S05S_S5_RoadMarking_Yellow"
+        ],
+        "mesh_objects": 6,
+        "modifier_evaluated_triangles": 632,
+        "objects": 6,
+        "unique_meshes": 6,
+        "unique_triangles": 632,
+        "unique_vertices": 428
+      }
+    }
+  }
+}

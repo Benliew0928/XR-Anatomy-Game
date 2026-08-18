@@ -1,0 +1,113 @@
+{
+  "coverage": {
+    "clearance_m": 0.15,
+    "clearance_pixels": 2,
+    "coverage_ratio": 0.45532727241516113,
+    "mapping": "U=(worldX+90)/180; V=(worldY+100)/175",
+    "mask": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "export": "Textures/Grass005/T_S05S_GrassCoverageMask_2K.png",
+      "sha256": "a29be4234cde0094c67a2c1ac437f1722f35d4959bda4c369b80d21af2b39564",
+      "source": "ArtSource/Environment/Textures/HospitalSite/Grass005/T_S05S_GrassCoverageMask_2K.png"
+    },
+    "obstacle_mesh_count": 143,
+    "threshold": 0.5
+  },
+  "materials": {
+    "base_lawn": "MAT_S05S_S5B_GrassLawn",
+    "base_tile_m": 2.0,
+    "blade": "MAT_S05S_S5B_GrassBlade",
+    "macro_variation_m": 14.0,
+    "textures": {
+      "ambient_occlusion": {
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "export": "Textures/Grass005/T_S05S_Grass005_AO_2K.png",
+        "sha256": "efa6181b02fe9e1f1af52ee604e8ef890de6261ec6b4225d214c96acfef1a719",
+        "source": "ArtSource/Environment/Textures/HospitalSite/Grass005/T_S05S_Grass005_AO_2K.png"
+      },
+      "base_color": {
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "export": "Textures/Grass005/T_S05S_Grass005_BaseColor_2K.png",
+        "sha256": "c27fd2fb5bc29403545d08167fcb76271087c1fb1ffcbb63b9b3a4c47258f4f9",
+        "source": "ArtSource/Environment/Textures/HospitalSite/Grass005/T_S05S_Grass005_BaseColor_2K.png"
+      },
+      "normal_gl": {
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "export": "Textures/Grass005/T_S05S_Grass005_NormalGL_2K.png",
+        "sha256": "64364bc8b3cec8c35a7f1c835e4158cbc32c2cf5dad59c06efa702012ac4911d",
+        "source": "ArtSource/Environment/Textures/HospitalSite/Grass005/T_S05S_Grass005_NormalGL_2K.png"
+      },
+      "roughness": {
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "export": "Textures/Grass005/T_S05S_Grass005_Roughness_2K.png",
+        "sha256": "2e05a1d2895ee51a013ed4e5915a1767ff08c6bb342463d723ae4483eb46d462",
+        "source": "ArtSource/Environment/Textures/HospitalSite/Grass005/T_S05S_Grass005_Roughness_2K.png"
+      }
+    }
+  },
+  "patches": {
+    "LOD0": {
+      "blade_count": 384,
+      "density_per_m2": 96.0,
+      "mesh": "S05S_S5B_MESH_GrassPatch_LOD0",
+      "object": "S05S_S5B_RUNTIME_GrassPatch_LOD0",
+      "ribbon_count": 768,
+      "tile_size_m": 2.0,
+      "triangles": 768
+    },
+    "LOD1": {
+      "blade_count": 160,
+      "density_per_m2": 40.0,
+      "mesh": "S05S_S5B_MESH_GrassPatch_LOD1",
+      "object": "S05S_S5B_RUNTIME_GrassPatch_LOD1",
+      "ribbon_count": 320,
+      "tile_size_m": 2.0,
+      "triangles": 320
+    }
+  },
+  "runtime_policy": {
+    "fade_end_m": 12.0,
+    "lod0_radius_m": 5.0,
+    "lod1_radius_m": 12.0,
+    "maximum_active_triangles": 65000,
+    "maximum_instanced_draw_submissions": 4,
+    "per_blade_colliders": false,
+    "per_blade_gameobjects": false,
+    "tile_size_m": 2.0,
+    "wind_tip_range_m": [
+      0.005,
+      0.015
+    ],
+    "world_grid_anchor": [
+      0.0,
+      0.0
+    ]
+  },
+  "schema": "HospitalExterior.Stage05S.GrassRuntimeSpec.v1",
+  "site_bounds_m": {
+    "x_max": 90.0,
+    "x_min": -90.0,
+    "y_max": 75.0,
+    "y_min": -100.0
+  },
+  "source_candidate": {
+    "path": "ArtSource/Environment/Blender/HospitalSite/HospitalSite_Stage05S_R05_FINAL.blend",
+    "sha256": "04fad3c3cc06c967478d9b0ec2e67f598e845cbd3e9e12cc11562bd95e096a78"
+  },
+  "status": "S5B_ASSET_CONTRACT_ONLY__UNITY_S6_DEFERRED"
+}

@@ -1,0 +1,9 @@
+{
+    "schema": "HospitalExterior.Stage05S.S6.SourceChangeLog.v1",
+    "authority_sha256": "68df8c9fd460dcadc1f42b12d1009338493eb398bfc8d012246f882d611e8f7d",
+    "note": "S6 adds only versioned Unity integration assets. R05B, R40, R44 and all protected scene/source bytes remain unchanged.",
+    "hospital_source_changes": 0,
+    "site_source_fbx_changes": 0,
+    "road_path_geometry_changes": 0,
+    "landscaping_source_changes": 0
+}

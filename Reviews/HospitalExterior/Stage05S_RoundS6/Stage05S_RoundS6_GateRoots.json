@@ -1,0 +1,14 @@
+{
+    "schema": "HospitalExterior.Stage05S.S6.GateRoots.v1",
+    "status": "PASS",
+    "entries": [
+        {
+            "name": "S05S_S5_EXP_MainGate_S05S_ACT_GateLeafRoot_Left",
+            "value": "box_colliders=1;local=(-12.50, 0.00, -97.00)"
+        },
+        {
+            "name": "S05S_S5_EXP_MainGate_S05S_ACT_GateLeafRoot_Right",
+            "value": "box_colliders=1;local=(5.50, 0.00, -97.00)"
+        }
+    ]
+}
