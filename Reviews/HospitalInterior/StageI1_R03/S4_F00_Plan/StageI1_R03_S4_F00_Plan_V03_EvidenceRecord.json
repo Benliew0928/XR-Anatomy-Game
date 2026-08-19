@@ -1,0 +1,75 @@
+{
+  "schema": "HospitalInterior.R03.S4.EvidenceRecord.v3",
+  "status": "APPROVED_AND_LOCKED",
+  "recorded": "2026-08-19",
+  "supersedes": "Archive/HospitalInterior/StageI1_R03/S4_F00_Plan/Superseded_2026-08-19/StageI1_R03_S4_F00_Plan_V02_EvidenceRecord.json",
+  "files": [
+    {
+      "path": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_Plan_V03.png",
+      "sha256": "312489a9b40466ab36f02ea8d6a1f9178da62733d22e463a572f0dc9e760fef5",
+      "role": "primary_user_review_board"
+    },
+    {
+      "path": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_Plan_V03.svg",
+      "sha256": "7bc819d20562c8f3d8082a5f2b3fa2fbf4746adc0f7716374fde6e666e707197",
+      "role": "measurable_vector_plan"
+    },
+    {
+      "path": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_Plan_V03_Contract.json",
+      "sha256": "41aa6a4717b7135c051d19fe6f2695f3c7f2096857818f65c1dbeff861e5234e",
+      "role": "exact_open_lobby_stair_anchor_route_and_stage_order_contract"
+    },
+    {
+      "path": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_ExistingCrossSection.json",
+      "sha256": "6f213d536187ccfe5be87da4fd08d83795c3f1e4ce0482b551c79b992546a615",
+      "role": "r40_derived_planning_base"
+    },
+    {
+      "path": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_Plan_V03_Gate.json",
+      "sha256": "1cc2e9fc2ea487431a7763f935c3cb15051a8abd2cb3c6511e769224a0b0443d",
+      "role": "automated_v03_plan_only_gate"
+    },
+    {
+      "path": "Tools/HospitalInterior/generate_hospital_interior_s4_plan.py",
+      "sha256": "fa7f0c43faf8567f8f1add48ade743b3c872828eeb3643d8c3d0e2ad2509295c",
+      "role": "deterministic_review_generator"
+    },
+    {
+      "path": "Tools/HospitalInterior/build_hospital_interior_r02.py",
+      "sha256": "e54449bae8cd61e76ada29a85d19aaca1650d1ac1edc06a57a4f2041b8c3110b",
+      "role": "historical_playable_stair_a_design_reference_only"
+    },
+    {
+      "path": "HOSPITAL_INTERIOR_DESIGN_PLAN.md",
+      "sha256": "b233dd649c9579c4119dd3d2a13e2a97be67955e775e1ec1efc7073cd2fa4ce1",
+      "role": "staircase_first_stage_order_authority"
+    },
+    {
+      "path": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_UserApproval.md",
+      "sha256": "b69a53a11d804b2e3dc993a31c5f9a7bca2a4c39a55f8e9b64c3d1bf93f6150b",
+      "role": "explicit_user_approval_and_next_step_authorization_boundary"
+    }
+  ],
+  "authority": {
+    "r40Sha256": "f797abb08388dbb4b8af69acc0da8c538185a8efea9fb397a0bf2a56c5420126",
+    "approvedS3DSceneSha256": "c6f767808ded33dc429fbd0c78848fcf20ef69de89b9959d30c72d9b287a5746",
+    "editorBuildSettingsSha256": "62889469c318a93430e41e1fc2f6c7df1fade301520199388d3725f58972a5bb"
+  },
+  "correction": {
+    "v01Status": "REJECTED_OVERCOMPLEX_HISTORICAL_EVIDENCE_ONLY",
+    "v02Status": "SUPERSEDED_MISSING_STAIR_RESERVATION",
+    "v03Intent": "ONE_OPEN_WELCOME_LOBBY_PLUS_ONE_FULL_HEIGHT_PLAYABLE_STAIR_A",
+    "stairFootprint": { "minX": -27.5, "maxX": -22.5, "minZ": -3.6, "maxZ": 3.6, "areaM2": 36.0 },
+    "upperFloors": "PURPOSES REMAIN UNDECIDED; STAIR A IS CIRCULATION INFRASTRUCTURE ONLY"
+  },
+  "nextStageOrder": [
+    "S5A_STAIR_A_IMPLEMENTATION_PLAN_AND_USER_APPROVAL",
+    "S5A_FULL_STAIR_A_INTEGRATION_AND_APPROVAL_AFTER_PLAN_APPROVAL",
+    "S5B_REMAINING_F00_GREYBOX_AND_APPROVAL",
+    "S6_F00_VISUAL_FINISH"
+  ],
+  "gate": "PASS 13/13",
+  "approval": "APPROVE S4 F00 PLAN V03",
+  "approvalDate": "2026-08-19",
+  "nextAllowedAfterApproval": "S5A Stair A planning and documentation only; implementation requires separate user approval"
+}

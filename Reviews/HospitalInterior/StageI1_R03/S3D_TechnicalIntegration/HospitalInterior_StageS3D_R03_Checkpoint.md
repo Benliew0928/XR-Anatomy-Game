@@ -1,9 +1,10 @@
 # Hospital Interior R03 Stage S3D Checkpoint
 
 **Active stage:** `S3D - full technical integration with empty floors`  
-**Status:** `IMPLEMENTED_PENDING_AUTOMATED_AND_USER_REVIEW`  
+**Status:** `APPROVED_COMPLETE_S4_PLAN_AUTHORIZED`
+
 **S3C:** approved, complete, and protected  
-**S4:** deferred until S3D user approval
+**S4:** F00 plan approval authorized; no three-dimensional implementation authorized
 
 ## Integrated scope
 
@@ -30,4 +31,6 @@
 
 F00 planning, rooms, corridors, furniture, visual finishing, upper-floor design, anatomy content, standalone Quest/Android packaging, final headset-performance acceptance, and S4-S8 work.
 
-Automated gates support review but do not grant S3D approval. Complete one desktop route and one physical Quest Link/Air Link route before authorizing S4.
+## Approval closeout — 2026-08-19
+
+The user completed and approved the required desktop and physical Quest Link/Air Link functional reviews. Final automated evidence is static `PASS 17/17` and corrected Windows runtime `PASS 53/53`. S3D is complete, approved, and locked. S4 may now create only the labelled F00 plan and review evidence; S5 geometry remains blocked until explicit S4 approval.

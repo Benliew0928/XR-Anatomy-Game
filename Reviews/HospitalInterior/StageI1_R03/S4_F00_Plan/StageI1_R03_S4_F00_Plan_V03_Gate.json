@@ -1,0 +1,78 @@
+{
+  "schema": "HospitalInterior.R03.S4.PlanGate.v3",
+  "status": "PASS",
+  "approval": "PENDING_USER_APPROVAL",
+  "supersedes": "StageI1_R03_S4_F00_Plan_V02_Gate.json",
+  "passCount": 13,
+  "totalCount": 13,
+  "footprintAreaM2": 2598.865,
+  "openLobbyAreaM2": 2598.865,
+  "stairAreaM2": 36.0,
+  "checks": [
+    {
+      "name": "approved_authority_cross_section_present",
+      "pass": true,
+      "detail": "segments=1254 at 1.20 m"
+    },
+    {
+      "name": "single_open_lobby_matches_complete_f00_footprint",
+      "pass": true,
+      "detail": "lobby=2598.865 m2; footprint=2598.865 m2"
+    },
+    {
+      "name": "minimal_anchor_count_including_required_stair",
+      "pass": true,
+      "detail": "anchors=6; five lobby anchors plus Stair A"
+    },
+    {
+      "name": "all_anchors_inside_f00",
+      "pass": true,
+      "detail": "five minimal lobby anchors and Stair A are contained"
+    },
+    {
+      "name": "prior_playable_stair_a_footprint_reserved_exactly",
+      "pass": true,
+      "detail": "X=-27.5..-22.5; Z=-3.6..3.6; area=36.000 m2"
+    },
+    {
+      "name": "stair_a_clear_of_other_lobby_anchors",
+      "pass": true,
+      "detail": "west seating moved south; no anchor overlaps the stair core"
+    },
+    {
+      "name": "stair_a_east_landing_inside_f00",
+      "pass": true,
+      "detail": "3.5 m by 3.0 m clear landing reserved outside east-side door"
+    },
+    {
+      "name": "e01_and_stair_routes_inside_f00",
+      "pass": true,
+      "detail": "R01 width=3.00 m; R02 width=2.00 m"
+    },
+    {
+      "name": "locked_e01_contained_by_clear_elevator_lobby",
+      "pass": true,
+      "detail": "E01 remains inside A04"
+    },
+    {
+      "name": "rejected_real_world_and_gameplay_programme_removed",
+      "pass": true,
+      "detail": "no toilets, charging, first-aid, staff, storage, lesson, quiz or studio anchors"
+    },
+    {
+      "name": "upper_floor_purposes_remain_undecided",
+      "pass": true,
+      "detail": "F01-F06 PURPOSES REMAIN UNDECIDED; ONLY STAIR A CORE/LANDINGS ARE AUTHORIZED INFRASTRUCTURE AFTER S4 APPROVAL"
+    },
+    {
+      "name": "full_staircase_integration_precedes_other_f00_work",
+      "pass": true,
+      "detail": "S5A full Stair A integration -> S5B remaining F00 greybox"
+    },
+    {
+      "name": "s4_v03_contains_no_3d_geometry",
+      "pass": true,
+      "detail": "review output contains plan/evidence only"
+    }
+  ]
+}
