@@ -1,0 +1,137 @@
+{
+  "schema": "HospitalInterior.R03.S5A.StairContract.v1",
+  "status": "IMPLEMENTATION_CONTRACT_APPROVED_BY_USER_REQUEST",
+  "coordinateSystem": "Unity X/Z horizontal and Y vertical; Blender X/Y horizontal and Z vertical",
+  "authority": {
+    "s4Approval": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_UserApproval.md",
+    "s4Contract": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_Plan_V03_Contract.json"
+  },
+  "bounds": {
+    "minX": -29.0,
+    "maxX": -22.0,
+    "minZ": -5.0,
+    "maxZ": 5.0,
+    "baseY": -0.2,
+    "topY": 28.83
+  },
+  "floorDatumsM": {
+    "F00": 0.0,
+    "F01": 5.8,
+    "F02": 9.7,
+    "F03": 13.6,
+    "F04": 17.5,
+    "F05": 21.4,
+    "F06": 25.3
+  },
+  "lanes": {
+    "eastCentreX": -24.18,
+    "westCentreX": -26.82,
+    "widthM": 1.8,
+    "minimumUsableWidthM": 1.45
+  },
+  "landings": {
+    "floor": {
+      "minZ": -4.96,
+      "maxZ": -2.56,
+      "depthM": 2.4
+    },
+    "intermediate": {
+      "minZ": 2.56,
+      "maxZ": 4.96,
+      "depthM": 2.4
+    },
+    "flightRunM": 5.12
+  },
+  "doors": {
+    "count": 7,
+    "side": "east",
+    "centreZ": -3.76,
+    "clearWidthM": 1.2,
+    "clearHeightM": 2.25,
+    "mode": "automatic_single_panel_slide_positive_Z",
+    "slideM": 1.28
+  },
+  "safety": {
+    "minimumHeadroomM": 2.2,
+    "handrailHeightM": 0.95,
+    "guardHeightM": 1.1,
+    "teleportInsideCore": false,
+    "collision": "visible_tread_aligned_no_hidden_ramp"
+  },
+  "intervals": [
+    {
+      "from": "F00",
+      "to": "F01",
+      "heightM": 5.8,
+      "totalRisers": 34,
+      "risersPerFlight": 17,
+      "riseM": 0.170588235,
+      "goingM": 0.301176471,
+      "comfort2RPlusG": 0.642352941
+    },
+    {
+      "from": "F01",
+      "to": "F02",
+      "heightM": 3.9,
+      "totalRisers": 26,
+      "risersPerFlight": 13,
+      "riseM": 0.15,
+      "goingM": 0.393846154,
+      "comfort2RPlusG": 0.693846154
+    },
+    {
+      "from": "F02",
+      "to": "F03",
+      "heightM": 3.9,
+      "totalRisers": 26,
+      "risersPerFlight": 13,
+      "riseM": 0.15,
+      "goingM": 0.393846154,
+      "comfort2RPlusG": 0.693846154
+    },
+    {
+      "from": "F03",
+      "to": "F04",
+      "heightM": 3.9,
+      "totalRisers": 26,
+      "risersPerFlight": 13,
+      "riseM": 0.15,
+      "goingM": 0.393846154,
+      "comfort2RPlusG": 0.693846154
+    },
+    {
+      "from": "F04",
+      "to": "F05",
+      "heightM": 3.9,
+      "totalRisers": 26,
+      "risersPerFlight": 13,
+      "riseM": 0.15,
+      "goingM": 0.393846154,
+      "comfort2RPlusG": 0.693846154
+    },
+    {
+      "from": "F05",
+      "to": "F06",
+      "heightM": 3.9,
+      "totalRisers": 26,
+      "risersPerFlight": 13,
+      "riseM": 0.15,
+      "goingM": 0.393846154,
+      "comfort2RPlusG": 0.693846154
+    }
+  ],
+  "counts": {
+    "flights": 12,
+    "steps": 164,
+    "floorLandings": 7,
+    "intermediateLandings": 6,
+    "automaticDoors": 7,
+    "topClosures": 1
+  },
+  "finish": "functional_restrained",
+  "deferred": [
+    "S5B lobby anchors",
+    "F01-F06 programmes",
+    "standalone Quest/Android"
+  ]
+}

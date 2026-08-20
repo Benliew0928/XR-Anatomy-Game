@@ -1,0 +1,179 @@
+{
+  "schema": "HospitalInterior.R03.S4.F00Plan.v3",
+  "status": "DESIGN_CANDIDATE_AWAITING_USER_APPROVAL",
+  "stage": "S4_F00_PLAN_ONLY",
+  "recorded": "2026-08-19",
+  "supersedes": "StageI1_R03_S4_F00_Plan_V02_Contract.json",
+  "designIntent": "One simple, spacious and welcoming game lobby with one reserved full-height playable staircase. F00 provides arrival, atmosphere, orientation, E01 access and Stair A access only; it does not duplicate gameplay or define upper-floor purposes.",
+  "authority": {
+    "approvedS3D": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/StageI1_R03_S3D_UserApproval.md",
+    "r40Blend": "ArtSource/Environment/Blender/HospitalExterior/HospitalExterior_Stage04_R40_MASTER_ReviewCorrected.blend",
+    "r40Sha256": "f797abb08388dbb4b8af69acc0da8c538185a8efea9fb397a0bf2a56c5420126",
+    "s2FloorContract": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Settings/HospitalInterior_S2_R03_FloorContract.asset",
+    "priorStairDesign": "Tools/HospitalInterior/build_hospital_interior_r02.py",
+    "coordinateSystem": "Unity X/Z horizontal in metres; north/up is +Z"
+  },
+  "lockedConstraints": {
+    "f00Footprint": [
+      [-35.05, -22.10],
+      [36.00, -22.10],
+      [36.00, 12.20],
+      [11.50, 12.20],
+      [11.50, 16.35],
+      [-27.50, 16.35],
+      [-27.50, 12.20],
+      [-35.05, 12.20]
+    ],
+    "outerEntranceDoorBounds": { "minX": -6.79, "maxX": -1.21, "minZ": -23.04, "maxZ": -22.96 },
+    "innerEntranceDoorBounds": { "minX": -6.65, "maxX": -1.35, "minZ": -20.60, "maxZ": -20.52 },
+    "e01Aperture": { "minX": 0.30, "maxX": 3.00, "minZ": 3.00, "maxZ": 5.70 },
+    "e01CabinCentre": [1.65, 4.35],
+    "e01Arrival": [3.00, 1.90],
+    "existingArchitectureSource": "StageI1_R03_S4_F00_ExistingCrossSection.json"
+  },
+  "baseSpace": {
+    "id": "L01",
+    "name": "Open welcome lobby hall",
+    "purpose": "The complete F00 public experience: a calm, premium arrival space with clear sightlines, free movement, and obvious paths to E01 and Stair A.",
+    "polygon": [
+      [-35.05, -22.10],
+      [36.00, -22.10],
+      [36.00, 12.20],
+      [11.50, 12.20],
+      [11.50, 16.35],
+      [-27.50, 16.35],
+      [-27.50, 12.20],
+      [-35.05, 12.20]
+    ],
+    "areaM2": 2598.865,
+    "partitionRule": "No new programme rooms or enclosed gameplay areas in S4. The one Stair A enclosure is required building circulation infrastructure, not a floor programme room."
+  },
+  "anchors": [
+    {
+      "id": "A01",
+      "name": "Welcome and floor-directory point",
+      "purpose": "A small game-facing welcome marker and simple F00-F06 directory; no service desk and no upper-floor purposes assigned yet.",
+      "shape": "rect",
+      "bounds": { "minX": -13.0, "maxX": -7.0, "minZ": -16.5, "maxZ": -13.5 },
+      "kind": "wayfinding"
+    },
+    {
+      "id": "A02",
+      "name": "Minimal lounge seating",
+      "purpose": "Two restrained seating clusters beside the open hall edges. The west cluster moves south to clear the staircase footprint and approach.",
+      "shape": "multi_rect",
+      "bounds": [
+        { "minX": -31.0, "maxX": -24.0, "minZ": -11.0, "maxZ": -7.0 },
+        { "minX": 18.0, "maxX": 26.0, "minZ": -7.0, "maxZ": -2.5 }
+      ],
+      "kind": "seating"
+    },
+    {
+      "id": "A03",
+      "name": "Anatomy-inspired theme feature",
+      "purpose": "One abstract decorative centrepiece that communicates the anatomy-game identity without becoming an instructional room or anatomically authoritative model.",
+      "shape": "circle",
+      "centre": [-10.0, 1.8],
+      "radiusM": 3.0,
+      "kind": "theme"
+    },
+    {
+      "id": "A04",
+      "name": "E01 elevator lobby",
+      "purpose": "A generous uncluttered landing and waiting area around the approved elevator, visible from the entrance.",
+      "shape": "rect",
+      "bounds": { "minX": -2.0, "maxX": 6.0, "minZ": 0.0, "maxZ": 8.0 },
+      "kind": "circulation"
+    },
+    {
+      "id": "A05",
+      "name": "Biophilic decor pair",
+      "purpose": "Two compact planted or sculptural accents along the glazing to soften the lobby without creating additional functions.",
+      "shape": "multi_circle",
+      "centres": [[-29.5, 6.0], [29.5, 6.0]],
+      "radiusM": 1.4,
+      "kind": "decor"
+    },
+    {
+      "id": "A06",
+      "name": "Full-height playable Stair A",
+      "purpose": "The reserved building-core footprint for one continuous playable switchback staircase serving F00-F06. It is circulation infrastructure and assigns no purpose to an upper floor.",
+      "shape": "rect",
+      "bounds": { "minX": -29.0, "maxX": -22.0, "minZ": -5.0, "maxZ": 5.0 },
+      "areaM2": 70.0,
+      "kind": "vertical_circulation",
+      "priorDesign": {
+        "source": "Tools/HospitalInterior/build_hospital_interior_s5a_r03.py",
+        "identifier": "STAIR_A",
+        "type": "two-flight switchback",
+        "laneWidthM": 1.80,
+        "landingDepthM": 2.40,
+        "doorClearWidthM": 1.20,
+        "doorSide": "east",
+        "doorCentre": [-22.0, -3.76]
+      },
+      "clearLanding": { "minX": -22.0, "maxX": -19.0, "minZ": -5.76, "maxZ": -1.76 }
+    }
+  ],
+  "circulation": {
+    "id": "R01",
+    "name": "Direct entrance-to-E01 route",
+    "widthM": 3.00,
+    "points": [[-4.0, -22.1], [-4.0, -18.5], [-4.0, -10.0], [-2.0, -4.0], [1.65, -1.0], [1.65, 3.0]],
+    "rule": "Keep the full route free of counters, seating, displays and theme objects."
+  },
+  "stairCirculation": {
+    "id": "R02",
+    "name": "Open-lobby-to-Stair-A route",
+    "widthM": 2.00,
+    "points": [[-4.0, -10.0], [-10.0, -8.0], [-16.0, -5.0], [-20.0, -3.76], [-22.0, -3.76]],
+    "rule": "Keep the route and the east-side stair landing clear of seating, decor and displays."
+  },
+  "themeDirection": {
+    "name": "Premium clinical-future welcome",
+    "cues": [
+      "warm off-white and soft stone base",
+      "charcoal framing coordinated with the exterior, elevator and stair",
+      "restrained bronze accents",
+      "blue-grey glass and cool wayfinding light",
+      "soft indirect lighting and limited greenery",
+      "one anatomy-inspired abstract feature rather than multiple exhibits"
+    ],
+    "deferredToS6": "Exact materials, lighting, furniture, signage, planting and sculpture design require later visual approval."
+  },
+  "upperFloors": {
+    "status": "F01-F06 PURPOSES REMAIN UNDECIDED; ONLY STAIR A CORE/LANDINGS ARE AUTHORIZED INFRASTRUCTURE AFTER S4 APPROVAL",
+    "rule": "This S4 plan assigns no content, theme or function to an upper floor. Stair A is shared circulation infrastructure only."
+  },
+  "nextStageSequence": [
+    {
+      "id": "S5A",
+      "name": "Full Stair A integration",
+      "scope": "First build and validate the complete playable switchback staircase, openings and landings from F00 through F06 using the approved A06 footprint. Do not begin other F00 greybox work in parallel."
+    },
+    {
+      "id": "S5B",
+      "name": "Remaining F00 greybox walkthrough",
+      "scope": "Only after S5A approval, build the other approved F00 lobby anchors and circulation in neutral greybox form."
+    },
+    {
+      "id": "S6",
+      "name": "F00 visual design and finish",
+      "scope": "Only after S5B approval, apply approved visual finishes without changing the accepted layout."
+    }
+  ],
+  "reviewQuestions": [
+    "Is one open welcome hall plus one full-height staircase the correct overall direction for F00?",
+    "Is the prior playable Stair A footprint at the west side the correct staircase location?",
+    "Does moving the west seating cluster south preserve enough seating without crowding the stair?",
+    "Are the E01 and Stair A routes obvious and uncluttered?",
+    "Approve V03 as the authority for S5A full staircase integration first, or request a specific correction?"
+  ],
+  "deferred": [
+    "all S5A staircase geometry until this V03 plan receives explicit user approval",
+    "all S5B remaining F00 walls, counters, furniture, collision and playable greybox geometry until S5A approval",
+    "all S6 materials, lighting, signage, plants, sculpture and visual finishing",
+    "all F01-F06 purposes and designs",
+    "E02 operation, standalone Quest packaging and final performance acceptance"
+  ]
+}

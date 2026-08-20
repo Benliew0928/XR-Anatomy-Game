@@ -1,0 +1,31 @@
+{
+    "schema": "HospitalInterior.R03.S5A.Build.v1",
+    "status": "PLAYER_BUILT_PENDING_RUNTIME_GATE",
+    "unityVersion": "6000.3.20f1",
+    "sourceS3DScene": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S3D_R03_FullTechnicalIntegration.unity",
+    "bootstrapScene": "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S5A_R03_StairAIntegration.unity",
+    "sourceFbx": "Assets/HospitalInterior/PreProduction/I1/R03/S5A/SourceFBX/HospitalInterior_StairA_S5A_R03.fbx",
+    "playerScenes": [
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S5A_R03_StairAIntegration.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Base.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Tower.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_SidesService.unity",
+        "Assets/Hospital/Scenes/Additive/Exterior_Interactions.unity",
+        "Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SiteCore.unity",
+        "Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SitePerimeter.unity",
+        "Assets/HospitalSite/Stage05S/R05B/Scenes/Additive/Exterior_SiteLandscape.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F00_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F01_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F02_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F03_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F04_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F05_Empty.unity",
+        "Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S2_R03_F06_Empty.unity"
+    ],
+    "executable": "C:\\CutMyBodyPlease\\Exports\\HospitalInterior\\StageI1_R03_S5A_StairA\\HospitalInterior_S5A_R03_StairA.exe",
+    "editorBuildSettingsSha256": "62889469c318a93430e41e1fc2f6c7df1fade301520199388d3725f58972a5bb",
+    "editorBuildSettingsUntouched": true,
+    "protectedFileCount": 140,
+    "target": "Windows x86_64 desktop plus OpenXR Quest Link/Air Link; Android excluded",
+    "scope": "Continuous playable Stair A only. S5B lobby content and upper-floor programmes absent."
+}

@@ -1,0 +1,708 @@
+{
+    "schema": "HospitalInterior.R03.S5A.ProtectedAuthority.v1",
+    "status": "PASS",
+    "capturedUtc": "2026-08-20T14:36:18.2964861Z",
+    "baselineCommit": "45c9e3b",
+    "files": [
+        {
+            "path": "HOSPITAL_INTERIOR_DESIGN_PLAN.md",
+            "sha256": "0014a4a60ad809721707eeb9e6c1ca20c81c5421cdd40d5048cac76fd13ff30b",
+            "bytes": 35057
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/HospitalInterior_StageS3D_R03_Checkpoint.md",
+            "sha256": "d2cab0696603760d41f124a474da496ac56c142e0a928232a868e307254e684a",
+            "bytes": 2865
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/RuntimeEvidence/01_GateSpawn.png",
+            "sha256": "b4a6d35d3eea325a7f18ca47746bd6d9da4432fa4b037894310a6425c1d64d6f",
+            "bytes": 417511
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/RuntimeEvidence/02_LobbyApproach.png",
+            "sha256": "c664b674d24236d4816f2e3e72f426764a2b954e70c6f30e6b66fcb101d32e21",
+            "bytes": 420652
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/RuntimeEvidence/03_AutomaticEntrancePassage.png",
+            "sha256": "4c8906ede18b6c6de130693e21a9ab28d454f118d70c72f88ae6283ef6898eda",
+            "bytes": 249809
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/RuntimeEvidence/04_F00_ElevatorArrival.png",
+            "sha256": "5b5b16c00802f7d1795f4098fd6fcaea44e732c9091f51a3bf74dcfcf05a126d",
+            "bytes": 127865
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/RuntimeEvidence/05_F06_Arrival.png",
+            "sha256": "0808b723963c0e292bbcff44ef4999176908f83c11520a52110c87839f19b701",
+            "bytes": 307951
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/RuntimeEvidence/06_F00_ReturnAndExit.png",
+            "sha256": "2c9e23117fb97a0186f38bd663849db22fc68734b7ae0dfb3409c042f74b739f",
+            "bytes": 215767
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/RuntimeEvidence/07_F01_MainGlassSeam_Corrected.png",
+            "sha256": "7e7958e0b6e9c9bca82563a2c727eb7078000cc232ec6525dae8056063469863",
+            "bytes": 326112
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_Correction_Finalize.log",
+            "sha256": "cc9deb86bec0cd554228778cb87cdc2096e2e08a6232b8cb8475a2daaf6e6ac3",
+            "bytes": 26471
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_Correction_PlayerBuild.log",
+            "sha256": "e66ea5c02296a351eaeadfc3e853340267959c467d871f19c5c72c5475d53f56",
+            "bytes": 472848
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_Correction_RuntimeGate.log",
+            "sha256": "407b99d5aebec2b479ada36ee8f8c873bc209967c45cb66a4b0e9c03032b1a73",
+            "bytes": 12798
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_Correction_StaticGate.log",
+            "sha256": "e68c12c619f14284e22f374372a96fcb39926ff7ae564ed90398dce7c7b22b6a",
+            "bytes": 28521
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_Correction_UnityBuildStage.log",
+            "sha256": "a71db2bcdc0e12e7931fb82c97321bb0fa65ca8c393dc98b7d62b312e91b34e9",
+            "bytes": 35994
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_RootCause_Finalize.log",
+            "sha256": "871361d1e98aa00d5250fad41f62726499ce0956dd90abb65f085157254d90f0",
+            "bytes": 27284
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_RootCause_PlayerBuild.log",
+            "sha256": "988e1792188fa1f87aef7cbf816f5602370df444d3d3938161ce73d4ddef2994",
+            "bytes": 471411
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_RootCause_PlayerBuild_2.log",
+            "sha256": "20f2cd91c777286f3d0ea854f4dae51d42daef58046ba6b79b2ad8845e978358",
+            "bytes": 471519
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_RootCause_PlayerBuild_3.log",
+            "sha256": "ccebe456f298718f3de87ef4f93ffdca34cae4245a798c0d5986fd78832ba33c",
+            "bytes": 473084
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_RootCause_PlayerBuild_4.log",
+            "sha256": "1bf6a040395a8355c8c7712cb81c19de68fd2e64910e0963c2b9d84e8724551e",
+            "bytes": 472831
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_RootCause_PlayerBuild_5.log",
+            "sha256": "a84c4c2f4c2e3bfcd39134771365ac492d7d7de10280f6f33d7c5b20c90cc7df",
+            "bytes": 472830
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_RootCause_RuntimeGate.log",
+            "sha256": "54949d419e5493138865fbca36248f2bd10f72bf8bb69571ef9886b63ee5bf57",
+            "bytes": 16487
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_RootCause_RuntimeGate_2.log",
+            "sha256": "3ba00879980c8fd339710157d0d255a42585829ee685895fcfdf588a8f12ca38",
+            "bytes": 12677
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_RootCause_RuntimeGate_3.log",
+            "sha256": "81d0e029ad023cc5f815bc339e9dc295c304c6b795d968008bed7f3ee6c41a31",
+            "bytes": 12677
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_RootCause_RuntimeGate_4.log",
+            "sha256": "a0d26a7c13485b4dd65e802626a5311ef1bf69c91f02fbb2759ae7c1a5e8429b",
+            "bytes": 12677
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_RootCause_RuntimeGate_5.log",
+            "sha256": "902e521234ffd42b178e3aa4f12db2ecaed39c2c9507c3859c3b4c9fc1a86e7f",
+            "bytes": 12675
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_RootCause_UnityBuildStage.log",
+            "sha256": "8876e739663a462b90eb420d618b8e9847d3788e66915c2f7208c0dadcc98e7c",
+            "bytes": 34737
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/S3D_RootCause_UnityBuildStage_2.log",
+            "sha256": "c369b79419abf6c6a6323ba15fd6f07617d3ce3845faaff390ed6900a3a79938",
+            "bytes": 34904
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/StageI1_R03_S3D_BuildRecord.json",
+            "sha256": "1d4b0664bad2eb46d1e7c04ec1b3d4481d00a073a74064a58b1cd3c7cb82e929",
+            "bytes": 3372
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/StageI1_R03_S3D_CorrectionRecord.md",
+            "sha256": "6529d972c40df79219f116e3e5d00ad8eeef3b95faeae7701574253a0167081c",
+            "bytes": 5431
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/StageI1_R03_S3D_RuntimeGate.json",
+            "sha256": "73498e0fe9415999c8073701ec546f95b834d48670291302dd7bc88ec69914f2",
+            "bytes": 13897
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/StageI1_R03_S3D_StaticGate.json",
+            "sha256": "5378b4757665fd5483bcacfcf17e8bb0856c5751b338a16843009083f39de411",
+            "bytes": 5572
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/StageI1_R03_S3D_UserApproval.md",
+            "sha256": "ce2e0cb16a7bcecfd2b1d9629c87095157c39ced3f710229fd1d451d4711b2c0",
+            "bytes": 1652
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/StageI1_R03_S3D_UserReviewChecklist.md",
+            "sha256": "093af6b78fac36427ed4822418431bb487ae7b30b5450817c1306bbba37b6194",
+            "bytes": 4047
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/Unity_S3D_FacadeOverlapPlayerBuild.log",
+            "sha256": "588416967a1c90157253c5ad2bbd5e270e127dac16702426d5970a1cc7f11c47",
+            "bytes": 473158
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/Unity_S3D_Finalize.log",
+            "sha256": "f339e1af491c4081325914cbfea3e23b2cde90bb359dbe925f974cf8945b6ec8",
+            "bytes": 27121
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/Unity_S3D_FrontBoundaryPlayerBuild.log",
+            "sha256": "d352df46a7115f51b9c799369500b97ecab5fcb5088460ba07668a0d4e1e1a33",
+            "bytes": 473191
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/Unity_S3D_FrontFacadePlayerBuild.log",
+            "sha256": "f40550af1151e57a26735cc925c6ec70c92969623c58af15c2e3f2e9f8c8d2dc",
+            "bytes": 473208
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/Unity_S3D_PlayerBuild.log",
+            "sha256": "93bb53d6cdf435e33a94c15158800562ec2c7aac154ebd6bd728671b8153c985",
+            "bytes": 472877
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/Unity_S3D_RuntimeGate.log",
+            "sha256": "160b156de2e3e9aac27dfb72bddb58ceefa1ba098b5254dd116c72a0f4f716cf",
+            "bytes": 12677
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/Unity_S3D_SeamDiagnostic.log",
+            "sha256": "68ecebc377241a0d0d186c14bf637fb479c3a137dffc4d1db0069e1847852685",
+            "bytes": 36079
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/Unity_S3D_SeamInteractionBuildStage.log",
+            "sha256": "df4c82eac7efb099ef515f0b14ab41692af1cf6e26a8e95abc693f78c7751b13",
+            "bytes": 36127
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/Unity_S3D_SeamInteractionFinalize.log",
+            "sha256": "8966a2e5a20c95413271c9473c9a6c966f1aa1607db1df44a925d50f0a72dd3b",
+            "bytes": 27303
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/Unity_S3D_SeamInteractionPlayerBuild.log",
+            "sha256": "71839abdc43fce9d3081b4808b08e85be9a80542e8294319678c35c32efac0ac",
+            "bytes": 472909
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/Unity_S3D_SeamInteractionRuntimeGate.log",
+            "sha256": "3e6be0f7bdaded826adaa099f68350a29e62f2d9485378ff7187c9af66e8a7fd",
+            "bytes": 12677
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/Unity_S3D_SeamInteractionStaticGate.log",
+            "sha256": "6d7a6e1d669c82d5269a010e807aca8609e9ef2cf4c10d92ee95037b32d22484",
+            "bytes": 28516
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S3D_TechnicalIntegration/Unity_S3D_StaticGate.log",
+            "sha256": "d57760aa47f985533d3f786714ef40ba29b40c34e90677a3f060c4b882e7ea7f",
+            "bytes": 29253
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/HospitalInterior_StageS4_R03_Checkpoint.md",
+            "sha256": "b9d861a5b25656d9a24e9ba9812f73b78a9709123e3df39267dfc433d2cd35b5",
+            "bytes": 4585
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_ExistingCrossSection.json",
+            "sha256": "6f213d536187ccfe5be87da4fd08d83795c3f1e4ce0482b551c79b992546a615",
+            "bytes": 320618
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_Plan_V03.png",
+            "sha256": "312489a9b40466ab36f02ea8d6a1f9178da62733d22e463a572f0dc9e760fef5",
+            "bytes": 633690
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_Plan_V03.svg",
+            "sha256": "7bc819d20562c8f3d8082a5f2b3fa2fbf4746adc0f7716374fde6e666e707197",
+            "bytes": 100027
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_Plan_V03_Contract.json",
+            "sha256": "d6ca47e14de243b424453fc69732b5179b76ad63191b51c3ea4b992105ac3145",
+            "bytes": 8213
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_Plan_V03_EvidenceRecord.json",
+            "sha256": "dbf3d2661d85e4260a467dcdd687da98a06d8c559e46e3113896e8df792d214d",
+            "bytes": 3628
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_Plan_V03_Gate.json",
+            "sha256": "1cc2e9fc2ea487431a7763f935c3cb15051a8abd2cb3c6511e769224a0b0443d",
+            "bytes": 2472
+        },
+        {
+            "path": "Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/StageI1_R03_S4_F00_UserApproval.md",
+            "sha256": "2388300aa24207f57ab5ba5a7a9077e319c5cef5372f720b6b70774c9c3b80e0",
+            "bytes": 1861
+        },
+        {
+            "path": "Tools/HospitalInterior/generate_hospital_interior_s4_plan.py",
+            "sha256": "b3748991c45d20704ab56a244e97d1d4834e681e98c856a12bdd25b701f21b0e",
+            "bytes": 52306
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S1Bootstrap.cs",
+            "sha256": "b76f4836d45101c8422eb66ea412b480ebceb35edb2079cbf5e3707908f84564",
+            "bytes": 12177
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S1Bootstrap.cs.meta",
+            "sha256": "1c086893cde4ad8a0afebd522b87409c2e0341406de5874c56cd3cb84c34ae36",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S1DatumContract.cs",
+            "sha256": "917e7e644af44e01322c90adad27fbcf407eb2c6304b21a14833dc53d879c0c2",
+            "bytes": 2454
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S1DatumContract.cs.meta",
+            "sha256": "069536c27da997adc75c8d5b9793e19b675780ebe1bca6130bb32f5a7a428798",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S1DatumProxy.cs",
+            "sha256": "779983c6c91566313c4915e364895fdc7d61b39c357161dacafc94a6a5c60a56",
+            "bytes": 1013
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S1DatumProxy.cs.meta",
+            "sha256": "5751ee07a59c42da09d334f61109b2fd7ee4e16a75f7c156b26b55cc985d9430",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S1DiagnosticRoot.cs",
+            "sha256": "8fee5778296b908503cd4861e436c827f87ddbe0bffc10ed1b17140b71c87f6d",
+            "bytes": 181
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S1DiagnosticRoot.cs.meta",
+            "sha256": "48d8c2a31a38fcf473e600a8f763e19f65bddb0ff6a964f2c172406cf6f6ffe3",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S1ElevatorReference.cs",
+            "sha256": "c9de91622a6110347b7d73fc658736d025ebd5639cc1097c495e4f27e1dbe1ec",
+            "bytes": 667
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S1ElevatorReference.cs.meta",
+            "sha256": "28fc6d048d2ba6f96e4178baf404aa00ead201d88ca19b567fb4d55c6d36340e",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S1ReviewLocomotion.cs",
+            "sha256": "0a696830d2c4216ae6cb55d1de62fdfb5d2a43b9426a4da7b946f4c02567a882",
+            "bytes": 4270
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S1ReviewLocomotion.cs.meta",
+            "sha256": "f2632a9f2983193ca01e4739877fba265255a161087f18a7bb32130f7137f6fa",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S2ArrivalAnchor.cs",
+            "sha256": "bd74e2101b485acfd7b8c9ca3a72ca1112a3218bc9aaaddd1728b0b1be081857",
+            "bytes": 557
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S2ArrivalAnchor.cs.meta",
+            "sha256": "0084f337eec7d3b2cbc2c175a4cb1c062a65684e3851742876d74de7a7a69664",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S2FloorContract.cs",
+            "sha256": "40b804a78ead445aa461336bbc5a664b0b64b2c74aa41fea40ffa1fa3b0fa3ed",
+            "bytes": 2692
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S2FloorContract.cs.meta",
+            "sha256": "17e5c563765c444dd75c217f2f2416efe29823947621d1f0bddff77090d59d74",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S2FloorSceneMarker.cs",
+            "sha256": "211884cf0430f2e4d699b0409fd2172811b8f201e6a68560c24330270de54673",
+            "bytes": 522
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S2FloorSceneMarker.cs.meta",
+            "sha256": "8949ed77e43e87b08c93429e998836ad103636f637c28cde02e4ebc8fefef8d6",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S2ManualFloorLoader.cs",
+            "sha256": "00003c772f918fb39d1ff5986584b700cc1dac9bcf97d361864c694f1b54d204",
+            "bytes": 22172
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S2ManualFloorLoader.cs.meta",
+            "sha256": "0bcc13db7f1d38c06523636664f841d46d22d019d2a17afbe83f38709f688720",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S2ReviewLocomotion.cs",
+            "sha256": "f9a6f44aaf9d3180e436a3ee44546c65d920322d6cd6e27f4b483863561ac235",
+            "bytes": 4450
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S2ReviewLocomotion.cs.meta",
+            "sha256": "a6383a77b97dfc2ebfba5d2ace4c5385f9136873f04d70aed5d25325ed74ade5",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3BReviewBootstrap.cs",
+            "sha256": "9c3b3bec20d62fe43f249acea1beb26e73d58b7bf5c7a63faa27fb241849d9d9",
+            "bytes": 23851
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3BReviewBootstrap.cs.meta",
+            "sha256": "75b1e76a47f2a922b7dd025de333c90b42db2c3ed7039e97006e8e5a184e3998",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3BReviewLocomotion.cs",
+            "sha256": "e2513967338e3eaa96bdae4ab83fd275a6e48b20154062c1c2e50d07082925e5",
+            "bytes": 7707
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3BReviewLocomotion.cs.meta",
+            "sha256": "156c0071dfb3902e9dfdb6019120003467887250220fd4bb9935517da537ab4e",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3CabinObservationDesign.cs",
+            "sha256": "199f950cdc56ff4ea641504a6cf2cde1b82fc5aaacb9a20499bc47e3b8512786",
+            "bytes": 6449
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3CabinObservationDesign.cs.meta",
+            "sha256": "c1fca82a5628b756628f9dba007596c1be3688291e7364983f068baa1dd38baa",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3CReviewBootstrap.cs",
+            "sha256": "58917283eaeb5594ba93f77c3abaa7fbd97fab6e9eeb5dc82a97c8ea70034d09",
+            "bytes": 31938
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3CReviewBootstrap.cs.meta",
+            "sha256": "780b08b62fe5f269b7c21a3c47821ef9920281c1815b0d1ea46bb7a8ef2bc521",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3CReviewLocomotion.cs",
+            "sha256": "22b032733cf5f65443a96419fd28cec24b454f1670c49642795f74d5a87bc932",
+            "bytes": 9527
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3CReviewLocomotion.cs.meta",
+            "sha256": "e8e818c58ff739fdde10cfcd7538700699579f1b3eb671fc55d8104cd9242e69",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DAdaptiveRig.cs",
+            "sha256": "583812d790661a96a71b61bc77cac5501c9471d8680fc12b61fe68c3ecc76ea3",
+            "bytes": 14810
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DAdaptiveRig.cs.meta",
+            "sha256": "70808baf5908de909a331ebbb243ef59fac521148ad4264ce1926fc4416e180c",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DEntranceDoorController.cs",
+            "sha256": "738a7e652239a28f24df7ef3a64613a19a399e10d8ece8046c961173273a28a3",
+            "bytes": 8482
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DEntranceDoorController.cs.meta",
+            "sha256": "6d6d064c81ee06821e84c02355a9627b43093a84f08ce88c156b5720a11d5798",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DFacadeFloorEdgeCoordinator.cs",
+            "sha256": "dd80019aac247190338439ed3b5af393a3861dc99a8b714ec903d84a760c6b50",
+            "bytes": 6870
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DFacadeFloorEdgeCoordinator.cs.meta",
+            "sha256": "d4a068a584e6b4b039adcddae89941ff7d8d9474ebc98ef22d6ed348d56c9ed4",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DIntegrationBootstrap.cs",
+            "sha256": "1eddd96f75b155229a129555bffa443ad2b24aed78ec9a897e1dcfa2f9dd1c5b",
+            "bytes": 43723
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DIntegrationBootstrap.cs.meta",
+            "sha256": "5a2096c6a21de8e39d7b0a42823e8a0a3ab5b6d0a44d34d739cac2acca787b79",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DIntegrationContracts.cs",
+            "sha256": "e6377045ab3bec403463f8df19c1cc823e9daff9082a9d02442a23433359c7ab",
+            "bytes": 2409
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DIntegrationContracts.cs.meta",
+            "sha256": "212068f40c4f28eadcd0c3ea20f109795842baa0a2ffc3eef47e8c9804e50224",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DoorController.cs",
+            "sha256": "e0e545cd52227ae4b60c3054c85447504ae097fa8b323d7c29b008910da326fe",
+            "bytes": 11185
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DoorController.cs.meta",
+            "sha256": "753f18c726b8287df96bdbd4dd4e0c9e9884013176b2f972e0fe7bb0cda9b23c",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DoorObstructionSensor.cs",
+            "sha256": "124a0b0fe1f6628b94ac27541cbc034c04f75b29fcbd2d3bfc410e24a4e92439",
+            "bytes": 1730
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DoorObstructionSensor.cs.meta",
+            "sha256": "93d492f0df0d8301d3fb8b24b75001ac25fa63a6d3c10be331e6f1e011021482",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DRecoveryCoordinator.cs",
+            "sha256": "25d0b3ab65cf881106a73fd39fe701fc7ff68cddb366889949751822ce4755bb",
+            "bytes": 4678
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DRecoveryCoordinator.cs.meta",
+            "sha256": "68d9a75348a16bf6d17a4d4f8730fea5b746ff2a4cb025c55b040cacf0b407e3",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DSiteCollisionCoordinator.cs",
+            "sha256": "c23a2c925dca7ef5788e3e6e757a634366ec66dea6b0840d493e85344b979fa4",
+            "bytes": 21831
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DSiteCollisionCoordinator.cs.meta",
+            "sha256": "001ec8f31307cff5e0e42d6a67aaadede6358c63e1fe42d116247b12428aa56f",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DTeleportSurfaceCoordinator.cs",
+            "sha256": "a38421083786fd67b28c027e0a64f1fe7a96c04b80f377e77a9d54a359ab8f0d",
+            "bytes": 4871
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3DTeleportSurfaceCoordinator.cs.meta",
+            "sha256": "cc344fbbbd725c3a5e8c38b77b5b5baec7004f8836368983cd6635888c73a2ac",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3ElevatorButton.cs",
+            "sha256": "a84eecc82f2aa41bb38c491c408375d89d05e3dbf2a715dfd19ecce7b418b823",
+            "bytes": 3819
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3ElevatorButton.cs.meta",
+            "sha256": "27d2f74b56eecc4fcbf7f804b2b892739e04ac029138db17179780c1f9777313",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3ElevatorContract.cs",
+            "sha256": "36c3f74f8b418d107441aa90edd1d639e040e9ea2e41e4d2118648bc5ca7f529",
+            "bytes": 12955
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3ElevatorContract.cs.meta",
+            "sha256": "1a731467b270bbe455e99e2c557dcc6e50dd51b7abe49bb920c8b4a95cb30631",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3ElevatorController.cs",
+            "sha256": "b7ae0c42476b9197a8bb3a4c52d43a85014484df764eab36bf9efb95e5c132bf",
+            "bytes": 36739
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3ElevatorController.cs.meta",
+            "sha256": "a545d24ccd32af4794054947d1a77f8c136d8b958f8a0fc04c5a4594cffc5fee",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3ShaftFloorAperture.cs",
+            "sha256": "e9f1f7764b9736faf11fa97dd95f1b9667aec06e758b72a031cf6951b2ba1c62",
+            "bytes": 7379
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3ShaftFloorAperture.cs.meta",
+            "sha256": "9b0a91ba3f8fe1cc0b09c9a31faaa3e4f965ec218007b8fef213eb7531fa9aae",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3ShaftStructure.cs",
+            "sha256": "110751a6bb92ea626afa043692ccbabdb8edf4f263e6fc295daffecc05f7296f",
+            "bytes": 10562
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Runtime/S3ShaftStructure.cs.meta",
+            "sha256": "9b40c38f2432048f3eeb7c17af2119a36b376145af5b3fd0dd50a8f305e30d26",
+            "bytes": 59
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Input.meta",
+            "sha256": "33d1d0e9e6bd2f0cf78da9f14ebe4298ab1e05be40c17554e70e3629f91b52d6",
+            "bytes": 172
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Input/HospitalInterior_S3D_R03_Actions.inputactions",
+            "sha256": "7b9decaf6f2dabeaab973168a737b47222cbdc5b793529207c2f3ca536927659",
+            "bytes": 15402
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Input/HospitalInterior_S3D_R03_Actions.inputactions.meta",
+            "sha256": "f5ab11ed93013af211ebe152dc1fe0abe1a68e28682169ef724d2572522ccbad",
+            "bytes": 376
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Materials.meta",
+            "sha256": "93122817a5da89fdfe42c872ac26ed28b6bf1fd97e0a4484842cfaf8ffa75e35",
+            "bytes": 172
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Materials/MAT_S3D_ControllerLeft.mat",
+            "sha256": "6ea6351f7242a8ef48a25c9ae006b4cea1602030c29573bf9a638004aea47d3c",
+            "bytes": 3831
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Materials/MAT_S3D_ControllerLeft.mat.meta",
+            "sha256": "7fa61ef7f07672a747ae2546d17291538228f2cefcc9dfb4c7874422f063cb3e",
+            "bytes": 188
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Materials/MAT_S3D_ControllerRight.mat",
+            "sha256": "bc620140311852cfc17300284c83f0d89891fa935327adc44b5285707a559ae0",
+            "bytes": 3833
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Materials/MAT_S3D_ControllerRight.mat.meta",
+            "sha256": "0a3843441adac495d60083675fd885f01dde04a1db3afd247689b020cf772eec",
+            "bytes": 188
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Materials/MAT_S3D_InteractionRay.mat",
+            "sha256": "d714e2689efe55756ba67a884cb1f6ea8fcc9165e0aa35d4fc728c235d0187e6",
+            "bytes": 1892
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Materials/MAT_S3D_InteractionRay.mat.meta",
+            "sha256": "bdf114b66039d65f9333da1ad6c956a378a291c66ad9dda1ebe42eaf11453262",
+            "bytes": 188
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Materials/MAT_S3D_TeleportInvalid.mat",
+            "sha256": "f161f28c8396baec86693ddcf70c67e5533b7111b15d51df83e01f9fa7a4f46e",
+            "bytes": 1897
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Materials/MAT_S3D_TeleportInvalid.mat.meta",
+            "sha256": "0c83d122462ebc946b02549ce384bc49bebb75dbd091e244357c967bd19198e1",
+            "bytes": 188
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Materials/MAT_S3D_TeleportLine.mat",
+            "sha256": "156476e4f3ba0abb3e108758485a27629e9fee94d03b3ae65d7c24aa1c69c65e",
+            "bytes": 1882
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Materials/MAT_S3D_TeleportLine.mat.meta",
+            "sha256": "0674905ac64f48b99bc5aba622ede8f35f081ea159cd3f51de9f5eedd176edd7",
+            "bytes": 188
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Materials/MAT_S3D_TeleportValid.mat",
+            "sha256": "e56ca8f6658358cf91ff7b311c1a7531e946a30c0dc2cc2079c2f8fe8b8d4412",
+            "bytes": 1896
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Materials/MAT_S3D_TeleportValid.mat.meta",
+            "sha256": "4e8b3a4a9c5c30ab1f44a9377afd30cbfee8494ed89c9b05e7da01862a89a96d",
+            "bytes": 188
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Settings.meta",
+            "sha256": "d7c6485eb17d04e5d13711ec56dd5b1dde91f3ec99bdcc43f4cfc3fe44b8b000",
+            "bytes": 172
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Settings/HospitalInterior_S3D_R03_ProtectedAuthority.json",
+            "sha256": "1558dfc94d71eadf3cda0edea2231603666434278a36e0b2d740d48eaa4ed9e9",
+            "bytes": 4536
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Settings/HospitalInterior_S3D_R03_ProtectedAuthority.json.meta",
+            "sha256": "e915dfda4664ad5b271bc23d86249bd2aeca63817466123cf371747ca0acfcbc",
+            "bytes": 158
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Settings/HospitalInterior_S3D_R03_StaticGate.json",
+            "sha256": "5378b4757665fd5483bcacfcf17e8bb0856c5751b338a16843009083f39de411",
+            "bytes": 5572
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S3D/Settings/HospitalInterior_S3D_R03_StaticGate.json.meta",
+            "sha256": "9c0570db60ef14dc43cacbe4efee858c78af360a3dd90f8c52489550fa60116d",
+            "bytes": 158
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S3D_R03_FullTechnicalIntegration.unity",
+            "sha256": "c6f767808ded33dc429fbd0c78848fcf20ef69de89b9959d30c72d9b287a5746",
+            "bytes": 520902
+        },
+        {
+            "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/Scenes/HospitalInterior_S3D_R03_FullTechnicalIntegration.unity.meta",
+            "sha256": "f97879460d36bd2aed9f433e125d2d4d0fb44f3c2c8381caac9a17060b5b462e",
+            "bytes": 155
+        }
+    ]
+}

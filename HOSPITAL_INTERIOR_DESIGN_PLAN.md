@@ -1,7 +1,9 @@
 # Hospital Interior Sequential Integration and Floor Design Plan
 
-**Status:** `R03 STAGE S3D IMPLEMENTED — AUTOMATED GATES PASS; DESKTOP AND PC-VR USER REVIEW PENDING`  
-**Current implementation authority:** S2, S3B, and S3C are approved and locked. S3D now combines the approved R05B site, R44 exterior, S3C elevator, and empty S2 floors in one adaptive desktop/PC-VR build. Its automated gates pass, but S3D is not user-approved; F00 design and S4-S8 remain unauthorized until both functional reviews and explicit S3D approval are received.  
+**Status:** `R03 STAGE S4 F00 PLAN V03 APPROVED AND LOCKED — S5A STAIR A PLANNING ACTIVE`
+
+**Current implementation authority:** S2, S3B, S3C, S3D, and the S4 F00 Plan V03 are approved and locked. The approved S3D baseline combines the R05B site, R44 exterior, S3C elevator, and empty S2 floors in one adaptive desktop/PC-VR build. Final evidence is static `PASS 17/17` and corrected Windows runtime `PASS 53/53`; the approved S4 plan-only gate is `PASS 13/13`. S5A is authorized for planning and documentation only. No Blender source, FBX export, Unity asset, scene, collision, runtime, or gameplay implementation is authorized until the user reviews and explicitly approves the S5A implementation plan.
+
 **Core rule:** only one stage may be designed, implemented, reviewed, or corrected at a time.
 
 ## 1. Why this plan replaces R02
@@ -227,10 +229,17 @@ The final scene structure must remain simple and inspectable:
 - The adaptive Windows x86_64 player uses an explicit 15-scene list: one S3D bootstrap, four production exterior scenes, three approved R05B site scenes, and seven empty S2 floors. `Exterior_InteriorShellPreview` is absent and `EditorBuildSettings` remains byte-identical at SHA-256 `62889469c318a93430e41e1fc2f6c7df1fade301520199388d3725f58972a5bb`.
 - The desktop/PC-VR router supports automatic mode selection and `-s3dMode Desktop|PCVR`. Desktop provides WASD, Shift sprint, RMB look, and left-click interaction. PC-VR provides left-stick movement, right-stick 45-degree snap turn, A teleport, B cancel, and right-trigger interaction.
 - All eight approved hero-entrance leaves are discovered through `HospitalDoorPrototype` metadata and open together over `1.2 s`, dwell for `2 s` after clearance, close, and reverse when occupancy returns. Rear, service, and roof doors are not operated by S3D.
-- The static gate passes `15/15`. Desktop review exposed two integration defects: the broad rendered lawn was visual-only, and the R43 standalone exterior collider `COL_Perimeter_Front` still spanned X `-40..40` at Z `-34.1`, cutting across the integrated drop-off approach. An S3D-only correction was implemented without changing approved sources. The Windows runtime gate now passes `46/46`, including seven persistent environment scenes plus one floor, automatic entrance passage/close/reversal, approved route support, the full `F00 → F01 → F02 → F03 → F04 → F05 → F06 → F00` route, S3C failure cases, persistent-scene lifetime, teleport containment, emergency-only recovery, and final return/exit.
+- The final static gate passes `17/17`. Desktop review exposed integration defects in rendered-lawn support, the obsolete R43 front perimeter collider, the F00 entrance safety boundary, the HUD bootstrap reference, the F01-F06 main-glass floor edge, and elevator targeting. S3D-only corrections were implemented without changing approved sources. The corrected Windows runtime gate passes `53/53`, including seven persistent environment scenes plus one floor, automatic entrance passage/close/reversal, approved route support, the full `F00 → F01 → F02 → F03 → F04 → F05 → F06 → F00` route, S3C failure cases, persistent-scene lifetime, teleport containment, emergency-only recovery, corrected upper-floor edge closure, assisted interaction targeting, and final return/exit.
 - The lawn correction uses one editor-cooked MeshCollider from the exact `S05S_S5_EXP_LandscapeHardscape_S05S_S4B_ContinuousLawnVisual` source mesh (`12` triangles), aligned byte-for-byte in geometry and bounds with the rendered lawn before Unity static batching makes its runtime combined mesh non-readable. The real desktop CharacterController is physically stopped at all `12/12` distributed accessible-lawn samples; the blade occupancy grid remains diagnostic only. S3D disables only the obsolete `COL_Perimeter_Front`, retains the actual R05B perimeter, and remaps F00's two front safety-boundary segments around the outer-door metadata. Capsule and CharacterController traversal now pass from both the official drop-off and the screenshot-side right lawn, then through lanes X `-6.44`, `-4.00`, and `-1.56` to Z `-17.50` with zero blockers. Lawn remains excluded from the approved teleport allowlist. The adaptive rig's bootstrap reference is serialized, eliminating the false `Bootstrap missing` HUD state.
 - Six distinct camera-rendered evidence frames cover gate spawn, lobby approach, automatic entrance passage, F00 elevator arrival, F06 arrival, and F00 return/exit. Protected counts remain S2 `38`, S3B `12`, S3C `17`, and Stage 6A `294` exact plus one pre-existing semantically validated material-serialization normalization.
-- The review player is `Exports/HospitalInterior/StageI1_R03_S3D_TechnicalIntegration/HospitalInterior_S3D_R03_TechnicalIntegration.exe`. Automated completion does not make a physical headset-performance claim. One desktop route, one Quest Link/Air Link route, and explicit user approval are still required.
+- The review player is `Exports/HospitalInterior/StageI1_R03_S3D_TechnicalIntegration/HospitalInterior_S3D_R03_TechnicalIntegration.exe`. The user completed the desktop and Quest Link/Air Link routes and explicitly approved S3D on 2026-08-19. This functional approval does not make a standalone Quest/Android or final headset-performance claim.
+
+**S3D approval record — 2026-08-19:**
+
+- User decision: `APPROVE S3D`.
+- S3D is complete and locked at final static `PASS 17/17` and corrected Windows runtime `PASS 53/53`.
+- The S3D scene, Windows player, gates, build record, and protected input counts are frozen in `StageI1_R03_S3D_UserApproval.md`.
+- S4 F00 plan approval is authorized next. No F00 three-dimensional implementation is authorized before the S4 plan is explicitly approved.
 
 **Exit gate:** automated desktop gates pass, the user completes one desktop route and one Quest Link/Air Link route, and the user explicitly approves the combined empty-floor technical baseline. S4 remains blocked until then.
 
@@ -243,18 +252,43 @@ The final scene structure must remain simple and inspectable:
 - Explain what every proposed area is for; do not use unexplained rooms or generic hospital filler.
 - Revise the plan until the user understands and approves the complete F00 layout.
 
-**Exit gate:** the user explicitly approves one labelled F00 plan.  
-**No F00 walls, doors, counters, rooms, or furniture may be built before this gate.**
+**S4 design decision — approved 2026-08-19:**
 
-### S5 — F00 greybox walkthrough
+- Candidate V01, an education-facility plan with fourteen zones and real-world support functions, was rejected as unnecessarily complex for the game. It remains historical evidence only and must never authorize S5.
+- Candidate V02 simplified F00 to one open welcome lobby, but it omitted the space required by the previously designed playable staircase. It was not approved and is superseded by V03.
+- Candidate V03 is the approved and locked F00 plan. The complete `2,598.865 m²` footprint remains one open welcome lobby hall with no programme rooms, while `A06` reserves the expanded playable Stair A footprint at X `-29.0..-22.0`, Z `-5.0..5.0` (`70.0 m²`).
+- V03 retains the five minimal lobby anchors. The west `A02` seating cluster moves south so it does not overlap Stair A or its east-side clear landing.
+- `R01` remains the `3.00 m` clear-target entrance-to-E01 route. `R02` adds a `2.00 m` clear-target branch from the open lobby to the Stair A door. Upper-floor purposes remain undecided; Stair A is shared building-circulation infrastructure only.
+- The V03 plan-only gate passes `13/13`: the open lobby matches the locked footprint, the exact prior Stair A footprint and landing are reserved, no other anchor overlaps it, both routes stay inside F00, E01 remains clear, the rejected programme is absent, the staircase-first stage order is recorded, and S4 contains no 3D geometry.
+- User decision: `APPROVE S4 F00 PLAN V03`.
+- Approved evidence remains under `Reviews/HospitalInterior/StageI1_R03/S4_F00_Plan/`. Superseded V01/V02 review material, the correction history, and the completed review checklist are retained under `Archive/HospitalInterior/StageI1_R03/S4_F00_Plan/Superseded_2026-08-19/`.
+- S4 approval authorizes S5A planning only. Staircase implementation remains blocked until the user approves the S5A implementation plan.
+
+**Exit gate:** passed. The user explicitly approved F00 Plan V03 on 2026-08-19.
+**The approved V03 layout and Stair A reservation are now locked inputs for S5A planning.**
+
+### S5A — Full Stair A integration (APPROVED)
+
+**Implementation status:** FULLY APPROVED BY USER (`APPROVE S5A STAIR A`, 2026-08-20).
+
+**Completed implementation:**
+- Continuous two-flight switchback Stair A created from F00 through F06 (12 flights, 164 steps, 7 floor landings, 6 mid-landings, 7 automatic doors, F06 top closure).
+- Expanded A06 envelope to 7.0 × 10.0 m (X `[-29.0, -22.0]`, Z `[-5.0, 5.0]`, 70.0 m² area) for 100% clear 180° VR U-turn clearance.
+- Mid-landing lane-blocking guard bars removed; 1.80 m lanes and 2.40 m deep landings are 100% clear.
+- Elevator coexistence maintained; player movement inside E01 cabin during travel is fully unblocked.
+- All automated gates passed: Blender `40/40`, Unity Static `31/31`, Unity Runtime `31/31`.
+
+**Implementation exit gate:** PASSED & APPROVED. Stage S5B is now UNBLOCKED.
+
+### S5B — Remaining F00 greybox walkthrough
 
 **Scope:** approved F00 layout in simple 3D geometry.
 
-- Build only the walls, openings, doors, major counters, and circulation volumes shown in the approved S4 plan.
+- Starting from the approved S5A staircase integration, build only the remaining walls, openings, major fixed anchors, and circulation volumes shown in the approved S4 plan.
 - Use neutral materials and temporary lighting.
-- Integrate the greybox with the actual exterior entrance and the working elevator.
-- Test human scale, visibility, door widths, ceiling clearance, walking distances, collision, and entrance/elevator flow.
-- Keep F01–F06 unchanged and empty.
+- Integrate the remaining greybox with the actual exterior entrance, working elevator, and approved Stair A.
+- Test human scale, visibility, clearances, walking distances, collision, and entrance/elevator/stair flow.
+- Keep F01–F06 unchanged and empty except for the approved Stair A core and landings.
 
 **Exit gate:** the user approves the F00 spatial layout during a playable walkthrough.
 
@@ -273,8 +307,8 @@ The final scene structure must remain simple and inspectable:
 
 **Scope:** post-design production integration and end-to-end verification.
 
-- Load the approved site/exterior configuration, finished F00, empty F01–F06, and persistent E01 system together.
-- Test exterior approach → hospital entrance → finished F00 → elevator → every empty floor → F00 → exterior exit.
+- Load the approved site/exterior configuration, finished F00, empty F01–F06, persistent E01, and approved Stair A together.
+- Test exterior approach → hospital entrance → finished F00 → elevator → every empty floor → Stair A return to F00 → exterior exit.
 - Confirm there are no duplicated shells, blocked entrances, lighting conflicts, origin drift, floor offsets, or scene-loading leaks.
 - Re-run desktop and XR traversal/collision checks without changing approved design.
 
