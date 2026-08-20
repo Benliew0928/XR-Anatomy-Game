@@ -1,0 +1,42 @@
+{
+  "schema": "HospitalInterior.R03.S5A.BlenderBuild.v1",
+  "status": "VALIDATED",
+  "blenderVersion": "5.1.2",
+  "source": {
+    "path": "ArtSource/Environment/Blender/HospitalInterior/HospitalInterior_StairA_S5A_R03.blend",
+    "sha256": "2fb2d3f29fed99cf75d6f1cc5252293234b6bcbb2a84993687bded47c90fa15a",
+    "bytes": 401169
+  },
+  "export": {
+    "path": "Exports/HospitalInterior/StageI0_R03/S5A_StairA/HospitalInterior_StairA_S5A_R03.fbx",
+    "sha256": "16d267104a1dbfb44a12e0d3c3168ab4803fc5ac8bad7d93fa6ba09b1ab9eb00",
+    "bytes": 1763804
+  },
+  "unityImport": {
+    "path": "Unity/AnatomyXR/Assets/HospitalInterior/PreProduction/I1/R03/S5A/SourceFBX/HospitalInterior_StairA_S5A_R03.fbx",
+    "sha256": "16d267104a1dbfb44a12e0d3c3168ab4803fc5ac8bad7d93fa6ba09b1ab9eb00",
+    "bytes": 1763804
+  },
+  "reviewFiles": [
+    "01_S5A_StairA_F00_Entrance.png",
+    "02_S5A_StairA_F00_F01_TallFlight.png",
+    "03_S5A_StairA_TypicalUpperInterval.png",
+    "04_S5A_StairA_F06_TopClosure.png",
+    "05_S5A_StairA_FullVerticalSection.png",
+    "06_S5A_StairA_MeasuredPlan.png"
+  ],
+  "counts": {
+    "flights": 12,
+    "steps": 164,
+    "floorLandings": 7,
+    "intermediateLandings": 6,
+    "automaticDoors": 7,
+    "topClosures": 1
+  },
+  "independentGate": "Reviews/HospitalInterior/StageI1_R03/S5A_StairA/StageI1_R03_S5A_StairA_BlenderGate.json",
+  "gateSummary": {
+    "passed": 40,
+    "failed": 0,
+    "total": 40
+  }
+}

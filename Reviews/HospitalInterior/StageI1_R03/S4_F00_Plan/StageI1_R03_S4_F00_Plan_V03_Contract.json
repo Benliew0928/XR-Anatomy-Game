@@ -63,7 +63,7 @@
       "purpose": "Two restrained seating clusters beside the open hall edges. The west cluster moves south to clear the staircase footprint and approach.",
       "shape": "multi_rect",
       "bounds": [
-        { "minX": -31.0, "maxX": -24.0, "minZ": -10.0, "maxZ": -6.0 },
+        { "minX": -31.0, "maxX": -24.0, "minZ": -11.0, "maxZ": -7.0 },
         { "minX": 18.0, "maxX": 26.0, "minZ": -7.0, "maxZ": -2.5 }
       ],
       "kind": "seating"
@@ -99,20 +99,20 @@
       "name": "Full-height playable Stair A",
       "purpose": "The reserved building-core footprint for one continuous playable switchback staircase serving F00-F06. It is circulation infrastructure and assigns no purpose to an upper floor.",
       "shape": "rect",
-      "bounds": { "minX": -27.5, "maxX": -22.5, "minZ": -3.6, "maxZ": 3.6 },
-      "areaM2": 36.0,
+      "bounds": { "minX": -29.0, "maxX": -22.0, "minZ": -5.0, "maxZ": 5.0 },
+      "areaM2": 70.0,
       "kind": "vertical_circulation",
       "priorDesign": {
-        "source": "Tools/HospitalInterior/build_hospital_interior_r02.py",
+        "source": "Tools/HospitalInterior/build_hospital_interior_s5a_r03.py",
         "identifier": "STAIR_A",
         "type": "two-flight switchback",
-        "laneWidthM": 1.56,
-        "landingDepthM": 1.02,
+        "laneWidthM": 1.80,
+        "landingDepthM": 2.40,
         "doorClearWidthM": 1.20,
         "doorSide": "east",
-        "doorCentre": [-22.5, -3.05]
+        "doorCentre": [-22.0, -3.76]
       },
-      "clearLanding": { "minX": -22.5, "maxX": -19.0, "minZ": -4.55, "maxZ": -1.55 }
+      "clearLanding": { "minX": -22.0, "maxX": -19.0, "minZ": -5.76, "maxZ": -1.76 }
     }
   ],
   "circulation": {
@@ -126,7 +126,7 @@
     "id": "R02",
     "name": "Open-lobby-to-Stair-A route",
     "widthM": 2.00,
-    "points": [[-4.0, -10.0], [-10.0, -8.0], [-16.0, -5.0], [-20.0, -3.05], [-22.5, -3.05]],
+    "points": [[-4.0, -10.0], [-10.0, -8.0], [-16.0, -5.0], [-20.0, -3.76], [-22.0, -3.76]],
     "rule": "Keep the route and the east-side stair landing clear of seating, decor and displays."
   },
   "themeDirection": {

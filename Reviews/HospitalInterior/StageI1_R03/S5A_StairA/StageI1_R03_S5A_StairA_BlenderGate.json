@@ -1,0 +1,216 @@
+{
+  "schema": "HospitalInterior.R03.S5A.BlenderGate.v1",
+  "status": "PASS",
+  "summary": {
+    "passed": 40,
+    "failed": 0,
+    "total": 40
+  },
+  "checks": [
+    {
+      "id": "source_exists",
+      "status": "PASS",
+      "detail": "C:\\CutMyBodyPlease\\ArtSource\\Environment\\Blender\\HospitalInterior\\HospitalInterior_StairA_S5A_R03.blend"
+    },
+    {
+      "id": "fbx_exists",
+      "status": "PASS",
+      "detail": "C:\\CutMyBodyPlease\\Exports\\HospitalInterior\\StageI0_R03\\S5A_StairA\\HospitalInterior_StairA_S5A_R03.fbx"
+    },
+    {
+      "id": "unity_fbx_exists",
+      "status": "PASS",
+      "detail": "C:\\CutMyBodyPlease\\Unity\\AnatomyXR\\Assets\\HospitalInterior\\PreProduction\\I1\\R03\\S5A\\SourceFBX\\HospitalInterior_StairA_S5A_R03.fbx"
+    },
+    {
+      "id": "contract_exists",
+      "status": "PASS",
+      "detail": "C:\\CutMyBodyPlease\\Reviews\\HospitalInterior\\StageI1_R03\\S5A_StairA\\StageI1_R03_S5A_StairA_SpatialContract.json"
+    },
+    {
+      "id": "build_record_exists",
+      "status": "PASS",
+      "detail": "C:\\CutMyBodyPlease\\Reviews\\HospitalInterior\\StageI1_R03\\S5A_StairA\\StageI1_R03_S5A_StairA_BlenderBuild.json"
+    },
+    {
+      "id": "scene_revision",
+      "status": "PASS",
+      "detail": "R03"
+    },
+    {
+      "id": "scene_stage",
+      "status": "PASS",
+      "detail": "S5A"
+    },
+    {
+      "id": "scene_stair",
+      "status": "PASS",
+      "detail": "STAIR_A"
+    },
+    {
+      "id": "target_collection",
+      "status": "PASS",
+      "detail": "HOSPITAL_INTERIOR_STAIR_A_S5A_R03"
+    },
+    {
+      "id": "count_StairStep",
+      "status": "PASS",
+      "detail": "expected=164 actual=164"
+    },
+    {
+      "id": "count_StairNosing",
+      "status": "PASS",
+      "detail": "expected=164 actual=164"
+    },
+    {
+      "id": "count_FloorLanding",
+      "status": "PASS",
+      "detail": "expected=7 actual=7"
+    },
+    {
+      "id": "count_IntermediateLanding",
+      "status": "PASS",
+      "detail": "expected=6 actual=6"
+    },
+    {
+      "id": "count_DoorLeaf",
+      "status": "PASS",
+      "detail": "expected=7 actual=7"
+    },
+    {
+      "id": "count_DoorVision",
+      "status": "PASS",
+      "detail": "expected=7 actual=7"
+    },
+    {
+      "id": "count_DoorThreshold",
+      "status": "PASS",
+      "detail": "expected=7 actual=7"
+    },
+    {
+      "id": "count_StairHandrail",
+      "status": "PASS",
+      "detail": "expected=24 actual=24"
+    },
+    {
+      "id": "count_LandingGuard",
+      "status": "PASS",
+      "detail": "expected=12 actual=12"
+    },
+    {
+      "id": "count_LandingLight",
+      "status": "PASS",
+      "detail": "expected=7 actual=7"
+    },
+    {
+      "id": "count_StairTopClosure",
+      "status": "PASS",
+      "detail": "expected=1 actual=1"
+    },
+    {
+      "id": "flight_count",
+      "status": "PASS",
+      "detail": "two flights for each of six intervals"
+    },
+    {
+      "id": "mesh_geometry",
+      "status": "PASS",
+      "detail": "meshCount=620"
+    },
+    {
+      "id": "applied_scale",
+      "status": "PASS",
+      "detail": "all exported object scales are one"
+    },
+    {
+      "id": "no_modifiers",
+      "status": "PASS",
+      "detail": "all mesh modifiers applied"
+    },
+    {
+      "id": "material_palette",
+      "status": "PASS",
+      "detail": "used=['MAT_S5A_BlueGreyGlass', 'MAT_S5A_Bronze', 'MAT_S5A_Charcoal', 'MAT_S5A_SoftLight', 'MAT_S5A_StoneTread', 'MAT_S5A_WarmOffWhite']"
+    },
+    {
+      "id": "a06_envelope_containment",
+      "status": "PASS",
+      "detail": "contained=620/620 bounds=X[-29.0,-22.0] Y[-5.0,5.0] Z[-0.2,28.83]"
+    },
+    {
+      "id": "shell_exterior_skin_depth_separation",
+      "status": "PASS",
+      "detail": "stair shell outer faces are inset 0.020 m from the exact exterior aperture boundary"
+    },
+    {
+      "id": "floor_landing_datums",
+      "status": "PASS",
+      "detail": "seven landing surfaces match locked F00-F06 datums"
+    },
+    {
+      "id": "intermediate_landing_datums",
+      "status": "PASS",
+      "detail": "six midpoint surfaces and 2.40 m depth"
+    },
+    {
+      "id": "tread_riser_contract",
+      "status": "PASS",
+      "detail": "F00-F01:17x2 rise=0.170588 going=0.301176; F01-F02:13x2 rise=0.150000 going=0.393846; F02-F03:13x2 rise=0.150000 going=0.393846; F03-F04:13x2 rise=0.150000 going=0.393846; F04-F05:13x2 rise=0.150000 going=0.393846; F05-F06:13x2 rise=0.150000 going=0.393846"
+    },
+    {
+      "id": "lane_width_and_centres",
+      "status": "PASS",
+      "detail": "east={-24.18} west={-26.82} width=1.8"
+    },
+    {
+      "id": "usable_width",
+      "status": "PASS",
+      "detail": "clear contract=1.80 minimum=1.45"
+    },
+    {
+      "id": "door_contract",
+      "status": "PASS",
+      "detail": "seven 1.20 x 2.25 m automatic single-panel openings at Z=-2.86"
+    },
+    {
+      "id": "bilateral_handrails",
+      "status": "PASS",
+      "detail": "0.95 m rails on both sides of all twelve flights"
+    },
+    {
+      "id": "guard_continuity",
+      "status": "PASS",
+      "detail": "two guard lines and six posts per intermediate landing at 1.10 m"
+    },
+    {
+      "id": "headroom_contract",
+      "status": "PASS",
+      "detail": "sampled minimum >=2.20 m; no stacked-flight overlap"
+    },
+    {
+      "id": "visible_tread_collision",
+      "status": "PASS",
+      "detail": "treads and landings own collision; no hidden ramp category"
+    },
+    {
+      "id": "no_hidden_ramp",
+      "status": "PASS",
+      "detail": "zero ramp meshes"
+    },
+    {
+      "id": "review_capture_set",
+      "status": "PASS",
+      "detail": "files=6 distinct=6"
+    },
+    {
+      "id": "unity_fbx_parity",
+      "status": "PASS",
+      "detail": "export=16d267104a1dbfb44a12e0d3c3168ab4803fc5ac8bad7d93fa6ba09b1ab9eb00 unity=16d267104a1dbfb44a12e0d3c3168ab4803fc5ac8bad7d93fa6ba09b1ab9eb00"
+    }
+  ],
+  "artifacts": {
+    "sourceSha256": "2fb2d3f29fed99cf75d6f1cc5252293234b6bcbb2a84993687bded47c90fa15a",
+    "fbxSha256": "16d267104a1dbfb44a12e0d3c3168ab4803fc5ac8bad7d93fa6ba09b1ab9eb00",
+    "unityFbxSha256": "16d267104a1dbfb44a12e0d3c3168ab4803fc5ac8bad7d93fa6ba09b1ab9eb00"
+  }
+}

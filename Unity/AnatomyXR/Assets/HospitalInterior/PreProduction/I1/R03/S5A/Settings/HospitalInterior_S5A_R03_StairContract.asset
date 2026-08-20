@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1583f03d4ef6b644c9c3dfbe47c8e175, type: 3}
+  m_Name: HospitalInterior_S5A_R03_StairContract
+  m_EditorClassIdentifier: Assembly-CSharp::CutMyBodyPlease.HospitalInterior.PreProduction.I1.R03.S5AStairContract
+  approvedFloorContract: {fileID: 11400000, guid: 879596d2c1f55584691282cd02936df8, type: 2}
+  boundsMinXZ: {x: -29, y: -5}
+  boundsMaxXZ: {x: -22, y: 5}
+  baseY: -0.2
+  topY: 28.83
+  laneCentresX: {x: -24.18, y: -26.82}
+  laneWidthM: 1.8
+  minimumUsableWidthM: 1.45
+  floorLandingZ: {x: -4.96, y: -2.56}
+  intermediateLandingZ: {x: 2.56, y: 4.96}
+  flightRunM: 5.12
+  doorCentreZ: -3.76
+  doorClearM: {x: 1.2, y: 2.25}
+  doorSlideM: 1.28
+  minimumHeadroomM: 2.2
+  handrailHeightM: 0.95
+  guardHeightM: 1.1
+  intervals:
+  - fromFloor: F00
+    toFloor: F01
+    heightM: 5.8
+    risersPerFlight: 17
+    totalRisers: 34
+    riseM: 0.17058824
+    goingM: 0.30117646
+  - fromFloor: F01
+    toFloor: F02
+    heightM: 3.8999996
+    risersPerFlight: 13
+    totalRisers: 26
+    riseM: 0.14999999
+    goingM: 0.39384615
+  - fromFloor: F02
+    toFloor: F03
+    heightM: 3.9000006
+    risersPerFlight: 13
+    totalRisers: 26
+    riseM: 0.15000002
+    goingM: 0.39384615
+  - fromFloor: F03
+    toFloor: F04
+    heightM: 3.8999996
+    risersPerFlight: 13
+    totalRisers: 26
+    riseM: 0.14999999
+    goingM: 0.39384615
+  - fromFloor: F04
+    toFloor: F05
+    heightM: 3.8999996
+    risersPerFlight: 13
+    totalRisers: 26
+    riseM: 0.14999999
+    goingM: 0.39384615
+  - fromFloor: F05
+    toFloor: F06
+    heightM: 3.8999996
+    risersPerFlight: 13
+    totalRisers: 26
+    riseM: 0.14999999
+    goingM: 0.39384615
+  f00DualApertureSlab: {fileID: 4300000, guid: 9f690a4ffbfbdb944a370068535a5e0e, type: 2}
+  upperDualApertureSlab: {fileID: 4300000, guid: dfbf80d0795fcbc408014d347497c206, type: 2}
+  upperDualApertureUnderside: {fileID: 4300000, guid: a2e22c6b77671de4cbebea275337d05e, type: 2}
+  exteriorDualApertureStructure: {fileID: 4300000, guid: 82f2ab2dba2dc0942b2cfb81e817af6c, type: 2}

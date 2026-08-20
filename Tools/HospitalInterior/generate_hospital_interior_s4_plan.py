@@ -668,10 +668,10 @@ def validate_v3_plan(contract: dict, segments: list[dict]) -> dict:
     stair = next(anchor for anchor in anchors if anchor["id"] == "A06")
     stair_bounds = stair["bounds"]
     expected_stair_bounds = {
-        "minX": -27.5,
-        "maxX": -22.5,
-        "minZ": -3.6,
-        "maxZ": 3.6,
+        "minX": -29.0,
+        "maxX": -22.0,
+        "minZ": -5.0,
+        "maxZ": 5.0,
     }
     stair_area = (stair_bounds["maxX"] - stair_bounds["minX"]) * (
         stair_bounds["maxZ"] - stair_bounds["minZ"]
@@ -766,8 +766,8 @@ def validate_v3_plan(contract: dict, segments: list[dict]) -> dict:
         },
         {
             "name": "prior_playable_stair_a_footprint_reserved_exactly",
-            "pass": stair_bounds == expected_stair_bounds and abs(stair_area - 36.0) <= 0.01,
-            "detail": f"X=-27.5..-22.5; Z=-3.6..3.6; area={stair_area:.3f} m2",
+            "pass": stair_bounds == expected_stair_bounds and abs(stair_area - 70.0) <= 0.01,
+            "detail": f"X=-29.0..-22.0; Z=-5.0..5.0; area={stair_area:.3f} m2",
         },
         {
             "name": "stair_a_clear_of_other_lobby_anchors",

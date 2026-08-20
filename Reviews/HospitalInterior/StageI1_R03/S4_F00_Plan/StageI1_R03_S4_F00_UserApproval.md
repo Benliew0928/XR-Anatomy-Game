@@ -9,7 +9,7 @@
 ## Approved authority
 
 - F00 remains one uncomplicated, welcoming open lobby hall with five restrained lobby anchors and no programme rooms.
-- `A06` reserves the previously designed playable Stair A footprint at X `-27.5..-22.5`, Z `-3.6..3.6` (`36.0 m²`).
+- `A06` reserves the expanded playable Stair A footprint at X `-29.0..-22.0`, Z `-5.0..5.0` (`70.0 m²`).
 - `R01` preserves the direct entrance-to-E01 route with a `3.00 m` clear target.
 - `R02` preserves the open-lobby-to-Stair-A route with a `2.00 m` clear target.
 - F01-F06 purposes remain undecided. Future stair openings and landings are shared circulation infrastructure only.

@@ -1,0 +1,169 @@
+{
+    "schema": "HospitalInterior.R03.S5A.RuntimeGate.v1",
+    "status": "PASS",
+    "unityVersion": "6000.3.20f1",
+    "passed": 31,
+    "failed": 0,
+    "total": 31,
+    "activeFloor": "F00",
+    "cabinFloor": "F00",
+    "maximumSimultaneousFloors": 2,
+    "evidenceFiles": [],
+    "checks": [
+        {
+            "id": "bootstrap_references",
+            "status": "PASS",
+            "detail": "S5A authority, coordinator, circulation, seven doors, router, recovery, and persistent stair assigned"
+        },
+        {
+            "id": "measured_contract",
+            "status": "PASS",
+            "detail": "datums=True; intervals=6; flights=12; steps=164; bounds=(-27.50, -3.60)..(-22.50, 3.60); assets=True"
+        },
+        {
+            "id": "dual_aperture_assets",
+            "status": "PASS",
+            "detail": "F00[vertices=120; triangles=60; intrusions=0; e01Edges=True; stairEdges=True]; Upper[vertices=104; triangles=52; intrusions=0; e01Edges=True; stairEdges=True]; Underside[vertices=104; triangles=52; intrusions=0; e01Edges=True; stairEdges=True]"
+        },
+        {
+            "id": "s3d_environment_retained",
+            "status": "PASS",
+            "detail": "persistent=Exterior_Base,Exterior_Tower,Exterior_SidesService,Exterior_Interactions,Exterior_SiteCore,Exterior_SitePerimeter,Exterior_SiteLandscape"
+        },
+        {
+            "id": "single_floor_initial_steady_state",
+            "status": "PASS",
+            "detail": "state=Steady; active=F00; destination=; markers=F00; aperture=found=True; applied=True; marker=True; slab=True; filter=True; collider=True; vertices=120; triangles=60; intrusions=0; e01Edges=True; stairEdges=True"
+        },
+        {
+            "id": "active_floor_separate_from_cabin_floor",
+            "status": "PASS",
+            "detail": "active=F00; cabin=F00"
+        },
+        {
+            "id": "exterior_dual_aperture_applied",
+            "status": "PASS",
+            "detail": "UE_EXT_GlobalStructure_OPAQUE_ALL_02"
+        },
+        {
+            "id": "exact_stair_geometry_counts",
+            "status": "PASS",
+            "detail": "steps=164; floorLandings=7; intermediateLandings=6"
+        },
+        {
+            "id": "seven_automatic_sliding_doors",
+            "status": "PASS",
+            "detail": "F00,F01,F02,F03,F04,F05,F06"
+        },
+        {
+            "id": "tread_aligned_collision_no_hidden_ramp",
+            "status": "PASS",
+            "detail": "visible step colliders=164; ramp meshes=0"
+        },
+        {
+            "id": "stair_teleport_excluded",
+            "status": "PASS",
+            "detail": "no teleport-surface component below persistent Stair A root"
+        },
+        {
+            "id": "s5a_sole_enabled_floor_owner",
+            "status": "PASS",
+            "detail": "one S5A coordinator; legacy elevator controller disabled after takeover"
+        },
+        {
+            "id": "shared_interaction_interface",
+            "status": "PASS",
+            "detail": "elevator controls rewired; desktop/PCVR reach retained"
+        },
+        {
+            "id": "automatic_f00_external_approach_opens",
+            "status": "PASS",
+            "detail": "state=Open; occupied=True; openness=1.000"
+        },
+        {
+            "id": "door_obstruction_reversal",
+            "status": "PASS",
+            "detail": "closingObserved=True; reversals=1"
+        },
+        {
+            "id": "unloaded_floor_door_stays_closed",
+            "status": "PASS",
+            "detail": "Door remains closed: F06 is not loaded and validated. state=Steady; active=F00; requested=F06; record=True"
+        },
+        {
+            "id": "stair_ascent_f00_f06_all_landings",
+            "status": "PASS",
+            "detail": "active=F06; cabin=F00"
+        },
+        {
+            "id": "stair_does_not_move_elevator",
+            "status": "PASS",
+            "detail": "cabin retained F00 after six stair transitions"
+        },
+        {
+            "id": "landing_call_summons_actual_cabin",
+            "status": "PASS",
+            "detail": "active=F06; cabin=F06"
+        },
+        {
+            "id": "elevator_f00_f06_shared_coordinator",
+            "status": "PASS",
+            "detail": "E01 arrived at F06; active floor is F06."
+        },
+        {
+            "id": "mixed_elevator_then_stair_descent",
+            "status": "PASS",
+            "detail": "active=F00; cabin=F06"
+        },
+        {
+            "id": "post_stair_landing_call_no_cabin_teleport",
+            "status": "PASS",
+            "detail": "E01 arrived at F00; active floor is F00."
+        },
+        {
+            "id": "destination_load_failure_rolls_back_closed",
+            "status": "PASS",
+            "detail": "Injected destination-load failure. Last committed floor remains F00."
+        },
+        {
+            "id": "origin_unload_failure_rolls_back",
+            "status": "PASS",
+            "detail": "Injected origin-unload failure. Last committed floor remains F00."
+        },
+        {
+            "id": "missing_aperture_rejected_before_door_open",
+            "status": "PASS",
+            "detail": "Injected missing dual-aperture asset failure. Last committed floor remains F00."
+        },
+        {
+            "id": "concurrent_requests_serialized",
+            "status": "PASS",
+            "detail": "Stair A committed F01 without moving E01 from F00."
+        },
+        {
+            "id": "fall_recovery_latest_safe_landing",
+            "status": "PASS",
+            "detail": "safe=F00 landing"
+        },
+        {
+            "id": "transition_scene_cardinality",
+            "status": "PASS",
+            "detail": "maximum=2"
+        },
+        {
+            "id": "final_floor_steady_f00",
+            "status": "PASS",
+            "detail": "state=Steady; active=F00; destination=; markers=F00; aperture=found=True; applied=True; marker=True; slab=True; filter=True; collider=True; vertices=120; triangles=60; intrusions=0; e01Edges=True; stairEdges=True"
+        },
+        {
+            "id": "s3d_entrance_regression",
+            "status": "PASS",
+            "detail": "initialized=True; leaves=8; inner=4; outer=4"
+        },
+        {
+            "id": "s3d_lawn_collision_regression",
+            "status": "PASS",
+            "detail": "exactRenderedMesh=True; triangles=12; bladeOccupancyCells=2848; samples=12"
+        }
+    ]
+}

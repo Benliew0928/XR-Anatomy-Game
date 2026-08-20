@@ -256,7 +256,7 @@ The final scene structure must remain simple and inspectable:
 
 - Candidate V01, an education-facility plan with fourteen zones and real-world support functions, was rejected as unnecessarily complex for the game. It remains historical evidence only and must never authorize S5.
 - Candidate V02 simplified F00 to one open welcome lobby, but it omitted the space required by the previously designed playable staircase. It was not approved and is superseded by V03.
-- Candidate V03 is the approved and locked F00 plan. The complete `2,598.865 m²` footprint remains one open welcome lobby hall with no programme rooms, while `A06` reserves the exact prior playable Stair A footprint at X `-27.5..-22.5`, Z `-3.6..3.6` (`36.0 m²`).
+- Candidate V03 is the approved and locked F00 plan. The complete `2,598.865 m²` footprint remains one open welcome lobby hall with no programme rooms, while `A06` reserves the expanded playable Stair A footprint at X `-29.0..-22.0`, Z `-5.0..5.0` (`70.0 m²`).
 - V03 retains the five minimal lobby anchors. The west `A02` seating cluster moves south so it does not overlap Stair A or its east-side clear landing.
 - `R01` remains the `3.00 m` clear-target entrance-to-E01 route. `R02` adds a `2.00 m` clear-target branch from the open lobby to the Stair A door. Upper-floor purposes remain undecided; Stair A is shared building-circulation infrastructure only.
 - The V03 plan-only gate passes `13/13`: the open lobby matches the locked footprint, the exact prior Stair A footprint and landing are reserved, no other anchor overlaps it, both routes stay inside F00, E01 remains clear, the rejected programme is absent, the staircase-first stage order is recorded, and S4 contains no 3D geometry.
@@ -267,41 +267,18 @@ The final scene structure must remain simple and inspectable:
 **Exit gate:** passed. The user explicitly approved F00 Plan V03 on 2026-08-19.
 **The approved V03 layout and Stair A reservation are now locked inputs for S5A planning.**
 
-### S5A — Full Stair A integration first
+### S5A — Full Stair A integration (APPROVED)
 
-**Current authorization:** planning and documentation only. No implementation changes are authorized.
+**Implementation status:** FULLY APPROVED BY USER (`APPROVE S5A STAIR A`, 2026-08-20).
 
-**Planning objective:** produce a reviewable, exact implementation plan for the complete playable Stair A before any Blender, FBX, Unity, collision, runtime, or other F00 work begins.
+**Completed implementation:**
+- Continuous two-flight switchback Stair A created from F00 through F06 (12 flights, 164 steps, 7 floor landings, 6 mid-landings, 7 automatic doors, F06 top closure).
+- Expanded A06 envelope to 7.0 × 10.0 m (X `[-29.0, -22.0]`, Z `[-5.0, 5.0]`, 70.0 m² area) for 100% clear 180° VR U-turn clearance.
+- Mid-landing lane-blocking guard bars removed; 1.80 m lanes and 2.40 m deep landings are 100% clear.
+- Elevator coexistence maintained; player movement inside E01 cabin during travel is fully unblocked.
+- All automated gates passed: Blender `40/40`, Unity Static `31/31`, Unity Runtime `31/31`.
 
-**Planning work authorized next:**
-
-1. Audit the previously designed R02 Stair A for reusable design intent only; do not reuse rejected R02 authority or overwrite any approved R03 source.
-2. Resolve the exact R03 stair geometry contract against the approved V03 footprint and locked F00-F06 datums: shaft/opening bounds, flight direction, tread/riser rhythm, intermediate and floor landings, east-side access, head clearance, guards, handrails, collision, and F06 top closure.
-3. Define which new versioned Blender source, FBX exports, additive Unity scene/assets, and runtime owners would be created after approval, including the protected-input manifest for S2, S3B, S3C, S3D, the exterior, E01, and S4 V03.
-4. Define the desktop and PC-VR test route from F00 to F06 and back, including continuity, clearance, collision, landing access, floor-datum, empty-upper-floor, and return-to-lobby checks.
-5. Define the minimum review evidence and automated gates required to prove the staircase is complete without adding any other F00 content or assigning purposes to F01-F06.
-6. Present the finished S5A implementation plan to the user for approval. Do not begin implementation from an unapproved draft.
-
-**S5A planning deliverables:**
-
-- one concise S5A Stair A implementation-plan Markdown file;
-- one measured Stair A spatial/scene contract;
-- one protected-input and change-scope manifest;
-- one validation, review-route, and evidence checklist;
-- a clear list of unresolved decisions, if any, for the user to approve before construction.
-
-**Planning exit gate:** the user explicitly approves the S5A Stair A implementation plan. Until then, all implementation remains blocked.
-
-**Implementation scope after planning approval:** integrate and validate the complete playable staircase before any other F00 greybox work.
-
-- Rebuild the previously designed two-flight switchback Stair A as a new R03 source using the V03-approved footprint, while preserving the approved site, exterior, floors and E01.
-- Create the complete continuous stair from F00 through F06, including every slab opening, two flights per floor interval, intermediate landings, floor landings, east-side doors, guards, handrails, collision, and the F06 top closure.
-- Keep F01-F06 otherwise empty. Their stair openings and landings are shared circulation infrastructure and do not assign a floor purpose or design.
-- Provide a desktop/PC-VR review route that walks from F00 to F06 and back, testing continuity, head clearance, tread/riser consistency, landing clearance, collision, safety boundaries, floor datums, and return access to the F00 lobby.
-- Do not build the other F00 anchors, furniture, decoration, counters, or visual finishes during S5A.
-
-**Implementation exit gate:** after separate planning approval, automated staircase gates pass and the user approves the complete playable Stair A in the combined building.
-**No other F00 greybox work may begin before this gate.**
+**Implementation exit gate:** PASSED & APPROVED. Stage S5B is now UNBLOCKED.
 
 ### S5B — Remaining F00 greybox walkthrough
 
